@@ -1,7 +1,7 @@
 [
   {
     "front": "Hello, how are you?",
-    "back": "مرحبا، كيف. حالك؟",
+    "back": "مرحبا، كيف. حا.لك؟",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "left",
