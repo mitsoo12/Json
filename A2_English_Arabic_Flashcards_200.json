@@ -1,11 +1,11 @@
 [
   {
-    "front": "Hello, how ....are you?",
-    "back": "مرحبا، كيف. حا.لك؟",
+    "front": "Hello, how are you?",
+    "back": "مرحبا، كيف حالك؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -13,8 +13,8 @@
     "back": "اسمي أحمد.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -22,8 +22,8 @@
     "back": "يسعدني التعرف عليك.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -31,8 +31,8 @@
     "back": "ما اسمك؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -40,8 +40,8 @@
     "back": "من أين أنت؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -49,8 +49,8 @@
     "back": "أنا من مصر.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -58,8 +58,8 @@
     "back": "كم عمرك؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -67,8 +67,8 @@
     "back": "أنا في العشرين من العمر.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -76,8 +76,8 @@
     "back": "ما عملك؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -85,8 +85,8 @@
     "back": "أنا معلم.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -94,8 +94,8 @@
     "back": "هل تتحدث اللغة العربية؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -103,8 +103,8 @@
     "back": "نعم، أتحدث اللغة العربية بطلاقة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -112,8 +112,8 @@
     "back": "أحب دراسة اللغات.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -121,8 +121,8 @@
     "back": "ما موضوعك المفضل؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -130,8 +130,8 @@
     "back": "أستمتع بقراءة الكتب.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -139,8 +139,8 @@
     "back": "هل تحب الرياضة؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -148,8 +148,8 @@
     "back": "نعم، أنا ألعب كرة القدم.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -157,8 +157,8 @@
     "back": "كم الساعة؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -166,8 +166,8 @@
     "back": "إنها الساعة الثانية.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -175,8 +175,8 @@
     "back": "ما يوم اليوم؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -184,8 +184,8 @@
     "back": "اليوم هو الاثنين.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -193,8 +193,8 @@
     "back": "لدي اجتماع غدًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -202,8 +202,8 @@
     "back": "كيف الطقس؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -211,8 +211,8 @@
     "back": "إنه مشمس وحار.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -220,8 +220,8 @@
     "back": "أحتاج المساعدة في واجباتي المدرسية.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -229,8 +229,8 @@
     "back": "هل يمكنك أن تساعدني؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -238,8 +238,8 @@
     "back": "بالتأكيد، سأساعدك.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -247,8 +247,8 @@
     "back": "شكرًا لك كثيرًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -256,8 +256,8 @@
     "back": "تفضل، على الرحب والسعة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -265,8 +265,8 @@
     "back": "أنا جوعان.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -274,8 +274,8 @@
     "back": "لننتاول الغداء معًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -283,8 +283,8 @@
     "back": "ماذا تود أن تأكل؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -292,8 +292,8 @@
     "back": "أود شطيرة وعصير.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -301,8 +301,8 @@
     "back": "الطعام لذيذ جدًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -310,8 +310,8 @@
     "back": "أين الحمام؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -319,8 +319,8 @@
     "back": "إنه في نهاية الممر.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -328,8 +328,8 @@
     "back": "كم سعر هذا؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -337,8 +337,8 @@
     "back": "ثمنه خمسون جنيهًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -346,8 +346,8 @@
     "back": "هذا غالي الثمن.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -355,8 +355,8 @@
     "back": "هل لديك خصم؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -364,8 +364,8 @@
     "back": "أود شراء هذا القميص.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -373,8 +373,8 @@
     "back": "هل تقبل بطاقات الائتمان؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -382,8 +382,8 @@
     "back": "نعم، نحن نقبل جميع البطاقات الرئيسية.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -391,8 +391,8 @@
     "back": "هل يمكنني تجربة هذا؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -400,8 +400,8 @@
     "back": "غرفة التجربة هناك.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -409,8 +409,8 @@
     "back": "أبحث عن هدية.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -418,8 +418,8 @@
     "back": "أي هدية تقترحها؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -427,8 +427,8 @@
     "back": "لدي حفلة عيد ميلاد الليلة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -436,8 +436,8 @@
     "back": "عيد ميلاد سعيد!",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -445,8 +445,8 @@
     "back": "شكرًا لك على هدية عيد الميلاد.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -454,8 +454,8 @@
     "back": "لقد قضيت وقتًا رائعًا في الحفلة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -463,8 +463,8 @@
     "back": "أين محطة القطار؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -472,8 +472,8 @@
     "back": "إنها تبعد كيلومترين من هنا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -481,8 +481,8 @@
     "back": "كيف أصل إلى المطار؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -490,8 +490,8 @@
     "back": "يمكنك أن تأخذ سيارة أجرة أو حافلة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -499,8 +499,8 @@
     "back": "كم سعر التذكرة؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -508,8 +508,8 @@
     "back": "أود تذكرة ذهاب وإياب.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -517,8 +517,8 @@
     "back": "متى يغادر القطار؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -526,8 +526,8 @@
     "back": "القطار يغادر في الساعة الخامسة مساءً.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -535,8 +535,8 @@
     "back": "هل هناك مطعم في القطار؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -544,8 +544,8 @@
     "back": "نعم، عربة الطعام في الخلف.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -553,8 +553,8 @@
     "back": "هل يمكنني تخزين حقائبي؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -562,8 +562,8 @@
     "back": "هناك مساحة للحقائب فوق مقعدك.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -571,8 +571,8 @@
     "back": "أود الحجز في فندق.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -580,8 +580,8 @@
     "back": "هل لديكم غرف متاحة؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -589,8 +589,8 @@
     "back": "كم ليلة ستقيم؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -598,8 +598,8 @@
     "back": "سأقيم لمدة ثلاث ليال.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -607,8 +607,8 @@
     "back": "كم السعر في الليلة؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -616,8 +616,8 @@
     "back": "مائة جنيه في الليلة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -625,8 +625,8 @@
     "back": "هل السعر يشمل الإفطار؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -634,8 +634,8 @@
     "back": "نعم، الإفطار مشمول.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -643,8 +643,8 @@
     "back": "أحتاج غرفة بسرير مزدوج.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -652,8 +652,8 @@
     "back": "هل هناك حمام سباحة؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -661,8 +661,8 @@
     "back": "نعم، حمام السباحة على السطح.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -670,8 +670,8 @@
     "back": "متى وقت المغادرة؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -679,8 +679,8 @@
     "back": "المغادرة في الساعة الحادية عشرة صباحًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -688,8 +688,8 @@
     "back": "هل يمكنني إطالة إقامتي؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -697,8 +697,8 @@
     "back": "نعم، إن كان لدينا غرف متاحة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -706,8 +706,8 @@
     "back": "أحب هذه المدينة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -715,8 +715,8 @@
     "back": "ما أفضل مطعم هنا؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -724,8 +724,8 @@
     "back": "أنصحك بمطعم السمك.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -733,8 +733,8 @@
     "back": "هل هو غالي الثمن؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -742,8 +742,8 @@
     "back": "لا، إنه بسعر معقول.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -751,8 +751,8 @@
     "back": "في أي وقت يفتح؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -760,8 +760,8 @@
     "back": "يفتح في الساعة السادسة مساءً.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -769,8 +769,8 @@
     "back": "هل نحتاج إلى حجز؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -778,8 +778,8 @@
     "back": "من الأفضل أن تتصل مسبقًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -787,8 +787,8 @@
     "back": "أنا مهتم بالتاريخ.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -796,8 +796,8 @@
     "back": "هناك متحف بالقرب من هنا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -805,8 +805,8 @@
     "back": "متى يكون المتحف مفتوحًا؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -814,8 +814,8 @@
     "back": "إنه مفتوح من 9 إلى 5.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -823,8 +823,8 @@
     "back": "كم رسم الدخول؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -832,8 +832,8 @@
     "back": "ثمنه عشرة جنيهات.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -841,8 +841,8 @@
     "back": "هل لديهم جولة موجهة؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -850,8 +850,8 @@
     "back": "نعم، الجولات تبدأ كل ساعة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -859,8 +859,8 @@
     "back": "أود الذهاب في جولة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -868,8 +868,8 @@
     "back": "هل يمكنني التقاط الصور؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -877,8 +877,8 @@
     "back": "التصوير غير مسموح به بالداخل.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -886,8 +886,8 @@
     "back": "هل هناك متجر للتذكارات؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -895,8 +895,8 @@
     "back": "نعم، هناك متجر هدايا عند المخرج.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -904,8 +904,8 @@
     "back": "أشعر بالتعب.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -913,8 +913,8 @@
     "back": "لنأخذ استراحة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -922,8 +922,8 @@
     "back": "أين يمكننا أن نجلس؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -931,8 +931,8 @@
     "back": "هناك مقهى هناك.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -940,8 +940,8 @@
     "back": "ماذا تود أن تشرب؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -949,8 +949,8 @@
     "back": "أ��د قهوة من فضلك.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -958,8 +958,8 @@
     "back": "هل تريد سكرًا في قهوتك؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -967,8 +967,8 @@
     "back": "نعم، مع السكر من فضلك.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -976,8 +976,8 @@
     "back": "القهوة ساخنة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -985,8 +985,8 @@
     "back": "هذه الكعكة لذيذة جدًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -994,8 +994,8 @@
     "back": "هل يمكنني معرفة الوصفة؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1003,8 +1003,8 @@
     "back": "أنا أتعلم الطهي.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1012,8 +1012,8 @@
     "back": "الطهي ممتع.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1021,8 +1021,8 @@
     "back": "أحب الوصفات التقليدية.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1030,8 +1030,8 @@
     "back": "ما طبقك المفضل؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1039,8 +1039,8 @@
     "back": "أحب المعكرونة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1048,8 +1048,8 @@
     "back": "هل تعرف كيفية صنع المعكرونة؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1057,8 +1057,8 @@
     "back": "أصنع المعكرونة من الصفر.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1066,8 +1066,8 @@
     "back": "هل لديك أي حساسية؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1075,8 +1075,8 @@
     "back": "أنا حساس من الفول السوداني.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1084,8 +1084,8 @@
     "back": "أنا نباتي.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1093,8 +1093,8 @@
     "back": "هل تمارس الرياضة بانتظام؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1102,8 +1102,8 @@
     "back": "نعم، أذهب إلى الصالة الرياضية ثلاث مرات في الأسبوع.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1111,8 +1111,8 @@
     "back": "أي الرياضات التي تمارسها؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1120,8 +1120,8 @@
     "back": "أنا ألعب كرة السلة والتنس.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1129,8 +1129,8 @@
     "back": "أنا مهتم باليوغا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1138,8 +1138,8 @@
     "back": "اليوغا مريحة جدًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1147,8 +1147,8 @@
     "back": "متى تستيقظ عادة؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1156,8 +1156,8 @@
     "back": "أستيقظ في الساعة السابعة صباحًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1165,8 +1165,8 @@
     "back": "أنام حوالي الساعة الحادية عشرة ليلًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1174,8 +1174,8 @@
     "back": "كم ساعة نوم تحتاج؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1183,8 +1183,8 @@
     "back": "أحتاج حوالي ثماني ساعات.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1192,8 +1192,8 @@
     "back": "هل تحب الركض في الصباح؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1201,8 +1201,8 @@
     "back": "أفضل المشي في المساء.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1210,8 +1210,8 @@
     "back": "الطقس مثالي للمشي.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1219,8 +1219,8 @@
     "back": "هيا بنا نذهب للمشي.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1228,8 +1228,8 @@
     "back": "الحديقة جميلة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1237,8 +1237,8 @@
     "back": "هناك الكثير من الأشجار هنا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1246,8 +1246,8 @@
     "back": "أرى الطيور في الأشجار.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1255,8 +1255,8 @@
     "back": "الطبيعة رائعة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1264,8 +1264,8 @@
     "back": "هل تحب البستنة؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1273,8 +1273,8 @@
     "back": "لدي حديقة صغيرة في المنزل.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1282,8 +1282,8 @@
     "back": "أنا أزرع الخضار والزهور.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1291,8 +1291,8 @@
     "back": "البستنة مريحة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1300,8 +1300,8 @@
     "back": "هل لديك حيوانات أليفة؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1309,8 +1309,8 @@
     "back": "لدي كلب وقطة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1318,8 +1318,8 @@
     "back": "ما اسم كلبك؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1327,8 +1327,8 @@
     "back": "اسم كلبي ماكس.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1336,8 +1336,8 @@
     "back": "كم عمر ماكس؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1345,8 +1345,8 @@
     "back": "ماكس عمره ثلاث سنوات.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1354,8 +1354,8 @@
     "back": "أحب قضاء الوقت مع حيواناتي الأليفة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1363,8 +1363,8 @@
     "back": "هل تشاهد الأفلام؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1372,8 +1372,8 @@
     "back": "نعم، أشاهد الأفلام في نهاية الأسبوع.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1381,8 +1381,8 @@
     "back": "ما أفضل فيلم لديك؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1390,8 +1390,8 @@
     "back": "أنا أحب أفلام الحركة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1399,8 +1399,8 @@
     "back": "أفضل أفلام الكوميديا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1408,8 +1408,8 @@
     "back": "هل شاهدت هذا الفيلم؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1417,8 +1417,8 @@
     "back": "إنه فيلم رائع.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1426,8 +1426,8 @@
     "back": "الممثلون بارعون جدًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1435,8 +1435,8 @@
     "back": "أقرأ الكتب في وقت فراغي.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1444,8 +1444,8 @@
     "back": "أي نوع من الكتب تقرأ؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1453,8 +1453,8 @@
     "back": "أحب روايات الغموض.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1462,8 +1462,8 @@
     "back": "أقرأ كتابًا رائعًا الآن.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1471,8 +1471,8 @@
     "back": "من مؤلفك المفضل؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1480,8 +1480,8 @@
     "back": "أحب أعمال أجاثا كريستي.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1489,8 +1489,8 @@
     "back": "هل تحب الشعر؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1498,8 +1498,8 @@
     "back": "نعم، أستمتع بقراءة الشعر.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1507,8 +1507,8 @@
     "back": "هل تكتب الشعر؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1516,8 +1516,8 @@
     "back": "أكتب الشعر أحيانًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1525,8 +1525,8 @@
     "back": "ما هوايتك؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1534,8 +1534,8 @@
     "back": "هوايتي الرسم.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1543,8 +1543,8 @@
     "back": "أحب رسم الصور.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1552,8 +1552,8 @@
     "back": "هل تعزف على أي آلات موسيقية؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1561,8 +1561,8 @@
     "back": "أنا أعزف الجيتار.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1570,8 +1570,8 @@
     "back": "أنا أيضًا أعزف البيانو.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1579,8 +1579,8 @@
     "back": "كم من الوقت تعزف الجيتار؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1588,8 +1588,8 @@
     "back": "أنا أعزف منذ خمس سنوات.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1597,8 +1597,8 @@
     "back": "أنا أتعلم الموسيقى.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1606,8 +1606,8 @@
     "back": "هل تستمع إلى الموسيقى؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1615,8 +1615,8 @@
     "back": "أستمع إلى الموسيقى كل يوم.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1624,8 +1624,8 @@
     "back": "أي نوع من الموسيقى تفضل؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1633,8 +1633,8 @@
     "back": "أنا أحب الموسيقى الكلاسيكية.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1642,8 +1642,8 @@
     "back": "أستمتع أيضًا بموسيقى البوب.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1651,8 +1651,8 @@
     "back": "هل تغني؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1660,8 +1660,8 @@
     "back": "أحب الغناء تحت الدش.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1669,8 +1669,8 @@
     "back": "أستخدم الكمبيوتر كل يوم.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1678,8 +1678,8 @@
     "back": "هل تستخدم وسائل التواصل الاجتماعي؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1687,8 +1687,8 @@
     "back": "نعم، أستخدم الفيسبوك وتويتر.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1696,8 +1696,8 @@
     "back": "كم عدد متابعيك؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1705,8 +1705,8 @@
     "back": "لدي حوالي خمسة آلاف متابع.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1714,8 +1714,8 @@
     "back": "أحب مشاركة الصور عبر الإنترنت.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1723,8 +1723,8 @@
     "back": "ماذا تنشر عنه؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1732,8 +1732,8 @@
     "back": "أنشر حول السفر والطعام.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1741,8 +1741,8 @@
     "back": "هل تكتب مدونة؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1750,8 +1750,8 @@
     "back": "أكتب مدونة عن الطهي.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1759,8 +1759,8 @@
     "back": "كم مرة تحدث مدونتك؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1768,8 +1768,8 @@
     "back": "أحدثها مرة واحدة في الأسبوع.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1777,8 +1777,8 @@
     "back": "لدي الكثير من قراء المدونة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1786,8 +1786,8 @@
     "back": "هل تُرسل رسائل بريد إلكترونية؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1795,8 +1795,8 @@
     "back": "أرسل رسائل بريد إلكترونية للعمل.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1804,8 +1804,8 @@
     "back": "كم بريدًا إلكترونيًا تستقبل يوميًا؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1813,8 +1813,8 @@
     "back": "أستقبل حوالي عشرين بريدًا إلكترونيًا يوميًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1822,8 +1822,8 @@
     "back": "هل صندوق بريدك ممتلئ؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1831,8 +1831,8 @@
     "back": "نعم، أحتاج إلى حذف رسائل البريد القديمة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1840,8 +1840,8 @@
     "back": "أنا أعمل في مكتب.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1849,8 +1849,8 @@
     "back": "متى تبدأ العمل؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1858,8 +1858,8 @@
     "back": "أبدأ العمل في الساعة التاسعة صباحًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1867,8 +1867,8 @@
     "back": "متى تنتهي من العمل؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1876,8 +1876,8 @@
     "back": "أنتهي في الساعة الخامسة مساءً.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1885,8 +1885,8 @@
     "back": "هل لديك استراحة غداء؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1894,8 +1894,8 @@
     "back": "نعم، لدي استراحة مدتها ساعة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1903,8 +1903,8 @@
     "back": "أين تأكل الغداء؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1912,8 +1912,8 @@
     "back": "أتناول الغداء في مطعم بالقرب من مكتبي.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1921,8 +1921,8 @@
     "back": "أحضر غدائي من المنزل.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1930,8 +1930,8 @@
     "back": "هل لديك زملاء؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1939,8 +1939,8 @@
     "back": "نعم، لدي الكثير من الزملاء.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1948,8 +1948,8 @@
     "back": "هل هم أشخاص طيبون؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1957,8 +1957,8 @@
     "back": "نعم، هم ودودون ومساعدون.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1966,8 +1966,8 @@
     "back": "هل تحب وظيفتك؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1975,8 +1975,8 @@
     "back": "نعم، أستمتع بعملي.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1984,8 +1984,8 @@
     "back": "ما مسؤولياتك الرئيسية؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -1993,8 +1993,8 @@
     "back": "أدير قسم المبيعات.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2002,8 +2002,8 @@
     "back": "هل تسافر من أجل العمل؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2011,8 +2011,8 @@
     "back": "نعم، أسافر أحيانًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2020,8 +2020,8 @@
     "back": "أين سافرت؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2029,8 +2029,8 @@
     "back": "لقد سافرت إلى دول كثيرة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2038,8 +2038,8 @@
     "back": "أي دولة زرت الأخيرة؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2047,8 +2047,8 @@
     "back": "زرت فرنسا العام الماضي.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2056,8 +2056,8 @@
     "back": "هل أعجبتك؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2065,8 +2065,8 @@
     "back": "نعم، أحببت فرنسا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2074,8 +2074,8 @@
     "back": "ما مكانك المفضل هناك؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2083,8 +2083,8 @@
     "back": "أحببت زيارة باريس.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2092,8 +2092,8 @@
     "back": "هل زرت برج إيفل؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2101,8 +2101,8 @@
     "back": "نعم، كان مذهلًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2110,8 +2110,8 @@
     "back": "هل التقطت صورًا؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2119,8 +2119,8 @@
     "back": "نعم، التقطت الكثير من الصور.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2128,8 +2128,8 @@
     "back": "هل يمكنني رؤية صورك؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2137,8 +2137,8 @@
     "back": "بالتأكيد، دعني أريك.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2146,8 +2146,8 @@
     "back": "هذه الصور جميلة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2155,8 +2155,8 @@
     "back": "أنا أخطط لرحلة في الشهر القادم.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2164,8 +2164,8 @@
     "back": "أين ستذهب؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2173,8 +2173,8 @@
     "back": "أنا أخطط لزيارة إيطاليا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2182,8 +2182,8 @@
     "back": "كم من الوقت ستبقى؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2191,8 +2191,8 @@
     "back": "سأبقى لمدة أسبوعين.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2200,8 +2200,8 @@
     "back": "هل حجزت فندقك؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2209,8 +2209,8 @@
     "back": "ليس بعد، أنا لا أزال أبحث.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2218,8 +2218,8 @@
     "back": "يمكنني أن أوصي بفندق جيد.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2227,8 +2227,8 @@
     "back": "هذا سيكون مفيدًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2236,8 +2236,8 @@
     "back": "هل تعلمت أي شيء جديد اليوم؟",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2245,8 +2245,8 @@
     "back": "نعم، تعلمت الكثير من الكلمات الجديدة.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2254,8 +2254,8 @@
     "back": "أنا أحسن لغتي الإنجليزية.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   },
   {
@@ -2263,8 +2263,8 @@
     "back": "هذا تقدم رائع.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "left",
-    "backAlign": "right",
+    "frontAlign": "centre",
+    "backAlign": "centre",
     "learned": false
   }
 ]
