@@ -1,0 +1,1685 @@
+[
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">فرنسا</span>؟",
+    "back": "باريس",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">مصر</span>؟",
+    "back": "القاهرة",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">المغرب</span>؟",
+    "back": "الرباط",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">تونس</span>؟",
+    "back": "تونس",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">إيطاليا</span>؟",
+    "back": "روما",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">إسبانيا</span>؟",
+    "back": "مدريد",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">ألمانيا</span>؟",
+    "back": "برلين",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">الصين</span>؟",
+    "back": "بكين",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">اليابان</span>؟",
+    "back": "طوكيو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">كندا</span>؟",
+    "back": "أوتاوا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  }
+],
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">الولايات المتحدة الأمريكية</span>؟",
+    "back": "واشنطن العاصمة",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">المملكة المتحدة</span>؟",
+    "back": "لندن",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">روسيا</span>؟",
+    "back": "موسكو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">الهند</span>؟",
+    "back": "نيودلهي",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">البرازيل</span>؟",
+    "back": "برازيليا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">الأرجنتين</span>؟",
+    "back": "بوينس آيرس",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">المكسيك</span>؟",
+    "back": "مكسيكو سيتي",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">أستراليا</span>؟",
+    "back": "كانبيرا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">نيوزيلندا</span>؟",
+    "back": "ويلينغتون",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">تركيا</span>؟",
+    "back": "أنقرة",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">السعودية</span>؟",
+    "back": "الرياض",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">الإمارات العربية المتحدة</span>؟",
+    "back": "أبوظبي",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">قطر</span>؟",
+    "back": "الدوحة",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">الكويت</span>؟",
+    "back": "مدينة الكويت",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">البحرين</span>؟",
+    "back": "المنامة",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">سلطنة عمان</span>؟",
+    "back": "مسقط",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">اليمن</span>؟",
+    "back": "صنعاء",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">العراق</span>؟",
+    "back": "بغداد",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">سوريا</span>؟",
+    "back": "دمشق",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">لبنان</span>؟",
+    "back": "بيروت",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">الأردن</span>؟",
+    "back": "عمّان",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">فلسطين</span>؟",
+    "back": "القدس",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">ليبيا</span>؟",
+    "back": "طرابلس",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">السودان</span>؟",
+    "back": "الخرطوم",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">موريتانيا</span>؟",
+    "back": "نواكشوط",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">مالي</span>؟",
+    "back": "باماكو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">النيجر</span>؟",
+    "back": "نيامي",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">تشاد</span>؟",
+    "back": "إنجمينا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">نيجيريا</span>؟",
+    "back": "أبوجا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">الكاميرون</span>؟",
+    "back": "ياوندي",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">السنغال</span>؟",
+    "back": "داكار",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">غانا</span>؟",
+    "back": "أكرا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">ساحل العاج</span>؟",
+    "back": "ياموسوكرو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">جنوب أفريقيا</span>؟",
+    "back": "بريتوريا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">إثيوبيا</span>؟",
+    "back": "أديس أبابا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">كينيا</span>؟",
+    "back": "نيروبي",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">تنزانيا</span>؟",
+    "back": "دودوما",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">أوغندا</span>؟",
+    "back": "كمبالا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">الصومال</span>؟",
+    "back": "مقديشو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">جيبوتي</span>؟",
+    "back": "جيبوتي",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">إريتريا</span>؟",
+    "back": "أسمرة",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">رواندا</span>؟",
+    "back": "كيغالي",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">بوروندي</span>؟",
+    "back": "غيتيغا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">جمهورية الكونغو الديمقراطية</span>؟",
+    "back": "كينشاسا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">جمهورية الكونغو</span>؟",
+    "back": "برازافيل",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">الغابون</span>؟",
+    "back": "ليبرفيل",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">غينيا</span>؟",
+    "back": "كوناكري",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">غينيا بيساو</span>؟",
+    "back": "بيساو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">غامبيا</span>؟",
+    "back": "بانجول",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">سيراليون</span>؟",
+    "back": "فريتاون",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">ليبيريا</span>؟",
+    "back": "مونروفيا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">توغو</span>؟",
+    "back": "لومي",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">بنين</span>؟",
+    "back": "بورتو نوفو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">بوركينا فاسو</span>؟",
+    "back": "واغادوغو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">زامبيا</span>؟",
+    "back": "لوساكا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">زيمبابوي</span>؟",
+    "back": "هراري",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">موزمبيق</span>؟",
+    "back": "مابوتو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">مدغشقر</span>؟",
+    "back": "أنتاناناريفو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">موريشيوس</span>؟",
+    "back": "بورت لويس",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">جزر القمر</span>؟",
+    "back": "موروني",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">البرتغال</span>؟",
+    "back": "لشبونة",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">بلجيكا</span>؟",
+    "back": "بروكسل",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">هولندا</span>؟",
+    "back": "أمستردام",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">سويسرا</span>؟",
+    "back": "برن",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">النمسا</span>؟",
+    "back": "فيينا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">بولندا</span>؟",
+    "back": "وارسو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">التشيك</span>؟",
+    "back": "براغ",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">سلوفاكيا</span>؟",
+    "back": "براتيسلافا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">المجر</span>؟",
+    "back": "بودابست",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">رومانيا</span>؟",
+    "back": "بوخارست",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">بلغاريا</span>؟",
+    "back": "صوفيا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">اليونان</span>؟",
+    "back": "أثينا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">ألبانيا</span>؟",
+    "back": "تيرانا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">صربيا</span>؟",
+    "back": "بلغراد",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">كرواتيا</span>؟",
+    "back": "زغرب",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">سلوفينيا</span>؟",
+    "back": "ليوبليانا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">البوسنة والهرسك</span>؟",
+    "back": "سراييفو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">الجبل الأسود</span>؟",
+    "back": "بودغوريتسا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">مقدونيا الشمالية</span>؟",
+    "back": "سكوبيه",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">كوسوفو</span>؟",
+    "back": "بريشتينا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">السويد</span>؟",
+    "back": "ستوكهولم",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">النرويج</span>؟",
+    "back": "أوسلو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">الدنمارك</span>؟",
+    "back": "كوبنهاغن",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">فنلندا</span>؟",
+    "back": "هلسنكي",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">آيسلندا</span>؟",
+    "back": "ريكيافيك",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">إيرلندا</span>؟",
+    "back": "دبلن",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">لوكسمبورغ</span>؟",
+    "back": "لوكسمبورغ",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">ليختنشتاين</span>؟",
+    "back": "فادوز",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">موناكو</span>؟",
+    "back": "موناكو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">أندورا</span>؟",
+    "back": "أندورا لا فيلا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">سان مارينو</span>؟",
+    "back": "سان مارينو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">الفاتيكان</span>؟",
+    "back": "مدينة الفاتيكان",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">مالطا</span>؟",
+    "back": "فاليتا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">مولدوفا</span>؟",
+    "back": "كيشيناو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">أوكرانيا</span>؟",
+    "back": "كييف",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">بيلاروس</span>؟",
+    "back": "مينسك",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">إستونيا</span>؟",
+    "back": "تالين",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">لاتفيا</span>؟",
+    "back": "ريغا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">ليتوانيا</span>؟",
+    "back": "فيلنيوس",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">روسيا البيضاء (بيلاروس)</span>؟",
+    "back": "مينسك",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">إيران</span>؟",
+    "back": "طهران",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">أفغانستان</span>؟",
+    "back": "كابول",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">باكستان</span>؟",
+    "back": "إسلام آباد",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">بنغلاديش</span>؟",
+    "back": "دكا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">نيبال</span>؟",
+    "back": "كاتماندو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">بوتان</span>؟",
+    "back": "تيمفو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">سريلانكا</span>؟",
+    "back": "سري جاياواردنابورا كوتي",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">المالديف</span>؟",
+    "back": "ماليه",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">كازاخستان</span>؟",
+    "back": "أستانا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">أوزبكستان</span>؟",
+    "back": "طشقند",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">تركمانستان</span>؟",
+    "back": "عشق آباد",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">قرغيزستان</span>؟",
+    "back": "بشكيك",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">طاجيكستان</span>؟",
+    "back": "دوشنبه",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">منغوليا</span>؟",
+    "back": "أولان باتور",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">كوريا الجنوبية</span>؟",
+    "back": "سيول",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">كوريا الشمالية</span>؟",
+    "back": "بيونغ يانغ",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">تايلاند</span>؟",
+    "back": "بانكوك",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">فيتنام</span>؟",
+    "back": "هانوي",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">لاوس</span>؟",
+    "back": "فيينتيان",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">كمبوديا</span>؟",
+    "back": "بنوم بنه",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">ماليزيا</span>؟",
+    "back": "كوالالمبور",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">سنغافورة</span>؟",
+    "back": "سنغافورة",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">إندونيسيا</span>؟",
+    "back": "جاكرتا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">الفلبين</span>؟",
+    "back": "مانيلا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">بروناي</span>؟",
+    "back": "بندر سري بكاوان",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">ميانمار</span>؟",
+    "back": "نايبيداو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">تيمور الشرقية</span>؟",
+    "back": "ديلي",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">أرمينيا</span>؟",
+    "back": "يريفان",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">أذربيجان</span>؟",
+    "back": "باكو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">جورجيا</span>؟",
+    "back": "تبليسي",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">قبرص</span>؟",
+    "back": "نيقوسيا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">إسرائيل</span>؟",
+    "back": "القدس",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">الصين</span>؟",
+    "back": "بكين",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">اليابان</span>؟",
+    "back": "طوكيو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">تايوان</span>؟",
+    "back": "تايبيه",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">بابوا غينيا الجديدة</span>؟",
+    "back": "بورت مورسبي",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">فيجي</span>؟",
+    "back": "سوفا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">ساموا</span>؟",
+    "back": "أبيا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">تونغا</span>؟",
+    "back": "نوكو ألوفا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">فانواتو</span>؟",
+    "back": "بورت فيلا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">بليز</span>؟",
+    "back": "بلموبان",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">غواتيمالا</span>؟",
+    "back": "غواتيمالا سيتي",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">السلفادور</span>؟",
+    "back": "سان سلفادور",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">هندوراس</span>؟",
+    "back": "تيغوسيغالبا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">نيكاراغوا</span>؟",
+    "back": "ماناغوا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">كوستاريكا</span>؟",
+    "back": "سان خوسيه",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">بنما</span>؟",
+    "back": "بنما سيتي",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">كوبا</span>؟",
+    "back": "هافانا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">جامايكا</span>؟",
+    "back": "كينغستون",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">هايتي</span>؟",
+    "back": "بورت أو برنس",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">جمهورية الدومينيكان</span>؟",
+    "back": "سانتو دومينغو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">باهاماس</span>؟",
+    "back": "ناسو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">باربادوس</span>؟",
+    "back": "بريدج تاون",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">ترينيداد وتوباغو</span>؟",
+    "back": "بورت أوف سبين",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">غرينادا</span>؟",
+    "back": "سانت جورجز",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">سانت لوسيا</span>؟",
+    "back": "كاستريس",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">سانت فنسنت والغرينادين</span>؟",
+    "back": "كينغستاون",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">أنتيغوا وبربودا</span>؟",
+    "back": "سانت جونز",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">دومينيكا</span>؟",
+    "back": "روسو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">سانت كيتس ونيفيس</span>؟",
+    "back": "باسيتير",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">غيانا</span>؟",
+    "back": "جورج تاون",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">سورينام</span>؟",
+    "back": "باراماريبو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">فنزويلا</span>؟",
+    "back": "كاراكاس",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">كولومبيا</span>؟",
+    "back": "بوغوتا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">الإكوادور</span>؟",
+    "back": "كيتو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">بيرو</span>؟",
+    "back": "ليما",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">بوليفيا</span>؟",
+    "back": "سوكري",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">باراغواي</span>؟",
+    "back": "أسونسيون",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">أوروغواي</span>؟",
+    "back": "مونتيفيديو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">تشيلي</span>؟",
+    "back": "سانتياغو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">ناورو</span>؟",
+    "back": "يارين (المركز الإداري)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">توفالو</span>؟",
+    "back": "فونافوتي",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">كيريباتي</span>؟",
+    "back": "تاراوا الجنوبية",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">بالاو</span>؟",
+    "back": "نغيرولمود",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">ولايات ميكرونيزيا المتحدة</span>؟",
+    "back": "باليكير",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">جزر مارشال</span>؟",
+    "back": "ماجورو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عاصمة <span style=\"color: rgb(236, 24, 24);\">جزر سليمان</span>؟",
+    "back": "هونيارا",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  }
