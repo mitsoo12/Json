@@ -1,0 +1,16 @@
+[
+  {
+    "type": "folder",
+    "name": "لغات",
+    "children": [
+      {
+        "type": "folder",
+        "name": "إنجليزية",
+        "children": [
+          { "type": "db", "name": "A2 - جمل عامة", "url": "https://raw.githubusercontent.com/.../file1.json" },
+          { "type": "db", "name": "B1 - محادثات", "url": "https://raw.githubusercontent.com/.../file2.json" }
+        ]
+      }
+    ]
+  }
+]
