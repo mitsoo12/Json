@@ -1,16 +1,10 @@
+
 [
   {
     "type": "folder",
     "name": "لغات",
     "children": [
       {
-        "type": "folder",
-        "name": "إنجليزية",
-        "children": [
-          { "type": "db", "name": "A2 - جمل عامة", "url": "https://cdn.jsdelivr.net/gh/mitsoo12/Json@main/A2_English_Arabic_Flashcards_200.json" },
-          { "type": "db", "name": "B1 - محادثات", "url": "https://cdn.jsdelivr.net/gh/mitsoo12/Json@main/frmoyien.json" }
-        ]
-      }, {
         "type": "folder",
         "name": "إنجليزية",
         "children": [
