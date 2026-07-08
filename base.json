@@ -15,7 +15,8 @@
         "type": "folder",
         "name": "فرنسية",
         "children": [
-             { "type": "db", "name": "A1 - محادثات فرنسية", "url": "https://cdn.jsdelivr.net/gh/mitsoo12/Json@main/frmoyien.json" }
+             { "type": "db", "name": "A1 - محادثات فرنسية", "url": "https://cdn.jsdelivr.net/gh/mitsoo12/Json@main/frmoyien.json" },
+           { "type": "db", "name": "A1 - محادثات فرنسية", "url": "https://cdn.jsdelivr.net/gh/mitsoo12/Json@main/frphrase.json" }
         ]
       }
     ]
