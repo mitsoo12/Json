@@ -1,0 +1,362 @@
+[
+  {
+    "front": "Je <span style=\"color:#8b0000\">manger</span> une pomme chaque matin.",
+    "back": "Je <span style=\"color:#006400\">mange</span> une pomme chaque matin.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">parler</span> très bien français.",
+    "back": "Tu <span style=\"color:#006400\">parles</span> très bien français.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il <span style=\"color:#8b0000\">finir</span> ses devoirs avant le dîner.",
+    "back": "Il <span style=\"color:#006400\">finit</span> ses devoirs avant le dîner.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elle <span style=\"color:#8b0000\">aller</span> à l'école à pied.",
+    "back": "Elle <span style=\"color:#006400\">va</span> à l'école à pied.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous <span style=\"color:#8b0000\">avoir</span> deux chats à la maison.",
+    "back": "Nous <span style=\"color:#006400\">avons</span> deux chats à la maison.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Vous <span style=\"color:#8b0000\">être</span> très gentils avec moi.",
+    "back": "Vous <span style=\"color:#006400\">êtes</span> très gentils avec moi.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ils <span style=\"color:#8b0000\">faire</span> du sport le samedi.",
+    "back": "Ils <span style=\"color:#006400\">font</span> du sport le samedi.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elles <span style=\"color:#8b0000\">prendre</span> le bus tous les jours.",
+    "back": "Elles <span style=\"color:#006400\">prennent</span> le bus tous les jours.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je <span style=\"color:#8b0000\">vouloir</span> apprendre le français.",
+    "back": "Je <span style=\"color:#006400\">veux</span> apprendre le français.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">pouvoir</span> venir avec nous ce soir.",
+    "back": "Tu <span style=\"color:#006400\">peux</span> venir avec nous ce soir.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il <span style=\"color:#8b0000\">venir</span> chez moi demain.",
+    "back": "Il <span style=\"color:#006400\">vient</span> chez moi demain.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous <span style=\"color:#8b0000\">voir</span> un bon film ce week-end.",
+    "back": "Nous <span style=\"color:#006400\">voyons</span> un bon film ce week-end.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Vous <span style=\"color:#8b0000\">savoir</span> la réponse à cette question.",
+    "back": "Vous <span style=\"color:#006400\">savez</span> la réponse à cette question.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ils <span style=\"color:#8b0000\">dire</span> toujours la vérité.",
+    "back": "Ils <span style=\"color:#006400\">disent</span> toujours la vérité.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je <span style=\"color:#8b0000\">boire</span> un verre d'eau avant de dormir.",
+    "back": "Je <span style=\"color:#006400\">bois</span> un verre d'eau avant de dormir.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">écrire</span> une lettre à ta grand-mère.",
+    "back": "Tu <span style=\"color:#006400\">écris</span> une lettre à ta grand-mère.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elle <span style=\"color:#8b0000\">lire</span> un roman intéressant.",
+    "back": "Elle <span style=\"color:#006400\">lit</span> un roman intéressant.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous <span style=\"color:#8b0000\">partir</span> en vacances lundi prochain.",
+    "back": "Nous <span style=\"color:#006400\">partons</span> en vacances lundi prochain.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Vous <span style=\"color:#8b0000\">choisir</span> un cadeau pour votre ami.",
+    "back": "Vous <span style=\"color:#006400\">choisissez</span> un cadeau pour votre ami.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ils <span style=\"color:#8b0000\">attendre</span> le train à la gare.",
+    "back": "Ils <span style=\"color:#006400\">attendent</span> le train à la gare.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "J'<span style=\"color:#8b0000\">habiter</span> dans une grande ville.",
+    "back": "J'<span style=\"color:#006400\">habite</span> dans une grande ville.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">travailler</span> dans un hôpital.",
+    "back": "Tu <span style=\"color:#006400\">travailles</span> dans un hôpital.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il <span style=\"color:#8b0000\">regarder</span> la télévision le soir.",
+    "back": "Il <span style=\"color:#006400\">regarde</span> la télévision le soir.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elle <span style=\"color:#8b0000\">écouter</span> de la musique classique.",
+    "back": "Elle <span style=\"color:#006400\">écoute</span> de la musique classique.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous <span style=\"color:#8b0000\">chanter</span> une chanson ensemble.",
+    "back": "Nous <span style=\"color:#006400\">chantons</span> une chanson ensemble.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Vous <span style=\"color:#8b0000\">danser</span> très bien la salsa.",
+    "back": "Vous <span style=\"color:#006400\">dansez</span> très bien la salsa.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ils <span style=\"color:#8b0000\">jouer</span> au football chaque dimanche.",
+    "back": "Ils <span style=\"color:#006400\">jouent</span> au football chaque dimanche.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je <span style=\"color:#8b0000\">dormir</span> huit heures par nuit.",
+    "back": "Je <span style=\"color:#006400\">dors</span> huit heures par nuit.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">sortir</span> avec tes amis ce soir.",
+    "back": "Tu <span style=\"color:#006400\">sors</span> avec tes amis ce soir.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elle <span style=\"color:#8b0000\">connaître</span> bien cette ville.",
+    "back": "Elle <span style=\"color:#006400\">connaît</span> bien cette ville.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous <span style=\"color:#8b0000\">comprendre</span> la leçon d'aujourd'hui.",
+    "back": "Nous <span style=\"color:#006400\">comprenons</span> la leçon d'aujourd'hui.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Vous <span style=\"color:#8b0000\">apprendre</span> une nouvelle langue.",
+    "back": "Vous <span style=\"color:#006400\">apprenez</span> une nouvelle langue.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ils <span style=\"color:#8b0000\">mettre</span> leurs chaussures avant de sortir.",
+    "back": "Ils <span style=\"color:#006400\">mettent</span> leurs chaussures avant de sortir.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "J'<span style=\"color:#8b0000\">acheter</span> du pain à la boulangerie.",
+    "back": "J'<span style=\"color:#006400\">achète</span> du pain à la boulangerie.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">préférer</span> le thé ou le café ?",
+    "back": "Tu <span style=\"color:#006400\">préfères</span> le thé ou le café ?",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il <span style=\"color:#8b0000\">appeler</span> sa mère tous les dimanches.",
+    "back": "Il <span style=\"color:#006400\">appelle</span> sa mère tous les dimanches.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elle <span style=\"color:#8b0000\">commencer</span> son travail à huit heures.",
+    "back": "Elle <span style=\"color:#006400\">commence</span> son travail à huit heures.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous <span style=\"color:#8b0000\">arriver</span> à la gare à midi.",
+    "back": "Nous <span style=\"color:#006400\">arrivons</span> à la gare à midi.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Vous <span style=\"color:#8b0000\">rester</span> ici jusqu'à demain.",
+    "back": "Vous <span style=\"color:#006400\">restez</span> ici jusqu'à demain.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ils <span style=\"color:#8b0000\">entrer</span> dans la salle de classe.",
+    "back": "Ils <span style=\"color:#006400\">entrent</span> dans la salle de classe.",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  }
+]
