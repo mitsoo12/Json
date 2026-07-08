@@ -9,6 +9,907 @@
     "learned": false
   },
   {
+    "front": "Tu <span style=\"color:#8b0000\">parler</span> trop vite quand tu es stressé.",
+    "back": "Tu <span style=\"color:#006400\">parles</span> trop vite quand tu es stressé. <span style=\"color:#5a5a5a\">(Présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il <span style=\"color:#8b0000\">jouer</span> au football tous les weekends.",
+    "back": "Il <span style=\"color:#006400\">joue</span> au football tous les weekends. <span style=\"color:#5a5a5a\">(Présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous <span style=\"color:#8b0000\">habiter</span> à Paris depuis cinq ans.",
+    "back": "Nous <span style=\"color:#006400\">habitons</span> à Paris depuis cinq ans. <span style=\"color:#5a5a5a\">(Présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Vous <span style=\"color:#8b0000\">dire</span> toujours la vérité.",
+    "back": "Vous <span style=\"color:#006400\">dites</span> toujours la vérité. <span style=\"color:#5a5a5a\">(Présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elles <span style=\"color:#8b0000\">prendre</span> le bus pour aller au travail.",
+    "back": "Elles <span style=\"color:#006400\">prennent</span> le bus pour aller au travail. <span style=\"color:#5a5a5a\">(Présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "On <span style=\"color:#8b0000\">aller</span> souvent au cinéma le samedi.",
+    "back": "On <span style=\"color:#006400\">va</span> souvent au cinéma le samedi. <span style=\"color:#5a5a5a\">(Présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je <span style=\"color:#8b0000\">comprendre</span> très bien le français.",
+    "back": "Je <span style=\"color:#006400\">comprends</span> très bien le français. <span style=\"color:#5a5a5a\">(Présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ils <span style=\"color:#8b0000\">finir</span> leurs devoirs avant le dîner.",
+    "back": "Ils <span style=\"color:#006400\">finissent</span> leurs devoirs avant le dîner. <span style=\"color:#5a5a5a\">(Présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">boire</span> beaucoup de café le matin.",
+    "back": "Tu <span style=\"color:#006400\">bois</span> beaucoup de café le matin. <span style=\"color:#5a5a5a\">(Présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Hier, je <span style=\"color:#8b0000\">voir</span> un film avec mes amis.",
+    "back": "Hier, je <span style=\"color:#006400\">ai vu</span> un film avec mes amis. <span style=\"color:#5a5a5a\">(Passé composé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elle <span style=\"color:#8b0000\">partir</span> à huit heures ce matin.",
+    "back": "Elle <span style=\"color:#006400\">est partie</span> à huit heures ce matin. <span style=\"color:#5a5a5a\">(Passé composé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous <span style=\"color:#8b0000\">écrire</span> une lettre à notre grand-mère.",
+    "back": "Nous <span style=\"color:#006400\">avons écrit</span> une lettre à notre grand-mère. <span style=\"color:#5a5a5a\">(Passé composé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Vous <span style=\"color:#8b0000\">travailler</span> toute la nuit pour finir le projet.",
+    "back": "Vous <span style=\"color:#006400\">avez travaillé</span> toute la nuit pour finir le projet. <span style=\"color:#5a5a5a\">(Passé composé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ils <span style=\"color:#8b0000\">voyager</span> en France l'année dernière.",
+    "back": "Ils <span style=\"color:#006400\">ont voyagé</span> en France l'année dernière. <span style=\"color:#5a5a5a\">(Passé composé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">perdre</span> ton téléphone dans le train.",
+    "back": "Tu <span style=\"color:#006400\">as perdu</span> ton téléphone dans le train. <span style=\"color:#5a5a5a\">(Passé composé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je <span style=\"color:#8b0000\">rentrer</span> chez moi vers minuit.",
+    "back": "Je <span style=\"color:#006400\">suis rentré(e)</span> chez moi vers minuit. <span style=\"color:#5a5a5a\">(Passé composé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elle <span style=\"color:#8b0000\">fermer</span> la porte doucement.",
+    "back": "Elle <span style=\"color:#006400\">a fermé</span> la porte doucement. <span style=\"color:#5a5a5a\">(Passé composé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous <span style=\"color:#8b0000\">lire</span> tous les livres avant l'examen.",
+    "back": "Nous <span style=\"color:#006400\">avons lu</span> tous les livres avant l'examen. <span style=\"color:#5a5a5a\">(Passé composé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il <span style=\"color:#8b0000\">courir</span> dans le jardin ce matin.",
+    "back": "Il <span style=\"color:#006400\">a couru</span> dans le jardin ce matin. <span style=\"color:#5a5a5a\">(Passé composé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Quand j'étais petit, je <span style=\"color:#8b0000\">aller</span> tous les jours au parc.",
+    "back": "Quand j'étais petit, je <span style=\"color:#006400\">allais</span> tous les jours au parc. <span style=\"color:#5a5a5a\">(Imparfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">laisser</span> toujours tes clés sur la table.",
+    "back": "Tu <span style=\"color:#006400\">laissais</span> toujours tes clés sur la table. <span style=\"color:#5a5a5a\">(Imparfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il <span style=\"color:#8b0000\">lire</span> beaucoup quand il était jeune.",
+    "back": "Il <span style=\"color:#006400\">lisait</span> beaucoup quand il était jeune. <span style=\"color:#5a5a5a\">(Imparfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous <span style=\"color:#8b0000\">habiter</span> dans une petite maison à la campagne.",
+    "back": "Nous <span style=\"color:#006400\">habitions</span> dans une petite maison à la campagne. <span style=\"color:#5a5a5a\">(Imparfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Vous <span style=\"color:#8b0000\">aller</span> souvent au marché le dimanche.",
+    "back": "Vous <span style=\"color:#006400\">alliez</span> souvent au marché le dimanche. <span style=\"color:#5a5a5a\">(Imparfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elles <span style=\"color:#8b0000\">étudier</span> ensemble tous les soirs.",
+    "back": "Elles <span style=\"color:#006400\">étudiaient</span> ensemble tous les soirs. <span style=\"color:#5a5a5a\">(Imparfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "J'<span style=\"color:#8b0000\">être</span> très timide à l'école.",
+    "back": "J'<span style=\"color:#006400\">étais</span> très timide à l'école. <span style=\"color:#5a5a5a\">(Imparfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "On <span style=\"color:#8b0000\">jouer</span> des jeux vidéo pendant des heures.",
+    "back": "On <span style=\"color:#006400\">jouait</span> des jeux vidéo pendant des heures. <span style=\"color:#5a5a5a\">(Imparfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">avoir</span> toujours raison, disait-elle.",
+    "back": "Tu <span style=\"color:#006400\">avais</span> toujours raison, disait-elle. <span style=\"color:#5a5a5a\">(Imparfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ils <span style=\"color:#8b0000\">nager</span> à la piscine chaque été.",
+    "back": "Ils <span style=\"color:#006400\">nageaient</span> à la piscine chaque été. <span style=\"color:#5a5a5a\">(Imparfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Demain, je <span style=\"color:#8b0000\">assister</span> à la réunion importante.",
+    "back": "Demain, je <span style=\"color:#006400\">assisterai</span> à la réunion importante. <span style=\"color:#5a5a5a\">(Futur simple)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">obtenir</span> ton diplôme l'année prochaine.",
+    "back": "Tu <span style=\"color:#006400\">obtiendras</span> ton diplôme l'année prochaine. <span style=\"color:#5a5a5a\">(Futur simple)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il <span style=\"color:#8b0000\">déménager</span> à Londres pour son travail.",
+    "back": "Il <span style=\"color:#006400\">déménagera</span> à Londres pour son travail. <span style=\"color:#5a5a5a\">(Futur simple)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous <span style=\"color:#8b0000\">voir</span> nos amis ce weekend.",
+    "back": "Nous <span style=\"color:#006400\">verrons</span> nos amis ce weekend. <span style=\"color:#5a5a5a\">(Futur simple)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Vous <span style=\"color:#8b0000\">vendre</span> la maison avant les vacances.",
+    "back": "Vous <span style=\"color:#006400\">vendrez</span> la maison avant les vacances. <span style=\"color:#5a5a5a\">(Futur simple)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elles <span style=\"color:#8b0000\">passer</span> leur examen en juin.",
+    "back": "Elles <span style=\"color:#006400\">passeront</span> leur examen en juin. <span style=\"color:#5a5a5a\">(Futur simple)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "On <span style=\"color:#8b0000\">manger</span> ensemble dimanche prochain.",
+    "back": "On <span style=\"color:#006400\">mangera</span> ensemble dimanche prochain. <span style=\"color:#5a5a5a\">(Futur simple)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je <span style=\"color:#8b0000\">être</span> patient jusqu'à la fin.",
+    "back": "Je <span style=\"color:#006400\">serai</span> patient jusqu'à la fin. <span style=\"color:#5a5a5a\">(Futur simple)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">pouvoir</span> le faire seul.",
+    "back": "Tu <span style=\"color:#006400\">pourras</span> le faire seul. <span style=\"color:#5a5a5a\">(Futur simple)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ils <span style=\"color:#8b0000\">venir</span> tôt demain matin.",
+    "back": "Ils <span style=\"color:#006400\">viendront</span> tôt demain matin. <span style=\"color:#5a5a5a\">(Futur simple)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Si j'avais de l'argent, j'<span style=\"color:#8b0000\">acheter</span> un nouveau vélo.",
+    "back": "Si j'avais de l'argent, j'<span style=\"color:#006400\">achèterais</span> un nouveau vélo. <span style=\"color:#5a5a5a\">(Conditionnel présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">être</span> plus heureux si tu voyageais.",
+    "back": "Tu <span style=\"color:#006400\">serais</span> plus heureux si tu voyageais. <span style=\"color:#5a5a5a\">(Conditionnel présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il <span style=\"color:#8b0000\">vouloir</span> nous aider s'il avait le temps.",
+    "back": "Il <span style=\"color:#006400\">voudrait</span> nous aider s'il avait le temps. <span style=\"color:#5a5a5a\">(Conditionnel présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous <span style=\"color:#8b0000\">aller</span> à la plage s'il faisait beau.",
+    "back": "Nous <span style=\"color:#006400\">irions</span> à la plage s'il faisait beau. <span style=\"color:#5a5a5a\">(Conditionnel présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Vous <span style=\"color:#8b0000\">pouvoir</span> mieux comprendre avec plus de pratique.",
+    "back": "Vous <span style=\"color:#006400\">pourriez</span> mieux comprendre avec plus de pratique. <span style=\"color:#5a5a5a\">(Conditionnel présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elles <span style=\"color:#8b0000\">être</span> heureuses de vous voir.",
+    "back": "Elles <span style=\"color:#006400\">seraient</span> heureuses de vous voir. <span style=\"color:#5a5a5a\">(Conditionnel présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "On <span style=\"color:#8b0000\">devoir</span> prendre un café ensemble.",
+    "back": "On <span style=\"color:#006400\">devrait</span> prendre un café ensemble. <span style=\"color:#5a5a5a\">(Conditionnel présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "J'<span style=\"color:#8b0000\">accepter</span> volontiers un peu d'aide.",
+    "back": "J'<span style=\"color:#006400\">accepterais</span> volontiers un peu d'aide. <span style=\"color:#5a5a5a\">(Conditionnel présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">faire</span> ce travail si tu avais l'expérience.",
+    "back": "Tu <span style=\"color:#006400\">ferais</span> ce travail si tu avais l'expérience. <span style=\"color:#5a5a5a\">(Conditionnel présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ils <span style=\"color:#8b0000\">aimer</span> venir si on les invitait.",
+    "back": "Ils <span style=\"color:#006400\">aimeraient</span> venir si on les invitait. <span style=\"color:#5a5a5a\">(Conditionnel présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Quand je suis arrivé, elle <span style=\"color:#8b0000\">partir</span> déjà.",
+    "back": "Quand je suis arrivé, elle <span style=\"color:#006400\">était déjà partie</span> déjà. <span style=\"color:#5a5a5a\">(Plus-que-parfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il m'a dit qu'il <span style=\"color:#8b0000\">lire</span> le livre avant.",
+    "back": "Il m'a dit qu'il <span style=\"color:#006400\">avait lu</span> le livre avant. <span style=\"color:#5a5a5a\">(Plus-que-parfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous <span style=\"color:#8b0000\">préparer</span> nos valises avant le départ.",
+    "back": "Nous <span style=\"color:#006400\">avions préparé</span> nos valises avant le départ. <span style=\"color:#5a5a5a\">(Plus-que-parfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Vous <span style=\"color:#8b0000\">visiter</span> ce restaurant plusieurs fois.",
+    "back": "Vous <span style=\"color:#006400\">aviez visité</span> ce restaurant plusieurs fois. <span style=\"color:#5a5a5a\">(Plus-que-parfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elles <span style=\"color:#8b0000\">terminer</span> leur travail avant midi.",
+    "back": "Elles <span style=\"color:#006400\">avaient terminé</span> leur travail avant midi. <span style=\"color:#5a5a5a\">(Plus-que-parfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je ne savais pas qu'il <span style=\"color:#8b0000\">vivre</span> à Rome.",
+    "back": "Je ne savais pas qu'il <span style=\"color:#006400\">avait vécu</span> à Rome. <span style=\"color:#5a5a5a\">(Plus-que-parfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">ranger</span> toutes tes affaires avant de sortir.",
+    "back": "Tu <span style=\"color:#006400\">avais rangé</span> toutes tes affaires avant de sortir. <span style=\"color:#5a5a5a\">(Plus-que-parfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "On <span style=\"color:#8b0000\">apprendre</span> la nouvelle avant tout le monde.",
+    "back": "On <span style=\"color:#006400\">avait appris</span> la nouvelle avant tout le monde. <span style=\"color:#5a5a5a\">(Plus-que-parfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ils <span style=\"color:#8b0000\">manquer</span> le train de justesse.",
+    "back": "Ils <span style=\"color:#006400\">avaient manqué</span> le train de justesse. <span style=\"color:#5a5a5a\">(Plus-que-parfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elle <span style=\"color:#8b0000\">oublier</span> toutes les réponses avant l'examen.",
+    "back": "Elle <span style=\"color:#006400\">avait oublié</span> toutes les réponses avant l'examen. <span style=\"color:#5a5a5a\">(Plus-que-parfait)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il faut que je <span style=\"color:#8b0000\">faire</span> mes devoirs ce soir.",
+    "back": "Il faut que je <span style=\"color:#006400\">fasse</span> mes devoirs ce soir. <span style=\"color:#5a5a5a\">(Subjonctif présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je veux que tu <span style=\"color:#8b0000\">venir</span> à l'heure.",
+    "back": "Je veux que tu <span style=\"color:#006400\">viennes</span> à l'heure. <span style=\"color:#5a5a5a\">(Subjonctif présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il est important qu'il <span style=\"color:#8b0000\">dire</span> la vérité.",
+    "back": "Il est important qu'il <span style=\"color:#006400\">dise</span> la vérité. <span style=\"color:#5a5a5a\">(Subjonctif présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elle souhaite que nous <span style=\"color:#8b0000\">être</span> prudents.",
+    "back": "Elle souhaite que nous <span style=\"color:#006400\">soyons</span> prudents. <span style=\"color:#5a5a5a\">(Subjonctif présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il faut que vous <span style=\"color:#8b0000\">acheter</span> vos billets à l'avance.",
+    "back": "Il faut que vous <span style=\"color:#006400\">achetiez</span> vos billets à l'avance. <span style=\"color:#5a5a5a\">(Subjonctif présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je doute qu'ils <span style=\"color:#8b0000\">avoir</span> le temps de venir.",
+    "back": "Je doute qu'ils <span style=\"color:#006400\">aient</span> le temps de venir. <span style=\"color:#5a5a5a\">(Subjonctif présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il est nécessaire qu'on <span style=\"color:#8b0000\">résoudre</span> ce problème.",
+    "back": "Il est nécessaire qu'on <span style=\"color:#006400\">résolve</span> ce problème. <span style=\"color:#5a5a5a\">(Subjonctif présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je suis content que tu <span style=\"color:#8b0000\">être</span> ici.",
+    "back": "Je suis content que tu <span style=\"color:#006400\">sois</span> ici. <span style=\"color:#5a5a5a\">(Subjonctif présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il faut qu'elles <span style=\"color:#8b0000\">finir</span> leurs bagages.",
+    "back": "Il faut qu'elles <span style=\"color:#006400\">finissent</span> leurs bagages. <span style=\"color:#5a5a5a\">(Subjonctif présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il vaut mieux que nous <span style=\"color:#8b0000\">partir</span> maintenant.",
+    "back": "Il vaut mieux que nous <span style=\"color:#006400\">partions</span> maintenant. <span style=\"color:#5a5a5a\">(Subjonctif présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je <span style=\"color:#8b0000\">aller</span> manger dans dix minutes.",
+    "back": "Je <span style=\"color:#006400\">vais</span> manger dans dix minutes. <span style=\"color:#5a5a5a\">(Futur proche)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">aller</span> regretter cette décision.",
+    "back": "Tu <span style=\"color:#006400\">vas</span> regretter cette décision. <span style=\"color:#5a5a5a\">(Futur proche)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il <span style=\"color:#8b0000\">aller</span> pleuvoir bientôt.",
+    "back": "Il <span style=\"color:#006400\">va</span> pleuvoir bientôt. <span style=\"color:#5a5a5a\">(Futur proche)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous <span style=\"color:#8b0000\">aller</span> commencer le projet demain.",
+    "back": "Nous <span style=\"color:#006400\">allons</span> commencer le projet demain. <span style=\"color:#5a5a5a\">(Futur proche)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Vous <span style=\"color:#8b0000\">aller</span> adorer ce restaurant.",
+    "back": "Vous <span style=\"color:#006400\">allez</span> adorer ce restaurant. <span style=\"color:#5a5a5a\">(Futur proche)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elles <span style=\"color:#8b0000\">aller</span> arriver dans une heure.",
+    "back": "Elles <span style=\"color:#006400\">vont</span> arriver dans une heure. <span style=\"color:#5a5a5a\">(Futur proche)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "On <span style=\"color:#8b0000\">aller</span> visiter le musée cet après-midi.",
+    "back": "On <span style=\"color:#006400\">va</span> visiter le musée cet après-midi. <span style=\"color:#5a5a5a\">(Futur proche)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je <span style=\"color:#8b0000\">aller</span> appeler le médecin tout de suite.",
+    "back": "Je <span style=\"color:#006400\">vais</span> appeler le médecin tout de suite. <span style=\"color:#5a5a5a\">(Futur proche)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">aller</span> rater le bus si tu ne te dépêches pas.",
+    "back": "Tu <span style=\"color:#006400\">vas</span> rater le bus si tu ne te dépêches pas. <span style=\"color:#5a5a5a\">(Futur proche)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ils <span style=\"color:#8b0000\">aller</span> déménager le mois prochain.",
+    "back": "Ils <span style=\"color:#006400\">vont</span> déménager le mois prochain. <span style=\"color:#5a5a5a\">(Futur proche)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "<span style=\"color:#8b0000\">Venir</span> vite, nous sommes en retard !",
+    "back": "<span style=\"color:#006400\">Viens</span> vite, nous sommes en retard ! <span style=\"color:#5a5a5a\">(Impératif)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "<span style=\"color:#8b0000\">Lire</span> ce livre, il est excellent.",
+    "back": "<span style=\"color:#006400\">Lisez</span> ce livre, il est excellent. <span style=\"color:#5a5a5a\">(Impératif)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "<span style=\"color:#8b0000\">Être</span> silencieux pendant le film.",
+    "back": "<span style=\"color:#006400\">Sois</span> silencieux pendant le film. <span style=\"color:#5a5a5a\">(Impératif)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "<span style=\"color:#8b0000\">Laver</span> vos mains avant de manger.",
+    "back": "<span style=\"color:#006400\">Lavez</span> vos mains avant de manger. <span style=\"color:#5a5a5a\">(Impératif)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "<span style=\"color:#8b0000\">Être</span> patients, s'il vous plaît.",
+    "back": "<span style=\"color:#006400\">Soyez</span> patients, s'il vous plaît. <span style=\"color:#5a5a5a\">(Impératif)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "<span style=\"color:#8b0000\">Dire</span> moi la vérité.",
+    "back": "<span style=\"color:#006400\">Dis</span> moi la vérité. <span style=\"color:#5a5a5a\">(Impératif)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "<span style=\"color:#8b0000\">Aller</span> en France cet été !",
+    "back": "<span style=\"color:#006400\">Allons</span> en France cet été ! <span style=\"color:#5a5a5a\">(Impératif)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "<span style=\"color:#8b0000\">Fermer</span> vos livres avant l'examen.",
+    "back": "<span style=\"color:#006400\">Fermez</span> vos livres avant l'examen. <span style=\"color:#5a5a5a\">(Impératif)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "<span style=\"color:#8b0000\">Rester</span> tranquille, tout ira bien.",
+    "back": "<span style=\"color:#006400\">Reste</span> tranquille, tout ira bien. <span style=\"color:#5a5a5a\">(Impératif)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "<span style=\"color:#8b0000\">Faire</span> attention en traversant la rue.",
+    "back": "<span style=\"color:#006400\">Faites</span> attention en traversant la rue. <span style=\"color:#5a5a5a\">(Impératif)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Si j'avais su, j'<span style=\"color:#8b0000\">agir</span> différemment.",
+    "back": "Si j'avais su, j'<span style=\"color:#006400\">aurais agi</span> différemment. <span style=\"color:#5a5a5a\">(Conditionnel passé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">être</span> content si tu avais gagné.",
+    "back": "Tu <span style=\"color:#006400\">aurais été</span> content si tu avais gagné. <span style=\"color:#5a5a5a\">(Conditionnel passé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il <span style=\"color:#8b0000\">pouvoir</span> venir s'il avait été invité.",
+    "back": "Il <span style=\"color:#006400\">aurait pu</span> venir s'il avait été invité. <span style=\"color:#5a5a5a\">(Conditionnel passé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous <span style=\"color:#8b0000\">partir</span> plus tôt si nous avions su.",
+    "back": "Nous <span style=\"color:#006400\">serions partis</span> plus tôt si nous avions su. <span style=\"color:#5a5a5a\">(Conditionnel passé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Vous <span style=\"color:#8b0000\">éviter</span> cette erreur si vous aviez fait attention.",
+    "back": "Vous <span style=\"color:#006400\">auriez évité</span> cette erreur si vous aviez fait attention. <span style=\"color:#5a5a5a\">(Conditionnel passé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elles <span style=\"color:#8b0000\">être</span> heureuses de le rencontrer.",
+    "back": "Elles <span style=\"color:#006400\">auraient été</span> heureuses de le rencontrer. <span style=\"color:#5a5a5a\">(Conditionnel passé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "On <span style=\"color:#8b0000\">faire</span> mieux avec plus de temps.",
+    "back": "On <span style=\"color:#006400\">aurait fait</span> mieux avec plus de temps. <span style=\"color:#5a5a5a\">(Conditionnel passé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "J'<span style=\"color:#8b0000\">acheter</span> cette maison si j'avais eu l'argent.",
+    "back": "J'<span style=\"color:#006400\">aurais acheté</span> cette maison si j'avais eu l'argent. <span style=\"color:#5a5a5a\">(Conditionnel passé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tu <span style=\"color:#8b0000\">prendre</span> le train si tu étais parti plus tôt.",
+    "back": "Tu <span style=\"color:#006400\">aurais pris</span> le train si tu étais parti plus tôt. <span style=\"color:#5a5a5a\">(Conditionnel passé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ils <span style=\"color:#8b0000\">gagner</span> le match s'ils avaient mieux joué.",
+    "back": "Ils <span style=\"color:#006400\">auraient gagné</span> le match s'ils avaient mieux joué. <span style=\"color:#5a5a5a\">(Conditionnel passé)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  }
+,
+  {
+    "front": "Je <span style=\"color:#8b0000\">manger</span> une pomme chaque matin.",
+    "back": "Je <span style=\"color:#006400\">mange</span> une pomme chaque matin. <span style=\"color:#5a5a5a\">(Présent)</span>",
+    "frontDir": "ltr",
+    "backDir": "ltr",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
     "front": "Tu <span style=\"color:#8b0000\">parler</span> très bien français.",
     "back": "Tu <span style=\"color:#006400\">parles</span> très bien français. <span style=\"color:#5a5a5a\">(Présent)</span>",
     "frontDir": "ltr",
