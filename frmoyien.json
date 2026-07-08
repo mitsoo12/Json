@@ -1,0 +1,456 @@
+[
+  {
+    "front": "Comment t'appelles-tu ?",
+    "back": "ما اسمك؟",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je voudrais réserver une chambre d'hôtel.",
+    "back": "أود حجز غرفة في فندق.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il fait très beau aujourd'hui.",
+    "back": "الطقس جميل جدًا اليوم.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je vais au travail en voiture.",
+    "back": "أذهب إلى العمل بالسيارة.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Peux-tu répéter, s'il te plaît ?",
+    "back": "هل يمكنك أن تعيد من فضلك؟",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "J'apprends le français depuis deux ans.",
+    "back": "أتعلم الفرنسية منذ سنتين.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous avons rendez-vous à huit heures.",
+    "back": "لدينا موعد في الساعة الثامنة.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Où se trouve la gare ?",
+    "back": "أين تقع محطة القطار؟",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "J'ai oublié mes clés à la maison.",
+    "back": "لقد نسيت مفاتيحي في المنزل.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Le professeur explique la leçon clairement.",
+    "back": "يشرح الأستاذ الدرس بوضوح.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  }
+,
+  {
+    "front": "Je dois terminer ce travail avant demain.",
+    "back": "يجب أن أنهي هذا العمل قبل الغد.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous avons passé de bonnes vacances.",
+    "back": "لقد قضينا عطلة رائعة.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il est important de faire du sport régulièrement.",
+    "back": "من المهم ممارسة الرياضة بانتظام.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je préfère le café sans sucre.",
+    "back": "أفضل القهوة بدون سكر.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ils habitent dans une grande maison.",
+    "back": "هم يسكنون في منزل كبير.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je n'ai pas compris cette question.",
+    "back": "لم أفهم هذا السؤال.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elle parle français et anglais.",
+    "back": "هي تتحدث الفرنسية والإنجليزية.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous allons visiter ce musée demain.",
+    "back": "سنزور هذا المتحف غدًا.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Le train est arrivé avec dix minutes de retard.",
+    "back": "وصل القطار متأخرًا عشر دقائق.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "J'aime écouter de la musique le soir.",
+    "back": "أحب الاستماع إلى الموسيقى مساءً.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  }
+,
+  {
+    "front": "Nous devons partir très tôt demain matin.",
+    "back": "يجب أن نغادر مبكرًا جدًا صباح الغد.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je cherche un restaurant près de la gare.",
+    "back": "أبحث عن مطعم بالقرب من محطة القطار.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Le film était plus intéressant que je ne le pensais.",
+    "back": "كان الفيلم أكثر إثارة للاهتمام مما كنت أظن.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Mon frère travaille dans une banque.",
+    "back": "أخي يعمل في بنك.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je vais acheter un cadeau pour mon ami.",
+    "back": "سأشتري هدية لصديقي.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il faut prendre rendez-vous avant la visite.",
+    "back": "يجب أخذ موعد قبل الزيارة.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Les enfants jouent dans le jardin.",
+    "back": "الأطفال يلعبون في الحديقة.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Cette ville est connue pour son histoire.",
+    "back": "تشتهر هذه المدينة بتاريخها.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je voudrais apprendre à cuisiner des plats français.",
+    "back": "أود أن أتعلم طهي الأطباق الفرنسية.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous avons oublié d'éteindre la lumière.",
+    "back": "نسينا إطفاء الضوء.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  }
+,
+  {
+    "front": "Je pense que tu as raison.",
+    "back": "أعتقد أنك على حق.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elle a oublié son téléphone à la maison.",
+    "back": "لقد نسيت هاتفها في المنزل.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous allons faire une promenade après le dîner.",
+    "back": "سنذهب في نزهة بعد العشاء.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il pleut depuis ce matin.",
+    "back": "إنها تمطر منذ هذا الصباح.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je voudrais changer de place.",
+    "back": "أود تغيير مكاني.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Les magasins ferment à huit heures.",
+    "back": "تغلق المتاجر في الساعة الثامنة.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous avons rencontré beaucoup de personnes sympathiques.",
+    "back": "التقينا بالعديد من الأشخاص اللطفاء.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je ne peux pas venir ce week-end.",
+    "back": "لا أستطيع المجيء في نهاية هذا الأسبوع.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Le médecin m'a conseillé de me reposer.",
+    "back": "نصحني الطبيب بالراحة.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Cette robe est moins chère que l'autre.",
+    "back": "هذا الفستان أرخص من الآخر.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  }
+,
+  {
+    "front": "J'espère que tout ira bien.",
+    "back": "آمل أن يسير كل شيء على ما يرام.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ils sont partis avant le lever du soleil.",
+    "back": "لقد غادروا قبل شروق الشمس.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je prends le bus tous les jours pour aller au travail.",
+    "back": "أستقل الحافلة كل يوم للذهاب إلى العمل.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous avons besoin de plus de temps.",
+    "back": "نحن بحاجة إلى المزيد من الوقت.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elle lit un roman très intéressant.",
+    "back": "هي تقرأ رواية شيقة جدًا.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je voudrais payer par carte bancaire.",
+    "back": "أود الدفع بالبطاقة البنكية.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Le magasin est fermé le dimanche.",
+    "back": "المتجر مغلق يوم الأحد.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Mon ordinateur ne fonctionne plus.",
+    "back": "لم يعد حاسوبي يعمل.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous avons décidé de voyager en été.",
+    "back": "قررنا السفر في الصيف.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il est interdit de fumer ici.",
+    "back": "يُمنع التدخين هنا.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  }
+]
