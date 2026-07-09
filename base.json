@@ -9,7 +9,11 @@
         "name": "إنجليزية",
         "children": [
           { "type": "db", "name": "A2 - جمل عامة", "url": "https://cdn.jsdelivr.net/gh/mitsoo12/Json@main/A2_English_Arabic_Flashcards_200.json" },
-{ "type": "db", "name": "A2 - جمل عامة", "url": "https://cdn.jsdelivr.net/gh/mitsoo12/Json@main/THE-ABSENT-MINDED MAN.json" }
+{ "type": "db", "name": "A2 - جمل عامة", "url": "https://cdn.jsdelivr.net/gh/mitsoo12/Json@main/THE-ABSENT-MINDED MAN.json" },
+{ "type": "db", "name": "A2 - قصة الطائر الذهبي", "url": "https://cdn.jsdelivr.net/gh/mitsoo12/Json@main/The-Golden-Bird.json" }
+
+
+
               ]
       },
       {
