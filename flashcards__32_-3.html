@@ -25,12 +25,12 @@
   html{
     overflow-x:hidden;
   }
-  /* Forces the whole page to visually appear in landscape when the phone is
-     physically tilted on its side, even if the phone's own auto-rotate/orientation
-     lock is off and the browser viewport itself stays portrait-shaped. Direction
-     (cw/ccw) is chosen in JS based on which way the phone was tilted. */
-  html.force-landscape{ overflow:hidden; }
-  body.force-landscape-cw{
+  /* Manual landscape rotation: activated only by the user tapping the 🔄
+     button on the card (not by any sensor), so it's fully predictable. Rotates
+     the whole page 90deg to fill the screen in landscape while the phone
+     itself stays physically in the user's hand however they're holding it. */
+  html.manual-landscape{ overflow:hidden; }
+  body.manual-landscape{
     position:fixed;
     top:0;
     left:100%;
@@ -38,17 +38,6 @@
     height:100vw;
     transform-origin:0 0;
     transform:rotate(90deg);
-    overflow-y:auto;
-    overflow-x:hidden;
-  }
-  body.force-landscape-ccw{
-    position:fixed;
-    top:100%;
-    left:0;
-    width:100vh;
-    height:100vw;
-    transform-origin:0 0;
-    transform:rotate(-90deg);
     overflow-y:auto;
     overflow-x:hidden;
   }
@@ -1235,7 +1224,7 @@
             <button class="mini-btn" id="miniShuffleFront" title="خلط البطاقات (S)">🔀</button>
             <button class="mini-btn" id="miniAutoSpeakFront" title="قراءة صوتية تلقائية عند ظهور هذا الوجه (1)">🔊</button>
             <button class="mini-btn" id="miniSearchFront" title="بحث عن كلمة في البطاقات (W)">🔍</button>
-            <button class="mini-btn active" id="miniAutoRotateFront" title="تدوير البطاقة تلقائيًا عند إمالة الهاتف أفقيًا حتى لو كان قفل الدوران مفعّلاً في الهاتف — اضغط للتعطيل">🔄</button>
+            <button class="mini-btn" id="miniLandscapeFront" title="تدوير البطاقة للوضع الأفقي">🔄</button>
             <button class="speak-btn" id="speakFrontBtn" title="استمع">🔊</button>
           </div>
         </div>
@@ -1253,7 +1242,7 @@
             <button class="mini-btn" id="miniShuffleBack" title="خلط البطاقات (S)">🔀</button>
             <button class="mini-btn" id="miniAutoSpeakBack" title="قراءة صوتية تلقائية عند ظهور هذا الوجه (2)">🔊</button>
             <button class="mini-btn" id="miniSearchBack" title="بحث عن كلمة في البطاقات (W)">🔍</button>
-            <button class="mini-btn active" id="miniAutoRotateBack" title="تدوير البطاقة تلقائيًا عند إمالة الهاتف أفقيًا حتى لو كان قفل الدوران مفعّلاً في الهاتف — اضغط للتعطيل">🔄</button>
+            <button class="mini-btn" id="miniLandscapeBack" title="تدوير البطاقة للوضع الأفقي">🔄</button>
             <button class="speak-btn" id="speakBackBtn" title="استمع">🔊</button>
           </div>
         </div>
@@ -2130,113 +2119,31 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
   miniAutoSpeakFrontBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleAutoSpeakFront(); });
   miniAutoSpeakBackBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleAutoSpeakBack(); });
 
-  // ---- Auto-rotate by physical tilt: rotates the whole page to landscape when
-  // the phone is turned on its side, even if the phone's own auto-rotate/lock
-  // setting is off (so the browser viewport itself never changes shape). This
-  // relies on the raw device-orientation sensor rather than the OS orientation,
-  // since the OS orientation is exactly what's being bypassed. A button on the
-  // card (🔄) lets the user turn this off if they don't want it. ----
-  let autoRotateEnabled = (localStorage.getItem('autoRotateEnabled') !== 'false'); // default: on
-  let rotateSensorAttached = false;
-  let lastTiltDirection = null; // 'cw' | 'ccw' | null
+  // ---- Manual landscape rotation: purely a button toggle, no sensors, no
+  // guessing — the user taps 🔄 to rotate the whole page to landscape and
+  // taps it again (the button rotates along with the page) to go back. ----
+  let manualLandscapeOn = false;
+  const miniLandscapeFrontBtn = document.getElementById('miniLandscapeFront');
+  const miniLandscapeBackBtn = document.getElementById('miniLandscapeBack');
 
-  const miniAutoRotateFrontBtn = document.getElementById('miniAutoRotateFront');
-  const miniAutoRotateBackBtn = document.getElementById('miniAutoRotateBack');
-
-  function updateForcedRotation(){
-    const html = document.documentElement;
-    if(!autoRotateEnabled || !lastTiltDirection){
-      html.classList.remove('force-landscape');
-      document.body.classList.remove('force-landscape-cw', 'force-landscape-ccw');
-      return;
-    }
-    // If the phone/browser already rotated its own viewport (auto-rotate is
-    // actually on, or the OS just isn't locked), don't double-rotate.
-    const viewportAlreadyLandscape = window.innerWidth > window.innerHeight;
-    if(viewportAlreadyLandscape){
-      html.classList.remove('force-landscape');
-      document.body.classList.remove('force-landscape-cw', 'force-landscape-ccw');
-      return;
-    }
-    html.classList.add('force-landscape');
-    document.body.classList.toggle('force-landscape-cw', lastTiltDirection === 'cw');
-    document.body.classList.toggle('force-landscape-ccw', lastTiltDirection === 'ccw');
-  }
-
-  function handleDeviceOrientation(e){
-    if(!autoRotateEnabled){ return; }
-    const gamma = e.gamma, beta = e.beta;
-    if(gamma === null || beta === null) return;
-    // Ignore near-flat readings (phone lying on a table) to avoid false triggers.
-    if(Math.abs(beta) < 25) { lastTiltDirection = null; updateForcedRotation(); return; }
-    let tilt = null;
-    if(gamma > 35) tilt = 'ccw';       // tilted with the right edge down
-    else if(gamma < -35) tilt = 'cw';  // tilted with the left edge down
-    lastTiltDirection = tilt;
-    updateForcedRotation();
-  }
-
-  function attachRotateSensor(){
-    if(rotateSensorAttached) return;
-    window.addEventListener('deviceorientation', handleDeviceOrientation);
-    rotateSensorAttached = true;
-  }
-
-  // iOS 13+ requires an explicit user-gesture permission prompt before the
-  // sensor can be read at all; other browsers can just attach directly.
-  function requestRotateSensorPermission(){
-    if(rotateSensorAttached) return;
-    if(typeof DeviceOrientationEvent !== 'undefined' && typeof DeviceOrientationEvent.requestPermission === 'function'){
-      DeviceOrientationEvent.requestPermission().then(state => {
-        if(state === 'granted') attachRotateSensor();
-        else showToast('⚠️ لم يُسمح بالوصول لحساس اتجاه الهاتف، فلن يعمل التدوير التلقائي');
-      }).catch(()=>{});
-    } else {
-      attachRotateSensor();
-    }
-  }
-
-  function updateRotateToggleUI(){
-    [miniAutoRotateFrontBtn, miniAutoRotateBackBtn].forEach(btn => {
+  function updateLandscapeToggleUI(){
+    [miniLandscapeFrontBtn, miniLandscapeBackBtn].forEach(btn => {
       if(!btn) return;
-      btn.classList.toggle('active', autoRotateEnabled);
-      btn.title = autoRotateEnabled
-        ? 'تدوير البطاقة تلقائيًا عند إمالة الهاتف أفقيًا حتى لو كان قفل الدوران مفعّلاً في الهاتف — اضغط للتعطيل'
-        : 'التدوير التلقائي معطّل حاليًا — اضغط للتفعيل';
+      btn.classList.toggle('active', manualLandscapeOn);
+      btn.title = manualLandscapeOn ? 'العودة إلى الوضع الرأسي' : 'تدوير البطاقة للوضع الأفقي';
     });
   }
 
-  function setAutoRotateEnabled(val){
-    autoRotateEnabled = val;
-    localStorage.setItem('autoRotateEnabled', val ? 'true' : 'false');
-    updateRotateToggleUI();
-    if(val){
-      requestRotateSensorPermission();
-    } else {
-      lastTiltDirection = null;
-      updateForcedRotation();
-    }
+  function toggleManualLandscape(){
+    manualLandscapeOn = !manualLandscapeOn;
+    document.documentElement.classList.toggle('manual-landscape', manualLandscapeOn);
+    document.body.classList.toggle('manual-landscape', manualLandscapeOn);
+    updateLandscapeToggleUI();
+    showToast(manualLandscapeOn ? '🔄 تم التدوير إلى الوضع الأفقي' : '↩️ عودة إلى الوضع الرأسي');
   }
 
-  function toggleAutoRotate(){
-    setAutoRotateEnabled(!autoRotateEnabled);
-    showToast(autoRotateEnabled ? '🔄 التدوير التلقائي عند الإمالة: مفعّل' : '⏸️ التدوير التلقائي عند الإمالة: متوقف');
-  }
-
-  if(miniAutoRotateFrontBtn) miniAutoRotateFrontBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleAutoRotate(); });
-  if(miniAutoRotateBackBtn) miniAutoRotateBackBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleAutoRotate(); });
-
-  window.addEventListener('resize', updateForcedRotation);
-  window.addEventListener('orientationchange', updateForcedRotation);
-
-  updateRotateToggleUI();
-  if(autoRotateEnabled){
-    // Browsers that don't require an explicit permission prompt (i.e. not iOS
-    // 13+) can start listening immediately without waiting for a tap.
-    if(!(typeof DeviceOrientationEvent !== 'undefined' && typeof DeviceOrientationEvent.requestPermission === 'function')){
-      attachRotateSensor();
-    }
-  }
+  if(miniLandscapeFrontBtn) miniLandscapeFrontBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleManualLandscape(); });
+  if(miniLandscapeBackBtn) miniLandscapeBackBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleManualLandscape(); });
 
   // Fullscreen toggle (in-page expand, plus real Fullscreen API if available)
   const OVERLAY_IDS = ['treeOverlay','treeFormOverlay','externalTreeOverlay','externalUrlFormOverlay','githubTreeOverlay','githubUrlFormOverlay','mergedTreeOverlay','searchOverlay'];
@@ -2680,4 +2587,105 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
     const isWordChar = (ch) => ch !== undefined && !/[\s.,!?؛،؟:;"'«»()\[\]{}]/.test(ch);
     if(!isWordChar(text[offset]) && isWordChar(text[offset - 1])) offset -= 1;
     let start = offset, end = offset;
-    while(start > 0 && isWordChar(text[start - 1]))
+    while(start > 0 && isWordChar(text[start - 1])) start--;
+    while(end < text.length && isWordChar(text[end])) end++;
+    const word = text.slice(start, end).trim();
+    if(!word) return null;
+    const wordRange = document.createRange();
+    wordRange.setStart(textNode, start);
+    wordRange.setEnd(textNode, end);
+    return { word, range: wordRange };
+  }
+
+  // First press on a word just selects/highlights it (and still doesn't
+  // flip the card). A second press (double-click) on the already-selected
+  // word runs the search. Pressing elsewhere on the card still flips it.
+  function handleFaceWordClick(e, txtEl){
+    if(txtEl.getAttribute('contenteditable') === 'true'){ e.stopPropagation(); return; }
+    if(!wordSearchArmed) return; // not armed: let the tap pass through and flip the card as usual
+    const hit = wordRangeAtPoint(e.clientX, e.clientY);
+    if(!hit) return;
+    e.stopPropagation();
+    const sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(hit.range);
+  }
+  function handleFaceWordDblClick(e, txtEl){
+    if(txtEl.getAttribute('contenteditable') === 'true') return;
+    if(!wordSearchArmed) return;
+    const hit = wordRangeAtPoint(e.clientX, e.clientY);
+    if(!hit) return;
+    e.stopPropagation();
+    openSearchPanel(hit.word);
+    disarmWordSearch();
+  }
+  frontTxt.addEventListener('click', (e) => handleFaceWordClick(e, frontTxt));
+  backTxt.addEventListener('click', (e) => handleFaceWordClick(e, backTxt));
+  frontTxt.addEventListener('dblclick', (e) => handleFaceWordDblClick(e, frontTxt));
+  backTxt.addEventListener('dblclick', (e) => handleFaceWordDblClick(e, backTxt));
+
+
+  if('speechSynthesis' in window){
+    window.speechSynthesis.onvoiceschanged = () => {};
+  }
+
+  // ---- Database tree: topic-indexed remote flashcard sets, saved locally ----
+  const TREE_STORAGE_KEY = 'flashcards_db_tree_v1';
+  let dbTree = [];
+
+  function defaultTree(){
+    return [
+      {
+        id: 'cat_languages',
+        type: 'folder',
+        name: 'لغات',
+        expanded: true,
+        children: [
+          { id: 'cat_fr', type: 'folder', name: 'فرنسية', expanded: false, children: [] },
+          { id: 'cat_ar', type: 'folder', name: 'عربية', expanded: false, children: [] },
+          { id: 'cat_en', type: 'folder', name: 'إنجليزية', expanded: false, children: [] }
+        ]
+      }
+    ];
+  }
+
+  function genId(prefix){ return prefix + '_' + Date.now() + '_' + Math.random().toString(36).slice(2, 7); }
+
+  function loadTree(){
+    try{
+      const raw = localStorage.getItem(TREE_STORAGE_KEY);
+      if(raw){
+        const parsed = JSON.parse(raw);
+        if(Array.isArray(parsed)){ dbTree = parsed; return; }
+      }
+    }catch(e){}
+    dbTree = defaultTree();
+    saveTree();
+  }
+
+  function saveTree(){
+    try{ localStorage.setItem(TREE_STORAGE_KEY, JSON.stringify(dbTree)); }
+    catch(e){ showToast('⚠️ تعذر حفظ الشجرة في هذا المتصفح'); }
+  }
+
+  // Recursively locate a node by id, returning it along with its parent
+  // array and index so callers can mutate or splice it out.
+  function findNodeAndParent(id, nodes){
+    nodes = nodes || dbTree;
+    for(let i = 0; i < nodes.length; i++){
+      if(nodes[i].id === id) return { node: nodes[i], parent: nodes, index: i };
+      if(nodes[i].children && nodes[i].children.length){
+        const found = findNodeAndParent(id, nodes[i].children);
+        if(found) return found;
+      }
+    }
+    return null;
+  }
+
+  const treeOverlay = document.getElementById('treeOverlay');
+  const treeBody = document.getElementById('treeBody');
+  const treeFormOverlay = document.getElementById('treeFormOverlay');
+  const treeFormTitle = document.getElementById('treeFormTitle');
+  const treeFormName = document.getElementById('treeFormName');
+  const treeFormUrl = document.getElementById('treeFormUrl');
+  const treeFormUrlWrap = document.getElementById('treeFormUrlW
