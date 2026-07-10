@@ -1,151 +1,2641 @@
 [
-  {"front": "A certain king had a beautiful garden.", "back": "كان لملكٍ ما حديقةٌ جميلةٌ."},
-  {"front": "In the garden stood a tree which bore golden apples.", "back": "وقفت في الحديقة شجرةٌ تثمر تفاحًا ذهبيًا."},
-  {"front": "These apples were always counted.", "back": "كان هذا التفاح يُعدّ دائمًا."},
-  {"front": "About the time when they began to grow ripe, it was found that every night one of them was gone.", "back": "عندما بدأ ينضج، وجدوا أن كل ليلة تختفي تفاحةٌ واحدة."},
-  {"front": "The king became very angry at this.", "back": "غضب الملك غضبًا شديدًا من ذلك."},
-  {"front": "He ordered the gardener to keep watch all night under the tree.", "back": "أمر البستاني أن يحرس تحت الشجرة طوال الليل."},
-  {"front": "The gardener set his eldest son to watch.", "back": "كلف البستاني ابنه الأكبر بالحراسة."},
-  {"front": "But about twelve o'clock he fell asleep.", "back": "لكنه نام حوالي الساعة الثانية عشرة."},
-  {"front": "In the morning another of the apples was missing.", "back": "وفي الصباح، كانت تفاحةٌ أخرى مفقودة."},
-  {"front": "Then the second son was ordered to watch.", "back": "ثم أُمر الابن الثاني بالحراسة."},
-  {"front": "At midnight he too fell asleep.", "back": "في منتصف الليل، نام هو أيضًا."},
-  {"front": "In the morning another apple was gone.", "back": "وفي الصباح، اختفت تفاحةٌ أخرى."},
-  {"front": "Then the third son offered to keep watch.", "back": "ثم عرض الابن الثالث أن يحرس."},
-  {"front": "The gardener at first would not let him, for fear some harm should come to him.", "back": "لم يسمح له البستاني في البداية، خوفًا من أن يصيبه أذى."},
-  {"front": "However, at last he consented.", "back": "لكنه وافق في النهاية."},
-  {"front": "The young man laid himself under the tree to watch.", "back": "استلقى الشاب تحت الشجرة ليراقب."},
-  {"front": "As the clock struck twelve, he heard a rustling noise in the air.", "back": "عندما دقت الساعة الثانية عشرة، سمع حفيفًا في الهواء."},
-  {"front": "A bird came flying that was of pure gold.", "back": "جاء طائرٌ يطير، وكان من الذهب الخالص."},
-  {"front": "It was snapping at one of the apples with its beak.", "back": "كان يلتقط تفاحةً بمنقاره."},
-  {"front": "The gardener's son jumped up and shot an arrow at it.", "back": "قفز ابن البستاني وأطلق سهمًا نحوه."},
-  {"front": "But the arrow did the bird no harm.", "back": "لكن السهم لم يؤذِ الطائر."},
-  {"front": "It only dropped a golden feather from its tail.", "back": "فقط أسقط ريشةً ذهبيةً من ذيله."},
-  {"front": "Then it flew away.", "back": "ثم طار بعيدًا."},
-  {"front": "The golden feather was brought to the king in the morning.", "back": "أُحضرت الريشة الذهبية إلى الملك في الصباح."},
-  {"front": "All the council was called together.", "back": "دُعي جميع المستشارين للاجتماع."},
-  {"front": "Everyone agreed that it was worth more than all the wealth of the kingdom.", "back": "اتفق الجميع أنها تساوي أكثر من كل ثروة المملكة."},
-  {"front": "But the king said, 'One feather is of no use to me. I must have the whole bird.'", "back": "لكن الملك قال: 'ريشةٌ واحدة لا تفيدني. يجب أن أحصل على الطائر كاملًا.'"},
-  {"front": "Then the gardener's eldest son set out.", "back": "ثم انطلق الابن الأكبر للبستاني."},
-  {"front": "He thought to find the golden bird very easily.", "back": "ظن أنه سيجد الطائر الذهبي بسهولة."},
-  {"front": "When he had gone but a little way, he came to a wood.", "back": "عندما قطع مسافةً صغيرة، وصل إلى غابة."},
-  {"front": "By the side of the wood he saw a fox sitting.", "back": "بجانب الغابة رأى ثعلبًا جالسًا."},
-  {"front": "He took his bow and made ready to shoot at it.", "back": "أخذ قوسه واستعد لإطلاق النار عليه."},
-  {"front": "Then the fox said, 'Do not shoot me, for I will give you good counsel.", "back": "فقال الثعلب: 'لا تطلق عليّ النار، فسأعطيك نصيحةً جيدة."},
-  {"front": "I know what your business is.", "back": "أعرف ما هي مهمتك."},
-  {"front": "You want to find the golden bird.", "back": "تريد أن تجد الطائر الذهبي."},
-  {"front": "You will reach a village in the evening.", "back": "ستصل إلى قرية في المساء."},
-  {"front": "When you get there, you will see two inns opposite to each other.", "back": "عندما تصل إليها، سترى نزلين متقابلين."},
-  {"front": "One of them is very pleasant and beautiful to look at.", "back": "أحدهما مريحٌ وجميلُ المنظر."},
-  {"front": "Go not in there.", "back": "لا تدخل إليه."},
-  {"front": "Rest for the night in the other, though it may appear to you to be very poor and mean.'", "back": "بل استرح ليلًا في الآخر، حتى لو بدا لك فقيرًا وحقيرًا.'"},
-  {"front": "But the son thought to himself, 'What can such a beast as this know about the matter?'", "back": "لكن الابن فكر في نفسه: 'ماذا يعرف حيوانٌ كهذا عن الأمر؟'"},
-  {"front": "So he shot his arrow at the fox.", "back": "فأطلق سهمه نحو الثعلب."},
-  {"front": "But he missed it.", "back": "لكنه أخطأه."},
-  {"front": "The fox set up its tail above its back and ran into the wood.", "back": "رفع الثعلب ذيله فوق ظهره وركض إلى الغابة."},
-  {"front": "Then he went his way.", "back": "ثم مضى في طريقه."},
-  {"front": "In the evening he came to the village where the two inns were.", "back": "في المساء وصل إلى القرية التي فيها النزلان."},
-  {"front": "In one of them were people singing, dancing, and feasting.", "back": "في أحدهما كان الناس يغنون ويرقصون ويأكلون."},
-  {"front": "But the other looked very dirty and poor.", "back": "لكن الآخر بدا قذرًا وفقيرًا جدًا."},
-  {"front": "'I should be very silly,' said he, 'to go into that shabby house and leave this charming place.'", "back": "قال: 'سأكون غبيًا جدًا لو دخلت ذلك المنزل البائس وتركت هذا المكان الساحر.'"},
-  {"front": "So he went into the smart house.", "back": "فدخل المنزل الأنيق."},
-  {"front": "He ate and drank at his ease.", "back": "أكل وشرب على راحته."},
-  {"front": "He forgot the bird and his country too.", "back": "نسي الطائر ووطنه أيضًا."},
-  {"front": "Time passed on.", "back": "مر الوقت."},
-  {"front": "The eldest son did not come back.", "back": "لم يعد الابن الأكبر."},
-  {"front": "No tidings were heard of him.", "back": "لم تصل أي أخبار عنه."},
-  {"front": "The second son set out.", "back": "انطلق الابن الثاني."},
-  {"front": "The same thing happened to him.", "back": "حدث له نفس الشيء."},
-  {"front": "He met the fox, who gave him the good advice.", "back": "قابل الثعلب الذي أعطاه النصيحة الجيدة."},
-  {"front": "But he turned a deaf ear to it.", "back": "لكنه أصرّ على عدم الإصغاء لها."},
-  {"front": "He, too, fell into the same trap.", "back": "وقع هو أيضًا في نفس الفخ."},
-  {"front": "The gardener was now much distressed.", "back": "أصبح البستاني الآن حزينًا جدًا."},
-  {"front": "He knew not what to do.", "back": "لم يعرف ماذا يفعل."},
-  {"front": "The youngest son, in despair, offered to go and seek the golden bird.", "back": "عرض الابن الأصغر، في يأس، أن يذهب ويبحث عن الطائر الذهبي."},
-  {"front": "But his father would not listen to him for a long while.", "back": "لكن والده لم يصغِ إليه لفترة طويلة."},
-  {"front": "He was very fond of the boy.", "back": "كان يحب الولد كثيرًا."},
-  {"front": "He was afraid that some ill-luck might happen to him and prevent his coming back.", "back": "كان يخاف أن يصيبه سوء حظ ويمنعه من العودة."},
-  {"front": "However, at last it was agreed that he should go.", "back": "ومع ذلك، اتفق في النهاية على أن يذهب."},
-  {"front": "He would not be at peace without trying.", "back": "لن يهدأ دون أن يحاول."},
-  {"front": "The story continues, with the youngest son heeding the fox's advice, overcoming challenges, and eventually winning the golden bird, a golden horse, and a princess.", "back": "وتستمر القصة، حيث يتبع الابن الأصغر نصيحة الثعلب، ويتغلب على التحديات، ويكسب في النهاية الطائر الذهبي، والحصان الذهبي، والأميرة."},
-  {"front": "All this was done.", "back": "تم كل ذلك."},
-  {"front": "But the fox said, 'Now, if you will follow my counsel, all will go well with you.", "back": "لكن الثعلب قال: 'الآن، إذا اتبعت نصيحتي، فسيسير كل شيء على ما يرام."},
-  {"front": "The king's beautiful daughter will be brought out into the church to be married.", "back": "سيُخرجون ابنة الملك الجميلة إلى الكنيسة لتتزوج."},
-  {"front": "As she goes along, she will see you.", "back": "وبينما هي تسير، ستراك."},
-  {"front": "She will ask if you will have her for your wife.", "back": "ستسألك إن كنت ستتخذها زوجةً لك."},
-  {"front": "But you must not say, Yes.", "back": "لكن يجب ألا تقول: نعم."},
-  {"front": "She is the king's daughter, and you are only a poor man's son.", "back": "هي ابنة الملك، وأنت فقط ابن رجل فقير."},
-  {"front": "You must say, No, I cannot.", "back": "بل يجب أن تقول: لا، لا أستطيع."},
-  {"front": "Then you must take leave of her and go your way.'", "back": "ثم يجب أن تودعها وتذهب في طريقك.'"},
-  {"front": "'This is all very fine,' said the young man.", "back": "قال الشاب: 'هذا كله جميل جدًا.'"},
-  {"front": "'But I cannot go away without carrying off the golden bird.'", "back": "'لكن لا يمكنني الرحيل دون أن أحصل على الطائر الذهبي.'"},
-  {"front": "'Well,' replied the fox, 'I will tell you how that may be done.", "back": "أجاب الثعلب: 'حسنًا، سأخبرك كيف يمكن فعل ذلك."},
-  {"front": "When you come near the castle, where the bird is kept, you will see the castle guards all snoring as they sleep.", "back": "عندما تقترب من القلعة حيث يُحفظ الطائر، سترى حراس القلعة جميعهم يغطون في نومهم."},
-  {"front": "The golden bird is standing in a wooden cage.", "back": "الطائر الذهبي واقفٌ في قفصٍ خشبي."},
-  {"front": "Hard by, you will see a beautiful cage made of gold and silver.", "back": "وبالقرب منه، سترى قفصًا جميلًا من الذهب والفضة."},
-  {"front": "But you must not take the bird out of the wooden cage and put it into the fine one.", "back": "لكن يجب ألا تخرج الطائر من القفص الخشبي وتضعه في القفص الجميل."},
-  {"front": "Or you will repent it.'", "back": "وإلا فستندم على ذلك.'"},
-  {"front": "Then the young man went to the castle.", "back": "ثم ذهب الشاب إلى القلعة."},
-  {"front": "He found all the guards asleep.", "back": "وجد جميع الحراس نيامًا."},
-  {"front": "He found the golden bird in a wooden cage.", "back": "وجد الطائر الذهبي في قفص خشبي."},
-  {"front": "Hard by was a splendid gold and silver cage.", "back": "وبالقرب كان هناك قفصٌ رائعٌ من الذهب والفضة."},
-  {"front": "But he thought it would be a pity to leave the pretty bird in that poor and mean cage.", "back": "لكنه اعتقد أنه من المؤسف ترك الطائر الجميل في ذلك القفص البائس والحقير."},
-  {"front": "So he opened the door and put it into the rich one.", "back": "ففتح الباب ووضعه في القفص الثمين."},
-  {"front": "In a moment the bird set up a loud scream.", "back": "في لحظة، أطلق الطائر صرخةً عالية."},
-  {"front": "This waked the guards.", "back": "هذا أيقظ الحراس."},
-  {"front": "They took him and put him into prison.", "back": "أمسكوا به ووضعوه في السجن."}
-,{"front": "The youngest son was sitting in prison.", "back": "جلس الابن الأصغر في السجن."},
-  {"front": "He heard that the king's daughter wanted the golden horse.", "back": "سمع أن ابنة الملك تريد الحصان الذهبي."},
-  {"front": "He promised to bring it if they set him free.", "back": "وعد بإحضاره إذا أطلقوا سراحه."},
-  {"front": "The king agreed and let him go.", "back": "وافق الملك وتركه يذهب."},
-  {"front": "The fox met him again on the road.", "back": "قابله الثعلب مرة أخرى على الطريق."},
-  {"front": "The fox told him where to find the golden horse.", "back": "أخبره الثعلب أين يجد الحصان الذهبي."},
-  {"front": "He followed the fox's advice carefully.", "back": "اتبع نصيحة الثعلب بحذر."},
-  {"front": "He successfully brought back the golden horse.", "back": "أحضر الحصان الذهبي بنجاح."},
-  {"front": "Then the fox helped him win the princess's heart.", "back": "ثم ساعده الثعلب في كسب قلب الأميرة."},
-  {"front": "The fox told him how to get the golden bird from the castle without waking the guards.", "back": "أخبره الثعلب كيف يحصل على الطائر الذهبي من القلعة دون إيقاظ الحراس."},
-  {"front": "This time, he did exactly as the fox said.", "back": "هذه المرة، فعل بالضبط ما قاله الثعلب."},
-  {"front": "He got the golden bird safely.", "back": "حصل على الطائر الذهبي بأمان."},
-  {"front": "The fox then asked the young man to cut off his head.", "back": "طلب الثعلب بعد ذلك من الشاب أن يقطع رأسه."},
-  {"front": "The young man refused at first.", "back": "رفض الشاب في البداية."},
-  {"front": "But the fox insisted and begged him.", "back": "لكن الثعلب أصر وتوسل إليه."},
-  {"front": "Finally, the young man cut off the fox's head.", "back": "أخيرًا، قطع الشاب رأس الثعلب."},
-  {"front": "Immediately, the fox turned into a handsome man.", "back": "على الفور، تحول الثعلب إلى رجل وسيم."},
-  {"front": "He was the brother of the beautiful princess.", "back": "كان أخو الأميرة الجميلة."},
-  {"front": "He had been turned into a fox by a wicked witch.", "back": "كان قد تحول إلى ثعلب على يد ساحرة شريرة."},
-  {"front": "The spell was finally broken by the young man's kindness.", "back": "تحطمت اللعنة أخيرًا بلطف الشاب."},
-  {"front": "The young man married the princess.", "back": "تزوج الشاب من الأميرة."},
-  {"front": "He became the new king of the kingdom.", "back": "أصبح الملك الجديد للمملكة."},
-  {"front": "They lived happily together with the golden bird.", "back": "عاشوا بسعادة معًا مع الطائر الذهبي."},
-  {"front": "And they all lived happily ever after.", "back": "وعاشوا جميعًا في سعادة دائمة."},
-  {"front": "The king said, 'Bring me the golden horse, and I will set you free.'", "back": "قال الملك: 'أحضر لي الحصان الذهبي، وسأطلق سراحك.'"},
-  {"front": "The young man agreed and went out to find it.", "back": "وافق الشاب وخرج ليجده."},
-  {"front": "He met the fox again on the road.", "back": "قابل الثعلب مرة أخرى على الطريق."},
-  {"front": "The fox showed him where the golden horse was kept.", "back": "أره الثعلب أين يُحفظ الحصان الذهبي."},
-  {"front": "The fox warned him, 'Do not ride the horse, or you will be caught.'", "back": "حذّره الثعلب: 'لا تركب الحصان، وإلا ستُقبض عليك.'"},
-  {"front": "But the young man forgot the warning and mounted the horse.", "back": "لكن الشاب نسي التحذير وركب الحصان."},
-  {"front": "The horse galloped straight to the castle, and the guards arrested him.", "back": "عدا الحصان مباشرة إلى القلعة، وألقى الحراس القبض عليه."},
-  {"front": "He was put in prison for the second time.", "back": "وُضع في السجن للمرة الثانية."},
-  {"front": "The king then said, 'Bring me the beautiful princess, and I will free you.'", "back": "ثم قال الملك: 'أحضر لي الأميرة الجميلة، وسأُطلقك.'"},
-  {"front": "The young man set out with the fox once more.", "back": "انطلق الشاب مع الثعلب مرة أخرى."},
-  {"front": "The fox advised, 'Do not kiss the princess, or she will cry out and wake the guards.'", "back": "نصحه الثعلب: 'لا تُقبّل الأميرة، وإلا صرخت وأيقظت الحراس.'"},
-  {"front": "But when he saw her, he kissed her passionately.", "back": "لكن عندما رآها، قبّلها بشغف."},
-  {"front": "She screamed, the guards came running, and they threw him into prison again.", "back": "صرخت، وجاء الحراس راكضين، وألقوه في السجن مجددًا."},
-  {"front": "Now the young man remembered the fox's words and regretted his mistakes.", "back": "عندها تذكّر الشاب كلام الثعلب وندم على أخطائه."},
-  {"front": "He vowed to follow every instruction exactly.", "back": "تعهد بأن يتبع كل توجيه بدقة."},
-  {"front": "The fox helped him escape and gave him a final plan.", "back": "ساعده الثعلب في الهروب ووضح له خطة أخيرة."},
-  {"front": "He took the golden bird without making any noise.", "back": "أخذ الطائر الذهبي دون أن يُحدث أي ضجيج."},
-  {"front": "He took the golden horse without riding it.", "back": "أخذ الحصان الذهبي دون أن يركبه."},
-  {"front": "He brought the princess without kissing her.", "back": "أحضر الأميرة دون أن يُقبّلها."},
-  {"front": "This time, he succeeded in all three tasks perfectly.", "back": "هذه المرة، نجح في المهام الثلاث جميعًا بإتقان."},
-  {"front": "The king was overjoyed and gave him his daughter's hand in marriage.", "back": "فرح الملك كثيرًا وزوّجه ابنته."},
-  {"front": "Then the fox said, 'Now cut off my head, and do not hesitate.'", "back": "ثم قال الثعلب: 'الآن اقطع رأسي، ولا تتردد.'"},
-  {"front": "The young man refused at first, but the fox begged him earnestly.", "back": "رفض الشاب في البداية، لكن الثعلب توسل إليه بإلحاح."},
-  {"front": "Finally, he drew his sword and cut off the fox's head.", "back": "أخيرًا، سحب سيفه وقطع رأس الثعلب."},
-  {"front": "In an instant, the fox turned into a handsome prince.", "back": "في لحظة، تحول الثعلب إلى أمير وسيم."},
-  {"front": "He was the princess's lost brother, cursed by a wicked witch.", "back": "كان أخا الأميرة المفقود، الذي لعنته ساحرة شريرة."},
-  {"front": "The curse was broken by the young man's courage and loyalty.", "back": "انكسرت اللعنة بشجاعة الشاب ووفائه."},
-  {"front": "The young man married the princess and became the new king.", "back": "تزوج الشاب من الأميرة وأصبح الملك الجديد."},
-  {"front": "They kept the golden bird, the golden horse, and lived in great joy.", "back": "احتفظوا بالطائر الذهبي والحصان الذهبي، وعاشوا في فرح عظيم."},
-  {"front": "And they all lived happily together until the end of their days.", "back": "وعاشوا جميعًا بسعادة معًا حتى نهاية أيامهم."}
+  {
+    "back": "في الأزمنة الغابرة كان هناك ملك.",
+    "front": "In times gone by there was a king.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "كان في مؤخرة قصره حديقة جميلة.",
+    "front": "Who had at the front of his castle a beautiful pleasure-garden.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "في الحديقة كانت شجرة تثمر تفاحاً ذهبياً.",
+    "front": "In which stood a tree that bore golden apples.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "كانوا يعدون التفاح كلما نضج.",
+    "front": "As the apples ripened they were counted.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن في صباح أحد الأيام نقصت تفاحة.",
+    "front": "But one morning one was missing.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فحينئذ غضب الملك.",
+    "front": "Then the king was angry.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وأمر بأن تُحرس الشجرة كل ليلة.",
+    "front": "And he ordered that watch should be kept about the tree every night.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "كان للملك ثلاثة أبناء.",
+    "front": "Now the king had three sons.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فأرسل أكبرهم ليقضي الليل كله في الحديقة.",
+    "front": "And he sent the eldest to spend the whole night in the garden.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فحرس حتى منتصف الليل.",
+    "front": "So he watched till midnight.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ثم لم يعد يستطيع مقاومة النوم.",
+    "front": "And then he could keep off sleep no longer.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وفي الصباح نقصت تفاحة أخرى.",
+    "front": "And in the morning another apple was missing.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "كان على الابن الثاني أن يحرس الليلة التالية.",
+    "front": "The second son had to watch the following night.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن الأمر لم يتحسن.",
+    "front": "But it fared no better.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فعندما دقت الساعة الثانية عشرة نام.",
+    "front": "For when twelve o'clock had struck he went to sleep.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وفي الصباح نقصت تفاحة أخرى.",
+    "front": "And in the morning another apple was missing.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ثم جاء دور الابن الثالث ليقوم بالحراسة.",
+    "front": "Now came the turn of the third son to watch.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وكان مستعداً لذلك.",
+    "front": "And he was ready to do so.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن الملك كان يثق به أقل.",
+    "front": "But the king had less trust in him.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "واعتقد أنه سيكون أداؤه أسوأ من أخويه.",
+    "front": "And believed he would acquit himself still worse than his brothers.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكنه في النهاية وافق على منحه فرصة.",
+    "front": "But in the end he consented to let him try.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فرقد الشاب تحت الشجرة ليحرس.",
+    "front": "So the young man lay down under the tree to watch.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وعزم على ألا يغلبَه النوم.",
+    "front": "And resolved that sleep should not be master.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وعندما دقت الثانية عشرة أقبل شيء يخترق الهواء.",
+    "front": "When it struck twelve something came rushing through the air.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فرأى في ضوء القمر طائراً يحلق نحوه.",
+    "front": "And he saw in the moonlight a bird flying towards him.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وكان ريشه يلمع كالذهب.",
+    "front": "Whose feathers glittered like gold.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وقف الطائر على الشجرة.",
+    "front": "The bird perched upon the tree.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وكان قد بدأ ينقر تفاحة.",
+    "front": "And had already pecked off an apple.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حين أطلق الشاب سهماً نحوه.",
+    "front": "When the young man let fly an arrow at it.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "طار الطائر بعيداً.",
+    "front": "The bird flew away.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن السهم أصاب ريشه.",
+    "front": "But the arrow had struck its plumage.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وسقطت منه ريشة ذهبية على الأرض.",
+    "front": "And one of its golden feathers fell to the ground.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "التقطها الشاب.",
+    "front": "The young man picked it up.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وفي الصباح التالي أخذها إلى الملك.",
+    "front": "And taking it next morning to the king.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وأخبره بما حدث في الليل.",
+    "front": "Told him what had happened in the night.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "دعا الملك مستشاريه.",
+    "front": "The king called his council together.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وأعلن الجميع أن مثل هذه الريشة تساوي أكثر من المملكة بأسرها.",
+    "front": "And all declared that such a feather was worth more than the whole kingdom.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "قال الملك: ما دامت الريشة بهذه القيمة.",
+    "front": "Since the feather is so valuable said the king.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فواحدة لا تكفيني.",
+    "front": "One is not enough for me.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لا بد وأن أحصل على الطائر كاملاً.",
+    "front": "I must and will have the whole bird.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فانطلق الابن الأكبر.",
+    "front": "So the eldest son set off.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "واثقاً من ذكائه.",
+    "front": "And relying on his own cleverness.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "معتقداً أنه سيعثر قريباً على الطائر الذهبي.",
+    "front": "He thought he should soon find the golden bird.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وعندما قطع مسافة ما رأى ثعلباً.",
+    "front": "When he had gone some distance he saw a fox.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "كان الثعلب جالساً على حافة غابة.",
+    "front": "Sitting at the edge of a wood.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فوجّه بندقيته نحوه.",
+    "front": "And he pointed his gun at him.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "صرخ الثعلب: لا تطلق النار علي.",
+    "front": "The fox cried out do not shoot me.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وسأعطيك نصيحة حكيمة.",
+    "front": "And I will give you good counsel.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "أنت في طريقك للعثور على الطائر الذهبي.",
+    "front": "You are on your way to find the golden bird.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وستصل مساء اليوم إلى قرية.",
+    "front": "And this evening you will come to a village.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فيها نزلا ن يقفان متقابلين.",
+    "front": "In which two taverns stand facing each other.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "أحدهما سيكون مضاءً بشكل ساطع.",
+    "front": "One will be brightly lighted up.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وسيكون فيه مرح كثير.",
+    "front": "And there will be plenty of merriment going on inside.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لا تلتفت لذلك.",
+    "front": "Do not mind about that.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "بل ادخل الآخر.",
+    "front": "But go into the other one.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "رغم أنه سيبدو لك غير جذاب.",
+    "front": "Although it will look to you very uninviting.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فكر ابن الملك: كيف يمكن لمخلوق غبي أن يعطيني نصيحة عاقلة؟",
+    "front": "How can a silly beast give one any rational advice thought the king's son.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وأطلق النار على الثعلب.",
+    "front": "And let fly at the fox.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكنه أخطأه.",
+    "front": "But missed him.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فمد الثعلب ذيله.",
+    "front": "And he stretched out his tail.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وهرب بسرعة إلى الغابة.",
+    "front": "And ran quick into the wood.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ثم واصل الشاب طريقه.",
+    "front": "Then the young man went on his way.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ومع حلول المساء وصل إلى القرية.",
+    "front": "And towards evening he came to the village.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حيث كان النزلا ن قائمين.",
+    "front": "And there stood the two taverns.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "في أحدهما غناء ورقص.",
+    "front": "In one singing and dancing was going on.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "والآخر بدا كئيباً وبائساً.",
+    "front": "The other looked quite dull and wretched.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "قال: سأكون أحمقاً إن دخلت ذلك المكان الموحش.",
+    "front": "I should be a fool said he to go into that dismal place.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "بينما هناك مكان ممتع بجانبي.",
+    "front": "While there is anything so good close by.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فدخل النزل المبهج.",
+    "front": "So he went into the merry inn.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وعاش هناك في رغد.",
+    "front": "And there lived in clover.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ناسياً الطائر وأبيه.",
+    "front": "Quite forgetting the bird and his father.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وناسياً كل نصيحة حكيمة.",
+    "front": "And all good counsel.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ومع مرور الوقت لم يعد الابن الأكبر إلى المنزل.",
+    "front": "As time went on and the eldest son never came home.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فانطلق الابن الثاني للبحث عن الطائر الذهبي.",
+    "front": "The second son set out to seek the golden bird.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "قابل الثعلب كما فعل أخوه الأكبر.",
+    "front": "He met with the fox just as the eldest did.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وتلقى منه نصيحة حكيمة.",
+    "front": "And received good advice from him.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكنه لم يأبه بها.",
+    "front": "Without attending to it.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وعندما وصل إلى النزلا ن.",
+    "front": "And when he came to the two taverns.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "كان أخوه واقفاً يناديه من نافذة أحدهما.",
+    "front": "His brother was standing and calling to him at the window of one of them.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "التي كانت تخرج منها أصوات مرح.",
+    "front": "Out of which came sounds of merriment.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فلم يستطع المقاومة.",
+    "front": "So he could not resist.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "بل دخل وأخذ في اللهو حتى ملأ قلبه.",
+    "front": "But went in and revelled to his heart's content.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ثم مع مرور الوقت رغب الابن الأصغر في الخروج.",
+    "front": "And then as time went on the youngest son wished to go forth.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وتجربة حظه.",
+    "front": "And to try his luck.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن والده لم يوافق.",
+    "front": "But his father would not consent.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "قال: سيكون الأمر عديم الجدوى.",
+    "front": "It would be useless said he.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فهو أقل حظاً من أخويه في العثور على الطائر.",
+    "front": "He is much less likely to find the bird than his brothers.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وإن أصابته مصيبة فلن يعرف كيف يعين نفسه.",
+    "front": "And if any misfortune were to happen to him he would not know how to help himself.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فذكاؤه ليس من الأفضل.",
+    "front": "His wits are none of the best.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن في النهاية إذ لم يجد راحة من إلحاحه.",
+    "front": "But at last as there was no peace to be had.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "سمح له بالذهاب.",
+    "front": "He let him go.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "كان الثعلب جالساً على حافة الغابة.",
+    "front": "By the side of the wood sat the fox.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فتوسل إليه أن يبقيه على قيد الحياة.",
+    "front": "Begged him to spare his life.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وأعطاه نصيحة حكيمة.",
+    "front": "And gave him good counsel.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "كان الشاب طيب القلب.",
+    "front": "The young man was kind.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فقال: اهدأ أيها الثعلب الصغير.",
+    "front": "And said be easy little fox.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لن أوذيك.",
+    "front": "I will do you no harm.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "أجاب الثعلب: لن تندم على ذلك.",
+    "front": "You shall not repent of it answered the fox.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ولكي تصل إلى هناك بأسرع وقت.",
+    "front": "And that you may get there all the sooner.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "قم واجلس على ذيلي.",
+    "front": "Get up and sit on my tail.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وما إن فعل ذلك.",
+    "front": "And no sooner had he done so.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حتى بدأ الثعلب بالركض.",
+    "front": "Than the fox began to run.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وانطلقا فوق الحجارة والأشجار.",
+    "front": "And off they went over stock and stone.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حتى صفرت الريح في شعريهما.",
+    "front": "So that the wind whistled in their hair.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وعندما وصلا إلى القرية نزل الشاب.",
+    "front": "When they reached the village the young man got down.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "واتبعاً لنصيحة الثعلب.",
+    "front": "And following the fox's advice.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "دخل النزل البائس المنظر دون تردد.",
+    "front": "Went into the mean-looking tavern without hesitating.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وقضى فيه ليلة هادئة.",
+    "front": "And there he passed a quiet night.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وفي الصباح التالي عندما خرج إلى الحقل.",
+    "front": "The next morning when he went out into the field.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "قال الثعلب الذي كان جالساً هناك بالفعل.",
+    "front": "The fox who was sitting there already said.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "سأخبرك أيضاً ما الذي ينبغي أن تفعله.",
+    "front": "I will tell you further what you have to do.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "امضِ قدماً حتى تصل إلى قلعة.",
+    "front": "Go straight on until you come to a castle.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "أمامها مجموعة كبيرة من الجنود.",
+    "front": "Before which a great band of soldiers lie.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن لا تقلق بشأنهم.",
+    "front": "But do not trouble yourself about them.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فكلهم نائمون ويشخرون.",
+    "front": "For they will be all asleep and snoring.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "تجاوزهم وتقدم إلى القلعة.",
+    "front": "Pass through them and forward into the castle.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ومر عبر جميع الغرف.",
+    "front": "And go through all the rooms.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حتى تصل إلى غرفة فيها طائر ذهبي.",
+    "front": "Until you come to one where there is a golden bird.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "الطائر معلق في قفص خشبي.",
+    "front": "Hanging in a wooden cage.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وسيكون بالقرب منك قفص ذهبي فاخر فارغ.",
+    "front": "Near at hand will stand empty a golden cage of state.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن احذر من إخراج الطائر من قفصه البشع.",
+    "front": "But you must beware of taking the bird out of his ugly cage.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وضعه في القفص الجميل.",
+    "front": "And putting him into the fine one.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فإن فعلت ذلك ستصاب بمكروه.",
+    "front": "If you do so you will come to harm.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وبعد أن انتهى من قول هذا مد الثعلب ذيله مرة أخرى.",
+    "front": "After he had finished saying this the fox stretched out his tail again.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وجلس عليه ابن الملك.",
+    "front": "And the king's son sat him down upon it.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ثم انطلقا فوق الحجارة والأشجار.",
+    "front": "Then away they went over stock and stone.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حتى صفرت الريح في شعريهما.",
+    "front": "So that the wind whistled through their hair.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وعندما وصل ابن الملك إلى القلعة.",
+    "front": "And when the king's son reached the castle.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وجد كل شيء كما قال الثعلب.",
+    "front": "He found everything as the fox had said.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فدخل أخيراً الغرفة.",
+    "front": "And he at last entered the room.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حيث كان الطائر الذهبي معلقاً في قفص خشبي.",
+    "front": "Where the golden bird was hanging in a wooden cage.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وإلى جانبه قفص ذهبي.",
+    "front": "While a golden one was standing by.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وكانت التفاحات الذهبية الثلاث أيضاً في الغرفة.",
+    "front": "The three golden apples too were in the room.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ثم إذ رأى من الحماقة أن يترك الطائر الجميل في ذلك القفص الحقير البشع.",
+    "front": "Then thinking it foolish to let the beautiful bird stay in that mean and ugly cage.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فتح بابه.",
+    "front": "He opened the door of it.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وأمسك بالطائر.",
+    "front": "Took hold of it.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وضعه في القفص الذهبي.",
+    "front": "And put it in the golden one.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وفي تلك اللحظة بالذات أطلق الطائر صرخة حادة.",
+    "front": "In the same moment the bird uttered a piercing cry.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "استيقظ الجنود.",
+    "front": "The soldiers awaked.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "واندفعوا إلى الداخل.",
+    "front": "Rushed in.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وأمسكوا بابن الملك.",
+    "front": "Seized the king's son.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وسجنوه.",
+    "front": "And put him in prison.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وفي الصباح التالي مُثِّل أمام قاضٍ.",
+    "front": "The next morning he was brought before a judge.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وبما أنه اعترف بكل شيء.",
+    "front": "And as he confessed everything.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حُكم عليه بالإعدام.",
+    "front": "Condemned to death.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن الملك قال إنه سيعفو عنه بشرط واحد.",
+    "front": "But the king said he would spare his life on one condition.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وهو أن يحضر له الحصان الذهبي.",
+    "front": "That he should bring him the golden horse.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "الذي خطوه أسرع من الريح.",
+    "front": "Whose paces were swifter than the wind.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وعندها سيحصل أيضاً على الطائر الذهبي كمكافأة.",
+    "front": "And that then he should also receive the golden bird as a reward.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فانطلق ابن الملك للعثور على الحصان الذهبي.",
+    "front": "So the king's son set off to find the golden horse.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكنه تنهد وكان حزيناً جداً.",
+    "front": "But he sighed and was very sad.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فكيف يمكن تحقيق ذلك؟",
+    "front": "For how should it be accomplished?",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ثم رأى صديقه القديم الثعلب جالساً على جانب الطريق.",
+    "front": "And then he saw his old friend the fox sitting by the roadside.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "قال الثعلب: أرأيت؟",
+    "front": "Now you see said the fox.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "كل هذا حدث لأنك لم تسمع كلامي.",
+    "front": "All this has happened because you would not listen to me.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن تشجع فسأنقذك.",
+    "front": "But be of good courage I will bring you through.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وسأخبرك كيف تحصل على الحصان الذهبي.",
+    "front": "And will tell you how you are to get the golden horse.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "عليك أن تمضي قدماً حتى تصل إلى قلعة.",
+    "front": "You must go straight on until you come to a castle.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حيث يقف الحصان في إسطبله.",
+    "front": "Where the horse stands in his stable.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "أمام باب الإسطبل سيكون الفرسان نائمين.",
+    "front": "Before the stable-door the grooms will be lying.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وكلهم يشخرون.",
+    "front": "But they will all be asleep and snoring.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ويمكنك أن تذهب وتقود الحصان بهدوء.",
+    "front": "And you can go and quietly lead out the horse.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن احرص على شيء واحد.",
+    "front": "But one thing you must mind.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "انتبه أن تضع عليه السرج العادي من الخشب والجلد.",
+    "front": "Take care to put upon him the plain saddle of wood and leather.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وليس السرج الذهبي المعلق بالقرب منه.",
+    "front": "And not the golden one which will hang close by.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وإلا ستسوء أحوالك.",
+    "front": "Otherwise it will go badly with you.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ثم مد الثعلب ذيله.",
+    "front": "Then the fox stretched out his tail.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وجلس عليه ابن الملك.",
+    "front": "And the king's son seated himself upon it.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وانطلقا فوق الحجارة والأشجار.",
+    "front": "And away they went over stock and stone.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حتى صفرت الريح في شعريهما.",
+    "front": "Until the wind whistled through their hair.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وحدث كل شيء كما قال الثعلب.",
+    "front": "And everything happened just as the fox had said.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ووصل إلى المذود حيث كان الحصان الذهبي.",
+    "front": "And he came to the stall where the golden horse was.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وبينما كان على وشك أن يضع عليه السرج العادي.",
+    "front": "And as he was about to put on him the plain saddle.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فكر في نفسه: مثل هذا الحيوان الجميل سيكون مشيناً.",
+    "front": "He thought to himself such a beautiful animal would be disgraced.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "إن لم أضع عليه السرج الجيد الذي يليق به.",
+    "front": "Were I not to put on him the good saddle which becomes him so well.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "غير أنه ما إن شعر الحصان بلمس السرج الذهبي له.",
+    "front": "However no sooner did the horse feel the golden saddle touch him.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حتى بدأ يصهل.",
+    "front": "Than he began to neigh.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فاستيقظ الفرسان جميعاً.",
+    "front": "And the grooms all awoke.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وأمسكوا بابن الملك.",
+    "front": "Seized the king's son.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وألقوه في السجن.",
+    "front": "And threw him into prison.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وفي الصباح التالي سلم إلى العدالة.",
+    "front": "The next morning he was delivered up to justice.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وحكم عليه بالإعدام.",
+    "front": "And condemned to death.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن الملك وعد بأن يمنحه الحياة.",
+    "front": "But the king promised him his life.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وأن يهبه الحصان الذهبي أيضاً.",
+    "front": "And also to bestow upon him the golden horse.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "إذا استطاع أن ينقل إليه الأميرة الجميلة من القلعة الذهبية.",
+    "front": "If he could convey thither the beautiful princess of the golden castle.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "انطلق ابن الملك بقلب مثقل.",
+    "front": "With a heavy heart the king's son set out.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن بحظ سعيد سرعان ما التقى بالثعلب الأمين.",
+    "front": "But by great good luck he soon met with the faithful fox.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "قال الثعلب: كان ينبغي الآن أن أتركك لسوء حظك.",
+    "front": "I ought now to leave you to your own ill-luck said the fox.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكني آسف لك.",
+    "front": "But I am sorry for you.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وسأساعدك مرة أخرى في محنتك.",
+    "front": "And will once more help you in your need.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "طريقك يؤدي مباشرة إلى القلعة الذهبية.",
+    "front": "Your way lies straight up to the golden castle.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ستصل هناك في المساء.",
+    "front": "You will arrive there in the evening.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وفي الليل عندما يهدأ كل شيء.",
+    "front": "And at night when all is quiet.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "تذهب الأميرة الجميلة إلى الحمام.",
+    "front": "The beautiful princess goes to the bath.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وعندما تدخل بيت الاستحمام اقترب منها وقبّلها.",
+    "front": "And as she is entering the bathing-house go up to her and give her a kiss.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فتتبعك وتستطيع أن تقودها بعيداً.",
+    "front": "Then she will follow you and you can lead her away.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن لا تدعها تذهب أولاً لتودع والديها.",
+    "front": "But do not suffer her first to go and take leave of her parents.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وإلا ستسوء أحوالك.",
+    "front": "Or it will go ill with you.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ثم مد الثعلب ذيله.",
+    "front": "Then the fox stretched out his tail.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وجلس عليه ابن الملك.",
+    "front": "The king's son seated himself upon it.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وانطلقا فوق الحجارة والأشجار.",
+    "front": "And away they went over stock and stone.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حتى صفرت الريح في شعريهما.",
+    "front": "So that the wind whistled through their hair.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وعندما وصل إلى القلعة الذهبية.",
+    "front": "And when he came to the golden castle.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "كان كل شيء كما قال الثعلب.",
+    "front": "All was as the fox had said.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "انتظر حتى منتصف الليل.",
+    "front": "He waited until midnight.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حين كان الجميع نائمين في سبات عميق.",
+    "front": "When all lay in deep sleep.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ثم بينما كانت الأميرة الجميلة تتجه إلى بيت الاستحمام.",
+    "front": "And then as the beautiful princess went to the bathing-house.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "اقترب منها وقبلها.",
+    "front": "He went up to her and gave her a kiss.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فوعدته طوعاً بالذهاب معه.",
+    "front": "And she willingly promised to go with him.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكنها توسلت إليه بإلحاح ودموع.",
+    "front": "But she begged him earnestly and with tears.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "أن يسمح لها أولاً بالذهاب لتودع والديها.",
+    "front": "That he would let her first go and take leave of her parents.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "في البداية رفض طلبها.",
+    "front": "At first he denied her prayer.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكنها إذ زادت في البكاء وسقطت عند قدميه.",
+    "front": "But as she wept so much the more and fell at his feet.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "استسلم أخيراً.",
+    "front": "He gave in at last.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وما إن وصلت الأميرة إلى سرير والدها.",
+    "front": "And no sooner had the princess reached her father's bedside.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حتى استيقظ هو وكل من في القلعة.",
+    "front": "Than he and all who were in the castle waked up.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وأمسكوا بالشاب.",
+    "front": "And the young man was seized.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وألقوه في السجن.",
+    "front": "And thrown into prison.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وفي الصباح التالي قال له الملك.",
+    "front": "The next morning the king said to him.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حياتك مهددة.",
+    "front": "Thy life is forfeit.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكنك ستنال رحمة إن استطعت تسوية ذلك الجبل.",
+    "front": "But thou shalt find grace if thou canst level that mountain.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "الذي أمام نوافذي.",
+    "front": "That lies before my windows.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "والذي لا أستطيع الرؤية من ورائه.",
+    "front": "And over which I am not able to see.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وإن أنجزت ذلك في غضون ثمانية أيام.",
+    "front": "And if this is done within eight days.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فستنال ابنتي مكافأة.",
+    "front": "Thou shalt have my daughter for a reward.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فشرع ابن الملك في العمل.",
+    "front": "So the king's son set to work.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وحفر وجرف دون توقف.",
+    "front": "And dug and shovelled away without ceasing.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن عندما رأى في اليوم السابع كم كان إنجازه ضئيلاً.",
+    "front": "But when on the seventh day he saw how little he had accomplished.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وأن كل عمله لا شيء.",
+    "front": "And that all his work was as nothing.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "استولى عليه حزن شديد.",
+    "front": "He fell into great sadness.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وفقد كل أمل.",
+    "front": "And gave up all hope.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن في مساء اليوم السابع ظهر الثعلب.",
+    "front": "But on the evening of the seventh day the fox appeared.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وقال: أنت لا تستحق أن أساعدك.",
+    "front": "And said you do not deserve that I should help you.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن اذهب الآن وارقد للنوم.",
+    "front": "But go now and lie down to sleep.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وسأنجز العمل عنك.",
+    "front": "And I will do the work for you.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وفي الصباح التالي عندما استيقظ.",
+    "front": "The next morning when he awoke.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ونظر من النافذة.",
+    "front": "And looked out of the window.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "كان الجبل قد اختفى.",
+    "front": "The mountain had disappeared.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "أسرع الشاب فرحاً إلى الملك.",
+    "front": "The young man hastened full of joy to the king.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وأخبره أن أمره قد نُفذ.",
+    "front": "And told him that his behest was fulfilled.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وسواء أعجب الملك أم لا.",
+    "front": "And whether the king liked it or not.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "كان عليه أن يفي بوعده.",
+    "front": "He had to keep to his word.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ويترك ابنته تذهب.",
+    "front": "And let his daughter go.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فانطلقا معاً.",
+    "front": "So they both went away together.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ولم يمض وقت طويل.",
+    "front": "And it was not long.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حتى لحق بهما الثعلب الأمين.",
+    "front": "Before the faithful fox came up to them.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "قال: حسناً لقد حصلت على الأفضل أولاً.",
+    "front": "Well you have got the best first said he.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن اعلم أن الحصان الذهبي ملك للأميرة من القلعة الذهبية.",
+    "front": "But you must know the golden horse belongs to the princess of the golden castle.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "سأل الشاب: لكن كيف سأحصل عليه؟",
+    "front": "But how shall I get it asked the young man.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "أجاب الثعلب: سأخبرك.",
+    "front": "I am going to tell you answered the fox.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "أولاً اذهب إلى الملك الذي أرسلك إلى القلعة الذهبية.",
+    "front": "First go to the king who sent you to the golden castle.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وخذ إليه الأميرة الجميلة.",
+    "front": "And take to him the beautiful princess.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "سيكون هناك فرح عظيم.",
+    "front": "There will then be very great rejoicing.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وسيعطيك عن طيب خاطر الحصان الذهبي.",
+    "front": "He will willingly give you the golden horse.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وسيُقاد إليك.",
+    "front": "And they will lead him out to you.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "عندها امتطِه دون تأخير.",
+    "front": "Then mount him without delay.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ومد يدك إلى كل منهم للوداع.",
+    "front": "And stretch out your hand to each of them to take leave.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وأخيراً إلى الأميرة.",
+    "front": "And last of all to the princess.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وعندما تمسك بيدها ارفعها خلفك على الحصان.",
+    "front": "And when you have her by the hand swing her up on the horse behind you.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وانطلق.",
+    "front": "And off you go.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لن يستطيع أحد اللحاق بك.",
+    "front": "Nobody will be able to overtake you.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فهذا الحصان أسرع من الريح.",
+    "front": "For that horse goes swifter than the wind.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وهكذا تم كل شيء بسعادة.",
+    "front": "And so it was all happily done.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "واقتاد ابن الملك الأميرة الجميلة على الحصان الذهبي.",
+    "front": "And the king's son carried off the beautiful princess on the golden horse.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لم يتخلف الثعلب.",
+    "front": "The fox did not stay behind.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وقال للشاب: الآن سأساعدك في الحصول على الطائر الذهبي.",
+    "front": "And he said to the young man now I will help you to get the golden bird.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "عندما تقترب من القلعة حيث الطائر.",
+    "front": "When you draw near the castle where the bird is.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "أنزل السيدة من الحصان.",
+    "front": "Let the lady alight.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وسأتولى رعايتها.",
+    "front": "And I will take her under my care.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ثم اركب الحصان الذهبي إلى ساحة القلعة.",
+    "front": "Then you must ride the golden horse into the castle-yard.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وسيكون هناك فرح عظيم برؤيته.",
+    "front": "And there will be great rejoicing to see it.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وسيخرجون إليك الطائر الذهبي.",
+    "front": "And they will bring out to you the golden bird.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وما إن تمسك القفص بيدك.",
+    "front": "As soon as you have the cage in your hand.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حتى تنطلق عائداً إلينا.",
+    "front": "You must start off front to us.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ثم تحمل السيدة معك.",
+    "front": "And then you shall carry the lady away.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "نُفذت الخطة بنجاح.",
+    "front": "The plan was successfully carried out.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وعندما عاد الشاب بالكنز.",
+    "front": "And when the young man returned with the treasure.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "قال الثعلب: والآن ماذا ستعطيني كمكافأة؟",
+    "front": "The fox said now what will you give me for my reward.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "سأل الشاب: ماذا تريد؟",
+    "front": "What would you like asked the young man.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "عندما نمر عبر الغابة.",
+    "front": "When we are passing through the wood.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "أريد أن تقتلني.",
+    "front": "I desire that you should slay me.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وتقطع رأسي وقدماي.",
+    "front": "And cut my head and feet off.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "قال ابن الملك: هذه علامة غريبة على الامتنان.",
+    "front": "That were a strange sign of gratitude said the king's son.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ولا يمكنني أن أفعل مثل هذا الأمر.",
+    "front": "And I could not possibly do such a thing.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فقال الثعلب: إن لم تفعل فلا بد أن أتركك.",
+    "front": "Then said the fox if you will not do it I must leave you.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن قبل أن أرحل دعني أعطيك بعض النصائح الحكيمة.",
+    "front": "But before I go let me give you some good advice.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "احذر من أمرين.",
+    "front": "Beware of two things.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لا تشترِ لحم المشانق.",
+    "front": "Buy no gallows-meat.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ولا تجلس بجانب جدول.",
+    "front": "And sit at no brook-side.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وبعد ذلك ركض الثعلب إلى الغابة.",
+    "front": "With that the fox ran off into the wood.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فكر الشاب في نفسه: هذا مخلوق عجيب.",
+    "front": "The young man thought to himself that is a wonderful animal.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "له أفكار غريبة جداً.",
+    "front": "With most singular ideas.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "كيف يمكن لأحد أن يشتري لحم المشانق؟",
+    "front": "How should any one buy gallows-meat.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وأنا متأكد أن لي رغبة خاصة في الجلوس بجانب جدول.",
+    "front": "And I am sure I have no particular fancy for sitting by a brook-side.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فواصل ركوبه مع الأميرة الجميلة.",
+    "front": "So he rode on with the beautiful princess.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وكان طريقهما يمر عبر القرية التي أقام فيها أخواه.",
+    "front": "And their way led them through the village where his two brothers had stayed.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وهناك سمعا ضجة وصخباً كبيرين.",
+    "front": "There they heard great outcry and noise.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وعندما سأل عما يجري.",
+    "front": "And when he asked what it was all about.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "قيل له إن شخصين على وشك أن يُشنقا.",
+    "front": "They told him that two people were going to be hanged.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وعندما اقترب رأى أنهما أخواه.",
+    "front": "And when he drew near he saw that it was his two brothers.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "اللذان ارتكبا شتى الحيل الشريرة.",
+    "front": "Who had done all sorts of evil tricks.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وأضاعا كل ممتلكاتهما.",
+    "front": "And had wasted all their goods.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فسأل إن كان هناك وسيلة لإطلاق سراحهما.",
+    "front": "He asked if there were no means of setting them free.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "أجاب الناس: نعم إذا اشتريت فداءهما.",
+    "front": "Oh yes if you will buy them off answered the people.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن لماذا تنفق مالك لاستنقاذ رجلين لا قيمة لهما؟",
+    "front": "But why should you spend your money in redeeming such worthless men.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكنه أصر على فعل ذلك.",
+    "front": "But he persisted in doing so.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وعندما أُطلق سراحهما.",
+    "front": "And when they were let go.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "واصلوا جميعاً رحلتهم معاً.",
+    "front": "They all went on their journey together.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "بعد فترة وصلوا إلى الغابة حيث التقى بهم الثعلب أول مرة.",
+    "front": "After a while they came to the wood where the fox had met them first.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وبدا المكان بارداً ومحمياً من أشعة الشمس الحارقة.",
+    "front": "And there it seemed so cool and sheltered from the sun's burning rays.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فقال الأخوان: دعنا نستريح هنا قليلاً بجانب الجدول.",
+    "front": "The two brothers said let us rest here for a little by the brook.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ونأكل ونشرب لنستعيد نشاطنا.",
+    "front": "And eat and drink to refresh ourselves.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وافق الشاب ناسياً تماماً تحذير الثعلب.",
+    "front": "The young man consented quite forgetting the fox's warning.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وجلس بجانب الجدول دون أن يشتبه في أي شر.",
+    "front": "And he seated himself by the brook-side suspecting no evil.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن الأخوين دفعاه إلى الخلف في الجدول.",
+    "front": "But the two brothers thrust him frontwards into the brook.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "واستوليا على الأميرة والحصان والطائر.",
+    "front": "Seized the princess the horse and the bird.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وعادا إلى والدهما.",
+    "front": "And went home to their father.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "قالا: أليس هذا هو الطائر الذهبي الذي أحضرناه؟",
+    "front": "Is not this the golden bird that we bring said they.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ولدينا أيضاً الحصان الذهبي وأميرة القلعة الذهبية.",
+    "front": "And we have also the golden horse and the princess of the golden castle.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حينئذ كان هناك فرح عظيم في القلعة الملكية.",
+    "front": "Then there was great rejoicing in the royal castle.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن الحصان لم يأكل.",
+    "front": "But the horse did not feed.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "والطائر لم يغرد.",
+    "front": "The bird did not chirp.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "والأميرة جلست ساكنة تبكي.",
+    "front": "And the princess sat still and wept.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن الأخ الأصغر لم يهلك.",
+    "front": "The youngest brother however had not perished.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "كان الجدول بحسن الحظ جافاً.",
+    "front": "The brook was by good fortune dry.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فسقط على طحلب ناعم دون أن يصاب بأذى.",
+    "front": "And he fell on soft moss without receiving any hurt.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكنه لم يستطع النهوض مجدداً.",
+    "front": "But he could not get up again.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن في محنته لم يتخلف الثعلب الأمين.",
+    "front": "But in his need the faithful fox was not lacking.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فأقبل مسرعاً.",
+    "front": "He came up running.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وبوخه على نسيانه نصيحته.",
+    "front": "And reproached him for having forgotten his advice.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "قال: لكنني لا أستطيع التخلي عنك رغم ذلك.",
+    "front": "But I cannot forsake you all the same said he.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "سأساعدك على العودة إلى النور.",
+    "front": "I will help you front again into daylight.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فأمر الشاب أن يمسك بذيله.",
+    "front": "So he told the young man to grasp his tail.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ويثبت عليه بقوة.",
+    "front": "And hold on to it fast.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وهكذا سحبه إلى أعلى مجدداً.",
+    "front": "And so he drew him up again.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "قال الثعلب: ما زلت لم تخرج تماماً من الخطر.",
+    "front": "Still you are not quite out of all danger said the fox.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فإخوانك إذ لم يتأكدوا من موتك.",
+    "front": "Your brothers not being certain of your death.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "أحاطوا الغابة بحراس.",
+    "front": "Have surrounded the wood with sentinels.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ليقتلوك إن ظهرت.",
+    "front": "Who are to put you to death if you let yourself be seen.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "كان رجل متسول فقير جالساً على الطريق.",
+    "front": "A poor beggar-man was sitting by the path.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فتبادل الشاب الملابس معه.",
+    "front": "And the young man changed clothes with him.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ودخل على هذا النحو إلى ساحة الملك.",
+    "front": "And went clad in that wise into the king's courtyard.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لم يعرفه أحد.",
+    "front": "Nobody knew him.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن الطائر بدأ يغرد.",
+    "front": "But the bird began to chirp.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "والحصان بدأ يأكل.",
+    "front": "And the horse began to feed.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "والأميرة الجميلة توقفت عن البكاء.",
+    "front": "And the beautiful princess ceased weeping.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "قال الملك مندهشاً: ماذا يعني هذا؟",
+    "front": "What does this mean said the king astonished.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "أجابت الأميرة: لا أدري.",
+    "front": "I cannot tell answered the princess.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "غير أنني كنت حزينة والآن أنا فرحة.",
+    "front": "Except that I was sad and now I am joyful.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "يبدو لي وكأن عريس الشرعي قد عاد.",
+    "front": "It is to me as if my rightful bridegroom had returned.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ثم أخبرته بكل ما حدث.",
+    "front": "Then she told him all that happened.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "رغم أن الأخوين هدداها بالقتل إن أفشت شيئاً.",
+    "front": "Although the two brothers had threatened to put her to death if she let out anything.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ثم أمر الملك بإحضار كل شخص في القلعة أمامه.",
+    "front": "The king then ordered every person who was in the castle to be brought before him.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وجاء معهم الشاب كمتسول بملابسه البائسة.",
+    "front": "And with the rest came the young man like a beggar in his wretched garments.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن الأميرة عرفته.",
+    "front": "But the princess knew him.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ورحبت به بحرارة.",
+    "front": "And greeted him well.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وسقطت على عنقه تقبله.",
+    "front": "Falling on his neck and kissing him.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "أُمسك بالأخوين الشريرين.",
+    "front": "The wicked brothers were seized.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وأُعدما.",
+    "front": "And put to death.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وتزوج الأخ الأصغر من الأميرة.",
+    "front": "And the youngest brother was married to the princess.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ورث ملك أبيه.",
+    "front": "And succeeded to the inheritance of his father.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن ماذا حدث للثعلب المسكين؟",
+    "front": "But what became of the poor fox.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وبعد وقت طويل كان ابن الملك يعبر الغابة.",
+    "front": "Long afterwards the king's son was going through the wood.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فقابله الثعلب.",
+    "front": "And the fox met him.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وقال: الآن لديك كل ما تتمناه.",
+    "front": "And said now you have everything that you can wish for.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "لكن محنتي لا تنتهي.",
+    "front": "But my misfortunes never come to an end.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ومن قدرتك أن تحررني منها.",
+    "front": "And it lies in your power to free me from them.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وتوسل مرة أخرى إلى ابن الملك بإلحاح.",
+    "front": "And once more he prayed the king's son earnestly.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "أن يقتله.",
+    "front": "To slay him.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ويقطع رأسه وقدموه.",
+    "front": "And cut off his head and feet.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "فوافق أخيراً.",
+    "front": "So at last he consented.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وما إن فعل ذلك.",
+    "front": "And no sooner was it done.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "حتى تحول الثعلب إلى إنسان.",
+    "front": "Than the fox was changed into a man.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "ولم يكن سوى أخو الأميرة الجميلة.",
+    "front": "And was no other than the brother of the beautiful princess.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "وهكذا تحرر من سحر.",
+    "front": "And thus he was set free from a spell.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "كان قد قيده لزمن طويل.",
+    "front": "That had bound him for a long long time.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  },
+  {
+    "back": "والآن حقاً لم ينقص شيء من سعادتهم طوال حياتهم.",
+    "front": "And now indeed there lacked nothing to their happiness as long as they lived.",
+    "backDir": "rtl",
+    "frontDir": "ltr",
+    "learned": false
+  }
 ]
