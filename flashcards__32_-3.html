@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>بطاقاتي التعليمية</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&family=Amiri:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&family=Amiri:ital@0;1&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
 <style>
   :root{
     --ink:#14202b;
@@ -302,6 +302,39 @@
   .hide-btn:hover{ background:rgba(20,32,43,0.18); }
   .face.back .hide-btn{ color:var(--ink); }
 
+  .font-toggle-btn{
+    position:absolute;
+    top:54px;
+    left:56px;
+    width:32px;
+    height:32px;
+    border-radius:50%;
+    border:none;
+    background:rgba(20,32,43,0.08);
+    color:var(--ink);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    font-size:14px;
+    transition:background .15s ease;
+    z-index:5;
+  }
+  .font-toggle-btn:hover{ background:rgba(20,32,43,0.18); }
+  .face.back .font-toggle-btn{ color:var(--ink); }
+  .font-toggle-btn.active{
+    background:var(--teal);
+    color:#fff;
+  }
+
+  body.handwritten-font .face .txt{
+    font-family:'Mrs Saint Delafield', cursive;
+    font-weight:400;
+    font-size:calc(clamp(26px, 4.2vw, 40px) * var(--font-scale, 1));
+    -webkit-text-stroke:0.6px currentColor;
+    text-stroke:0.6px currentColor;
+  }
+
   body.controls-hidden .card-wrap:not(.is-fullscreen){
     position:fixed;
     inset:0;
@@ -336,12 +369,6 @@
   body.controls-hidden .font-toolbar,
   body.controls-hidden .hint,
   body.controls-hidden .deck-status{
-    display:none !important;
-  }
-
-  body.controls-hidden .edit-btn,
-  body.controls-hidden .speak-btn,
-  body.controls-hidden .expand-btn{
     display:none !important;
   }
 
@@ -687,6 +714,51 @@
   }
   .color-clear-btn:hover{ background:rgba(20,32,43,0.22); }
 
+  .face .card-btn-stack{
+    position:absolute;
+    top:50%;
+    left:6px;
+    transform:translateY(-50%);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:6px;
+    z-index:7;
+  }
+  .face .card-btn-stack > button{
+    position:static !important;
+    top:auto !important; left:auto !important; right:auto !important; bottom:auto !important;
+    width:23px !important;
+    height:23px !important;
+    min-width:23px !important;
+    border-radius:50%;
+    box-shadow:none !important;
+    font-size:10px !important;
+    line-height:1;
+    padding:0 !important;
+    margin:0;
+    opacity:0.62;
+    transition:opacity .15s ease, background .15s ease, transform .15s ease;
+  }
+  .face .card-btn-stack > button:hover{ opacity:1; transform:scale(1.1); }
+  .face .card-btn-stack > button:active{ transform:scale(0.94); }
+  .face .card-btn-stack > .mini-btn{
+    border:none;
+    background:rgba(20,32,43,0.10);
+    color:var(--ink);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    font-weight:800;
+  }
+  .face .card-btn-stack > .mini-btn.active{ background:var(--teal); color:#fff; opacity:1; }
+
+  @media (max-width:480px){
+    .face .card-btn-stack{ left:3px; gap:5px; }
+    .face .card-btn-stack > button{ width:20px !important; height:20px !important; min-width:20px !important; font-size:9px !important; }
+  }
+
   .face .speak-btn{
     position:absolute;
     bottom:16px;
@@ -835,6 +907,57 @@
   }
   .tree-empty-msg{ color:var(--text-soft); font-size:12.5px; text-align:center; padding:16px 8px; }
 
+  .merge-section-title{
+    display:flex; align-items:center; justify-content:space-between; gap:8px;
+    font-size:12.5px; font-weight:700; color:var(--amber);
+    padding:10px 4px 6px; margin-top:4px;
+  }
+  .merge-section-title:first-child{ margin-top:0; }
+  .merge-refresh-mini{
+    border:1px solid var(--line); background:var(--ink); color:var(--parchment);
+    border-radius:8px; font-size:11px; padding:4px 8px; cursor:pointer; font-family:inherit;
+  }
+  .merge-refresh-mini:hover{ border-color:var(--amber); }
+  .merge-checkbox{
+    width:17px; height:17px; flex-shrink:0; accent-color:var(--amber); cursor:pointer;
+  }
+  .tree-panel.merge-panel{ width:min(620px, 100%); }
+  .merge-footer{
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    padding:14px 20px; border-top:1px solid var(--line); flex-wrap:wrap;
+  }
+  .merge-count{ font-size:13px; color:var(--text-soft); }
+  .merge-count b{ color:var(--amber); }
+  .merge-footer-actions{ display:flex; gap:8px; }
+  .btn:disabled{ opacity:0.4; cursor:not-allowed; transform:none !important; }
+
+  .search-toolbar-input{
+    width:100%; padding:11px 14px; border-radius:12px; border:1px solid var(--line);
+    background:var(--ink); color:var(--parchment); font-family:inherit; font-size:15px;
+  }
+  .search-toolbar-input:focus{ outline:none; border-color:var(--amber); }
+  .search-count-line{ font-size:12.5px; color:var(--text-soft); margin-top:8px; min-height:16px; }
+  .search-count-line b{ color:var(--amber); }
+  .search-result-card{
+    border:1px solid var(--line); border-radius:14px; padding:12px 14px; margin-bottom:10px;
+    cursor:pointer; background:rgba(244,236,216,0.03);
+    transition:border-color .15s ease, transform .15s ease, background .15s ease;
+  }
+  .search-result-card:hover{ border-color:var(--amber); transform:translateY(-2px); background:rgba(244,236,216,0.07); }
+  .search-result-head{ display:flex; align-items:center; justify-content:space-between; margin-bottom:8px; }
+  .search-result-num{ font-size:11.5px; color:var(--text-soft); font-weight:700; }
+  .search-result-learned-tag{
+    font-size:10px; color:var(--teal); border:1px solid var(--teal); border-radius:8px; padding:2px 8px; font-weight:700;
+  }
+  .search-result-face{ font-size:14.5px; line-height:1.7; }
+  .search-result-label{ display:block; font-size:11px; color:var(--text-soft); font-weight:800; margin-bottom:3px; }
+  .search-result-lines > div{ margin:1px 0; }
+  .search-result-divider{ height:1px; background:var(--line); margin:9px 0; }
+  .search-highlight{
+    background:linear-gradient(135deg, var(--amber), var(--amber-dark));
+    color:#241505; padding:1px 5px; border-radius:5px; font-weight:800;
+  }
+
   .tree-form-overlay{
     position:fixed; inset:0; background:rgba(10,16,22,0.72);
     display:none; align-items:center; justify-content:center; z-index:2100; padding:20px;
@@ -877,7 +1000,11 @@
     <button class="btn" id="resetBtn">🗑 مسح الكل</button>
     <button class="btn ghost" id="sampleBtn">🧪 تحميل نموذج</button>
     <button class="btn" id="dbTreeBtn">🗂 قواعد البيانات</button>
+    <button class="btn" id="externalTreeBtn">🌐 قاعدة خارجية</button>
+    <button class="btn" id="githubTreeBtn">🐙 مجلد GitHub</button>
+    <button class="btn" id="mergedTreeBtn">🗃 شجرة موحّدة (دمج)</button>
   </div>
+
 
   <div class="tree-overlay" id="treeOverlay">
     <div class="tree-panel">
@@ -905,6 +1032,92 @@
         <button class="btn ghost" id="treeFormCancelBtn">إلغاء</button>
         <button class="btn primary" id="treeFormSaveBtn">حفظ</button>
       </div>
+    </div>
+  </div>
+
+  <div class="tree-overlay" id="externalTreeOverlay">
+    <div class="tree-panel">
+      <div class="tree-panel-header">
+        <h2>🌐 قاعدة البيانات الخارجية (للقراءة فقط)</h2>
+        <button class="tree-close-btn" id="externalTreeCloseBtn" title="إغلاق">✕</button>
+      </div>
+      <div class="tree-toolbar">
+        <button class="btn ghost" id="externalTreeSetUrlBtn">🔗 رابط الفهرس</button>
+        <button class="btn ghost" id="externalTreeRefreshBtn">🔄 تحديث</button>
+      </div>
+      <div class="tree-body" id="externalTreeBody"></div>
+    </div>
+  </div>
+
+  <div class="tree-form-overlay" id="externalUrlFormOverlay">
+    <div class="tree-form">
+      <h3>رابط ملف فهرس القاعدة الخارجية (JSON)</h3>
+      <label for="externalUrlInput">الرابط</label>
+      <input type="text" id="externalUrlInput" placeholder="https://raw.githubusercontent.com/user/repo/main/index.json">
+      <div class="tree-form-actions">
+        <button class="btn ghost" id="externalUrlCancelBtn">إلغاء</button>
+        <button class="btn primary" id="externalUrlSaveBtn">حفظ وتحميل</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="tree-overlay" id="githubTreeOverlay">
+    <div class="tree-panel">
+      <div class="tree-panel-header">
+        <h2>🐙 مجلد GitHub (جلب تلقائي لكل ملفات JSON)</h2>
+        <button class="tree-close-btn" id="githubTreeCloseBtn" title="إغلاق">✕</button>
+      </div>
+      <div class="tree-toolbar">
+        <button class="btn ghost" id="githubTreeSetUrlBtn">🔗 رابط المستودع</button>
+        <button class="btn ghost" id="githubTreeRefreshBtn">🔄 تحديث</button>
+      </div>
+      <div class="tree-body" id="githubTreeBody"></div>
+    </div>
+  </div>
+
+  <div class="tree-form-overlay" id="githubUrlFormOverlay">
+    <div class="tree-form">
+      <h3>رابط مستودع GitHub</h3>
+      <label for="githubUrlInput">الرابط (يقبل جميع هذه الأشكال)</label>
+      <input type="text" id="githubUrlInput" placeholder="https://cdn.jsdelivr.net/gh/user/repo@main">
+      <div class="tree-form-actions">
+        <button class="btn ghost" id="githubUrlCancelBtn">إلغاء</button>
+        <button class="btn primary" id="githubUrlSaveBtn">حفظ وتحميل</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="tree-overlay" id="mergedTreeOverlay">
+    <div class="tree-panel merge-panel">
+      <div class="tree-panel-header">
+        <h2>🗃 شجرة موحّدة — دمج عدّة قواعد</h2>
+        <button class="tree-close-btn" id="mergedTreeCloseBtn" title="إغلاق">✕</button>
+      </div>
+      <div class="tree-toolbar">
+        حدّد أكثر من قاعدة بيانات (داخلية و/أو خارجية) بالمربعات، ثم اضغط "دمج المحدد" لقراءتها كقاعدة واحدة.
+      </div>
+      <div class="tree-body" id="mergedTreeBody"></div>
+      <div class="merge-footer">
+        <div class="merge-count" id="mergedCount">لا يوجد تحديد</div>
+        <div class="merge-footer-actions">
+          <button class="btn ghost small-btn" id="mergedClearBtn">مسح التحديد</button>
+          <button class="btn primary" id="mergedMergeBtn" disabled>🔗 دمج المحدد</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tree-overlay" id="searchOverlay">
+    <div class="tree-panel merge-panel">
+      <div class="tree-panel-header">
+        <h2>🔍 بحث عن كلمة في البطاقات</h2>
+        <button class="tree-close-btn" id="searchCloseBtn" title="إغلاق">✕</button>
+      </div>
+      <div class="tree-toolbar">
+        <input type="text" class="search-toolbar-input" id="searchWordInput" placeholder="اكتب كلمة أو جزءًا منها...">
+        <div class="search-count-line" id="searchCountLine"></div>
+      </div>
+      <div class="tree-body" id="searchResultsBody"></div>
     </div>
   </div>
 
@@ -978,20 +1191,36 @@
         <div class="face front">
           <span class="tag">سؤال</span>
           <div class="txt" id="frontTxt" contenteditable="false">لا توجد بطاقات بعد</div>
-          <button class="edit-btn" id="editFrontBtn" title="تعديل النص">✏️</button>
           <div class="color-toolbar" id="frontColorToolbar"></div>
-          <button class="speak-btn" id="speakFrontBtn" title="استمع">🔊</button>
-          <button class="expand-btn" id="expandBtn1" title="تكبير">⛶</button>
-          <button class="hide-btn" id="hideBtnFront" title="إخفاء كل الأزرار">🙈</button>
+          <div class="card-btn-stack">
+            <button class="edit-btn" id="editFrontBtn" title="تعديل النص">✏️</button>
+            <button class="hide-btn" id="hideBtnFront" title="إخفاء الأشرطة العلوية وتكبير البطاقة">🙈</button>
+            <button class="font-toggle-btn" id="fontToggleFront" title="تبديل إلى الخط اليدوي المتصل (Alt)">✒️</button>
+            <button class="mini-btn" id="miniFontIncFront" title="تكبير الخط">A+</button>
+            <button class="mini-btn" id="miniFontDecFront" title="تصغير الخط">A-</button>
+            <button class="mini-btn" id="miniShuffleFront" title="خلط البطاقات">🔀</button>
+            <button class="mini-btn" id="miniAutoSpeakFront" title="قراءة صوتية تلقائية عند ظهور هذا الوجه">🔊</button>
+            <button class="mini-btn" id="miniSearchFront" title="بحث عن كلمة في البطاقات">🔍</button>
+            <button class="speak-btn" id="speakFrontBtn" title="استمع">🔊</button>
+            <button class="expand-btn" id="expandBtn1" title="تكبير">⛶</button>
+          </div>
         </div>
         <div class="face back">
           <span class="tag">جواب</span>
           <div class="txt" id="backTxt" contenteditable="false">استورد ملفك من الأعلى</div>
-          <button class="edit-btn" id="editBackBtn" title="تعديل النص">✏️</button>
           <div class="color-toolbar" id="backColorToolbar"></div>
-          <button class="speak-btn" id="speakBackBtn" title="استمع">🔊</button>
-          <button class="expand-btn" id="expandBtn2" title="تكبير">⛶</button>
-          <button class="hide-btn" id="hideBtnBack" title="إخفاء كل الأزرار">🙈</button>
+          <div class="card-btn-stack">
+            <button class="edit-btn" id="editBackBtn" title="تعديل النص">✏️</button>
+            <button class="hide-btn" id="hideBtnBack" title="إخفاء الأشرطة العلوية وتكبير البطاقة">🙈</button>
+            <button class="font-toggle-btn" id="fontToggleBack" title="تبديل إلى الخط اليدوي المتصل (Alt)">✒️</button>
+            <button class="mini-btn" id="miniFontIncBack" title="تكبير الخط">A+</button>
+            <button class="mini-btn" id="miniFontDecBack" title="تصغير الخط">A-</button>
+            <button class="mini-btn" id="miniShuffleBack" title="خلط البطاقات">🔀</button>
+            <button class="mini-btn" id="miniAutoSpeakBack" title="قراءة صوتية تلقائية عند ظهور هذا الوجه">🔊</button>
+            <button class="mini-btn" id="miniSearchBack" title="بحث عن كلمة في البطاقات">🔍</button>
+            <button class="speak-btn" id="speakBackBtn" title="استمع">🔊</button>
+            <button class="expand-btn" id="expandBtn2" title="تكبير">⛶</button>
+          </div>
         </div>
       </div>
     </div>
@@ -999,12 +1228,81 @@
     <div class="hint">
       اضغط على البطاقة لقلبها، أو اسحبها بإصبعك يمينًا للبطاقة السابقة ويسارًا للبطاقة التالية. زر ⛶ لتكبيرها بحجم الشاشة، وزر 🔊 لقراءة النص صوتيًا.<br>
       زر "⏱" يشغّل وضع الاختبار الزمني: تُمنح المدة المختارة (5-30 ثانية) للإجابة قبل أن تنقلب البطاقة تلقائيًا لتُظهر الجواب، ثم تنتقل تلقائيًا للبطاقة التالية بعد 3 ثوانٍ. يمكنك أيضًا قلب البطاقة يدويًا في أي لحظة لتخطي الانتظار.<br>
-      صيغ الاستيراد المدعومة: CSV (سؤال,جواب في كل سطر) أو JSON (مصفوفة من {"front":"...","back":"...","frontDir":"rtl|ltr","backDir":"rtl|ltr","frontAlign":"right|left|center","backAlign":"right|left|center"}) أو نص عادي. إذا كان ملف JSON يحتوي عطبًا بسيطًا (فواصل زائدة، أقواس غير مغلقة، علامات اقتباس غير منتظمة...) سيحاول التطبيق إصلاحه تلقائيًا قبل قراءته. زر "ع/A" وزر "≡" يضبطان اتجاه ومحاذاة الوجه الظاهر حاليًا فقط (أمامي أو خلفي) بشكل مستقل، وزر "💾 حفظ نسخة معدّلة" يحفظ كل هذه الإعدادات مع كل بطاقة في ملف جديد. زرا "🔊 س تلقائي" و"🔊 ج تلقائي" يفعّلان القراءة الصوتية التلقائية فور ظهور وجه السؤال أو وجه الجواب على التوالي. زر "🗂 قواعد البيانات" يفتح شجرة تصنيفات قابلة للتوسع (تصنيفات وتصنيفات فرعية بلا حد) تحفظ كل قاعدة بيانات كرابط JSON منفصل؛ يمكنك الإضافة والتعديل والحذف في أي مستوى، والضغط على اسم قاعدة بيانات يجلبها فورًا عبر الرابط ويحوّلها إلى البطاقات الحالية. تُحفظ الشجرة تلقائيًا في متصفحك (localStorage) وتبقى محفوظة حتى بعد إغلاق الحاسوب، طالما تفتح نفس الملف من نفس المتصفح. القراءة الصوتية تتعرف تلقائيًا على لغة النص (عربية أو فرنسية أو إنجليزية) وتختار الصوت المناسب لها. زر "🙈" الموجود على كل وجه من البطاقة (يبقى ظاهرًا حتى في وضع ملء الشاشة) يُخفي كل الأزرار والأشرطة ويكبّر البطاقة لتملأ الشاشة تقريبًا، واضغط عليه مجددًا (🙈➜👁) لإعادة كل شيء لوضعه الطبيعي. عند الضغط على زر "✏️" لتعديل النص، يظهر شريط ألوان صغير أسفله: حدد (ظلّل) الجزء الذي تريده من الجملة بإصبعك أو بالماوس، ثم اضغط على أحد الألوان الجاهزة أو دائرة "اختيار لون مخصص" لتلوين الجزء المحدد فقط، ويمكنك إزالة اللون عن أي تحديد بالضغط على زر "✖". يُحفظ التلوين مع البطاقة تلقائيًا (بما في ذلك عند تصديرها بزر "💾 حفظ نسخة معدّلة").
+      صيغ الاستيراد المدعومة: CSV (سؤال,جواب في كل سطر) أو JSON (مصفوفة من {"front":"...","back":"...","frontDir":"rtl|ltr","backDir":"rtl|ltr","frontAlign":"right|left|center","backAlign":"right|left|center"}) أو نص عادي. إذا كان ملف JSON يحتوي عطبًا بسيطًا (فواصل زائدة، أقواس غير مغلقة، علامات اقتباس غير منتظمة...) سيحاول التطبيق إصلاحه تلقائيًا قبل قراءته. زر "ع/A" وزر "≡" يضبطان اتجاه ومحاذاة الوجه الظاهر حاليًا فقط (أمامي أو خلفي) بشكل مستقل، وزر "💾 حفظ نسخة معدّلة" يحفظ كل هذه الإعدادات مع كل بطاقة في ملف جديد. زرا "🔊 س تلقائي" و"🔊 ج تلقائي" يفعّلان القراءة الصوتية التلقائية فور ظهور وجه السؤال أو وجه الجواب على التوالي. زر "🗂 قواعد البيانات" يفتح شجرة تصنيفات داخلية قابلة للإضافة والتعديل والحذف (تصنيفات وتصنيفات فرعية بلا حد) تحفظ كل قاعدة بيانات كرابط JSON منفصل، وتُخزَّن كاملة في متصفحك (localStorage) فتبقى محفوظة حتى بعد إغلاق الحاسوب. زر "🌐 قاعدة خارجية" يفتح شجرة مستقلة للقراءة فقط: محتواها بالكامل (كل التصنيفات والقواعد) يأتي من ملف فهرس JSON واحد تضعه على GitHub (بنفس بنية العناصر: {"type":"folder","name":"...","children":[...]} أو {"type":"db","name":"...","url":"..."})؛ التطبيق يحفظ فقط رابط ذلك الفهرس عبر زر "🔗 رابط الفهرس"، ولا يمكن إضافة أو تعديل أو حذف أي عنصر منها من داخل البرنامج — أي تعديل يتم فقط بتحرير ملف الفهرس مباشرة على GitHub، ثم الضغط على "🔄 تحديث". في الحالتين، الضغط على اسم أي قاعدة بيانات (📄) يجلبها فورًا ويحوّلها إلى البطاقات الحالية. القراءة الصوتية تتعرف تلقائيًا على لغة النص (عربية أو فرنسية أو إنجليزية) وتختار الصوت المناسب لها. زر "🙈" الموجود على كل وجه من البطاقة (يبقى ظاهرًا حتى في وضع ملء الشاشة) يُخفي كل الأزرار والأشرطة ويكبّر البطاقة لتملأ الشاشة تقريبًا، واضغط عليه مجددًا (🙈➜👁) لإعادة كل شيء لوضعه الطبيعي. عند الضغط على زر "✏️" لتعديل النص، يظهر شريط ألوان صغير أسفله: حدد (ظلّل) الجزء الذي تريده من الجملة بإصبعك أو بالماوس، ثم اضغط على أحد الألوان الجاهزة أو دائرة "اختيار لون مخصص" لتلوين الجزء المحدد فقط، ويمكنك إزالة اللون عن أي تحديد بالضغط على زر "✖". يُحفظ التلوين مع البطاقة تلقائيًا (بما في ذلك عند تصديرها بزر "💾 حفظ نسخة معدّلة").
     </div>
   </div>
 
 <script>
 (function(){
+  // ---- Keep screen awake while the app is open (Wake Lock API, with a
+  // NoSleep-style silent-video fallback for browsers that don't support it) ----
+  let wakeLockSentinel = null;
+  let noSleepVideo = null;
+
+  function createNoSleepFallback(){
+    if(noSleepVideo) return noSleepVideo;
+    const v = document.createElement('video');
+    v.setAttribute('playsinline', '');
+    v.setAttribute('muted', '');
+    v.muted = true;
+    v.loop = true;
+    v.style.position = 'fixed';
+    v.style.width = '1px';
+    v.style.height = '1px';
+    v.style.opacity = '0';
+    v.style.pointerEvents = 'none';
+    // Minimal silent looping video, embedded as a data URI (tiny mp4).
+    v.src = 'data:video/mp4;base64,AAAAHGZ0eXBpc29tAAACAGlzb21pc28yYXZjMQAAAAhmcmVlAAAC/W1kYXQAAAAv';
+    document.body.appendChild(v);
+    noSleepVideo = v;
+    return v;
+  }
+
+  async function requestWakeLock(){
+    try{
+      if('wakeLock' in navigator){
+        wakeLockSentinel = await navigator.wakeLock.request('screen');
+        wakeLockSentinel.addEventListener('release', () => { wakeLockSentinel = null; });
+      } else {
+        const v = createNoSleepFallback();
+        v.play().catch(() => {});
+      }
+    }catch(err){
+      // Wake Lock can fail (e.g. low battery mode) - fall back silently.
+      try{ createNoSleepFallback().play().catch(() => {}); }catch(e2){}
+    }
+  }
+
+  document.addEventListener('visibilitychange', () => {
+    if(document.visibilityState === 'visible') requestWakeLock();
+  });
+  window.addEventListener('focus', requestWakeLock);
+  requestWakeLock();
+
+  // ---- Word-tap-to-search must be "armed" first by pressing a search
+  // button; the armed state auto-reverts to unpressed after 5 seconds ----
+  let wordSearchArmed = false;
+  let wordSearchArmTimeout = null;
+
+  function setSearchButtonsPressedVisual(pressed){
+    [miniSearchFrontBtn, miniSearchBackBtn].forEach(btn => {
+      if(btn) btn.classList.toggle('active', pressed);
+    });
+  }
+
+  function disarmWordSearch(){
+    wordSearchArmed = false;
+    if(wordSearchArmTimeout){ clearTimeout(wordSearchArmTimeout); wordSearchArmTimeout = null; }
+    setSearchButtonsPressedVisual(false);
+  }
+
+  function armWordSearch(){
+    wordSearchArmed = true;
+    setSearchButtonsPressedVisual(true);
+    if(wordSearchArmTimeout) clearTimeout(wordSearchArmTimeout);
+    wordSearchArmTimeout = setTimeout(disarmWordSearch, 5000);
+  }
+
   let cards = [];       // {front, back, learned}
   let order = [];       // indices into cards currently queued for display
   let pos = 0;           // pointer within order
@@ -1037,6 +1335,52 @@
   const cardNumberBadge = document.getElementById('cardNumberBadge');
   const orderBadge = document.getElementById('orderBadge');
   const fileInput = document.getElementById('fileInput');
+
+  // ---- Per-line auto direction: each sentence/line aligns itself according to
+  // its own script — Latin (French/English/...) lines go left, Arabic lines go
+  // right — regardless of the manual per-face direction toggle. This only
+  // affects DISPLAY; the underlying card.front/back HTML stays untouched so
+  // editing and exporting keep working normally. ----
+  function detectLineDir(text){
+    for(const ch of text){
+      if(/[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]/.test(ch)) return 'rtl';
+      if(/[A-Za-z]/.test(ch)) return 'ltr';
+    }
+    return null; // no strong-direction character on this line (digits/punct only)
+  }
+  function autoAlignHTML(html, forcedAlign){
+    if(!html) return html;
+    const align = ['left','right','center'].includes(forcedAlign) ? forcedAlign : 'center';
+    const temp = document.createElement('div');
+    temp.innerHTML = html;
+    // Normalize: unwrap top-level block elements (DIV/P, produced by Enter
+    // while editing) into a flat run of inline content separated by <br>,
+    // so every line — however it was produced — is handled the same way.
+    const norm = document.createElement('div');
+    Array.from(temp.childNodes).forEach((n) => {
+      if(n.nodeType === 1 && /^(DIV|P)$/i.test(n.tagName)){
+        if(norm.childNodes.length > 0) norm.appendChild(document.createElement('br'));
+        Array.from(n.childNodes).forEach(c => norm.appendChild(c.cloneNode(true)));
+      } else {
+        norm.appendChild(n.cloneNode(true));
+      }
+    });
+    const rawLines = norm.innerHTML.split(/<br\s*\/?>/i);
+    const wrapped = rawLines.map(line => {
+      const probe = document.createElement('div');
+      probe.innerHTML = line;
+      const text = probe.textContent.trim();
+      if(!text) return line;
+      // dir only controls how characters flow *inside* the line (so a French
+      // sentence still reads left-to-right even inside an RTL card); the
+      // block's position (left/center/right) always follows the face's own
+      // align setting, which defaults to centered and only changes when the
+      // person presses the align button themselves.
+      const dir = detectLineDir(text) || 'rtl';
+      return '<div dir="' + dir + '" style="text-align:' + align + '">' + line + '</div>';
+    });
+    return wrapped.join('');
+  }
 
   const sample = [
     {front:"ما هو عاصمة الجزائر؟", back:"الجزائر العاصمة"},
@@ -1225,12 +1569,13 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
     const c = cards[order[pos]];
     const cardNumber = order[pos] + 1; // the card's fixed number within the original deck
     const orderLabel = randomMode ? 'عشوائي 🔀' : 'مرتب ↕';
-    frontTxt.innerHTML = c.front;
-    backTxt.innerHTML = c.back;
+    frontTxt.innerHTML = autoAlignHTML(c.front, c.frontAlign);
+    backTxt.innerHTML = autoAlignHTML(c.back, c.backAlign);
     cardNumberBadge.textContent = `بطاقة #${cardNumber} من ${total}`;
     deckStatus.innerHTML = `بطاقة رقم <b>${cardNumber}</b> من <b>${total}</b> &nbsp;•&nbsp; متبقٍ <b>${pos + 1}</b> من <b>${order.length}</b> &nbsp;•&nbsp; تم فهم <b>${learnedCount}</b> &nbsp;•&nbsp; الترتيب: <b>${orderLabel}</b>`;
     cardEl.classList.toggle('flipped', flipped);
     applyCardStyle(c);
+    refitCardText();
 
     hideCardText();
     setTimeout(() => { showCardText(); autoSpeakFace('front'); }, questionDelaySeconds * 1000);
@@ -1334,20 +1679,50 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
     return ['left','right','center'].includes(fallback) ? fallback : 'center';
   }
 
+  function normalizeForDedupe(s){
+    return String(s || '').trim().replace(/\s+/g, ' ').toLowerCase();
+  }
+  function cardDedupeKey(c){
+    return normalizeForDedupe(c.front) + '\u0001' + normalizeForDedupe(c.back);
+  }
+  // Removes cards whose front+back text already appeared earlier in the same
+  // list (keeps the first occurrence). Returns the cleaned list plus a count
+  // of how many duplicates were dropped, so callers can notify the user.
+  function dedupeCards(list){
+    const seen = new Set();
+    const unique = [];
+    let removed = 0;
+    for(const c of list){
+      const key = cardDedupeKey(c);
+      if(seen.has(key)){ removed++; continue; }
+      seen.add(key);
+      unique.push(c);
+    }
+    return { unique, removed };
+  }
+
+  let lastLoadDuplicatesRemoved = 0;
+
   function loadCards(newCards){
     if(!newCards || newCards.length === 0){
       alert('لم يتم العثور على بطاقات صالحة في الملف.');
       return;
     }
-    cards = newCards.map(c => ({
+    const mapped = newCards.map(c => ({
       front: c.front,
       back: c.back,
       learned: !!c.learned,
       frontDir: normDir(c.frontDir, c.dir),
       backDir: normDir(c.backDir, c.dir),
-      frontAlign: normAlign(c.frontAlign, c.align),
-      backAlign: normAlign(c.backAlign, c.align)
+      // Alignment is always centered by default, regardless of what the
+      // imported file/database stores — it only changes if the person
+      // presses the align (≡) button themselves during this session.
+      frontAlign: 'center',
+      backAlign: 'center'
     }));
+    const deduped = dedupeCards(mapped);
+    cards = deduped.unique;
+    lastLoadDuplicatesRemoved = deduped.removed;
     buildOrder();
   }
 
@@ -1503,9 +1878,10 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
         if(parsed.length === 0) parsed = parseCSVorTxt(text);
       }
       loadCards(parsed);
-      if(lastImportWasRepaired && parsed.length > 0){
-        showToast('🛠 تم إصلاح الملف تلقائيًا قبل الاستيراد');
-      }
+      const notes = [];
+      if(lastImportWasRepaired && parsed.length > 0) notes.push('🛠 تم إصلاح الملف تلقائيًا');
+      if(lastLoadDuplicatesRemoved > 0) notes.push('🧹 حُذفت ' + lastLoadDuplicatesRemoved + ' بطاقة مكررة');
+      if(notes.length) showToast(notes.join(' — '));
     };
     reader.readAsText(file, 'UTF-8');
     fileInput.value = '';
@@ -1597,7 +1973,7 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
     controlsHidden = hidden;
     document.body.classList.toggle('controls-hidden', controlsHidden);
     const icon = controlsHidden ? '👁' : '🙈';
-    const title = controlsHidden ? 'إظهار كل الأزرار' : 'إخفاء كل الأزرار';
+    const title = controlsHidden ? 'إظهار الأشرطة العلوية' : 'إخفاء الأشرطة العلوية وتكبير البطاقة';
     [hideBtnFront, hideBtnBack].forEach(btn => {
       btn.textContent = icon;
       btn.title = title;
@@ -1611,6 +1987,34 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
   hideBtnBack.addEventListener('click', (e) => {
     e.stopPropagation();
     setControlsHidden(!controlsHidden);
+  });
+
+  // Handwritten (connected Ruqʿah-style) font toggle
+  const fontToggleFront = document.getElementById('fontToggleFront');
+  const fontToggleBack = document.getElementById('fontToggleBack');
+  let handwrittenFont = false;
+
+  function setHandwrittenFont(value){
+    handwrittenFont = value;
+    document.body.classList.toggle('handwritten-font', handwrittenFont);
+    const icon = handwrittenFont ? '🔤' : '✒️';
+    const title = handwrittenFont ? 'التحويل إلى الخط العادي (Alt)' : 'التحويل إلى الخط اليدوي المتصل (Alt)';
+    [fontToggleFront, fontToggleBack].forEach(btn => {
+      btn.textContent = icon;
+      btn.title = title;
+      btn.classList.toggle('active', handwrittenFont);
+    });
+    showToast(handwrittenFont ? '✒️ تم التفعيل: الخط اليدوي المتصل' : '🔤 تم التفعيل: الخط العادي');
+    refitCardText();
+  }
+
+  fontToggleFront.addEventListener('click', (e) => {
+    e.stopPropagation();
+    setHandwrittenFont(!handwrittenFont);
+  });
+  fontToggleBack.addEventListener('click', (e) => {
+    e.stopPropagation();
+    setHandwrittenFont(!handwrittenFont);
   });
 
   // Text to speech
@@ -1660,24 +2064,44 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
 
   const autoSpeakFrontBtn = document.getElementById('autoSpeakFrontBtn');
   const autoSpeakBackBtn = document.getElementById('autoSpeakBackBtn');
+  const miniAutoSpeakFrontBtn = document.getElementById('miniAutoSpeakFront');
+  const miniAutoSpeakBackBtn = document.getElementById('miniAutoSpeakBack');
 
-  autoSpeakFrontBtn.addEventListener('click', (e) => {
-    e.stopPropagation();
+  function toggleAutoSpeakFront(){
     autoSpeakFront = !autoSpeakFront;
     autoSpeakFrontBtn.classList.toggle('active', autoSpeakFront);
+    miniAutoSpeakFrontBtn.classList.toggle('active', autoSpeakFront);
     showToast(autoSpeakFront ? '🔊 تفعيل القراءة التلقائية للسؤال' : '🔇 إيقاف القراءة التلقائية للسؤال');
     if(autoSpeakFront && !flipped) autoSpeakFace('front');
-  });
-
-  autoSpeakBackBtn.addEventListener('click', (e) => {
-    e.stopPropagation();
+  }
+  function toggleAutoSpeakBack(){
     autoSpeakBack = !autoSpeakBack;
     autoSpeakBackBtn.classList.toggle('active', autoSpeakBack);
+    miniAutoSpeakBackBtn.classList.toggle('active', autoSpeakBack);
     showToast(autoSpeakBack ? '🔊 تفعيل القراءة التلقائية للجواب' : '🔇 إيقاف القراءة التلقائية للجواب');
     if(autoSpeakBack && flipped) autoSpeakFace('back');
-  });
+  }
+
+  autoSpeakFrontBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleAutoSpeakFront(); });
+  autoSpeakBackBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleAutoSpeakBack(); });
+  miniAutoSpeakFrontBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleAutoSpeakFront(); });
+  miniAutoSpeakBackBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleAutoSpeakBack(); });
 
   // Fullscreen toggle (in-page expand, plus real Fullscreen API if available)
+  const OVERLAY_IDS = ['treeOverlay','treeFormOverlay','externalTreeOverlay','externalUrlFormOverlay','githubTreeOverlay','githubUrlFormOverlay','mergedTreeOverlay','searchOverlay'];
+  let overlayAnchors = [];
+  function moveOverlaysIntoFullscreen(){
+    overlayAnchors = OVERLAY_IDS.map(id => {
+      const el = document.getElementById(id);
+      if(!el) return null;
+      return { el, parent: el.parentNode, next: el.nextSibling };
+    }).filter(Boolean);
+    overlayAnchors.forEach(a => cardWrap.appendChild(a.el));
+  }
+  function restoreOverlaysFromFullscreen(){
+    overlayAnchors.forEach(a => { if(a.parent) a.parent.insertBefore(a.el, a.next); });
+    overlayAnchors = [];
+  }
   function toggleFullscreen(){
     isFullscreen = !isFullscreen;
     cardWrap.classList.toggle('is-fullscreen', isFullscreen);
@@ -1687,9 +2111,11 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
       // remember original position so we can restore later
       floatToolbarAnchor = floatToolbar.nextSibling;
       floatToolbarParent = floatToolbar.parentNode;
-      // move the toolbar (nav controls included) INSIDE the element that
-      // goes fullscreen, otherwise the browser hides everything outside it
+      // move the toolbar (nav controls included) and any dialogs (search,
+      // database tree, etc.) INSIDE the element that goes fullscreen,
+      // otherwise the browser hides everything outside it
       cardWrap.appendChild(floatToolbar);
+      moveOverlaysIntoFullscreen();
 
       if(cardWrap.requestFullscreen){
         cardWrap.requestFullscreen().catch(()=>{});
@@ -1698,9 +2124,11 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
       if(document.fullscreenElement && document.exitFullscreen){
         document.exitFullscreen().catch(()=>{});
       }
-      // restore the toolbar to its original spot
+      // restore the toolbar and dialogs to their original spot
       if(floatToolbarParent) floatToolbarParent.insertBefore(floatToolbar, floatToolbarAnchor);
+      restoreOverlaysFromFullscreen();
     }
+    setTimeout(refitCardText, 60);
   }
   document.getElementById('expandBtn1').addEventListener('click', (e) => { e.stopPropagation(); toggleFullscreen(); });
   document.getElementById('expandBtn2').addEventListener('click', (e) => { e.stopPropagation(); toggleFullscreen(); });
@@ -1711,10 +2139,23 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
       cardWrap.classList.remove('is-fullscreen');
       document.body.classList.remove('fs-active');
       if(floatToolbarParent) floatToolbarParent.insertBefore(floatToolbar, floatToolbarAnchor);
+      restoreOverlaysFromFullscreen();
     }
   });
 
   document.addEventListener('keydown', (e) => {
+    if(e.key === 'Control' && !e.repeat){
+      // Ctrl reads the currently visible face's sentence aloud
+      e.preventDefault();
+      speak(currentFace() === 'back' ? backTxt.textContent : frontTxt.textContent);
+      return;
+    }
+    if(e.key === 'Alt' && !e.repeat){
+      // Alt switches between the handwritten connected font and the normal font
+      e.preventDefault();
+      setHandwrittenFont(!handwrittenFont);
+      return;
+    }
     if(editingFace) return; // let typing work normally while editing a face
     if(e.key === 'ArrowRight') prev();
     if(e.key === 'ArrowLeft') next();
@@ -1724,7 +2165,7 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
 
   // Font size control
   let fontScale = 1;
-  const MIN_SCALE = 0.6, MAX_SCALE = 2.2, STEP = 0.1;
+  const MIN_SCALE = 0.6, MAX_SCALE = 4, STEP = 0.1;
   const fontValueEl = document.getElementById('fontValue');
   const stage = document.querySelector('.stage');
 
@@ -1732,10 +2173,52 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
     fontScale = Math.min(MAX_SCALE, Math.max(MIN_SCALE, fontScale));
     document.documentElement.style.setProperty('--font-scale', fontScale.toFixed(2));
     fontValueEl.textContent = Math.round(fontScale * 100) + '%';
+    refitCardText();
   }
-  document.getElementById('fontIncBtn').addEventListener('click', () => { fontScale += STEP; applyFontScale(); });
-  document.getElementById('fontDecBtn').addEventListener('click', () => { fontScale -= STEP; applyFontScale(); });
+  function incFont(){ fontScale += STEP; applyFontScale(); }
+  function decFont(){ fontScale -= STEP; applyFontScale(); }
+  document.getElementById('fontIncBtn').addEventListener('click', incFont);
+  document.getElementById('fontDecBtn').addEventListener('click', decFont);
   document.getElementById('fontResetBtn').addEventListener('click', () => { fontScale = 1; applyFontScale(); });
+  [document.getElementById('miniFontIncFront'), document.getElementById('miniFontIncBack')].forEach(btn => {
+    btn.addEventListener('click', (e) => { e.stopPropagation(); incFont(); });
+  });
+  [document.getElementById('miniFontDecFront'), document.getElementById('miniFontDecBack')].forEach(btn => {
+    btn.addEventListener('click', (e) => { e.stopPropagation(); decFont(); });
+  });
+
+  // ---- Mini shuffle buttons attached to each card face ----
+  [document.getElementById('miniShuffleFront'), document.getElementById('miniShuffleBack')].forEach(btn => {
+    btn.addEventListener('click', (e) => { e.stopPropagation(); shuffleNow(); });
+  });
+
+  // ---- Auto-fit text size: if the chosen font scale makes the text
+  // overflow its card face, shrink it locally (without touching the
+  // global --font-scale) until it fits, down to a sane minimum. ----
+  const MIN_FIT_PX = 11;
+  function fitTextToFace(txtEl){
+    if(!txtEl) return;
+    txtEl.style.fontSize = ''; // reset to the natural size driven by --font-scale
+    requestAnimationFrame(() => {
+      const face = txtEl.closest('.face');
+      if(!face) return;
+      const cs = getComputedStyle(face);
+      const availH = face.clientHeight - (parseFloat(cs.paddingTop)||0) - (parseFloat(cs.paddingBottom)||0);
+      const availW = face.clientWidth - (parseFloat(cs.paddingLeft)||0) - (parseFloat(cs.paddingRight)||0);
+      let guard = 0;
+      let size = parseFloat(getComputedStyle(txtEl).fontSize);
+      while((txtEl.scrollHeight > availH || txtEl.scrollWidth > availW) && size > MIN_FIT_PX && guard < 60){
+        size -= 1;
+        txtEl.style.fontSize = size + 'px';
+        guard++;
+      }
+    });
+  }
+  function refitCardText(){
+    fitTextToFace(frontTxt);
+    fitTextToFace(backTxt);
+  }
+  window.addEventListener('resize', refitCardText);
   applyFontScale();
 
   // Text direction + alignment — INDEPENDENT per face (front/back), saved with the card's data
@@ -1789,6 +2272,10 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
     const key = face + 'Dir';
     c[key] = c[key] === 'ltr' ? 'rtl' : 'ltr';
     applyCardStyle(c);
+    if(editingFace !== face){
+      const el = face === 'front' ? frontTxt : backTxt;
+      el.innerHTML = autoAlignHTML(face === 'front' ? c.front : c.back, face === 'front' ? c.frontAlign : c.backAlign);
+    }
   });
 
   alignToggleBtn.addEventListener('click', (e) => {
@@ -1800,6 +2287,10 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
     const cycle = { center: 'right', right: 'left', left: 'center' };
     c[key] = cycle[c[key]] || 'right';
     applyCardStyle(c);
+    if(editingFace !== face){
+      const el = face === 'front' ? frontTxt : backTxt;
+      el.innerHTML = autoAlignHTML(face === 'front' ? c.front : c.back, face === 'front' ? c.frontAlign : c.backAlign);
+    }
   });
 
   applyCardStyle({ frontDir: 'rtl', backDir: 'rtl', frontAlign: 'center', backAlign: 'center' });
@@ -1927,6 +2418,12 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
     resetTimerVisual();
     const el = face === 'front' ? frontTxt : backTxt;
     const btn = face === 'front' ? editFrontBtn : editBackBtn;
+    // Swap the auto-aligned display markup back for the raw saved HTML so
+    // editing/coloring works on the real content, not the display wrapper.
+    if(order.length > 0){
+      const c = cards[order[pos]];
+      el.innerHTML = (face === 'front' ? c.front : c.back) || '';
+    }
     el.setAttribute('contenteditable', 'true');
     el.focus();
     placeCaretAtEnd(el);
@@ -1956,6 +2453,12 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
         if(face === 'front') c.front = el.innerHTML; else c.back = el.innerHTML;
       }
     }
+    // Re-apply the per-line auto direction/alignment for display now that
+    // editing (which needs the raw HTML) is done.
+    if(order.length > 0){
+      const c2 = cards[order[pos]];
+      el.innerHTML = autoAlignHTML(face === 'front' ? c2.front : c2.back, face === 'front' ? c2.frontAlign : c2.backAlign);
+    }
     editingFace = null;
     if(timerActive && order.length > 0) startAnsweringPhase();
   }
@@ -1970,8 +2473,64 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
     if(editingFace === 'back') stopEdit(true);
     else startEdit('back');
   });
-  frontTxt.addEventListener('click', (e) => { if(frontTxt.getAttribute('contenteditable') === 'true') e.stopPropagation(); });
-  backTxt.addEventListener('click', (e) => { if(backTxt.getAttribute('contenteditable') === 'true') e.stopPropagation(); });
+  // Find the word under a point and return both its text and a Range
+  // covering it (works across nested spans/coloring).
+  function wordRangeAtPoint(clientX, clientY){
+    let range = null;
+    if(document.caretRangeFromPoint){
+      range = document.caretRangeFromPoint(clientX, clientY);
+    } else if(document.caretPositionFromPoint){
+      const p = document.caretPositionFromPoint(clientX, clientY);
+      if(p && p.offsetNode){
+        range = document.createRange();
+        range.setStart(p.offsetNode, p.offset);
+        range.collapse(true);
+      }
+    }
+    if(!range || range.startContainer.nodeType !== Node.TEXT_NODE) return null;
+    const textNode = range.startContainer;
+    const text = textNode.nodeValue || '';
+    let offset = range.startOffset;
+    const isWordChar = (ch) => ch !== undefined && !/[\s.,!?؛،؟:;"'«»()\[\]{}]/.test(ch);
+    if(!isWordChar(text[offset]) && isWordChar(text[offset - 1])) offset -= 1;
+    let start = offset, end = offset;
+    while(start > 0 && isWordChar(text[start - 1])) start--;
+    while(end < text.length && isWordChar(text[end])) end++;
+    const word = text.slice(start, end).trim();
+    if(!word) return null;
+    const wordRange = document.createRange();
+    wordRange.setStart(textNode, start);
+    wordRange.setEnd(textNode, end);
+    return { word, range: wordRange };
+  }
+
+  // First press on a word just selects/highlights it (and still doesn't
+  // flip the card). A second press (double-click) on the already-selected
+  // word runs the search. Pressing elsewhere on the card still flips it.
+  function handleFaceWordClick(e, txtEl){
+    if(txtEl.getAttribute('contenteditable') === 'true'){ e.stopPropagation(); return; }
+    if(!wordSearchArmed) return; // not armed: let the tap pass through and flip the card as usual
+    const hit = wordRangeAtPoint(e.clientX, e.clientY);
+    if(!hit) return;
+    e.stopPropagation();
+    const sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(hit.range);
+  }
+  function handleFaceWordDblClick(e, txtEl){
+    if(txtEl.getAttribute('contenteditable') === 'true') return;
+    if(!wordSearchArmed) return;
+    const hit = wordRangeAtPoint(e.clientX, e.clientY);
+    if(!hit) return;
+    e.stopPropagation();
+    openSearchPanel(hit.word);
+    disarmWordSearch();
+  }
+  frontTxt.addEventListener('click', (e) => handleFaceWordClick(e, frontTxt));
+  backTxt.addEventListener('click', (e) => handleFaceWordClick(e, backTxt));
+  frontTxt.addEventListener('dblclick', (e) => handleFaceWordDblClick(e, frontTxt));
+  backTxt.addEventListener('dblclick', (e) => handleFaceWordDblClick(e, backTxt));
+
 
   if('speechSynthesis' in window){
     window.speechSynthesis.onvoiceschanged = () => {};
@@ -2147,7 +2706,9 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
         return;
       }
       loadCards(parsed);
-      showToast(lastImportWasRepaired ? ('🛠 تم إصلاح وتحميل: ' + node.name) : ('✅ تم تحميل: ' + node.name));
+      let msg = lastImportWasRepaired ? ('🛠 تم إصلاح وتحميل: ' + node.name) : ('✅ تم تحميل: ' + node.name);
+      if(lastLoadDuplicatesRemoved > 0) msg += ' — حُذفت ' + lastLoadDuplicatesRemoved + ' بطاقة مكررة';
+      showToast(msg);
       closeTreePanel();
     }catch(err){
       showToast('❌ تعذر جلب الرابط: تحقق من الاتصال أو إعدادات CORS');
@@ -2255,6 +2816,1088 @@ questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt
   }
 
   loadTree();
+
+  // ---- External database tree: fully sourced from one remote GitHub JSON
+  // index file, read-only inside the app (no add/edit/delete). Only the
+  // index file's URL itself is remembered locally; the tree content always
+  // comes fresh from that file. ----
+  const EXTERNAL_TREE_URL_KEY = 'flashcards_external_tree_url';
+  let externalTreeUrl = '';
+  let externalTree = [];
+  const externalExpanded = new Set(); // transient, resets on refresh
+
+  function loadExternalTreeUrl(){
+    try{ externalTreeUrl = localStorage.getItem(EXTERNAL_TREE_URL_KEY) || ''; }
+    catch(e){ externalTreeUrl = ''; }
+  }
+  function saveExternalTreeUrl(url){
+    externalTreeUrl = url;
+    try{ localStorage.setItem(EXTERNAL_TREE_URL_KEY, url); }catch(e){}
+  }
+
+  // Give every node from the remote file a stable-for-this-session id based
+  // on its position in the tree, so expand/collapse state works normally.
+  function assignExternalIds(nodes, prefix){
+    (nodes || []).forEach((node, i) => {
+      node._id = prefix + '-' + i;
+      if(node.type === 'folder' && Array.isArray(node.children)){
+        assignExternalIds(node.children, node._id);
+      }
+    });
+  }
+
+  function normalizeExternalNode(raw){
+    if(!raw || typeof raw !== 'object') return null;
+    const name = String(raw.name || raw.title || '').trim();
+    if(!name) return null;
+    if(raw.type === 'db' || raw.url){
+      const url = String(raw.url || '').trim();
+      if(!url) return null;
+      return { type: 'db', name, url };
+    }
+    const children = Array.isArray(raw.children)
+      ? raw.children.map(normalizeExternalNode).filter(Boolean)
+      : [];
+    return { type: 'folder', name, children };
+  }
+
+  function parseExternalTreeJSON(text){
+    let data = tryParse(text);
+    if(data === undefined){
+      data = tryParse(balanceBrackets(repairJSONText(text)));
+    }
+    if(!Array.isArray(data)) return null;
+    return data.map(normalizeExternalNode).filter(Boolean);
+  }
+
+  const externalTreeOverlay = document.getElementById('externalTreeOverlay');
+  const externalTreeBody = document.getElementById('externalTreeBody');
+  const externalUrlFormOverlay = document.getElementById('externalUrlFormOverlay');
+  const externalUrlInput = document.getElementById('externalUrlInput');
+
+  function openExternalTreePanel(){
+    externalTreeOverlay.classList.add('show');
+    if(!externalTreeUrl){
+      renderExternalEmptyState('لم يتم تحديد رابط الفهرس بعد. اضغط "🔗 رابط الفهرس" لإضافته.');
+    } else if(externalTree.length === 0){
+      fetchExternalTree();
+    } else {
+      renderExternalTree();
+    }
+  }
+  function closeExternalTreePanel(){ externalTreeOverlay.classList.remove('show'); }
+
+  document.getElementById('externalTreeBtn').addEventListener('click', openExternalTreePanel);
+  document.getElementById('externalTreeCloseBtn').addEventListener('click', closeExternalTreePanel);
+  externalTreeOverlay.addEventListener('click', (e) => { if(e.target === externalTreeOverlay) closeExternalTreePanel(); });
+
+  document.getElementById('externalTreeSetUrlBtn').addEventListener('click', () => {
+    externalUrlInput.value = externalTreeUrl;
+    externalUrlFormOverlay.classList.add('show');
+    setTimeout(() => externalUrlInput.focus(), 50);
+  });
+  document.getElementById('externalUrlCancelBtn').addEventListener('click', () => {
+    externalUrlFormOverlay.classList.remove('show');
+  });
+  externalUrlFormOverlay.addEventListener('click', (e) => { if(e.target === externalUrlFormOverlay) externalUrlFormOverlay.classList.remove('show'); });
+
+  document.getElementById('externalUrlSaveBtn').addEventListener('click', () => {
+    const url = externalUrlInput.value.trim();
+    if(!url){ showToast('⚠️ الرابط مطلوب'); return; }
+    saveExternalTreeUrl(url);
+    externalUrlFormOverlay.classList.remove('show');
+    externalExpanded.clear();
+    fetchExternalTree();
+  });
+
+  document.getElementById('externalTreeRefreshBtn').addEventListener('click', () => {
+    if(!externalTreeUrl){ showToast('⚠️ حدّد رابط الفهرس أولًا'); return; }
+    fetchExternalTree();
+  });
+
+  function renderExternalEmptyState(msg){
+    externalTreeBody.innerHTML = '';
+    const empty = document.createElement('div');
+    empty.className = 'tree-empty-msg';
+    empty.textContent = msg;
+    externalTreeBody.appendChild(empty);
+  }
+
+  async function fetchExternalTree(){
+    renderExternalEmptyState('⏳ جارٍ تحميل الفهرس...');
+    try{
+      const res = await fetch(externalTreeUrl, { cache: 'no-store' });
+      if(!res.ok) throw new Error('HTTP ' + res.status);
+      const text = await res.text();
+      const parsed = parseExternalTreeJSON(text);
+      if(!parsed || parsed.length === 0){
+        renderExternalEmptyState('⚠️ لم يتم العثور على تصنيفات صالحة في ملف الفهرس هذا.');
+        return;
+      }
+      externalTree = parsed;
+      assignExternalIds(externalTree, 'ext');
+      renderExternalTree();
+      showToast('✅ تم تحميل فهرس القاعدة الخارجية');
+    }catch(err){
+      renderExternalEmptyState('❌ تعذر جلب ملف الفهرس: تحقق من الرابط أو الاتصال أو إعدادات CORS');
+    }
+    if(typeof renderMergedTree === 'function') renderMergedTree();
+  }
+
+  function toggleExternalFolder(id){
+    if(externalExpanded.has(id)) externalExpanded.delete(id);
+    else externalExpanded.add(id);
+    renderExternalTree();
+  }
+
+  async function loadExternalDatabase(node){
+    showToast('⏳ جارٍ تحميل: ' + node.name);
+    try{
+      const res = await fetch(node.url, { cache: 'no-store' });
+      if(!res.ok) throw new Error('HTTP ' + res.status);
+      const text = await res.text();
+      let parsed = parseJSON(text);
+      if(parsed.length === 0) parsed = parseCSVorTxt(text);
+      if(parsed.length === 0){
+        showToast('⚠️ لا توجد بطاقات صالحة في هذا الرابط');
+        return;
+      }
+      loadCards(parsed);
+      let msg = lastImportWasRepaired ? ('🛠 تم إصلاح وتحميل: ' + node.name) : ('✅ تم تحميل: ' + node.name);
+      if(lastLoadDuplicatesRemoved > 0) msg += ' — حُذفت ' + lastLoadDuplicatesRemoved + ' بطاقة مكررة';
+      showToast(msg);
+      closeExternalTreePanel();
+    }catch(err){
+      showToast('❌ تعذر جلب الرابط: تحقق من الاتصال أو إعدادات CORS');
+    }
+  }
+
+  function renderExternalNode(node){
+    const container = document.createElement('div');
+    container.className = 'tree-node';
+    const row = document.createElement('div');
+    row.className = 'tree-node-row';
+
+    if(node.type === 'folder'){
+      const expanded = externalExpanded.has(node._id);
+      const toggle = document.createElement('span');
+      toggle.className = 'tree-toggle';
+      toggle.textContent = expanded ? '▾' : '▸';
+      row.appendChild(toggle);
+
+      const icon = document.createElement('span');
+      icon.className = 'tree-icon';
+      icon.textContent = '📁';
+      row.appendChild(icon);
+
+      const name = document.createElement('span');
+      name.className = 'tree-name';
+      name.textContent = node.name;
+      row.appendChild(name);
+
+      row.addEventListener('click', () => toggleExternalFolder(node._id));
+      container.appendChild(row);
+
+      if(expanded){
+        const childrenWrap = document.createElement('div');
+        childrenWrap.className = 'tree-children';
+        const kids = node.children || [];
+        if(kids.length === 0){
+          const emptyMsg = document.createElement('div');
+          emptyMsg.className = 'tree-empty-msg';
+          emptyMsg.textContent = 'فارغ.';
+          childrenWrap.appendChild(emptyMsg);
+        } else {
+          kids.forEach(child => childrenWrap.appendChild(renderExternalNode(child)));
+        }
+        container.appendChild(childrenWrap);
+      }
+    } else {
+      const icon = document.createElement('span');
+      icon.className = 'tree-icon';
+      icon.textContent = '📄';
+      row.appendChild(icon);
+
+      const nameWrap = document.createElement('div');
+      nameWrap.style.flex = '1';
+      nameWrap.style.minWidth = '0';
+      const name = document.createElement('div');
+      name.className = 'tree-name';
+      name.textContent = node.name;
+      const urlEl = document.createElement('div');
+      urlEl.className = 'tree-db-url';
+      urlEl.textContent = node.url;
+      nameWrap.appendChild(name);
+      nameWrap.appendChild(urlEl);
+      row.appendChild(nameWrap);
+
+      row.addEventListener('click', () => loadExternalDatabase(node));
+      container.appendChild(row);
+    }
+
+    return container;
+  }
+
+  function renderExternalTree(){
+    externalTreeBody.innerHTML = '';
+    if(externalTree.length === 0){
+      renderExternalEmptyState('لا توجد بيانات محمّلة بعد.');
+      return;
+    }
+    externalTree.forEach(node => externalTreeBody.appendChild(renderExternalNode(node)));
+  }
+
+  loadExternalTreeUrl();
+
+  // ---- GitHub folder database: point at any GitHub repo (or a subfolder of
+  // one) and this automatically lists every .json file inside it - including
+  // subfolders - via GitHub's own API. No manual index file to maintain. ----
+  const GITHUB_TREE_URL_KEY = 'flashcards_github_repo_url';
+  const DEFAULT_GITHUB_REPO_URL = 'https://cdn.jsdelivr.net/gh/mitsoo12/Json@main';
+  let githubRepoInput = '';
+  let githubTree = [];
+  const githubExpanded = new Set();
+
+  function loadGithubRepoUrl(){
+    try{ githubRepoInput = localStorage.getItem(GITHUB_TREE_URL_KEY) || DEFAULT_GITHUB_REPO_URL; }
+    catch(e){ githubRepoInput = DEFAULT_GITHUB_REPO_URL; }
+  }
+  function saveGithubRepoUrl(url){
+    githubRepoInput = url;
+    try{ localStorage.setItem(GITHUB_TREE_URL_KEY, url); }catch(e){}
+  }
+
+  // Accepts a jsDelivr "gh" link, a plain github.com link, or a bare
+  // "owner/repo" / "owner/repo@branch", and pulls out the repo details.
+  function parseGithubRepoInput(raw){
+    const input = String(raw || '').trim();
+    if(!input) return null;
+
+    // jsDelivr: https://cdn.jsdelivr.net/gh/OWNER/REPO@BRANCH/optional/path
+    let m = input.match(/cdn\.jsdelivr\.net\/gh\/([^\/]+)\/([^\/@]+)(?:@([^\/]+))?\/?(.*)$/i);
+    if(m) return { owner: m[1], repo: m[2], branch: m[3] || 'main', basePath: (m[4] || '').replace(/\/$/, '') };
+
+    // github.com/OWNER/REPO(/tree/BRANCH(/path))?
+    m = input.match(/github\.com\/([^\/]+)\/([^\/]+?)(?:\.git)?(?:\/tree\/([^\/]+)(?:\/(.*))?)?\/?$/i);
+    if(m) return { owner: m[1], repo: m[2], branch: m[3] || 'main', basePath: (m[4] || '').replace(/\/$/, '') };
+
+    // Bare "owner/repo" or "owner/repo@branch"
+    m = input.match(/^([\w.-]+)\/([\w.-]+?)(?:@([\w.\/-]+))?$/);
+    if(m) return { owner: m[1], repo: m[2], branch: m[3] || 'main', basePath: '' };
+
+    return null;
+  }
+
+  function githubRawUrl(info, path){
+    return 'https://cdn.jsdelivr.net/gh/' + info.owner + '/' + info.repo + '@' + info.branch + '/' + path;
+  }
+
+  // Turns a flat list of file paths (e.g. "فرنسية/أفعال.json") into the same
+  // nested {type:'folder'|'db', name, children/url} shape used everywhere else.
+  function buildTreeFromPaths(paths, info){
+    const root = [];
+    paths.forEach(path => {
+      const parts = path.split('/').filter(Boolean);
+      let level = root;
+      parts.forEach((part, i) => {
+        const isFile = i === parts.length - 1;
+        if(isFile){
+          level.push({ type: 'db', name: part.replace(/\.json$/i, ''), url: githubRawUrl(info, path) });
+        } else {
+          let folder = level.find(n => n.type === 'folder' && n.name === part);
+          if(!folder){
+            folder = { type: 'folder', name: part, children: [] };
+            level.push(folder);
+          }
+          level = folder.children;
+        }
+      });
+    });
+    return root;
+  }
+
+  const githubTreeOverlay = document.getElementById('githubTreeOverlay');
+  const githubTreeBody = document.getElementById('githubTreeBody');
+  const githubUrlFormOverlay = document.getElementById('githubUrlFormOverlay');
+  const githubUrlInput = document.getElementById('githubUrlInput');
+
+  function openGithubTreePanel(){
+    githubTreeOverlay.classList.add('show');
+    if(!githubRepoInput){
+      renderGithubEmptyState('لم يتم تحديد رابط المستودع بعد. اضغط "🔗 رابط المستودع" لإضافته.');
+    } else if(githubTree.length === 0){
+      fetchGithubTree();
+    } else {
+      renderGithubTree();
+    }
+  }
+  function closeGithubTreePanel(){ githubTreeOverlay.classList.remove('show'); }
+
+  document.getElementById('githubTreeBtn').addEventListener('click', openGithubTreePanel);
+  document.getElementById('githubTreeCloseBtn').addEventListener('click', closeGithubTreePanel);
+  githubTreeOverlay.addEventListener('click', (e) => { if(e.target === githubTreeOverlay) closeGithubTreePanel(); });
+
+  document.getElementById('githubTreeSetUrlBtn').addEventListener('click', () => {
+    githubUrlInput.value = githubRepoInput;
+    githubUrlFormOverlay.classList.add('show');
+    setTimeout(() => githubUrlInput.focus(), 50);
+  });
+  document.getElementById('githubUrlCancelBtn').addEventListener('click', () => {
+    githubUrlFormOverlay.classList.remove('show');
+  });
+  githubUrlFormOverlay.addEventListener('click', (e) => { if(e.target === githubUrlFormOverlay) githubUrlFormOverlay.classList.remove('show'); });
+
+  document.getElementById('githubUrlSaveBtn').addEventListener('click', () => {
+    const url = githubUrlInput.value.trim();
+    if(!url){ showToast('⚠️ رابط المستودع مطلوب'); return; }
+    saveGithubRepoUrl(url);
+    githubUrlFormOverlay.classList.remove('show');
+    githubExpanded.clear();
+    githubTree = [];
+    fetchGithubTree();
+  });
+
+  document.getElementById('githubTreeRefreshBtn').addEventListener('click', () => {
+    if(!githubRepoInput){ showToast('⚠️ حدّد رابط المستودع أولًا'); return; }
+    fetchGithubTree();
+  });
+
+  function renderGithubEmptyState(msg){
+    githubTreeBody.innerHTML = '';
+    const empty = document.createElement('div');
+    empty.className = 'tree-empty-msg';
+    empty.textContent = msg;
+    githubTreeBody.appendChild(empty);
+  }
+
+  async function fetchGithubTree(){
+    const info = parseGithubRepoInput(githubRepoInput);
+    if(!info){
+      renderGithubEmptyState('⚠️ تعذر فهم رابط المستودع. جرّب رابط jsDelivr أو github.com أو "user/repo".');
+      return;
+    }
+    renderGithubEmptyState('⏳ جارٍ جلب قائمة الملفات من GitHub...');
+    try{
+      const apiUrl = 'https://api.github.com/repos/' + info.owner + '/' + info.repo + '/git/trees/' + encodeURIComponent(info.branch) + '?recursive=1';
+      const res = await fetch(apiUrl, { cache: 'no-store' });
+      if(!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+      if(!data || !Array.isArray(data.tree)) throw new Error('bad response');
+      const base = info.basePath ? info.basePath.replace(/\/$/, '') + '/' : '';
+      const paths = data.tree
+        .filter(item => item.type === 'blob' && /\.json$/i.test(item.path))
+        .map(item => item.path)
+        .filter(path => !base || path.startsWith(base))
+        .map(path => base ? path.slice(base.length) : path);
+
+      if(paths.length === 0){
+        renderGithubEmptyState('⚠️ لم يتم العثور على أي ملفات .json في هذا المستودع/المسار.');
+        return;
+      }
+      githubTree = buildTreeFromPaths(paths, info);
+      assignExternalIds(githubTree, 'gh');
+      renderGithubTree();
+      showToast('✅ تم جلب ' + paths.length + ' ملف JSON تلقائيًا من GitHub');
+    }catch(err){
+      renderGithubEmptyState('❌ تعذر جلب قائمة الملفات: تحقق من الرابط (owner/repo/branch) أو الاتصال');
+    }
+    if(typeof renderMergedTree === 'function') renderMergedTree();
+  }
+
+  function toggleGithubFolder(id){
+    if(githubExpanded.has(id)) githubExpanded.delete(id);
+    else githubExpanded.add(id);
+    renderGithubTree();
+  }
+
+  function renderGithubNode(node){
+    const container = document.createElement('div');
+    container.className = 'tree-node';
+    const row = document.createElement('div');
+    row.className = 'tree-node-row';
+
+    if(node.type === 'folder'){
+      const expanded = githubExpanded.has(node._id);
+      const toggle = document.createElement('span');
+      toggle.className = 'tree-toggle';
+      toggle.textContent = expanded ? '▾' : '▸';
+      row.appendChild(toggle);
+
+      const icon = document.createElement('span');
+      icon.className = 'tree-icon';
+      icon.textContent = '📁';
+      row.appendChild(icon);
+
+      const name = document.createElement('span');
+      name.className = 'tree-name';
+      name.textContent = node.name;
+      row.appendChild(name);
+
+      row.addEventListener('click', () => toggleGithubFolder(node._id));
+      container.appendChild(row);
+
+      if(expanded){
+        const childrenWrap = document.createElement('div');
+        childrenWrap.className = 'tree-children';
+        const kids = node.children || [];
+        if(kids.length === 0){
+          const emptyMsg = document.createElement('div');
+          emptyMsg.className = 'tree-empty-msg';
+          emptyMsg.textContent = 'فارغ.';
+          childrenWrap.appendChild(emptyMsg);
+        } else {
+          kids.forEach(child => childrenWrap.appendChild(renderGithubNode(child)));
+        }
+        container.appendChild(childrenWrap);
+      }
+    } else {
+      const icon = document.createElement('span');
+      icon.className = 'tree-icon';
+      icon.textContent = '📄';
+      row.appendChild(icon);
+
+      const nameWrap = document.createElement('div');
+      nameWrap.style.flex = '1';
+      nameWrap.style.minWidth = '0';
+      const name = document.createElement('div');
+      name.className = 'tree-name';
+      name.textContent = node.name;
+      const urlEl = document.createElement('div');
+      urlEl.className = 'tree-db-url';
+      urlEl.textContent = node.url;
+      nameWrap.appendChild(name);
+      nameWrap.appendChild(urlEl);
+      row.appendChild(nameWrap);
+
+      row.addEventListener('click', () => loadExternalDatabase(node));
+      container.appendChild(row);
+    }
+
+    return container;
+  }
+
+  function renderGithubTree(){
+    githubTreeBody.innerHTML = '';
+    if(githubTree.length === 0){
+      renderGithubEmptyState('لا توجد بيانات محمّلة بعد.');
+      return;
+    }
+    githubTree.forEach(node => githubTreeBody.appendChild(renderGithubNode(node)));
+  }
+
+  loadGithubRepoUrl();
+
+  // ---- Unified merge tree: shows the internal tree and the external tree
+  // together, lets the user tick any number of databases from either one,
+  // and merges all their cards into a single combined set on load. ----
+  const mergedTreeOverlay = document.getElementById('mergedTreeOverlay');
+  const mergedTreeBody = document.getElementById('mergedTreeBody');
+  const mergedCountEl = document.getElementById('mergedCount');
+  const mergedMergeBtn = document.getElementById('mergedMergeBtn');
+  const mergedClearBtn = document.getElementById('mergedClearBtn');
+
+  let mergedSelected = new Map(); // key -> { name, url }
+
+  function mergeKey(source, url){ return source + '::' + url; }
+
+  function collectDbLeaves(node, out){
+    out = out || [];
+    if(node.type === 'db') out.push(node);
+    else if(Array.isArray(node.children)) node.children.forEach(c => collectDbLeaves(c, out));
+    return out;
+  }
+
+  function openMergedTreePanel(){
+    mergedTreeOverlay.classList.add('show');
+    renderMergedTree();
+    if(externalTreeUrl && externalTree.length === 0) fetchExternalTree();
+    if(githubRepoInput && githubTree.length === 0) fetchGithubTree();
+  }
+  function closeMergedTreePanel(){ mergedTreeOverlay.classList.remove('show'); }
+
+  document.getElementById('mergedTreeBtn').addEventListener('click', openMergedTreePanel);
+  document.getElementById('mergedTreeCloseBtn').addEventListener('click', closeMergedTreePanel);
+  mergedTreeOverlay.addEventListener('click', (e) => { if(e.target === mergedTreeOverlay) closeMergedTreePanel(); });
+
+  mergedClearBtn.addEventListener('click', () => {
+    mergedSelected.clear();
+    renderMergedTree();
+  });
+
+  mergedMergeBtn.addEventListener('click', mergeSelectedDatabases);
+
+  function updateMergeFooter(){
+    const n = mergedSelected.size;
+    mergedCountEl.innerHTML = n === 0 ? 'لا يوجد تحديد' : ('محدد: <b>' + n + '</b> قاعدة');
+    mergedMergeBtn.disabled = n === 0;
+  }
+
+  function makeMergeCheckbox(checked, onToggle){
+    const cb = document.createElement('input');
+    cb.type = 'checkbox';
+    cb.className = 'merge-checkbox';
+    cb.checked = checked;
+    cb.addEventListener('click', (e) => e.stopPropagation());
+    cb.addEventListener('change', () => onToggle(cb.checked));
+    return cb;
+  }
+
+  function renderMergedInternalNode(node){
+    const container = document.createElement('div');
+    container.className = 'tree-node';
+    const row = document.createElement('div');
+    row.className = 'tree-node-row';
+
+    if(node.type === 'folder'){
+      const leaves = collectDbLeaves(node);
+      const allSelected = leaves.length > 0 && leaves.every(l => mergedSelected.has(mergeKey('int', l.url)));
+      row.appendChild(makeMergeCheckbox(allSelected, (checked) => {
+        leaves.forEach(l => {
+          const key = mergeKey('int', l.url);
+          if(checked) mergedSelected.set(key, { name: l.name, url: l.url });
+          else mergedSelected.delete(key);
+        });
+        renderMergedTree();
+      }));
+
+      const toggle = document.createElement('span');
+      toggle.className = 'tree-toggle';
+      toggle.textContent = node.expanded ? '▾' : '▸';
+      row.appendChild(toggle);
+
+      const icon = document.createElement('span');
+      icon.className = 'tree-icon';
+      icon.textContent = '📁';
+      row.appendChild(icon);
+
+      const name = document.createElement('span');
+      name.className = 'tree-name';
+      name.textContent = node.name;
+      row.appendChild(name);
+
+      row.addEventListener('click', () => { node.expanded = !node.expanded; saveTree(); renderMergedTree(); });
+      container.appendChild(row);
+
+      if(node.expanded){
+        const childrenWrap = document.createElement('div');
+        childrenWrap.className = 'tree-children';
+        const kids = node.children || [];
+        if(kids.length === 0){
+          const emptyMsg = document.createElement('div');
+          emptyMsg.className = 'tree-empty-msg';
+          emptyMsg.textContent = 'فارغ.';
+          childrenWrap.appendChild(emptyMsg);
+        } else {
+          kids.forEach(child => childrenWrap.appendChild(renderMergedInternalNode(child)));
+        }
+        container.appendChild(childrenWrap);
+      }
+    } else {
+      const key = mergeKey('int', node.url);
+      row.appendChild(makeMergeCheckbox(mergedSelected.has(key), (checked) => {
+        if(checked) mergedSelected.set(key, { name: node.name, url: node.url });
+        else mergedSelected.delete(key);
+        updateMergeFooter();
+      }));
+
+      const icon = document.createElement('span');
+      icon.className = 'tree-icon';
+      icon.textContent = '📄';
+      row.appendChild(icon);
+
+      const nameWrap = document.createElement('div');
+      nameWrap.style.flex = '1';
+      nameWrap.style.minWidth = '0';
+      const name = document.createElement('div');
+      name.className = 'tree-name';
+      name.textContent = node.name;
+      const urlEl = document.createElement('div');
+      urlEl.className = 'tree-db-url';
+      urlEl.textContent = node.url;
+      nameWrap.appendChild(name);
+      nameWrap.appendChild(urlEl);
+      row.appendChild(nameWrap);
+
+      row.addEventListener('click', () => {
+        const cb = row.querySelector('.merge-checkbox');
+        cb.checked = !cb.checked;
+        cb.dispatchEvent(new Event('change'));
+      });
+      container.appendChild(row);
+    }
+
+    return container;
+  }
+
+  function renderMergedExternalNode(node){
+    const container = document.createElement('div');
+    container.className = 'tree-node';
+    const row = document.createElement('div');
+    row.className = 'tree-node-row';
+
+    if(node.type === 'folder'){
+      const leaves = collectDbLeaves(node);
+      const allSelected = leaves.length > 0 && leaves.every(l => mergedSelected.has(mergeKey('ext', l.url)));
+      row.appendChild(makeMergeCheckbox(allSelected, (checked) => {
+        leaves.forEach(l => {
+          const key = mergeKey('ext', l.url);
+          if(checked) mergedSelected.set(key, { name: l.name, url: l.url });
+          else mergedSelected.delete(key);
+        });
+        renderMergedTree();
+      }));
+
+      const expanded = externalExpanded.has(node._id);
+      const toggle = document.createElement('span');
+      toggle.className = 'tree-toggle';
+      toggle.textContent = expanded ? '▾' : '▸';
+      row.appendChild(toggle);
+
+      const icon = document.createElement('span');
+      icon.className = 'tree-icon';
+      icon.textContent = '📁';
+      row.appendChild(icon);
+
+      const name = document.createElement('span');
+      name.className = 'tree-name';
+      name.textContent = node.name;
+      row.appendChild(name);
+
+      row.addEventListener('click', () => { toggleExternalFolder(node._id); renderMergedTree(); });
+      container.appendChild(row);
+
+      if(expanded){
+        const childrenWrap = document.createElement('div');
+        childrenWrap.className = 'tree-children';
+        const kids = node.children || [];
+        if(kids.length === 0){
+          const emptyMsg = document.createElement('div');
+          emptyMsg.className = 'tree-empty-msg';
+          emptyMsg.textContent = 'فارغ.';
+          childrenWrap.appendChild(emptyMsg);
+        } else {
+          kids.forEach(child => childrenWrap.appendChild(renderMergedExternalNode(child)));
+        }
+        container.appendChild(childrenWrap);
+      }
+    } else {
+      const key = mergeKey('ext', node.url);
+      row.appendChild(makeMergeCheckbox(mergedSelected.has(key), (checked) => {
+        if(checked) mergedSelected.set(key, { name: node.name, url: node.url });
+        else mergedSelected.delete(key);
+        updateMergeFooter();
+      }));
+
+      const icon = document.createElement('span');
+      icon.className = 'tree-icon';
+      icon.textContent = '📄';
+      row.appendChild(icon);
+
+      const nameWrap = document.createElement('div');
+      nameWrap.style.flex = '1';
+      nameWrap.style.minWidth = '0';
+      const name = document.createElement('div');
+      name.className = 'tree-name';
+      name.textContent = node.name;
+      const urlEl = document.createElement('div');
+      urlEl.className = 'tree-db-url';
+      urlEl.textContent = node.url;
+      nameWrap.appendChild(name);
+      nameWrap.appendChild(urlEl);
+      row.appendChild(nameWrap);
+
+      row.addEventListener('click', () => {
+        const cb = row.querySelector('.merge-checkbox');
+        cb.checked = !cb.checked;
+        cb.dispatchEvent(new Event('change'));
+      });
+      container.appendChild(row);
+    }
+
+    return container;
+  }
+
+  function renderMergedGithubNode(node){
+    const container = document.createElement('div');
+    container.className = 'tree-node';
+    const row = document.createElement('div');
+    row.className = 'tree-node-row';
+
+    if(node.type === 'folder'){
+      const leaves = collectDbLeaves(node);
+      const allSelected = leaves.length > 0 && leaves.every(l => mergedSelected.has(mergeKey('gh', l.url)));
+      row.appendChild(makeMergeCheckbox(allSelected, (checked) => {
+        leaves.forEach(l => {
+          const key = mergeKey('gh', l.url);
+          if(checked) mergedSelected.set(key, { name: l.name, url: l.url });
+          else mergedSelected.delete(key);
+        });
+        renderMergedTree();
+      }));
+
+      const expanded = githubExpanded.has(node._id);
+      const toggle = document.createElement('span');
+      toggle.className = 'tree-toggle';
+      toggle.textContent = expanded ? '▾' : '▸';
+      row.appendChild(toggle);
+
+      const icon = document.createElement('span');
+      icon.className = 'tree-icon';
+      icon.textContent = '📁';
+      row.appendChild(icon);
+
+      const name = document.createElement('span');
+      name.className = 'tree-name';
+      name.textContent = node.name;
+      row.appendChild(name);
+
+      row.addEventListener('click', () => { toggleGithubFolder(node._id); renderMergedTree(); });
+      container.appendChild(row);
+
+      if(expanded){
+        const childrenWrap = document.createElement('div');
+        childrenWrap.className = 'tree-children';
+        const kids = node.children || [];
+        if(kids.length === 0){
+          const emptyMsg = document.createElement('div');
+          emptyMsg.className = 'tree-empty-msg';
+          emptyMsg.textContent = 'فارغ.';
+          childrenWrap.appendChild(emptyMsg);
+        } else {
+          kids.forEach(child => childrenWrap.appendChild(renderMergedGithubNode(child)));
+        }
+        container.appendChild(childrenWrap);
+      }
+    } else {
+      const key = mergeKey('gh', node.url);
+      row.appendChild(makeMergeCheckbox(mergedSelected.has(key), (checked) => {
+        if(checked) mergedSelected.set(key, { name: node.name, url: node.url });
+        else mergedSelected.delete(key);
+        updateMergeFooter();
+      }));
+
+      const icon = document.createElement('span');
+      icon.className = 'tree-icon';
+      icon.textContent = '📄';
+      row.appendChild(icon);
+
+      const nameWrap = document.createElement('div');
+      nameWrap.style.flex = '1';
+      nameWrap.style.minWidth = '0';
+      const name = document.createElement('div');
+      name.className = 'tree-name';
+      name.textContent = node.name;
+      const urlEl = document.createElement('div');
+      urlEl.className = 'tree-db-url';
+      urlEl.textContent = node.url;
+      nameWrap.appendChild(name);
+      nameWrap.appendChild(urlEl);
+      row.appendChild(nameWrap);
+
+      row.addEventListener('click', () => {
+        const cb = row.querySelector('.merge-checkbox');
+        cb.checked = !cb.checked;
+        cb.dispatchEvent(new Event('change'));
+      });
+      container.appendChild(row);
+    }
+
+    return container;
+  }
+
+  function renderMergedTree(){
+    if(!mergedTreeOverlay.classList.contains('show')) return;
+    mergedTreeBody.innerHTML = '';
+
+    const intTitle = document.createElement('div');
+    intTitle.className = 'merge-section-title';
+    intTitle.innerHTML = '<span>🗂 القواعد الداخلية</span>';
+    mergedTreeBody.appendChild(intTitle);
+    if(dbTree.length === 0){
+      const empty = document.createElement('div');
+      empty.className = 'tree-empty-msg';
+      empty.textContent = 'لا توجد قواعد داخلية بعد.';
+      mergedTreeBody.appendChild(empty);
+    } else {
+      dbTree.forEach(node => mergedTreeBody.appendChild(renderMergedInternalNode(node)));
+    }
+
+    const extTitleWrap = document.createElement('div');
+    extTitleWrap.className = 'merge-section-title';
+    const extTitleLabel = document.createElement('span');
+    extTitleLabel.textContent = '🌐 القاعدة الخارجية';
+    extTitleWrap.appendChild(extTitleLabel);
+    if(externalTreeUrl){
+      const refreshMini = document.createElement('button');
+      refreshMini.className = 'merge-refresh-mini';
+      refreshMini.textContent = '🔄 تحديث';
+      refreshMini.addEventListener('click', (e) => { e.stopPropagation(); fetchExternalTree(); });
+      extTitleWrap.appendChild(refreshMini);
+    }
+    mergedTreeBody.appendChild(extTitleWrap);
+
+    if(!externalTreeUrl){
+      const empty = document.createElement('div');
+      empty.className = 'tree-empty-msg';
+      empty.textContent = 'لم يُحدَّد رابط فهرس خارجي بعد (استخدم زر "🌐 قاعدة خارجية").';
+      mergedTreeBody.appendChild(empty);
+    } else if(externalTree.length === 0){
+      const empty = document.createElement('div');
+      empty.className = 'tree-empty-msg';
+      empty.textContent = '⏳ جارٍ تحميل الفهرس الخارجي...';
+      mergedTreeBody.appendChild(empty);
+    } else {
+      externalTree.forEach(node => mergedTreeBody.appendChild(renderMergedExternalNode(node)));
+    }
+
+    const ghTitleWrap = document.createElement('div');
+    ghTitleWrap.className = 'merge-section-title';
+    const ghTitleLabel = document.createElement('span');
+    ghTitleLabel.textContent = '🐙 مجلد GitHub';
+    ghTitleWrap.appendChild(ghTitleLabel);
+    if(githubRepoInput){
+      const refreshMiniGh = document.createElement('button');
+      refreshMiniGh.className = 'merge-refresh-mini';
+      refreshMiniGh.textContent = '🔄 تحديث';
+      refreshMiniGh.addEventListener('click', (e) => { e.stopPropagation(); fetchGithubTree(); });
+      ghTitleWrap.appendChild(refreshMiniGh);
+    }
+    mergedTreeBody.appendChild(ghTitleWrap);
+
+    if(!githubRepoInput){
+      const empty = document.createElement('div');
+      empty.className = 'tree-empty-msg';
+      empty.textContent = 'لم يُحدَّد رابط مستودع بعد (استخدم زر "🐙 مجلد GitHub").';
+      mergedTreeBody.appendChild(empty);
+    } else if(githubTree.length === 0){
+      const empty = document.createElement('div');
+      empty.className = 'tree-empty-msg';
+      empty.textContent = '⏳ جارٍ جلب ملفات GitHub...';
+      mergedTreeBody.appendChild(empty);
+    } else {
+      githubTree.forEach(node => mergedTreeBody.appendChild(renderMergedGithubNode(node)));
+    }
+
+    updateMergeFooter();
+  }
+
+  async function mergeSelectedDatabases(){
+    if(mergedSelected.size === 0) return;
+    const targets = Array.from(mergedSelected.values());
+    showToast('⏳ جارٍ دمج ' + targets.length + ' قاعدة...');
+    let allCards = [];
+    let successCount = 0;
+    const failedNames = [];
+
+    for(const target of targets){
+      try{
+        const res = await fetch(target.url, { cache: 'no-store' });
+        if(!res.ok) throw new Error('HTTP ' + res.status);
+        const text = await res.text();
+        let parsed = parseJSON(text);
+        if(parsed.length === 0) parsed = parseCSVorTxt(text);
+        if(parsed.length === 0) throw new Error('empty');
+        allCards = allCards.concat(parsed);
+        successCount++;
+      }catch(err){
+        failedNames.push(target.name);
+      }
+    }
+
+    if(allCards.length === 0){
+      showToast('⚠️ تعذر تحميل أي بطاقات من القواعد المحددة');
+      return;
+    }
+
+    loadCards(allCards);
+    closeMergedTreePanel();
+    let msg = '✅ تم دمج ' + successCount + ' قاعدة (' + cards.length + ' بطاقة فريدة)';
+    if(lastLoadDuplicatesRemoved > 0) msg += ' — حُذفت ' + lastLoadDuplicatesRemoved + ' بطاقة مكررة';
+    if(failedNames.length) msg += ' — تعذر تحميل: ' + failedNames.join('، ');
+    showToast(msg);
+  }
+
+  // ---- Word search: live search across every currently loaded card (front
+  // and back), highlights the matched word, and jumps straight to a card
+  // when its result is tapped. ----
+  const searchOverlay = document.getElementById('searchOverlay');
+  const searchWordInput = document.getElementById('searchWordInput');
+  const searchCountLine = document.getElementById('searchCountLine');
+  const searchResultsBody = document.getElementById('searchResultsBody');
+  const searchCloseBtn = document.getElementById('searchCloseBtn');
+  const miniSearchFrontBtn = document.getElementById('miniSearchFront');
+  const miniSearchBackBtn = document.getElementById('miniSearchBack');
+
+  // Same block/<br> normalization as autoAlignHTML, but returns plain text
+  // with real "\n" line breaks so each sentence can be detected and aligned
+  // on its own (used by the search results panel).
+  function htmlToLinesText(html){
+    if(!html) return '';
+    const temp = document.createElement('div');
+    temp.innerHTML = html;
+    const norm = document.createElement('div');
+    Array.from(temp.childNodes).forEach((n) => {
+      if(n.nodeType === 1 && /^(DIV|P)$/i.test(n.tagName)){
+        if(norm.childNodes.length > 0) norm.appendChild(document.createElement('br'));
+        Array.from(n.childNodes).forEach(c => norm.appendChild(c.cloneNode(true)));
+      } else {
+        norm.appendChild(n.cloneNode(true));
+      }
+    });
+    Array.from(norm.querySelectorAll('br')).forEach(br => br.replaceWith('\n'));
+    return norm.textContent || '';
+  }
+
+  function stripHtmlToText(html){
+    const tmp = document.createElement('div');
+    tmp.innerHTML = html || '';
+    return tmp.textContent || tmp.innerText || '';
+  }
+  function escapeHtmlText(s){
+    return String(s).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  }
+  function escapeForRegExp(s){
+    return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+  function highlightQueryInText(text, query){
+    const escText = escapeHtmlText(text);
+    if(!query) return escText;
+    const re = new RegExp(escapeForRegExp(escapeHtmlText(query)), 'gi');
+    return escText.replace(re, (m) => '<span class="search-highlight">' + m + '</span>');
+  }
+  // Renders multi-line search-result text with each line aligned by its own
+  // script (Arabic → right, Latin → left), same as the card display.
+  function renderResultLines(text, query){
+    return text.split('\n').map(line => {
+      const t = line.trim();
+      if(!t) return '';
+      const dir = detectLineDir(t);
+      const highlighted = highlightQueryInText(line, query);
+      if(!dir) return '<div>' + highlighted + '</div>';
+      const align = dir === 'rtl' ? 'right' : 'left';
+      return '<div dir="' + dir + '" style="text-align:' + align + '">' + highlighted + '</div>';
+    }).join('');
+  }
+
+  function renderSearchEmptyState(msg){
+    searchResultsBody.innerHTML = '';
+    const empty = document.createElement('div');
+    empty.className = 'tree-empty-msg';
+    empty.textContent = msg;
+    searchResultsBody.appendChild(empty);
+  }
+
+  function buildSearchResultCard(result, query){
+    const card = document.createElement('div');
+    card.className = 'search-result-card';
+
+    const head = document.createElement('div');
+    head.className = 'search-result-head';
+    const num = document.createElement('span');
+    num.className = 'search-result-num';
+    num.textContent = 'بطاقة #' + (result.idx + 1) + ' من ' + cards.length;
+    head.appendChild(num);
+    if(cards[result.idx].learned){
+      const tag = document.createElement('span');
+      tag.className = 'search-result-learned-tag';
+      tag.textContent = '✓ مفهومة';
+      head.appendChild(tag);
+    }
+    card.appendChild(head);
+
+    const frontRow = document.createElement('div');
+    frontRow.className = 'search-result-face';
+    frontRow.innerHTML = '<span class="search-result-label">س</span><div class="search-result-lines">' + renderResultLines(result.frontText, query) + '</div>';
+    card.appendChild(frontRow);
+
+    const divider = document.createElement('div');
+    divider.className = 'search-result-divider';
+    card.appendChild(divider);
+
+    const backRow = document.createElement('div');
+    backRow.className = 'search-result-face';
+    backRow.innerHTML = '<span class="search-result-label">ج</span><div class="search-result-lines">' + renderResultLines(result.backText, query) + '</div>';
+    card.appendChild(backRow);
+
+    card.addEventListener('click', () => {
+      jumpToCardByIndex(result.idx);
+      closeSearchPanel();
+      showToast('📇 انتقلت إلى بطاقة #' + (result.idx + 1));
+    });
+
+    return card;
+  }
+
+  function runWordSearch(rawQuery){
+    const query = rawQuery.trim();
+    if(!query){
+      renderSearchEmptyState('اكتب كلمة لعرض كل البطاقات التي تحتوي عليها.');
+      searchCountLine.innerHTML = '';
+      return;
+    }
+    if(cards.length === 0){
+      renderSearchEmptyState('لا توجد بطاقات محمّلة حاليًا.');
+      searchCountLine.innerHTML = '';
+      return;
+    }
+    const q = query.toLowerCase();
+    const results = [];
+    cards.forEach((c, idx) => {
+      const frontText = htmlToLinesText(c.front);
+      const backText = htmlToLinesText(c.back);
+      if(frontText.toLowerCase().includes(q) || backText.toLowerCase().includes(q)){
+        results.push({ idx, frontText, backText });
+      }
+    });
+
+    if(results.length === 0){
+      renderSearchEmptyState('لا توجد بطاقات تحتوي على "' + query + '".');
+      searchCountLine.innerHTML = '';
+      return;
+    }
+
+    searchCountLine.innerHTML = '🔎 <b>' + results.length + '</b> بطاقة تحتوي على "' + escapeHtmlText(query) + '"';
+    searchResultsBody.innerHTML = '';
+    results.forEach(r => searchResultsBody.appendChild(buildSearchResultCard(r, query)));
+  }
+
+  // Jumps straight to a specific card by its fixed index in `cards`, even if
+  // it was previously marked "learned" (it gets restored so it's visible).
+  function jumpToCardByIndex(cardIdx){
+    if(cardIdx < 0 || cardIdx >= cards.length) return;
+    clearAllTimers();
+    stopEdit(true);
+    if(cards[cardIdx].learned) cards[cardIdx].learned = false;
+    if(!order.includes(cardIdx)){
+      order = cards.map((c, i) => i).filter(i => !cards[i].learned);
+    }
+    flipped = false;
+    pos = order.indexOf(cardIdx);
+    if(pos === -1) pos = 0;
+    cardEl.classList.remove('flipped');
+    render();
+  }
+
+  function openSearchPanel(prefillWord){
+    searchOverlay.classList.add('show');
+    const initial = prefillWord || '';
+    searchWordInput.value = initial;
+    runWordSearch(initial);
+    setTimeout(() => { searchWordInput.focus(); searchWordInput.select(); }, 50);
+  }
+  function closeSearchPanel(){ searchOverlay.classList.remove('show'); }
+
+  miniSearchFrontBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if(wordSearchArmed) disarmWordSearch(); else armWordSearch();
+  });
+  miniSearchBackBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if(wordSearchArmed) disarmWordSearch(); else armWordSearch();
+  });
+  searchCloseBtn.addEventListener('click', closeSearchPanel);
+  searchOverlay.addEventListener('click', (e) => { if(e.target === searchOverlay) closeSearchPanel(); });
+  searchWordInput.addEventListener('input', (e) => runWordSearch(e.target.value));
 
   loadCards(sample.slice());
 })();
