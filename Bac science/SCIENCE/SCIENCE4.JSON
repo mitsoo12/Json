@@ -1,0 +1,1802 @@
+[
+  {
+    "front": "ما هو الجين (المورثة)؟",
+    "back": "قطعة من جزيء ADN تحمل المعلومة اللازمة لتصنيع بروتين واحد أو صفة وراثية معينة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الصبغي (الكروموسوم)؟",
+    "back": "خيط مكثف من جزيء ADN مرتبط ببروتينات، يحمل مجموعة من المورثات، ويظهر بوضوح أثناء انقسام الخلية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو النيكليوتيد؟",
+    "back": "الوحدة البنائية لجزيء ADN أو ARN، ويتكوّن من سكر، مجموعة فوسفات، وقاعدة آزوتية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي القواعد الآزوتية الأربع في ADN؟",
+    "back": "الأدينين (A)، الثيمين (T)، الغوانين (G)، والسيتوزين (C).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الكودون؟",
+    "back": "مجموعة من 3 نيكليوتيدات متتالية على ARN الرسول، تُشفِّر حمضًا أمينيًا واحدًا في البروتين.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين الجين والأليل؟",
+    "back": "الجين هو المورثة نفسها (موقع محدد على الصبغي)، أما الأليل فهو أحد الأشكال المختلفة الممكنة لنفس الجين.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما معنى أن الشيفرة الوراثية 'عالمية'؟",
+    "back": "أن نفس الكودونات تُشفِّر نفس الأحماض الأمينية عند جميع الكائنات الحية تقريبًا، من البكتيريا إلى الإنسان.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "أين يحدث الاستنساخ (النسخ) داخل الخلية؟",
+    "back": "داخل نواة الخلية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "أين تحدث الترجمة داخل الخلية؟",
+    "back": "في الهيولى، على مستوى الريبوزومات.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الريبوزوم؟",
+    "back": "عضية خلوية صغيرة تُترجَم عليها المعلومة الوراثية (ARN الرسول) إلى بروتين.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين ADN وARN من حيث عدد الخيوط؟",
+    "back": "ADN جزيء ثنائي الخيط (مزدوج)، بينما ARN جزيء أحادي الخيط (سلسلة واحدة).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو البروتين ببساطة؟",
+    "back": "جزيء كبير يتكوّن من تتالي أحماض أمينية مرتبطة معًا، ويؤدي وظائف متعددة في الخلية (بنيوية، إنزيمية، نقل...).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي وظيفة الحمض النووي (ADN) في الخلية؟",
+    "back": "حفظ ونقل المعلومة الوراثية اللازمة لتصنيع البروتينات وتحديد صفات الكائن الحي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الأنزيم ببساطة؟",
+    "back": "بروتين يُسرّع التفاعلات الكيميائية داخل الجسم دون أن يتغيّر أو يُستهلك.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما معنى 'نوعية الإنزيم'؟",
+    "back": "كل إنزيم يعمل على ركيزة واحدة أو مجموعة ركائز متشابهة فقط، ولا يعمل على أي مادة أخرى.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الركيزة (Substrat) بالنسبة للإنزيم؟",
+    "back": "المادة التي يعمل عليها الإنزيم ويُحوّلها أثناء التفاعل الكيميائي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما معنى تمسخ (دنترة) الإنزيم؟",
+    "back": "فقدان الإنزيم لبنيته الفراغية الطبيعية بسبب حرارة مرتفعة أو pH غير مناسب، مما يُفقده نشاطه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الحمض الأميني؟",
+    "back": "الوحدة الأساسية التي تتركب منها البروتينات، ويوجد 20 نوعًا منها في الكائنات الحية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الرابطة الببتيدية؟",
+    "back": "الرابطة الكيميائية التي تربط بين حمضين أمينيين متتاليين ضمن سلسلة البروتين.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي البنية الأولية للبروتين؟",
+    "back": "تتالي الأحماض الأمينية المرتبة بترتيب معيّن ضمن السلسلة الببتيدية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الجسم المضاد (Anticorps) ببساطة؟",
+    "back": "بروتين تُفرزه الخلايا البلازمية، يتعرف بشكل نوعي على مولد ضد محدد ويرتبط به لتحييده.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "من أين تنشأ الخلية البلازمية؟",
+    "back": "تنشأ عن تمايز وتكاثر اللمفاويات البائية (LB) بعد تنشيطها بمولد الضد.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي اللمفاويات البائية (LB)؟",
+    "back": "نوع من الكريات البيضاء مسؤول عن المناعة الخلطية، يتحول عند تنشيطه إلى خلايا بلازمية مُفرِزة للأجسام المضادة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي اللمفاويات التائية المساعدة (LT4)؟",
+    "back": "خلايا مناعية تُنسِّق الاستجابة المناعية وتُحفّز كلاً من اللمفاويات البائية واللمفاويات التائية السامة عبر إفراز السيتوكينات.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الغلوبيولين المناعي IgG؟",
+    "back": "أكثر أنواع الأجسام المضادة انتشارًا في الدم، يُفرز بكثرة أثناء الاستجابة المناعية الثانوية، ويمكنه عبور المشيمة لحماية الجنين.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الغلوبيولين المناعي IgM؟",
+    "back": "أول نوع من الأجسام المضادة يظهر في الاستجابة المناعية الأولية، وله بنية كبيرة الحجم.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الغلوبيولين المناعي IgA؟",
+    "back": "جسم مضاد يوجد بكثرة في الإفرازات (كاللعاب والحليب والدموع)، يحمي الأغشية المخاطية من مسببات الأمراض.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الاستجابة المناعية الأولية؟",
+    "back": "أول استجابة مناعية تحدث عند التعرض لمولد ضد جديد، تكون بطيئة نسبيًا ومحدودة الشدة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الاستجابة المناعية الثانوية؟",
+    "back": "استجابة تحدث عند تعرض ثانٍ لنفس مولد الضد، تكون أسرع وأقوى وأطول أمدًا بفضل خلايا الذاكرة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي خلايا الذاكرة المناعية؟",
+    "back": "خلايا لمفاوية تبقى في الجسم لفترة طويلة بعد أول تعرض لمولد ضد، وتُسرّع الاستجابة المناعية عند أي تعرض لاحق لنفس المولد.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما معنى نوعية الاستجابة المناعية؟",
+    "back": "كل جسم مضاد أو لمفاوية تتعرف وتستجيب لمولد ضد واحد محدد فقط، ولا تعمل ضد أي مولد ضد آخر مختلف.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو مرض الإيدز (VIH/SIDA) وتأثيره على المناعة؟",
+    "back": "مرض ناتج عن فيروس VIH الذي يُهاجم اللمفاويات التائية المساعدة (LT4) ويُدمرها، مما يُضعف الجهاز المناعي بشدة ويجعل الجسم عرضة للعدوى.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "لماذا تُصبح المناعة ضعيفة عند مريض الإيدز في مراحله المتقدمة؟",
+    "back": "لأن انخفاض عدد LT4 بشكل كبير يُعطل تنسيق الاستجابة المناعية، فلا تُنشَّط اللمفاويات البائية ولا التائية السامة بشكل كافٍ.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف أمراض المناعة الذاتية (Maladies auto-immunes) ببساطة؟",
+    "back": "أمراض ينهار فيها التمييز بين الذات واللاذات، فيُهاجم الجهاز المناعي خلايا وأنسجة الجسم نفسه ظنًا منه أنها غريبة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الحساسية (Allergie) من منظور مناعي؟",
+    "back": "استجابة مناعية مفرطة وغير مناسبة تجاه مادة غريبة غير ضارة في الأصل (كحبوب اللقاح)، تُسبب أعراضًا مزعجة أو خطيرة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الزرع (Greffe) ومشكلة الرفض المناعي؟",
+    "back": "نقل عضو أو نسيج من متبرع إلى متلقٍ؛ وقد يُهاجم جهاز المناعة للمتلقي العضو المزروع باعتباره لاذاتًا، مما يُسبب رفضه إن لم يكن التوافق النسيجي كافيًا.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما دور الأدوية المثبطة للمناعة في زراعة الأعضاء؟",
+    "back": "تُقلل من نشاط الجهاز المناعي للمتلقي لمنع رفضه للعضو المزروع، لكنها تزيد في المقابل من خطر تعرضه للعدوى.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف مولد الضد الذاتي (Auto-antigène)؟",
+    "back": "جزيء طبيعي من مكونات جسم الفرد نفسه، يُهاجمه الجهاز المناعي خطأً في حالة أمراض المناعة الذاتية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الطحال ودوره في المناعة؟",
+    "back": "عضو لمفاوي يُساهم في تصفية الدم من الجراثيم والخلايا الميتة، ويحتوي على لمفاويات تُشارك في الاستجابة المناعية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي العقد اللمفاوية (Ganglions lymphatiques) ودورها؟",
+    "back": "أعضاء صغيرة موزعة في الجسم، تحتوي على أعداد كبيرة من اللمفاويات، وتُعتبر مواقع رئيسية لتنشيط الاستجابة المناعية النوعية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي وحدة البناء الأساسية للعضلة الهيكلية؟",
+    "back": "الليف العضلي (Fibre musculaire)، وهو خلية عضلية طويلة متعددة الأنوية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو العضيل (Myofibrille)؟",
+    "back": "خيط دقيق داخل الليف العضلي، يتكوّن من تكرار وحدات تُسمى السركوميرات، وهو المسؤول عن انقباض العضلة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو السركومير (Sarcomère)؟",
+    "back": "الوحدة الوظيفية المتكررة في العضيل، محصورة بين خطين Z، وتحتوي على خيوط بروتينية دقيقة وسميكة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هما البروتينان الأساسيان المسؤولان عن الانقباض العضلي؟",
+    "back": "الأكتين (خيوط دقيقة) والميوزين (خيوط سميكة).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي نظرية الانزلاق (Théorie du glissement) في تفسير الانقباض العضلي؟",
+    "back": "تنص على أن الانقباض ينتج عن انزلاق خيوط الأكتين فوق خيوط الميوزين نحو مركز السركومير، دون أن يتغيّر طول أي منهما.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما مصدر الطاقة اللازمة لانزلاق خيوط الأكتين والميوزين؟",
+    "back": "جزيء ATP، الذي يُحلَّل بواسطة الميوزين لتحرير الطاقة اللازمة لحركة الجسور المستعرضة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما دور أيونات الكالسيوم (Ca2+) في الانقباض العضلي؟",
+    "back": "تُحرَّر من الشبكة الهيولية المعصرة داخل الليف العضلي، وترتبط ببروتين التروبونين، فتُزيح التروبوميوزين وتسمح بارتباط الأكتين بالميوزين.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الوصل العصبي العضلي (Jonction neuromusculaire) ببساطة؟",
+    "back": "نوع خاص من المشابك بين نهاية العصبون الحركي والليف العضلي، ينقل الرسالة العصبية عبر الأستيل كولين.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الأستيل كولين؟",
+    "back": "ناقل عصبي كيميائي يُفرَز عند نهاية العصبون الحركي في الوصل العصبي العضلي، ويُحفّز انقباض الليف العضلي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الوحدة الحركية (Unité motrice)؟",
+    "back": "مجموعة تتكوّن من عصبون حركي واحد وكل الألياف العضلية التي يُعصِّبها، وتنقبض جميعها معًا عند استثارته.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "كيف تزداد قوة الانقباض العضلي؟",
+    "back": "بزيادة عدد الوحدات الحركية المُستثارة في آن واحد، وبزيادة تردد استثارتها.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو التعب العضلي (Fatigue musculaire) من الناحية الفيزيولوجية؟",
+    "back": "انخفاض تدريجي في قدرة العضلة على الانقباض بعد نشاط مكثف ومطوّل، نتيجة نفاد مخزون الطاقة وتراكم بعض النواتج الأيضية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "لماذا تحتاج العضلة الهيكلية إلى كمية كبيرة من الميتاكوندري؟",
+    "back": "لأن الانقباض العضلي يستهلك كميات كبيرة من جزيء ATP، والميتاكوندري هي المسؤولة عن إنتاج هذه الطاقة عبر التنفس الخلوي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين العضلة الهيكلية والعضلة القلبية من حيث التحكم؟",
+    "back": "العضلة الهيكلية تخضع للتحكم الإرادي عبر الجهاز العصبي المركزي، بينما العضلة القلبية تنقبض بشكل ذاتي ولا إرادي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو المستقبل الحسي (Récepteur sensoriel)؟",
+    "back": "بنية متخصصة تستقبل منبهًا معينًا (ضوئيًا، صوتيًا، ميكانيكيًا...) وتُحوّله إلى رسالة عصبية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو العصب (Nerf) ببساطة؟",
+    "back": "حزمة من ألياف عصبية (محاور عصبونات) مجمّعة معًا، تنقل الرسائل العصبية بين المركز العصبي وأعضاء الجسم.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين العصب الحسي والعصب الحركي؟",
+    "back": "العصب الحسي ينقل المعلومة من المستقبلات نحو المركز العصبي، بينما العصب الحركي ينقل الأوامر من المركز العصبي نحو الأعضاء المنفذة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو جسم الخلية العصبية (Corps cellulaire du neurone)؟",
+    "back": "الجزء الذي يحتوي على النواة ومعظم العضيات الخلوية للعصبون، وتنطلق منه التفرعات (المتغصنات والمحور).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي المتغصنات (Dendrites) في العصبون؟",
+    "back": "تفرعات قصيرة ومتعددة تستقبل الرسائل العصبية من عصبونات أخرى وتنقلها نحو جسم الخلية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو المحور العصبي (Axone)؟",
+    "back": "امتداد طويل واحد للعصبون، ينقل الرسالة العصبية (كمون العمل) من جسم الخلية نحو النهايات المشبكية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو النخاع الشوكي ودوره في المنعكسات؟",
+    "back": "جزء من الجهاز العصبي المركزي داخل العمود الفقري، يُعتبر مركزًا للعديد من المنعكسات اللاإرادية البسيطة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الدماغ ودوره العام؟",
+    "back": "المركز الرئيسي للجهاز العصبي، مسؤول عن الوظائف الإرادية، التفكير، الذاكرة، وتنسيق أغلب أنشطة الجسم.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف زمن الرجع (Temps de latence) في المنعكس؟",
+    "back": "الفترة الزمنية الفاصلة بين لحظة تطبيق المنبه ولحظة ظهور الاستجابة الحركية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "لماذا يُعتبر المنعكس استجابة سريعة جدًا؟",
+    "back": "لأن مساره العصبي (القوس الانعكاسي) قصير ومباشر، ولا يتطلب مرورًا عبر الدماغ ولا تدخل الوعي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الجهاز العصبي المركزي؟",
+    "back": "يتكوّن من الدماغ والنخاع الشوكي، وهو مركز معالجة واتخاذ القرار في الجهاز العصبي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الجهاز العصبي المحيطي؟",
+    "back": "يتكوّن من الأعصاب التي تربط الجهاز العصبي المركزي بمختلف أعضاء الجسم (المستقبلات والأعضاء المنفذة).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو المجهر الإلكتروني ولماذا يُستعمل لدراسة المشبك العصبي؟",
+    "back": "جهاز تكبير يستعمل حزمة إلكترونات بدل الضوء، يسمح برؤية تفاصيل دقيقة جدًا (كالحويصلات المشبكية) لا يمكن رؤيتها بالمجهر الضوئي العادي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الحويصلات المشبكية (Vésicules synaptiques)؟",
+    "back": "تراكيب صغيرة داخل الزر المشبكي تحتوي على الناقل العصبي، وتندمج مع الغشاء لتحرره في الشق المشبكي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الشق المشبكي (Fente synaptique)؟",
+    "back": "الفراغ الصغير الفاصل بين غشاء العصبون قبل المشبك وغشاء الخلية بعد المشبك، تعبره جزيئات الناقل العصبي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو مرض الهيموفيليا (الناعور) وسببه الوراثي؟",
+    "back": "مرض وراثي يُسبب ضعف تخثر الدم، ناتج عن نقص أحد عوامل التخثر، ومورثته محمولة على الصبغي X بشكل متنحٍ.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو مرض فقر الدم المنجلي (Drépanocytose)؟",
+    "back": "مرض وراثي ينتج عن طفرة في مورثة الهيموغلوبين، تُغيّر شكل الكريات الحمراء إلى شكل منجلي، فتُعيق نقل الأكسجين بكفاءة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي متلازمة داون (Trisomie 21) وسببها؟",
+    "back": "متلازمة ناتجة عن وجود 3 نسخ من الصبغي 21 بدل نسختين، بسبب سوء انفصال الصبغيات أثناء الانقسام المنصف.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو مرض التليّف الكيسي (Mucoviscidose)؟",
+    "back": "مرض وراثي متنحٍ يُصيب صبغيًا جسميًا، يُسبب إفراز مخاط كثيف يُعيق وظيفة الرئتين والجهاز الهضمي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الأمراض الوراثية أحادية المورثة (Maladies monogéniques)؟",
+    "back": "أمراض ناتجة عن طفرة في مورثة واحدة فقط، بخلاف الأمراض متعددة العوامل التي تتدخل فيها عدة مورثات وعوامل بيئية معًا.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الأمراض متعددة العوامل (Maladies multifactorielles)؟",
+    "back": "أمراض تنتج عن تفاعل عدة مورثات مع عوامل بيئية (كالتغذية ونمط الحياة)، مثل بعض أنواع السكري وأمراض القلب.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "لماذا يُنصح بإجراء الفحص الوراثي قبل الزواج في بعض الحالات؟",
+    "back": "للكشف المبكر عن احتمال حمل أحد الزوجين لأليل مرضي متنحٍ، مما يُساعد على تقييم خطر إنجاب طفل مصاب بمرض وراثي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو التشخيص قبل الولادة (Diagnostic prénatal)؟",
+    "back": "مجموعة الفحوصات التي تُجرى على الجنين أثناء الحمل للكشف عن احتمال إصابته بأمراض وراثية أو تشوهات خلقية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو بزل السائل الأمنيوسي (Amniocentèse)؟",
+    "back": "تقنية تشخيص قبل الولادة، تُؤخذ فيها عينة من السائل المحيط بالجنين لتحليل خلاياه وكشف احتمال وجود شذوذ صبغي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف زواج الأقارب وعلاقته بظهور الأمراض الوراثية المتنحية؟",
+    "back": "زواج بين أفراد من نفس العائلة تزيد فيه احتمالية أن يحمل الطرفان نفس الأليل المتنحي، مما يرفع خطر إنجاب أطفال مصابين بأمراض وراثية متنحية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف حامل المرض (Porteur sain) لأليل متنحٍ؟",
+    "back": "شخص متغاير اللواقح (يحمل نسخة واحدة فقط من الأليل المتنحي المرضي)، فلا تظهر عليه أعراض المرض لكنه قادر على نقل الأليل إلى أبنائه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "لماذا لا يظهر المرض على حامل الأليل المتنحي المرضي (الحامل السليم)؟",
+    "back": "لأن وجود أليل سائد سليم على الصبغي المقابل يكفي لضمان إنتاج البروتين الوظيفي الطبيعي، فيُخفي (يُقنّع) تأثير الأليل المتنحي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الشجرة العائلية (Arbre généalogique) ودورها في دراسة الوراثة؟",
+    "back": "تخطيط بياني يُمثل توارث صفة أو مرض عبر أجيال متعاقبة من نفس العائلة، يُستعمل لتحديد نمط توارث الصفة (سائد، متنحٍ، مرتبط بالجنس).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "كيف نُميّز بين الوراثة السائدة والوراثة المتنحية من خلال شجرة عائلية؟",
+    "back": "في الوراثة السائدة يظهر المرض عادة في كل جيل وعند أحد الأبوين على الأقل، بينما في الوراثة المتنحية قد يظهر المرض عند أبناء أبوين سليمين ظاهريًا (حاملين للأليل).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الجهاز الصماء (Système endocrinien) ببساطة؟",
+    "back": "مجموعة الغدد التي تُفرز هرمونات مباشرة إلى الدم لتنظيم وظائف مختلفة في الجسم.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الهرمون ببساطة؟",
+    "back": "مادة كيميائية تُفرزها غدة صماء إلى الدم، وتُؤثر على أعضاء أو أنسجة مستهدفة بعيدة عن مكان إفرازها.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الغدة النخامية ودورها العام؟",
+    "back": "غدة صماء صغيرة تقع أسفل الدماغ، تُفرز هرمونات موجهة تُنظم عمل غدد صماء أخرى (كالمبيض والغدة الدرقية والكظرية).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو تحت السرير البصري (Hypothalamus) ودوره؟",
+    "back": "منطقة في الدماغ تُفرز هرمونات مُحفِّزة أو مُثبِّطة تُنظم عمل الغدة النخامية، وتُشكّل حلقة الوصل بين الجهاز العصبي والجهاز الصماء.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الغدة الدرقية ودورها العام؟",
+    "back": "غدة صماء في الرقبة تُفرز هرمونات (كالثيروكسين) تُنظم معدل الأيض (التمثيل الغذائي) العام في الجسم.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الخلايا المستهدفة (Cellules cibles) لهرمون معين؟",
+    "back": "الخلايا التي تحمل مستقبلات نوعية قادرة على التعرف على هرمون معين والاستجابة له، بينما لا تتأثر به الخلايا الأخرى غير الحاملة لتلك المستقبلات.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف مبدأ الاسترجاع (التلقيم الراجع) بشكل عام في التنظيم الهرموني؟",
+    "back": "آلية تصحيح ذاتية تُؤثر فيها نتيجة عملية معينة (كارتفاع هرمون ما) على مصدر التحفيز الأول، لضبط وموازنة الإفراز الهرموني.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين الاسترجاع السلبي والاسترجاع الإيجابي؟",
+    "back": "الاسترجاع السلبي يُثبِّط المصدر الأول لإعادة التوازن (الأكثر شيوعًا)، بينما الاسترجاع الإيجابي يُحفِّز المصدر الأول ويُضخّم الاستجابة (كما في ذروة LH قبل الإباضة).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "لماذا تُعتبر الهرمونات وسيلة تواصل أبطأ من الرسائل العصبية لكنها أطول تأثيرًا؟",
+    "back": "لأن الهرمونات تنتقل عبر الدم إلى كامل الجسم (أبطأ من التيار العصبي المباشر)، لكن تأثيرها يبقى مستمرًا لفترة أطول بعد الوصول إلى الخلايا المستهدفة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الغدة المختلطة (ذات إفراز مزدوج)؟",
+    "back": "غدة تجمع بين وظيفة صماء (إفراز هرمونات في الدم) ووظيفة قنوية خارجية (إفراز مواد عبر قناة)، كالبنكرياس.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما دور هرمون الأدرينالين في استجابة الجسم للتوتر؟",
+    "back": "يُفرز من الغدة الكظرية استجابة سريعة للتوتر أو الخطر، يرفع معدل ضربات القلب ويزيد تدفق الدم نحو العضلات، تحضيرًا لاستجابة 'الكر أو الفر'.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما دور هرمون الكورتيزول في الجسم؟",
+    "back": "هرمون تُفرزه الغدة الكظرية استجابة للتوتر المزمن، يُنظم عملية الأيض ويرفع نسبة السكر في الدم، وله تأثيرات مضادة للالتهاب.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الغدة الصعترية (التيموس) ودورها في المناعة؟",
+    "back": "عضو لمفاوي يقع في الصدر، ينضج فيه اللمفاويات التائية قبل انتشارها في الجسم.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف نقي العظم الأحمر ودوره في الجهاز المناعي؟",
+    "back": "نسيج موجود داخل العظام، مسؤول عن إنتاج جميع خلايا الدم بما فيها الكريات البيضاء (اللمفاويات B وسلائف اللمفاويات T).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "من هو العالم المرتبط باكتشاف أول لقاح في التاريخ؟",
+    "back": "إدوارد جينر، الذي طوّر أول لقاح ضد مرض الجدري في أواخر القرن الثامن عشر باستعمال جدري البقر.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "من هو العالم الذي طوّر لقاح داء الكلب (السعار)؟",
+    "back": "لويس باستور، وهو أيضًا من مؤسسي علم الجراثيم الحديث ومبدأ التعقيم.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف التمنيع (Immunisation) بشكل عام؟",
+    "back": "عملية اكتساب الجسم مناعة ضد مرض معيّن، سواء بشكل طبيعي (بعد الإصابة) أو اصطناعي (عبر اللقاح أو المصل).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف المناعة المكتسبة طبيعيًا (بعد الإصابة بمرض)؟",
+    "back": "مناعة نشطة يكتسبها الجسم تلقائيًا بعد التعرض الفعلي لمرض معدٍ، مع تكوين أجسام مضادة وخلايا ذاكرة خاصة به.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "لماذا لا يُصاب الشخص عادة بمرض الحصبة مرتين في حياته؟",
+    "back": "بسبب بقاء خلايا الذاكرة المناعية الخاصة بفيروس الحصبة لفترة طويلة (غالبًا مدى الحياة)، مما يُتيح استجابة سريعة وقوية تمنع تكرار الإصابة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف جدول التلقيح (Calendrier vaccinal) عند الأطفال؟",
+    "back": "برنامج منظم يُحدد مواعيد وأنواع اللقاحات الواجب إعطاؤها للطفل منذ الولادة، لحمايته من أمراض معدية خطيرة في سن مبكرة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "لماذا يُعطى لقاح الكزاز (التيتانوس) بشكل متكرر كل عدة سنوات؟",
+    "back": "لأن مستوى الأجسام المضادة ضد هذا المرض ينخفض تدريجيًا مع الزمن، فتُعطى جرعات تذكيرية للحفاظ على مستوى وقائي كافٍ.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف مرض معدٍ (Maladie infectieuse) ببساطة؟",
+    "back": "مرض ينتج عن دخول كائن دقيق ممرض (جرثومة، فيروس، فطر...) إلى الجسم، وقادر على الانتقال من شخص مصاب إلى شخص آخر.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الفيروس ببساطة، وكيف يختلف عن الجرثومة؟",
+    "back": "الفيروس كائن دقيق جدًا لا يمتلك خلية حقيقية ولا يتكاثر إلا داخل خلية مضيفة، بينما الجرثومة كائن وحيد الخلية كامل يمكنه التكاثر بشكل مستقل.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الجرثومة الممرضة (Bactérie pathogène)؟",
+    "back": "نوع من الجراثيم قادر على إحداث مرض عند دخوله جسم الكائن الحي، بخلاف الجراثيم النافعة أو غير الضارة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الحفرية (الأحفورة) Fossile؟",
+    "back": "بقايا متحجرة أو آثار لكائن حي عاش في الماضي، محفوظة داخل الصخور الرسوبية، وتُستعمل لدراسة تاريخ الحياة على الأرض.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الأحفورة الانتقالية (Fossile de transition)؟",
+    "back": "أحفورة تجمع بين صفات مجموعتين مختلفتين من الكائنات الحية، وتُعتبر دليلاً على وجود صلة تطورية بينهما.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو التأريخ الإشعاعي (Datation radiométrique) واستعماله في دراسة التطور؟",
+    "back": "تقنية تعتمد على قياس تحلل عناصر مشعة معينة داخل الصخور أو الأحافير، لتقدير عمرها بدقة (بملايين السنين أحيانًا).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الانقراض (Extinction) بمفهومه البيولوجي؟",
+    "back": "اختفاء نوع من الكائنات الحية بشكل نهائي من على وجه الأرض، دون بقاء أي فرد حي منه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف التنوع البيولوجي (Biodiversité)؟",
+    "back": "مجموع التنوع الموجود بين الكائنات الحية على مستوى الأنواع، وعلى المستوى الوراثي داخل النوع الواحد، وعلى مستوى النظم البيئية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف النوع البيولوجي (Espèce) حسب المفهوم البيولوجي الحديث؟",
+    "back": "مجموعة من الأفراد القادرين على التزاوج فيما بينهم وإنتاج نسل خصب (قادر على التكاثر)، بينما لا يمكنهم التزاوج مع أفراد أنواع أخرى بشكل طبيعي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الانتخاب الجنسي (Sélection sexuelle) كآلية تطورية خاصة؟",
+    "back": "شكل من الانتخاب الطبيعي يعتمد على تفضيل بعض الصفات (كالألوان الزاهية أو الأصوات) عند اختيار شريك التزاوج، مما يزيد من انتشار هذه الصفات عبر الأجيال.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف التطور المتقارب (Convergence évolutive)؟",
+    "back": "ظهور صفات متشابهة وظيفيًا عند أنواع غير قريبة تطوريًا، نتيجة تأقلمها مع ظروف بيئية متشابهة بشكل مستقل (كالشكل الانسيابي لجسم الدلفين وسمك القرش).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الانتشار الإشعاعي التكيّفي (Radiation adaptative)؟",
+    "back": "تطور سريع لعدة أنواع جديدة انطلاقًا من سلف مشترك واحد، لاستغلال أوساط بيئية متنوعة ومتاحة (كتنوع عصافير داروين في جزر غالاباغوس).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما أهمية دراسة الحمض النووي الميتوكندري (ADN mitochondrial) في تتبع التطور؟",
+    "back": "يُورَّث حصريًا عن طريق الأم دون اختلاط مع ADN الأب، مما يجعله أداة مفيدة لتتبع سلالات الأمومة عبر الأجيال ودراسة قرابات الأنواع.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي النواة (Noyau) ودورها الأساسي في الخلية؟",
+    "back": "عضية تحتوي على المادة الوراثية (ADN) للخلية، وتُنظم عمليات النسخ وتخزين المعلومة الوراثية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الغشاء النووي (Enveloppe nucléaire)؟",
+    "back": "غشاء مزدوج يُحيط بالنواة ويفصلها عن الهيولى، ويحتوي على مسام تسمح بمرور جزيئات معينة (كARN الرسول) بين النواة والهيولى.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الهيولى (Cytoplasme) ببساطة؟",
+    "back": "المحتوى السائل والعضيات الموجودة داخل الخلية بين الغشاء الهيولي والنواة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الليزوزومات (Lysosomes) ووظيفتها؟",
+    "back": "حويصلات تحتوي على إنزيمات هضمية، تُحلل المواد الغريبة أو المكونات الخلوية التالفة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الشبكة الهيولية الملساء ووظيفتها؟",
+    "back": "عضية خالية من الريبوزومات، متخصصة في تركيب الدهون والستيرويدات، وأحيانًا إزالة سمية بعض المواد داخل الخلية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي البلاستيدات الخضراء (Chloroplastes) ووظيفتها؟",
+    "back": "عضيات موجودة في الخلايا النباتية، مسؤولة عن عملية التركيب الضوئي التي تُحوّل طاقة الضوء إلى طاقة كيميائية مخزَّنة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق الأساسي بين الخلية النباتية والخلية الحيوانية؟",
+    "back": "الخلية النباتية تمتلك جدارًا خلويًا وبلاستيدات خضراء وفجوة عصارية كبيرة، وهي عناصر غير موجودة عادة في الخلية الحيوانية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الجدار الخلوي (Paroi cellulaire) عند النبات؟",
+    "back": "طبقة صلبة من السليلوز تُحيط بالغشاء الهيولي للخلية النباتية، تُعطيها الصلابة والشكل الثابت.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الفجوة العصارية (Vacuole) عند الخلية النباتية؟",
+    "back": "تجويف كبير مملوء بسائل، يُخزن الماء والمواد الغذائية والفضلات، ويُساهم في الحفاظ على ضغط امتلاء الخلية (الضغط الرهصي).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الخلية بدائية النواة (Procaryote) وما مثالها؟",
+    "back": "خلية لا تمتلك نواة حقيقية محاطة بغشاء (مادتها الوراثية حرة في الهيولى)، مثل البكتيريا.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الخلية حقيقية النواة (Eucaryote)؟",
+    "back": "خلية تمتلك نواة حقيقية محاطة بغشاء نووي، وعضيات متخصصة (كالميتاكوندري وجهاز غولجي)، مثل خلايا الإنسان والحيوانات والنباتات.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق الأساسي بين الخلية بدائية النواة وحقيقية النواة؟",
+    "back": "الخلية بدائية النواة أبسط بنيويًا ولا تحتوي على نواة حقيقية ولا عضيات مُغلَّفة بأغشية، بينما الخلية حقيقية النواة أكثر تعقيدًا وتحتوي على نواة وعضيات متعددة مُغلَّفة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الطور البيني (Interphase) بشكل عام؟",
+    "back": "الفترة الفاصلة بين انقسامين متتاليين للخلية، تنمو خلالها الخلية وتتضاعف مادتها الوراثية استعدادًا للانقسام التالي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف دورة الخلية (Cycle cellulaire) بشكل عام؟",
+    "back": "التتالي المنتظم من المراحل التي تمر بها الخلية بين انقسام وآخر، وتشمل الطور البيني (G1، S، G2) ثم طور الانقسام نفسه (Mitose).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الهيكل الخلوي (Cytosquelette) ووظيفته العامة؟",
+    "back": "شبكة من الألياف والأنيبيبات البروتينية داخل الهيولى، تُحافظ على شكل الخلية وتُساهم في حركتها ونقل المواد داخلها.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الفرد متماثل اللواقح (Homozygote)؟",
+    "back": "فرد يحمل نفس الأليل مرتين (نسختين متطابقتين) لنفس المورثة، مثل AA أو aa.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الفرد متغاير اللواقح (Hétérozygote)؟",
+    "back": "فرد يحمل أليلين مختلفين لنفس المورثة، مثل Aa.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "كيف نحسب عدد أنواع الأمشاج التي ينتجها فرد متغاير اللواقح لصفة واحدة (Aa)؟",
+    "back": "ينتج نوعين من الأمشاج بنسب متساوية: نصفها يحمل الأليل A، والنصف الآخر يحمل الأليل a.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما احتمال حصول طفل على صفة متنحية من تزاوج بين والدين متغايري اللواقح (Aa × Aa)؟",
+    "back": "احتمال 1 من 4 (25%)، أي أن يحمل الطفل النمط الوراثي aa.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما احتمال أن يكون الطفل حاملاً (متغاير اللواقح) في تزاوج بين والدين متغايري اللواقح (Aa × Aa)؟",
+    "back": "احتمال 2 من 4 (50%).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف جدول شطرنج مندل (Échiquier de Punnett)؟",
+    "back": "جدول بسيط يُستعمل لتحديد كل التراكيب الوراثية الممكنة للنسل الناتج عن تزاوج معيّن، بوضع أمشاج أحد الوالدين في الأعمدة وأمشاج الآخر في الأسطر.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "لماذا نستعمل التزاوج الاختباري (Test-cross) لتحديد النمط الوراثي لفرد يُظهر الصفة السائدة؟",
+    "back": "لأن الفرد الذي يُظهر الصفة السائدة قد يكون متماثل اللواقح (AA) أو متغاير اللواقح (Aa) بنفس المظهر، والتزاوج مع فرد متنحٍ (aa) يكشف الفرق من خلال نسب النسل الناتج.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي النتيجة المتوقعة من تزاوج اختباري إذا كان الفرد المجهول متماثل اللواقح (AA × aa)؟",
+    "back": "كل أفراد النسل سيكونون متغايري اللواقح (Aa) ويُظهرون جميعًا الصفة السائدة، دون ظهور أي صفة متنحية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي النتيجة المتوقعة من تزاوج اختباري إذا كان الفرد المجهول متغاير اللواقح (Aa × aa)؟",
+    "back": "يظهر النسل بنسبة 1:1 بين الصفة السائدة والصفة المتنحية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف قانون احتمالات الوراثة (مبدأ الاستقلال الإحصائي) عند التوقع لصفتين مستقلتين معًا؟",
+    "back": "يُحسب الاحتمال المشترك لظهور صفتين مستقلتين معًا بضرب احتمال كل صفة على حدة، إذا كانت المورثتان المسؤولتان عنهما تتوزعان بشكل مستقل.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما احتمال إنجاب طفل ذكر يحمل صفة متنحية مرتبطة بالصبغي X من أم حاملة (Xa Y × XA XA)؟",
+    "back": "لا يمكن أن يظهر المرض عند أي طفل في هذه الحالة، لأن الأم متماثلة اللواقح لا تحمل الأليل المتنحي، وستُورث الأليل السائد لجميع أبنائها.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما احتمال ظهور صفة متنحية مرتبطة بالصبغي X عند أبناء أم حاملة (Xa XA) وأب سليم (XA Y)؟",
+    "back": "نصف الأبناء الذكور (50% من الذكور) سيُظهرون الصفة المتنحية، بينما جميع البنات سيكن سليمات ظاهريًا (نصفهن حاملات).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "لماذا يمكن للبنت أن تكون حاملة لأليل متنحٍ مرتبط بالصبغي X دون أن تظهر عليها الصفة؟",
+    "back": "لأنها تحمل صبغيي X، فيكفي أليل سائد سليم واحد على أحدهما لإخفاء تأثير الأليل المتنحي الموجود على الصبغي الآخر.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف عدد الأمشاج المختلفة نظريًا الناتجة عن فرد متغاير اللواقح لصفتين مستقلتين (AaBb)؟",
+    "back": "أربعة أنواع مختلفة من الأمشاج بنسب متساوية: AB، Ab، aB، وab.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "لماذا يُعتبر مبدأ التوزيع المستقل صحيحًا فقط عندما تكون المورثتان على صبغيين مختلفين؟",
+    "back": "لأن الصبغيات المتماثلة تنعزل بشكل مستقل عن بعضها أثناء الانقسام المنصف، فتتوزع أليلات كل مورثة موجودة على صبغي مختلف بشكل عشوائي ومستقل عن أليلات المورثة الأخرى.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو المبيض ووظيفته الأساسية عند المرأة؟",
+    "back": "عضو تناسلي أنثوي مزدوج، مسؤول عن إنتاج البويضات وإفراز الهرمونات الجنسية الأنثوية (الإستروجين والبروجسترون).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي قناة فالوب ووظيفتها؟",
+    "back": "قناة تربط المبيض بالرحم، يحدث فيها الإخصاب عادة (التقاء البويضة بالنطاف)، وتنقل البويضة الملقحة نحو الرحم.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الرحم ووظيفته في الحمل؟",
+    "back": "عضو عضلي مجوّف يستقبل البويضة الملقحة وتنغرس فيه، ويُحتضن الجنين طوال فترة الحمل حتى الولادة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو المهبل ووظيفته العامة؟",
+    "back": "قناة عضلية تصل بين الرحم والوسط الخارجي، تستقبل القضيب أثناء الجماع وتُشكّل قناة الولادة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الخصية ووظيفتها الأساسية عند الرجل؟",
+    "back": "عضو تناسلي ذكري مزدوج، مسؤول عن إنتاج النطاف وإفراز هرمون التستوستيرون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي القناة الناقلة للنطاف (Canal déférent)؟",
+    "back": "قناة تنقل النطاف من الخصية نحو الإحليل استعدادًا للقذف.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الحويصلة المنوية والبروستاتا ودورهما؟",
+    "back": "غدتان تُفرزان سوائل تدخل في تركيب السائل المنوي، توفران الغذاء والحماية للنطاف وتُسهلان حركتها.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو النطاف (Spermatozoïde) وما هي أجزاؤه الأساسية؟",
+    "back": "المشيج الذكري، يتكوّن من رأس (يحتوي النواة)، جزء متوسط (غني بالميتاكوندري)، وذيل (يُساعد على الحركة).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي البويضة (Ovule) وخصائصها؟",
+    "back": "المشيج الأنثوي، خلية كبيرة الحجم نسبيًا وغير متحركة، تحتوي على مخزون غذائي يدعم الجنين في مراحله الأولى.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف البلوغ (Puberté) ببساطة؟",
+    "back": "المرحلة العمرية التي يبدأ فيها الجهاز التناسلي في النضج الكامل، مصحوبة بظهور الصفات الجنسية الثانوية وبداية القدرة على التكاثر.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الصفات الجنسية الثانوية ومتى تظهر؟",
+    "back": "صفات جسدية تُميّز الذكر عن الأنثى (كنمو الشعر، تغيّر الصوت، تطور الثديين)، تظهر عند البلوغ تحت تأثير الهرمونات الجنسية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي المشيمة (Placenta) ودورها أثناء الحمل؟",
+    "back": "عضو يتكوّن أثناء الحمل، يربط بين الجنين والأم، ويُؤمّن تبادل الغذاء والأكسجين والفضلات، إضافة إلى إفراز هرمونات داعمة للحمل.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الحبل السري (Cordon ombilical) ووظيفته؟",
+    "back": "يربط الجنين بالمشيمة، ويحتوي على أوعية دموية تنقل الغذاء والأكسجين إلى الجنين وتُعيد فضلاته نحو الأم.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الولادة (Accouchement) بإيجاز؟",
+    "back": "العملية الفيزيولوجية التي يخرج بها الجنين المكتمل النمو من رحم الأم عبر المهبل، بتأثير انقباضات رحمية منظمة هرمونيًا.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو التنفس الخلوي (Respiration cellulaire) ببساطة؟",
+    "back": "عملية تُحوّل فيها الخلية الغذاء (كالغلوكوز) بوجود الأكسجين إلى طاقة (ATP)، مع إنتاج ثاني أكسيد الكربون والماء كنواتج.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو التركيب الضوئي (Photosynthèse) ببساطة؟",
+    "back": "عملية تقوم بها النباتات الخضراء لتحويل طاقة الضوء إلى طاقة كيميائية (سكريات)، باستهلاك ثاني أكسيد الكربون وإنتاج الأكسجين.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الغليكوجين (Glycogène) ودوره في الجسم؟",
+    "back": "الشكل المخزَّن للغلوكوز في الكبد والعضلات، يُحلَّل عند الحاجة لتحرير الغلوكوز إلى الدم.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف التوازن الداخلي (Homéostasie) ببساطة؟",
+    "back": "قدرة الجسم على الحفاظ على ثبات وسطه الداخلي (كدرجة الحرارة، الغليسيميا، pH) رغم التغيرات الخارجية أو الداخلية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الوسط الداخلي (Milieu intérieur) عند الكائن الحي؟",
+    "back": "السائل الذي يُحيط بخلايا الجسم مباشرة (كالبلازما والسائل الخلالي)، ويجب أن تبقى خصائصه (تركيبه الكيميائي، حرارته) ثابتة نسبيًا لضمان سلامة عمل الخلايا.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الدم ومكوناته الأساسية؟",
+    "back": "سائل حيوي يتكوّن من البلازما (الجزء السائل) وخلايا الدم (كريات حمراء، كريات بيضاء، صفيحات دموية).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الكريات الحمراء (Globules rouges) ووظيفتها؟",
+    "back": "خلايا دموية تحمل الهيموغلوبين وتُساهم أساسًا في نقل الأكسجين من الرئتين إلى باقي أنسجة الجسم.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الصفيحات الدموية (Plaquettes) ووظيفتها؟",
+    "back": "عناصر دموية صغيرة تُساهم في عملية تخثر الدم لوقف النزيف عند حدوث جرح.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف تخثر الدم (Coagulation) ببساطة؟",
+    "back": "سلسلة تفاعلات كيميائية تُحوّل الدم السائل عند مكان الجرح إلى جلطة صلبة، لوقف النزيف وحماية الجسم من فقدان الدم.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف البلازما (Plasma) الدموية؟",
+    "back": "الجزء السائل من الدم، يحتوي على الماء والبروتينات والأملاح والغازات الذائبة والمواد الغذائية المنقولة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الجهاز الليمفاوي (Système lymphatique) ودوره العام؟",
+    "back": "شبكة من الأوعية والعقد تنقل سائلاً يُسمى الليمف، وتُساهم في تصفية الجسم من الجراثيم وفي دعم الاستجابة المناعية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الاستقلاب (الأيض / Métabolisme) بشكل عام؟",
+    "back": "مجموع التفاعلات الكيميائية التي تحدث داخل الخلية أو الجسم، وتشمل عمليات البناء (تركيب المواد) وعمليات الهدم (تحليل المواد لإنتاج الطاقة).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الطفيلي (Parasite) ببساطة؟",
+    "back": "كائن حي يعيش على حساب كائن آخر (العائل) ويستمد منه غذاءه، وقد يُسبب له ضررًا أو مرضًا.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الوسط البيئي (Milieu écologique) بشكل عام؟",
+    "back": "مجموع الظروف الطبيعية (مناخية، تضاريسية) والعوامل الحية المحيطة بكائن حي في مكان معيّن.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف السلسلة الغذائية (Chaîne alimentaire) ببساطة؟",
+    "back": "تسلسل من الكائنات الحية ينتقل فيه الغذاء والطاقة من كائن إلى آخر عبر علاقة التغذي (كنبات يأكله عاشب يأكله لاحم).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الإنزيمات الهاضمة (Enzymes digestives) ودورها العام؟",
+    "back": "بروتينات تُفرزها الغدد الهضمية، تُحلل الجزيئات الغذائية الكبيرة (كالنشا والبروتينات) إلى جزيئات أصغر قابلة للامتصاص.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الامتصاص المعوي (Absorption intestinale)؟",
+    "back": "عملية انتقال العناصر الغذائية المهضومة من تجويف الأمعاء الدقيقة إلى الدم أو الليمف لتُوزَّع على خلايا الجسم.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف مستوى السكر الطبيعي في الدم بعد الوجبة مقارنة بالصيام؟",
+    "back": "يرتفع تركيز الغلوكوز في الدم مؤقتًا بعد الوجبة (فرط غليسيميا عابر)، ثم يعود تدريجيًا إلى مستواه الطبيعي بفضل إفراز الأنسولين.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "لماذا يُعتبر ثبات الوسط الداخلي شرطًا أساسيًا لبقاء الخلايا حية وسليمة؟",
+    "back": "لأن الخلايا (خصوصًا العصبية) حساسة جدًا لأي تغيّر كبير في تركيز الأملاح، السكر، الحرارة أو pH، وأي اختلال حاد قد يُعطل وظائفها الحيوية أو يُهددها بالموت.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف مبدأ 'بنية-وظيفة' الشائع في علم الأحياء؟",
+    "back": "مبدأ عام مفاده أن الشكل والبنية التركيبية لأي عضو أو جزيء بيولوجي ترتبط ارتباطًا وثيقًا بوظيفته، وأي تغيّر في البنية يُؤثر غالبًا على الوظيفة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الجهاز الهضمي بشكل عام؟",
+    "back": "مجموعة من الأعضاء (الفم، المريء، المعدة، الأمعاء...) تُحوّل الغذاء المتناول إلى مواد بسيطة قابلة للامتصاص واستعمالها من طرف الخلايا.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الجهاز التنفسي بشكل عام؟",
+    "back": "مجموعة من الأعضاء (الأنف، القصبة الهوائية، الرئتان) مسؤولة عن تبادل الغازات، أي إدخال الأكسجين وطرح ثاني أكسيد الكربون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الحويصلات الرئوية (Alvéoles pulmonaires) ووظيفتها؟",
+    "back": "أكياس صغيرة جدًا داخل الرئتين، يحدث فيها تبادل الغازات بين الهواء المستنشق والدم عبر جدار رقيق جدًا.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو القلب ووظيفته الأساسية؟",
+    "back": "عضو عضلي مجوّف يضخ الدم عبر الجسم بشكل منتظم ومستمر، لضمان وصول الأكسجين والمغذيات إلى كل الخلايا.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين الشرايين والأوردة؟",
+    "back": "الشرايين تنقل الدم من القلب نحو الأعضاء (غالبًا دم غني بالأكسجين)، بينما الأوردة تُعيد الدم من الأعضاء نحو القلب (غالبًا دم فقير بالأكسجين).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الشعيرات الدموية (Capillaires sanguins)؟",
+    "back": "أدق الأوعية الدموية، جدارها رقيق جدًا يسمح بتبادل المواد (الغازات، الغذاء، الفضلات) مباشرة بين الدم وخلايا الأنسجة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الكبد ومن أهم وظائفه؟",
+    "back": "عضو كبير يقوم بوظائف متعددة، منها تخزين الغليكوجين وتحويله إلى غلوكوز عند الحاجة، وإزالة سمية بعض المواد الضارة في الدم.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي الكلية ومن أهم وظائفها؟",
+    "back": "عضو مسؤول عن تصفية الدم من الفضلات (كاليوريا)، وتنظيم كمية الماء والأملاح في الجسم عبر إنتاج البول.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف البول (Urine) ووظيفته؟",
+    "back": "سائل يتكوّن في الكلية، يحتوي على فضلات الجسم الذائبة (كاليوريا) والماء الزائد، ويُطرح خارج الجسم للتخلص منها.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الجملة العصبية الذاتية (اللاإرادية) بشكل عام؟",
+    "back": "جزء من الجهاز العصبي يُنظم الوظائف اللاإرادية (كنبضات القلب والهضم والتنفس) دون تدخل الإرادة المباشرة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو الجهازان السمبثاوي والباراسمبثاوي؟",
+    "back": "قسمان من الجهاز العصبي الذاتي، يعمل السمبثاوي غالبًا على تنشيط الجسم استعدادًا للمجهود أو الخطر، بينما يعمل الباراسمبثاوي على تهدئة الجسم واسترجاعه لحالة الراحة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الكروماتين (Chromatine)؟",
+    "back": "المادة المكوّنة من ADN وبروتينات، توجد داخل نواة الخلية في الطور البيني على شكل خيوط غير مكثفة (قبل أن تتكثف لتُشكّل الصبغيات أثناء الانقسام).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الهيستونات (Histones)؟",
+    "back": "بروتينات ترتبط بها خيوط ADN داخل النواة، وتُساهم في تنظيم وتكثيف الكروماتين.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الجينوم (Génome) لكائن حي؟",
+    "back": "مجموع المعلومة الوراثية الكاملة (كل جزيئات ADN) الموجودة في خلايا ذلك الكائن الحي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف مشروع الجينوم البشري (Génome humain) ببساطة؟",
+    "back": "مشروع علمي عالمي هدف إلى تحديد التتالي الكامل لكل النيكليوتيدات المكوّنة للمادة الوراثية البشرية، وتحديد مواقع كل المورثات.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو مؤشر كتلة الجسم وعلاقته بالسمنة والسكري من النوع الثاني؟",
+    "back": "مقياس يُحسب من الوزن والطول لتقدير درجة السمنة؛ وترتفع خطورة الإصابة بمقاومة الأنسولين وداء السكري من النوع الثاني كلما ارتفعت قيمته عن الحدود الطبيعية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف النشاط البدني ودوره في الوقاية من داء السكري من النوع الثاني؟",
+    "back": "ممارسة الرياضة بانتظام تُحسّن استجابة الخلايا للأنسولين وتُساعد على ضبط الوزن، مما يُقلل من خطر الإصابة بمقاومة الأنسولين وداء السكري من النوع الثاني.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف التغذية المتوازنة ببساطة؟",
+    "back": "نظام غذائي يُوفر للجسم كل العناصر الغذائية الضرورية (بروتينات، سكريات، دهون، فيتامينات، أملاح معدنية) بكميات متوازنة ومناسبة لحاجاته.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف الفيتامينات ودورها العام في الجسم؟",
+    "back": "مركبات عضوية ضرورية بكميات صغيرة لسلامة عمل الجسم، لا يُنتجها الجسم عادة بما يكفي، فيجب الحصول عليها من الغذاء.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  }
+]
