@@ -1,0 +1,452 @@
+[
+  {
+    "front": "ما هما قانونا الانحفاظ في التفاعلات النووية (قانونا سودي)؟",
+    "back": "انحفاظ العدد الكتلي A: مجموع الأعداد الكتلية للنواتج = مجموع الأعداد الكتلية للمتفاعلات.\nانحفاظ العدد الشحنة Z: مجموع الأعداد الشحنية للنواتج = مجموع الأعداد الشحنية للمتفاعلات.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما معادلة قانون التناقص الإشعاعي؟",
+    "back": "N(t) = N₀ × e^(−λt)\nحيث N₀ عدد الأنوية عند t=0، وλ ثابت النشاط الإشعاعي (ثابت التفكك) بوحدة s⁻¹.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما العلاقة بين زمن نصف العمر t½ وثابت النشاط الإشعاعي λ؟",
+    "back": "t½ = ln(2) / λ ≈ 0.693 / λ",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف النشاط الإشعاعي A(t) لعينة مشعة، وما وحدته؟",
+    "back": "هو عدد التفككات النووية في وحدة الزمن: A(t) = −dN/dt = λ × N(t)، ويقاس بالبيكريل (Bq).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هي أنواع الإشعاعات المرافقة للتفكك الإشعاعي التلقائي؟",
+    "back": "إشعاع ألفا α (نواة هيليوم)، إشعاع بيتا سالب β⁻ (إلكترون)، إشعاع بيتا موجب β⁺ (بوزيترون)، وقد يرافقها إشعاع غاما γ (فوتون عالي الطاقة).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما الصيغة العامة لمعادلة التفكك ألفا لنواة A_Z X؟",
+    "back": "A_Z X → (A−4)_(Z−2) Y + 4_2 He",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما الصيغة العامة لمعادلة التفكك بيتا سالب (β⁻) لنواة A_Z X؟",
+    "back": "A_Z X → A_(Z+1) Y + 0_(−1) e (إلكترون) + مضاد نيوترينو",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما نص علاقة أينشتاين بين الكتلة والطاقة، وما دلالة رموزها؟",
+    "back": "E = m × c²\nحيث E الطاقة بالجول، m الكتلة بالكيلوغرام، c سرعة الضوء في الفراغ (c ≈ 3×10⁸ m/s).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف نقص الكتلة (défaut de masse) Δm لنواة؟",
+    "back": "الفرق بين مجموع كتل مكوناتها (البروتونات والنترونات) منفردة وكتلة النواة الفعلية:\nΔm = [Z×m(بروتون) + (A−Z)×m(نترون)] − m(النواة)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف طاقة الربط El لنواة، وكيف تُحسب؟",
+    "back": "هي الطاقة اللازمة لتفكيك النواة إلى مكوناتها منفردة (بروتونات ونترونات):\nEl = Δm × c²",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما هو مؤشر استقرار النواة (طاقة الربط لكل نوية)، وما دلالته؟",
+    "back": "El/A: طاقة الربط مقسومة على العدد الكتلي. كلما كانت هذه النسبة أكبر، كانت النواة أكثر استقرارًا.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين الانشطار النووي والاندماج النووي؟",
+    "back": "الانشطار: انقسام نواة ثقيلة إلى نواتين أخف عند قصفها بنترون بطيء.\nالاندماج: اتحاد نواتين خفيفتين معًا لتكوين نواة أثقل، مع تحرر طاقة هائلة (كما في الشمس).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما معادلة التوتر uc(t) عبر مكثفة أثناء الشحن في دارة RC بتوتر مستمر E (الشرط الابتدائي uc(0)=0)؟",
+    "back": "uc(t) = E × (1 − e^(−t/τ))",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف ثابت الزمن τ لثنائي القطب RC، وبأي وحدة يقاس؟",
+    "back": "τ = R × C\nحيث R المقاومة بالأوم (Ω) وC السعة بالفاراد (F)، وτ يقاس بالثانية (s).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "كيف تُحدَّد قيمة ثابت الزمن τ بيانيًا من منحنى الشحن uc(t)؟",
+    "back": "هي اللحظة الزمنية التي يبلغ عندها uc القيمة 0.63×E تقريبًا (أي 63% من قيمته النهائية)، أو باستخدام طريقة المماس عند الأصل.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما معادلة التوتر uc(t) عبر مكثفة أثناء التفريغ في دارة RC (بدءًا من uc(0)=E)؟",
+    "back": "uc(t) = E × e^(−t/τ)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما المعادلة التفاضلية التي تحققها uc(t) أثناء شحن مكثفة عبر مقاومة R بتوتر مستمر E؟",
+    "back": "RC × (duc/dt) + uc = E",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما معادلة الطاقة الكهربائية المخزَّنة في مكثفة سعتها C وتوترها uc؟",
+    "back": "Ec = ½ × C × uc²  (تقاس بالجول J)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف ثابت الزمن τ لثنائي القطب RL؟",
+    "back": "τ = L / R\nحيث L محاثة الوشيعة بالهنري (H) وR المقاومة الكلية للدارة بالأوم (Ω).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما معادلة شدة التيار i(t) في دارة RL أثناء تركيب التيار، ابتداءً من i(0)=0؟",
+    "back": "i(t) = (E/R) × (1 − e^(−t/τ))",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما سبب ظاهرة تأخر (تعارض) الوشيعة لتغيّر شدة التيار المار بها؟",
+    "back": "بسبب ظاهرة الحث الذاتي: تُنشئ الوشيعة قوة محركة كهربائية ذاتية معاكسة تعارض أي تغيّر مفاجئ في شدة التيار، فيتغير التيار بصفة تدريجية لا فجائية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما معادلة التوتر بين طرفي وشيعة محاثتها L ومقاومتها الداخلية r، عندما يمر بها تيار شدته i؟",
+    "back": "uL = L × (di/dt) + r × i",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما معادلة الطاقة المغناطيسية المخزَّنة في وشيعة محاثتها L يمر بها تيار شدته i؟",
+    "back": "EL = ½ × L × i²  (تقاس بالجول J)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "عند لحظة غلق الدارة (t=0) في دارة RL، ما قيمة شدة التيار، ولماذا؟",
+    "back": "i(0) = 0، لأن الوشيعة تعارض أي تغيّر فجائي لشدة التيار المار بها (مبدأ استمرارية التيار في الوشيعة).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما وحدة قياس المحاثة الذاتية L لوشيعة؟",
+    "back": "الهنري (H)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما نص القانون الثاني لنيوتن؟",
+    "back": "مجموع القوى الخارجية المطبقة على جملة ميكانيكية يساوي حاصل ضرب كتلة الجملة في متجهة تسارع مركز عطالتها:\nΣ F(خارجية) = m × a(G)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "في السقوط الحر الرأسي (بدون احتكاك، بدءًا من السكون)، ما معادلة السرعة v(t)؟",
+    "back": "v(t) = g × t",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "في السقوط الحر الرأسي (بدون احتكاك، بدءًا من السكون)، ما معادلة المسافة المقطوعة y(t)؟",
+    "back": "y(t) = ½ × g × t²",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "في حركة مقذوف يُقذف بسرعة ابتدائية V₀ بزاوية α عن الأفقي في مجال ثقالة منتظم بدون احتكاك، ما معادلتا الإحداثيتين x(t) وy(t)؟",
+    "back": "x(t) = V₀ × cos(α) × t\ny(t) = −½ × g × t² + V₀ × sin(α) × t + y₀",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما شكل معادلة مسار (trajectoire) القذيفة في مجال الثقالة المنتظم، وما اسم هذا المنحنى؟",
+    "back": "معادلة من الدرجة الثانية بدلالة x (قطع مكافئ):\ny = −[g / (2×V₀²×cos²α)] × x² + tan(α) × x + y₀",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف السرعة الزاوية ω في الحركة الدائرية المنتظمة، وما وحدتها؟",
+    "back": "ω = dθ/dt = ثابتة، وتقاس بالراديان في الثانية (rad/s).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما العلاقة بين السرعة الخطية v ونصف قطر المسار R والسرعة الزاوية ω في حركة دائرية منتظمة؟",
+    "back": "v = R × ω",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما مقدار التسارع في الحركة الدائرية المنتظمة، وما اتجاهه؟",
+    "back": "a = v²/R = R × ω²، وهو تسارع ناحي (مركزي) فقط، موجّه دائمًا نحو مركز الدائرة (التسارع المماسي معدوم).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما معادلة الحركة الزمنية x(t) لنواس مرن أفقي (بدون احتكاك) حول وضع التوازن؟",
+    "back": "x(t) = Xm × cos(ω₀×t + φ)\nحيث ω₀ = √(k/m)، وk ثابت صلابة النابض، وm كتلة الجسم.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما معادلة الدور الخاص T₀ لنواس مرن (نابض-كتلة)، وما علاقته بـ ω₀؟",
+    "back": "T₀ = 2π/ω₀ = 2π × √(m/k)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما معادلة الطاقة الميكانيكية الكلية Em لنواس مرن أفقي في غياب الاحتكاك، وما خاصيتها؟",
+    "back": "Em = Ec + Ep = ½×m×v² + ½×k×x² = ثابتة (محفوظة عبر الزمن).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما نص مبدأ انحفاظ كمية الحركة لجملة معزولة (أو شبه معزولة) أثناء تصادم؟",
+    "back": "مجموع متجهات كمية حركة الجملة قبل التصادم يساوي مجموعه بعد التصادم:\nΣp(قبل) = Σp(بعد)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين التصادم المرن والتصادم غير المرن؟",
+    "back": "المرن: تُحفظ الطاقة الحركية الكلية للجملة قبل وبعد التصادم.\nغير المرن: يحدث فقدان لجزء من الطاقة الحركية (تتحول إلى حرارة أو تشوه أو صوت).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما معادلة كمية حركة جسم كتلته m وسرعته v (متجهة)؟",
+    "back": "p = m × v، ويكون اتجاه p هو نفسه اتجاه متجهة السرعة v.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "للنواس الوازن (البسيط)، وعند إهمال الاحتكاكات وللإزاحات الزاوية الصغيرة، ما معادلة الدور الخاص T₀؟",
+    "back": "T₀ = 2π × √(L/g)\nحيث L طول الخيط وg تسارع الجاذبية الأرضية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما المعادلة التفاضلية التي تحققها الشحنة q(t) في التذبذبات الحرة لدارة LC مثالية (بدون مقاومة)؟",
+    "back": "q''(t) + ω₀² × q(t) = 0\nوهي معادلة تفاضلية من الرتبة الثانية تصف تذبذبًا جيبيًا غير مخمَّد.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما معادلة الدور الخاص T₀ للتذبذبات الحرة في دارة LC مثالية (علاقة طومسون)؟",
+    "back": "T₀ = 2π × √(L × C)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ماذا يحدث للتذبذبات الكهربائية الحرة في دارة RLC حقيقية (بمقاومة R≠0)، ولماذا؟",
+    "back": "تكون تذبذبات مخمَّدة: تتناقص سعتها تدريجيًا بمرور الزمن، بسبب تبدد جزء من الطاقة على شكل حرارة في المقاومة (مفعول جول).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما دور مولّد الصيانة (générateur d'entretien) الموصول في دارة RLC؟",
+    "back": "يعوّض بدقة الطاقة المفقودة بمفعول جول في المقاومة أثناء كل دور، للحفاظ على تذبذبات ذات سعة ثابتة (تذبذبات مصانة أو غير مخمَّدة).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما معادلة الطاقة الكلية ET المخزَّنة في دارة LC مثالية في أي لحظة، وما خاصيتها؟",
+    "back": "ET = Ee + Em = ½×(q²/C) + ½×L×i² = ثابتة عبر الزمن (محفوظة) في الحالة المثالية (بدون مقاومة).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "عندما تكون الشحنة q في المكثفة معدومة لحظيًا (q=0) في دارة LC مثالية، بماذا تكون كل الطاقة، وما حالة التيار عندئذ؟",
+    "back": "تكون كل الطاقة مخزَّنة في الوشيعة على شكل طاقة مغناطيسية (Em)، وتكون شدة التيار |i| قصوى في تلك اللحظة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما العلاقة الأساسية بين شدة التيار اللحظي i(t) والشحنة q(t) في دارة كهربائية؟",
+    "back": "i(t) = dq/dt",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف السعة C لمكثفة، وما العلاقة الأساسية بين الشحنة q والتوتر uc بين طرفيها؟",
+    "back": "q = C × uc\nحيث C ثابت خاص بالمكثفة يقاس بالفاراد (F).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما تعريف التردد الخاص f₀ والدور الخاص T₀ لدارة كهربائية متذبذبة، وما وحدة f₀؟",
+    "back": "f₀ = 1 / T₀، وتقاس f₀ بالهرتز (Hz).",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  },
+  {
+    "front": "ما معادلة الطاقة الحركية لجسم صلب كتلته m يتحرك بسرعة v (حركة انتقال)؟",
+    "back": "Ec = ½ × m × v²  (تقاس بالجول J)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "right",
+    "backAlign": "right",
+    "learned": false
+  }
+]
