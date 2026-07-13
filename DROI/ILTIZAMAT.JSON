@@ -1,0 +1,2252 @@
+[
+  {
+    "front": "ما المقصود بالالتزام في القانون المدني الجزائري؟",
+    "back": "الالتزام هو رابطة قانونية يلتزم بمقتضاها المدين بأداء مالي لصالح الدائن، ويتمثل الأداء في إعطاء شيء أو القيام بعمل أو الامتناع عن عمل.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي مصادر الالتزام في القانون المدني الجزائري؟",
+    "back": "العقد، الإرادة المنفردة، الفعل المستحق للتعويض، الإثراء بلا سبب، والقانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو العقد؟",
+    "back": "العقد هو توافق إرادتين أو أكثر على إحداث أثر قانوني يتمثل في إنشاء التزام أو تعديله أو نقله أو إنهائه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي أركان العقد؟",
+    "back": "الرضا، المحل، السبب، والشكل إذا نص القانون على ذلك.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالرضا؟",
+    "back": "هو توافق إرادة المتعاقدين على إبرام العقد دون عيب من عيوب الإرادة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي عيوب الإرادة؟",
+    "back": "الغلط، التدليس، الإكراه، والاستغلال.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالغلط؟",
+    "back": "هو توهم غير مطابق للواقع يدفع المتعاقد إلى إبرام العقد.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو التدليس؟",
+    "back": "هو استعمال وسائل احتيالية لحمل شخص على التعاقد.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو الإكراه؟",
+    "back": "هو ضغط غير مشروع يولد رهبة تدفع الشخص إلى إبرام العقد.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو الاستغلال؟",
+    "back": "هو استغلال طيش أو هوى أو ضعف أحد المتعاقدين للحصول على منفعة غير عادلة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالمحل؟",
+    "back": "هو الأداء الذي يلتزم به المدين، سواء كان إعطاء شيء أو القيام بعمل أو الامتناع عن عمل.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما شروط المحل؟",
+    "back": "أن يكون موجودًا أو ممكن الوجود، معينًا أو قابلاً للتعيين، ومشروعًا.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالسبب في العقد؟",
+    "back": "هو الغرض المشروع الذي من أجله التزم المتعاقد.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما أثر تخلف أحد أركان العقد؟",
+    "back": "يكون العقد باطلاً أو قابلاً للإبطال بحسب الركن المتخلف وطبيعته.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين البطلان والإبطال؟",
+    "back": "البطلان يتعلق بالنظام العام ويجوز لكل ذي مصلحة التمسك به، أما الإبطال فيقرر لمصلحة من شرع لحمايته ويجوز له إجازة العقد.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو مبدأ سلطان الإرادة؟",
+    "back": "هو مبدأ يجيز للأفراد إنشاء العقود وتحديد آثارها في حدود القانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالقوة الملزمة للعقد؟",
+    "back": "العقد شريعة المتعاقدين فلا يجوز نقضه أو تعديله إلا باتفاق الطرفين أو في الحالات التي يقررها القانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو مبدأ حسن النية في تنفيذ العقد؟",
+    "back": "يلتزم المتعاقدان بتنفيذ العقد بما يقتضيه حسن النية والأمانة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بتنفيذ الالتزام عينًا؟",
+    "back": "هو تنفيذ المدين لالتزامه كما اتفق عليه دون استبداله بتعويض.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "متى يتحول التنفيذ إلى التعويض؟",
+    "back": "إذا أصبح التنفيذ العيني مستحيلاً أو غير ممكن وفقًا للقانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو الإعذار؟",
+    "back": "هو تنبيه رسمي يوجهه الدائن إلى المدين يطالبه فيه بتنفيذ التزامه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالقوة القاهرة؟",
+    "back": "حادث خارجي لا يمكن توقعه ولا دفعه ويجعل تنفيذ الالتزام مستحيلاً.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما أثر القوة القاهرة على الالتزام؟",
+    "back": "ينقضي الالتزام إذا أصبحت استحالته راجعة إلى سبب أجنبي لا يد للمدين فيه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالوفاء؟",
+    "back": "هو تنفيذ المدين للالتزام الذي في ذمته على الوجه المتفق عليه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو أهم سبب لانقضاء الالتزام؟",
+    "back": "الوفاء، مع وجود أسباب أخرى مثل الاستحالة، المقاصة، الإبراء، التجديد، واتحاد الذمة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالمقاصة في القانون المدني الجزائري؟",
+    "back": "المقاصة هي انقضاء دينين متقابلين بين شخصين بقدر الأقل منهما إذا توافرت شروطها القانونية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما شروط المقاصة القانونية؟",
+    "back": "أن يكون كل من الطرفين دائنًا ومدينًا للآخر، وأن يكون الدينان متماثلين في المحل، ومستحقين، وخاليين من النزاع.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالإبراء؟",
+    "back": "الإبراء هو نزول الدائن باختياره عن حقه في مواجهة المدين، فينقضي الالتزام.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو التجديد؟",
+    "back": "التجديد هو انقضاء التزام قائم وإنشاء التزام جديد يحل محله ويختلف عنه في أحد عناصره الجوهرية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود باتحاد الذمة؟",
+    "back": "اتحاد الذمة هو اجتماع صفتي الدائن والمدين في شخص واحد بالنسبة إلى الدين نفسه، مما يؤدي إلى انقضاء الالتزام.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالحوالة؟",
+    "back": "الحوالة هي نقل الحق أو الدين من شخص إلى آخر وفقًا للشروط التي يحددها القانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي حوالة الحق؟",
+    "back": "حوالة الحق هي انتقال حق الدائن إلى دائن جديد دون حاجة إلى موافقة المدين، مع مراعاة الأحكام القانونية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي حوالة الدين؟",
+    "back": "حوالة الدين هي انتقال الدين من المدين الأصلي إلى مدين جديد، ولا تنفذ في حق الدائن إلا إذا وافق عليها.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالمسؤولية العقدية؟",
+    "back": "هي مسؤولية تنشأ عن إخلال أحد المتعاقدين بالتزام ناشئ عن عقد صحيح.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما شروط قيام المسؤولية العقدية؟",
+    "back": "وجود عقد صحيح، وإخلال المدين بالتزامه، وحدوث ضرر، وقيام علاقة سببية بين الإخلال والضرر.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالمسؤولية التقصيرية؟",
+    "back": "هي مسؤولية تنشأ عن الإخلال بواجب قانوني عام بعدم الإضرار بالغير.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما أركان المسؤولية التقصيرية؟",
+    "back": "الخطأ، والضرر، وعلاقة السببية بينهما.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالخطأ في المسؤولية التقصيرية؟",
+    "back": "هو إخلال الشخص بواجب قانوني يفرض عليه عدم الإضرار بالغير.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالضرر؟",
+    "back": "هو الأذى الذي يصيب الشخص في ماله أو جسمه أو مصلحة مشروعة له.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بعلاقة السببية؟",
+    "back": "هي الرابطة التي تثبت أن الضرر كان نتيجة مباشرة لخطأ المسؤول.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالتعويض؟",
+    "back": "التعويض هو مقابل مالي أو عيني يهدف إلى جبر الضرر الذي أصاب المضرور.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الهدف من التعويض؟",
+    "back": "إعادة المضرور إلى الحالة التي كان عليها قدر الإمكان قبل وقوع الضرر.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالإثراء بلا سبب؟",
+    "back": "هو حصول شخص على منفعة على حساب غيره دون سبب قانوني يبرر ذلك، ويلتزم برد ما أثرى به.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما شروط دعوى الإثراء بلا سبب؟",
+    "back": "وجود إثراء، وافتقار يقابله، وعلاقة بينهما، وانعدام السبب القانوني للإثراء.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالفضالة؟",
+    "back": "الفضالة هي أن يتولى شخص بإرادته شؤون غيره دون أن يكون ملزمًا بذلك، بقصد تحقيق مصلحة رب العمل.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بدفع غير المستحق؟",
+    "back": "هو وفاء شخص بدين غير واجب عليه، فيحق له استرداد ما دفعه وفقًا للقانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالإرادة المنفردة كمصدر للالتزام؟",
+    "back": "هي تعبير شخص واحد عن إرادته بما يرتب التزامًا في الحالات التي يجيزها القانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالتقادم؟",
+    "back": "التقادم هو انقضاء الحق في المطالبة القضائية بمرور المدة التي يحددها القانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالإثبات في الالتزامات؟",
+    "back": "الإثبات هو إقامة الدليل أمام القضاء على وجود الالتزام أو انقضائه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما أهم وسائل الإثبات في القانون المدني الجزائري؟",
+    "back": "الكتابة، الشهادة، القرائن، الإقرار، اليمين، والمعاينة والخبرة في الحالات التي يقررها القانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو الأصل في تنفيذ الالتزام وفقًا للقانون المدني الجزائري؟",
+    "back": "الأصل هو التنفيذ العيني متى كان ممكنًا، ولا يُلجأ إلى التعويض إلا إذا استحال التنفيذ العيني أو أصبح غير مجدٍ.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالالتزام بإعطاء شيء؟",
+    "back": "هو التزام يهدف إلى نقل حق عيني أو إنشاء حق عيني أو تقريره على شيء معين.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالالتزام بالقيام بعمل؟",
+    "back": "هو التزام يقتضي من المدين أداء عمل معين لصالح الدائن.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالالتزام بالامتناع عن عمل؟",
+    "back": "هو التزام يفرض على المدين عدم القيام بعمل معين حمايةً لمصلحة الدائن.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالشرط الواقف؟",
+    "back": "هو أمر مستقبل غير محقق الوقوع يتوقف على تحققه وجود الالتزام أو نفاذه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالشرط الفاسخ؟",
+    "back": "هو أمر مستقبل غير محقق الوقوع يترتب على تحققه زوال الالتزام.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالأجل الواقف؟",
+    "back": "هو أمر مستقبل محقق الوقوع يتوقف على حلوله تنفيذ الالتزام.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالأجل الفاسخ؟",
+    "back": "هو أمر مستقبل محقق الوقوع يترتب على حلوله انقضاء الالتزام.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالالتزام التضامني؟",
+    "back": "هو الالتزام الذي يكون فيه كل مدين مسؤولًا عن الدين كله، أو يكون لكل دائن الحق في المطالبة بالدين كله بحسب الأحوال.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل التضامن يفترض في الالتزامات؟",
+    "back": "لا، التضامن لا يفترض وإنما يكون بنص في القانون أو باتفاق بين الأطراف.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالالتزام غير القابل للانقسام؟",
+    "back": "هو الالتزام الذي لا يمكن تنفيذ محله مجزأً بسبب طبيعته أو باتفاق الأطراف.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو العربون؟",
+    "back": "هو مبلغ أو شيء يدفع عند إبرام العقد للدلالة على انعقاده، وقد يكون دليلًا على حق العدول إذا اتفق على ذلك.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالشرط الجزائي؟",
+    "back": "هو اتفاق يحدد فيه المتعاقدان مقدار التعويض المستحق عند الإخلال بالالتزام.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يجوز للقاضي تعديل الشرط الجزائي؟",
+    "back": "يجوز للقاضي تخفيضه أو زيادته في الحالات التي يجيزها القانون إذا كان التقدير مبالغًا فيه أو زهيدًا.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو الحق الشخصي؟",
+    "back": "هو سلطة يخولها القانون للدائن في مطالبة المدين بأداء معين.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو الحق العيني؟",
+    "back": "هو سلطة مباشرة يقررها القانون لشخص على شيء معين دون وساطة شخص آخر.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين الحق الشخصي والحق العيني؟",
+    "back": "الحق الشخصي يرد على ذمة شخص، أما الحق العيني فيرد مباشرة على شيء معين.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالنيابة في التعاقد؟",
+    "back": "هي حلول إرادة النائب محل إرادة الأصيل في إبرام التصرف القانوني ضمن حدود سلطته.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالوكالة؟",
+    "back": "الوكالة عقد يفوض بمقتضاه شخص شخصًا آخر للقيام بتصرف قانوني باسمه ولحسابه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "متى ينقضي عقد الوكالة؟",
+    "back": "ينقضي بعزل الوكيل أو اعتزاله أو بوفاة أحد الطرفين أو بانتهاء العمل الموكل به، ما لم ينص القانون على خلاف ذلك.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود ببطلان العقد؟",
+    "back": "هو الجزاء الذي يترتب على تخلف ركن أو شرط جوهري يقتضيه القانون لصحة العقد.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بإجازة العقد القابل للإبطال؟",
+    "back": "هي تنازل صاحب الحق في طلب الإبطال عن هذا الحق بما يؤدي إلى استقرار العقد نهائيًا.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما أثر فسخ العقد بالنسبة للمتعاقدين؟",
+    "back": "يعيد المتعاقدين إلى الحالة التي كانا عليها قبل إبرام العقد كلما أمكن ذلك.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالفسخ القضائي؟",
+    "back": "هو إنهاء العقد بحكم من المحكمة بسبب إخلال أحد المتعاقدين بالتزامه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالفسخ الاتفاقي؟",
+    "back": "هو اتفاق المتعاقدين مسبقًا على اعتبار العقد مفسوخًا عند تحقق سبب معين دون حاجة إلى حكم قضائي، إذا أجاز القانون ذلك.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين البطلان المطلق والبطلان النسبي؟",
+    "back": "البطلان المطلق يتعلق بالنظام العام ويجوز لكل ذي مصلحة التمسك به، أما البطلان النسبي فيقرر لحماية مصلحة خاصة ولا يتمسك به إلا من شرع لمصلحته.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين الفسخ والانفساخ؟",
+    "back": "الفسخ يكون جزاءً للإخلال بالعقد، أما الانفساخ فيكون بسبب استحالة تنفيذ الالتزام بسبب أجنبي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين القوة القاهرة والحادث الفجائي؟",
+    "back": "كلاهما سبب أجنبي يعفي من المسؤولية، إلا أن القوة القاهرة تتميز بعدم إمكان توقعها أو دفعها، بينما قد يعد الحادث الفجائي غير متوقع دون أن يكون خارجيًا دائمًا.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين المسؤولية العقدية والمسؤولية التقصيرية؟",
+    "back": "العقدية تنشأ عن الإخلال بعقد صحيح، أما التقصيرية فتنشأ عن الإخلال بواجب قانوني عام بعدم الإضرار بالغير.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين الالتزام بتحقيق نتيجة والالتزام ببذل عناية؟",
+    "back": "في التزام تحقيق النتيجة يكفي عدم تحقق النتيجة لقيام المسؤولية، أما في بذل العناية فيجب إثبات تقصير المدين في بذل العناية المطلوبة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالمدين؟",
+    "back": "هو الشخص الملزم بأداء الالتزام لصالح الدائن.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالدائن؟",
+    "back": "هو الشخص الذي يملك حق مطالبة المدين بتنفيذ الالتزام.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو الإيجاب؟",
+    "back": "هو عرض جازم يصدر من أحد المتعاقدين ويعبر عن إرادته في إبرام العقد.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو القبول؟",
+    "back": "هو موافقة من وجه إليه الإيجاب على إبرام العقد بالشروط المعروضة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "متى ينعقد العقد؟",
+    "back": "ينعقد العقد بمجرد توافق الإيجاب والقبول مع مراعاة الشروط التي يقررها القانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالأهلية؟",
+    "back": "هي صلاحية الشخص لاكتساب الحقوق وتحمل الالتزامات ومباشرة التصرفات القانونية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما أثر انعدام الأهلية على العقد؟",
+    "back": "قد يؤدي إلى بطلان العقد أو قابليته للإبطال وفقًا لما يحدده القانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالتصرف القانوني؟",
+    "back": "هو عمل إرادي يقصد به ترتيب أثر قانوني كإنشاء حق أو تعديله أو إنهائه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالواقعة القانونية؟",
+    "back": "هي حادث أو عمل يرتب القانون عليه أثرًا قانونيًا دون أن يكون هذا الأثر مقصودًا بالضرورة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يجوز الاتفاق على مخالفة النظام العام؟",
+    "back": "لا، لأن كل اتفاق يخالف النظام العام أو الآداب العامة يعد باطلًا.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالنظام العام؟",
+    "back": "هو مجموعة القواعد الأساسية التي يقوم عليها المجتمع ولا يجوز للأفراد الاتفاق على مخالفتها.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالآداب العامة؟",
+    "back": "هي المبادئ الأخلاقية والاجتماعية الأساسية التي يحرص القانون على احترامها.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "على من يقع عبء إثبات الالتزام؟",
+    "back": "يقع على الدائن الذي يدعي وجود الالتزام، بينما يثبت المدين الوفاء أو انقضاء الالتزام.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو الإقرار؟",
+    "back": "الإقرار هو اعتراف الشخص بحق عليه للغير، ويعد من أقوى وسائل الإثبات.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هي اليمين الحاسمة؟",
+    "back": "هي يمين يوجهها أحد الخصوم إلى خصمه لحسم النزاع، ويترتب على حلفها أو النكول عنها أثر قانوني.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالقرينة القانونية؟",
+    "back": "هي استنتاج يقرره القانون ويعفي من تقررت لمصلحته من إثبات الواقعة الأصلية في الحدود التي يقررها القانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالقرينة القضائية؟",
+    "back": "هي استنتاج يستخلصه القاضي من وقائع ثابتة ليستدل بها على واقعة مجهولة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بحسن النية في التعاقد؟",
+    "back": "هو التزام المتعاقدين بالصدق والأمانة والتعاون عند إبرام العقد وتنفيذه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الغاية الأساسية من نظرية الالتزامات؟",
+    "back": "تنظيم العلاقات المالية بين الأشخاص وتحديد حقوق الدائنين والتزامات المدينين وتحقيق الاستقرار في المعاملات.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما أهم مرجع تشريعي لدراسة نظرية الالتزامات في الجزائر؟",
+    "back": "القانون المدني الجزائري (الأمر 75-58 المؤرخ في 26 سبتمبر 1975، المعدل والمتمم)، مع الاستعانة بالمراجع الفقهية الجزائرية مثل مؤلفات علي سليمان، علي فيلالي، محمد حسنين، ومحمد صبري السعدي.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بمبدأ نسبية آثار العقد؟",
+    "back": "هو أن آثار العقد لا تنصرف إلا إلى طرفيه وخلفهما العام أو الخاص في الحدود التي يقررها القانون، ولا تنشئ حقوقًا أو التزامات للغير.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الاستثناءات الواردة على مبدأ نسبية آثار العقد؟",
+    "back": "من أهمها الاشتراط لمصلحة الغير، والدعوى غير المباشرة، والدعوى البوليصية، والخلافة العامة والخاصة في الحالات التي يقررها القانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالاشتراط لمصلحة الغير؟",
+    "back": "هو عقد يكسب شخصًا أجنبيًا عن العقد حقًا مباشرًا يستطيع المطالبة به متى قبل الاستفادة منه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "من هو المشترط في الاشتراط لمصلحة الغير؟",
+    "back": "هو الشخص الذي يبرم العقد مع المتعهد بقصد منح حق لشخص ثالث.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "من هو المتعهد في الاشتراط لمصلحة الغير؟",
+    "back": "هو الشخص الذي يلتزم تجاه المشترط بأداء معين لصالح المنتفع.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "من هو المنتفع في الاشتراط لمصلحة الغير؟",
+    "back": "هو الشخص الأجنبي عن العقد الذي يكتسب حقًا مباشرًا بمقتضى الاشتراط.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالدعوى غير المباشرة؟",
+    "back": "هي الدعوى التي يباشرها الدائن باسم مدينه للمحافظة على الضمان العام للدائنين عندما يهمل المدين حقوقه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما شروط استعمال الدعوى غير المباشرة؟",
+    "back": "وجود حق للدائن، وإهمال المدين في استعمال حقه، وأن يؤدي الإهمال إلى الإضرار بالدائن.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالدعوى البوليصية؟",
+    "back": "هي دعوى يطعن بها الدائن في تصرفات المدين الضارة بحقوق الدائنين بقصد عدم نفاذها في حقه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الهدف من الدعوى البوليصية؟",
+    "back": "حماية الضمان العام للدائنين من تصرفات المدين التي تنقص أمواله أو تهربها.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالدعوى الصورية؟",
+    "back": "هي دعوى يقيمها ذوو المصلحة لإثبات أن العقد الظاهر يخفي عقدًا آخر أو يخفي الحقيقة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالعقد الصوري؟",
+    "back": "هو عقد يظهر للناس على خلاف الحقيقة التي اتفق عليها المتعاقدان.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما أنواع الصورية؟",
+    "back": "الصورية المطلقة، والصورية النسبية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالصورية المطلقة؟",
+    "back": "هي إنشاء عقد ظاهري دون وجود عقد حقيقي بين الطرفين.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالصورية النسبية؟",
+    "back": "هي وجود عقد حقيقي يخالف العقد الظاهر في أحد عناصره أو جميعها.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالسبب الأجنبي؟",
+    "back": "هو كل حادث لا ينسب إلى المدين ويؤدي إلى استحالة تنفيذ الالتزام، مثل القوة القاهرة أو فعل الغير أو خطأ الدائن.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما صور السبب الأجنبي؟",
+    "back": "القوة القاهرة، الحادث الفجائي، فعل الغير، وخطأ الدائن.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "متى يعفى المدين من المسؤولية؟",
+    "back": "إذا أثبت أن عدم التنفيذ يرجع إلى سبب أجنبي لا يد له فيه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بخطأ الدائن؟",
+    "back": "هو كل سلوك يصدر عن الدائن ويسهم في حدوث الضرر أو يمنع تنفيذ الالتزام.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما أثر خطأ الدائن على التعويض؟",
+    "back": "قد يؤدي إلى تخفيض التعويض أو سقوطه بحسب مساهمة الدائن في إحداث الضرر.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بفعل الغير كسبب أجنبي؟",
+    "back": "هو تدخل شخص أجنبي عن العلاقة القانونية يؤدي إلى استحالة تنفيذ الالتزام دون خطأ من المدين.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالضمان العام للدائنين؟",
+    "back": "جميع أموال المدين الحاضرة والمستقبلة تكون ضامنًا عامًا للوفاء بديونه، ما لم يقرر القانون خلاف ذلك.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل للدائن حق تتبع أموال المدين؟",
+    "back": "نعم، يملك الدائن التنفيذ على أموال المدين القابلة للحجز وفقًا للإجراءات القانونية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالإعسار؟",
+    "back": "هو حالة يصبح فيها المدين غير قادر على الوفاء بديونه بسبب عدم كفاية أمواله.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الغاية من قواعد نظرية الالتزامات؟",
+    "back": "تحقيق التوازن بين مصالح الدائنين والمدينين وضمان استقرار المعاملات المدنية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بحق الدائن في التنفيذ الجبري؟",
+    "back": "هو حق الدائن في اللجوء إلى القضاء لإجبار المدين على تنفيذ التزامه عند امتناعه عن التنفيذ الاختياري.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "متى يفضل التنفيذ العيني على التنفيذ بمقابل؟",
+    "back": "يفضل التنفيذ العيني كلما كان ممكنًا وغير مرهق للمدين، لأنه يحقق مصلحة الدائن بصورة كاملة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالتنفيذ بطريق التعويض؟",
+    "back": "هو استبدال تنفيذ الالتزام بمبلغ مالي يعوض الدائن عن الضرر الناتج عن عدم التنفيذ أو التأخر فيه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين الضرر المادي والضرر المعنوي؟",
+    "back": "الضرر المادي يصيب المال أو الجسم، أما الضرر المعنوي فيصيب الشعور أو السمعة أو الكرامة أو الاعتبار.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما شروط استحقاق التعويض؟",
+    "back": "وجود خطأ، وضرر محقق، وعلاقة سببية بين الخطأ والضرر، ما لم ينص القانون على خلاف ذلك.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يعوض عن الضرر المحتمل؟",
+    "back": "لا، الأصل أن التعويض يكون عن الضرر المحقق وقوعه أو المؤكد وقوعه مستقبلًا.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالضرر المباشر؟",
+    "back": "هو الضرر الذي يعد نتيجة طبيعية ومباشرة لعدم تنفيذ الالتزام أو للإخلال به.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يعوض عن الكسب الفائت؟",
+    "back": "نعم، إذا كان الكسب المتوقع قد ضاع بسبب الخطأ وثبتت علاقته السببية به.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالخسارة اللاحقة؟",
+    "back": "هي النقص الذي يصيب الذمة المالية للمضرور نتيجة الفعل الضار.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يجوز الاتفاق على الإعفاء من المسؤولية العقدية؟",
+    "back": "يجوز في الحدود التي لا تخالف النظام العام، ولا يجوز الإعفاء من المسؤولية الناشئة عن الغش أو الخطأ الجسيم في الحالات التي يمنعها القانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالغش في تنفيذ الالتزام؟",
+    "back": "هو تعمد المدين الإضرار بالدائن أو التحايل عليه بقصد عدم تنفيذ الالتزام أو تنفيذه بصورة معيبة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالخطأ الجسيم؟",
+    "back": "هو إهمال فاحش لا يقع من الشخص المعتاد ويقترب في آثاره من الغش.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يجوز الاتفاق على مخالفة القواعد الآمرة؟",
+    "back": "لا، لأن القواعد الآمرة تتعلق بالنظام العام ولا يجوز الاتفاق على ما يخالفها.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين القواعد الآمرة والقواعد المكملة؟",
+    "back": "القواعد الآمرة لا يجوز الاتفاق على مخالفتها، أما القواعد المكملة فيجوز للأطراف الاتفاق على استبعادها أو تعديلها.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بحرية التعاقد؟",
+    "back": "هي حرية الأفراد في إبرام العقود واختيار أطرافها وتحديد شروطها في حدود القانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بعقد الإذعان؟",
+    "back": "هو عقد يفرض فيه أحد الطرفين شروطًا موحدة لا يملك الطرف الآخر إلا قبولها أو رفضها.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "كيف يفسر الشك في عقود الإذعان؟",
+    "back": "يفسر الشك لمصلحة الطرف المذعن حمايةً له من الشروط المجحفة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بتفسير العقد؟",
+    "back": "هو البحث عن الإرادة المشتركة للمتعاقدين عند غموض ألفاظ العقد.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "على ماذا يعتمد القاضي في تفسير العقد؟",
+    "back": "يعتمد على نية المتعاقدين وحسن النية وطبيعة التعامل والعرف الجاري.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالعرف كمصدر للقانون؟",
+    "back": "هو اعتياد الناس على سلوك معين مع الاعتقاد بإلزاميته، ويطبق عند غياب النص أو إذا أحال إليه القانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يجوز للقاضي تعديل العقد؟",
+    "back": "الأصل أنه لا يجوز، إلا في الحالات التي يجيزها القانون حمايةً للتوازن العقدي أو لمواجهة الظروف الاستثنائية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بنظرية الظروف الطارئة؟",
+    "back": "هي نظرية تجيز للقاضي تعديل الالتزام إذا طرأت حوادث استثنائية عامة غير متوقعة جعلت التنفيذ مرهقًا دون أن يصبح مستحيلاً.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين القوة القاهرة والظروف الطارئة؟",
+    "back": "القوة القاهرة تجعل التنفيذ مستحيلاً وتنقضي بها الالتزامات، أما الظروف الطارئة فتجعل التنفيذ مرهقًا فقط ويجوز معها تعديل الالتزام.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الغاية من نظرية الظروف الطارئة؟",
+    "back": "إعادة التوازن الاقتصادي للعقد ومنع تحمل أحد المتعاقدين خسارة فادحة بسبب ظروف استثنائية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما القاعدة الأساسية التي تحكم تنفيذ الالتزامات؟",
+    "back": "يجب تنفيذ الالتزامات طبقًا لما اشتملت عليه وبحسن نية، مع احترام نصوص القانون والعرف والعدالة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالكتابة الرسمية كوسيلة للإثبات؟",
+    "back": "هي محرر يثبته موظف أو ضابط عمومي مختص وفق الأشكال التي يحددها القانون، وتكون له حجية إلى أن يطعن فيه بالتزوير.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالمحرر العرفي؟",
+    "back": "هو محرر يوقعه أطرافه دون تدخل موظف عمومي، وتثبت حجيته إذا اعترف به من نسب إليه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين المحرر الرسمي والمحرر العرفي؟",
+    "back": "المحرر الرسمي يحرره موظف مختص ويتمتع بحجية قوية، أما المحرر العرفي فيحرره الأفراد وتقوم حجيته على الاعتراف بالتوقيع أو ثبوته.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "متى يجوز الإثبات بالبينة (الشهادة)؟",
+    "back": "يجوز في الحالات التي يجيزها القانون، أو إذا وجد مانع مادي أو أدبي من الحصول على دليل كتابي، أو عند وجود مبدأ ثبوت بالكتابة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بمبدأ الثبوت بالكتابة؟",
+    "back": "هو كل كتابة صادرة من الخصم تجعل الواقعة المدعى بها قريبة الاحتمال، ويجوز استكمالها بالشهادة أو القرائن.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين اليمين الحاسمة واليمين المتممة؟",
+    "back": "اليمين الحاسمة يوجهها أحد الخصوم إلى خصمه وتحسم النزاع، أما اليمين المتممة فيوجهها القاضي لاستكمال اقتناعه بالأدلة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يجوز توجيه اليمين الحاسمة في جميع الدعاوى؟",
+    "back": "لا، لا يجوز إذا تعلقت الواقعة بالنظام العام أو كانت غير قابلة للإثبات باليمين.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما أثر النكول عن اليمين الحاسمة؟",
+    "back": "يعتبر النكول قرينة لصالح الخصم الآخر، ويترتب عليه حسم النزاع وفق أحكام القانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالخبرة القضائية؟",
+    "back": "هي وسيلة إثبات يستعين بها القاضي بخبير متخصص لإبداء رأي فني في مسألة تحتاج إلى خبرة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يلتزم القاضي برأي الخبير؟",
+    "back": "لا، تقرير الخبير عنصر من عناصر الإثبات، ويملك القاضي سلطة تقديره مع بيان أسباب مخالفته عند الاقتضاء.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالمعاينة القضائية؟",
+    "back": "هي انتقال المحكمة أو من تندبه لمشاهدة محل النزاع أو الشيء المتنازع عليه لإثبات حالته.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالتقادم المسقط؟",
+    "back": "هو انقضاء الحق في المطالبة القضائية بمرور المدة التي يحددها القانون دون المطالبة به.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين وقف التقادم وانقطاعه؟",
+    "back": "الوقف يعلق سريان المدة ثم تستكمل بعد زوال السبب، أما الانقطاع فيمحو المدة السابقة وتبدأ مدة جديدة كاملة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "اذكر مثالاً على سبب من أسباب انقطاع التقادم.",
+    "back": "رفع الدعوى القضائية أو إقرار المدين بالدين من أشهر أسباب انقطاع التقادم.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالإقرار القضائي؟",
+    "back": "هو اعتراف الخصم أمام القضاء بواقعة قانونية مدعى بها عليه، ويعد حجة قاطعة عليه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يجوز تجزئة الإقرار؟",
+    "back": "الأصل أن الإقرار لا يتجزأ على صاحبه، إلا في الحالات التي يجيزها القانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالإقرار غير القضائي؟",
+    "back": "هو الاعتراف الذي يصدر خارج مجلس القضاء، وتخضع حجيته لتقدير المحكمة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالالتزام المدني؟",
+    "back": "هو الالتزام الذي يمنح الدائن حق المطالبة القضائية بتنفيذه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالالتزام الطبيعي؟",
+    "back": "هو واجب لا يجبر المدين على تنفيذه قضائيًا، لكن إذا نفذه باختياره فلا يحق له استرداد ما وفى به.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين الالتزام المدني والالتزام الطبيعي؟",
+    "back": "الالتزام المدني يتمتع بضمان التنفيذ الجبري، أما الالتزام الطبيعي فلا يجبر المدين على تنفيذه قضائيًا.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما أثر تنفيذ الالتزام الطبيعي اختيارًا؟",
+    "back": "يعد الوفاء صحيحًا ولا يجوز للمدين المطالبة باسترداد ما دفعه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالتضامن بين الدائنين؟",
+    "back": "هو أن يكون لكل دائن الحق في مطالبة المدين بكامل الدين، ويبرأ المدين بالوفاء لأحدهم وفق أحكام القانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالتضامن بين المدينين؟",
+    "back": "هو التزام كل مدين بالوفاء بكامل الدين تجاه الدائن، مع حقه في الرجوع على باقي المدينين بحصصهم.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالإنابة في الوفاء؟",
+    "back": "هي اتفاق يتم بمقتضاه تعيين شخص جديد للوفاء بالدين أو تلقي الوفاء وفقًا لأحكام القانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما القاعدة الأساسية في عبء الإثبات؟",
+    "back": "البينة على من ادعى، واليمين على من أنكر، ما لم يوجد نص قانوني يقضي بخلاف ذلك.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالوفاء مع الحلول؟",
+    "back": "هو وفاء شخص بالدين مع انتقال حقوق الدائن إليه في الحدود التي يقررها القانون أو الاتفاق.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين الوفاء مع الحلول وحوالة الحق؟",
+    "back": "في الوفاء مع الحلول ينتقل الحق بسبب الوفاء بالدين، أما في حوالة الحق فينتقل الحق باتفاق بين الدائن والمحال له.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالعرض الحقيقي؟",
+    "back": "هو عرض المدين تنفيذ التزامه على الدائن وفق الإجراءات القانونية إذا رفض الدائن استيفاء حقه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالإيداع؟",
+    "back": "هو إيداع الشيء أو المبلغ المستحق لدى الجهة المختصة بعد رفض الدائن الوفاء أو تعذر قبوله، ويترتب عليه براءة ذمة المدين إذا استوفى شروطه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما أثر العرض الحقيقي والإيداع الصحيح؟",
+    "back": "يترتب عليهما انقضاء الالتزام وبراءة ذمة المدين متى استوفيا الشروط القانونية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالإنابة الكاملة؟",
+    "back": "هي الإنابة التي يترتب عليها انقضاء التزام المدين الأصلي وحلول المدين الجديد محله.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالإنابة الناقصة؟",
+    "back": "هي الإنابة التي لا يبرأ فيها المدين الأصلي إلا إذا أوفى المدين الجديد بالدين.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالوفاء الجزئي؟",
+    "back": "هو تنفيذ المدين جزءًا فقط من الالتزام، ولا يجبر الدائن على قبوله إلا إذا نص القانون أو الاتفاق على ذلك.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يجوز إجبار الدائن على قبول وفاء جزئي؟",
+    "back": "الأصل أنه لا يجوز، ما لم يوجد نص قانوني أو اتفاق يقضي بخلاف ذلك.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالدفع بعدم التنفيذ؟",
+    "back": "هو حق أحد المتعاقدين في الامتناع مؤقتًا عن تنفيذ التزامه إذا لم ينفذ المتعاقد الآخر التزامه المقابل.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "متى يطبق الدفع بعدم التنفيذ؟",
+    "back": "في العقود الملزمة للجانبين عندما تكون الالتزامات متقابلة ومستحقة الأداء.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الفرق بين الدفع بعدم التنفيذ والفسخ؟",
+    "back": "الدفع بعدم التنفيذ يوقف التنفيذ مؤقتًا، أما الفسخ فيؤدي إلى إنهاء العقد وزوال آثاره المستقبلية.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالعقود الملزمة للجانبين؟",
+    "back": "هي العقود التي يرتب فيها العقد التزامات متقابلة في ذمة كل من المتعاقدين.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالعقود الملزمة لجانب واحد؟",
+    "back": "هي العقود التي تنشئ التزامًا في ذمة أحد المتعاقدين فقط.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالعقد الفوري؟",
+    "back": "هو العقد الذي يتم تنفيذ الالتزامات الناشئة عنه دفعة واحدة أو خلال مدة قصيرة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالعقد الزمني أو المستمر؟",
+    "back": "هو العقد الذي يستغرق تنفيذه مدة زمنية ويكون الزمن عنصرًا أساسيًا فيه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالعقد الرضائي؟",
+    "back": "هو العقد الذي ينعقد بمجرد توافق الإيجاب والقبول دون حاجة إلى شكل خاص، ما لم ينص القانون على خلاف ذلك.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالعقد الشكلي؟",
+    "back": "هو العقد الذي لا ينعقد إلا إذا استوفى الشكل الذي يفرضه القانون، كالكتابة الرسمية في بعض التصرفات.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالعقد العيني؟",
+    "back": "هو العقد الذي لا يتم إلا بتسليم محل العقد بالإضافة إلى توافق الإرادتين، في الحالات التي يقررها القانون.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالعقد المسمى؟",
+    "back": "هو العقد الذي نظمه المشرع باسم وأحكام خاصة، مثل البيع والإيجار والوكالة.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالعقد غير المسمى؟",
+    "back": "هو العقد الذي لم يضع له المشرع تنظيمًا خاصًا، وتطبق عليه القواعد العامة للعقود.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالعقد الاحتمالي؟",
+    "back": "هو العقد الذي يتوقف فيه مقدار الربح أو الخسارة على حادث غير محقق الوقوع.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بعقد المعاوضة؟",
+    "back": "هو العقد الذي يحصل فيه كل متعاقد على مقابل لما يعطيه.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بعقد التبرع؟",
+    "back": "هو العقد الذي يمنح فيه أحد المتعاقدين منفعة للآخر دون مقابل.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "اذكر أهم الموضوعات التي تغطيها النظرية العامة للالتزامات في القانون المدني الجزائري.",
+    "back": "مصادر الالتزام، العقد، أوصاف الالتزام، انتقال الالتزام، تنفيذ الالتزام، انقضاء الالتزام، المسؤولية المدنية، والإثبات.",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو تعريف العقد في القانون المدني الجزائري؟",
+    "back": "العقد هو اتفاق يلتزم بموجبه شخص أو عدة أشخاص نحو شخص أو عدة أشخاص آخرين بمنح أو فعل أو عدم فعل شيء. (المادة 54)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "متى يكون العقد ملزماً للجانبين؟",
+    "back": "يكون العقد ملزماً للجانبين عندما يتبادل المتعاقدان الالتزام بعضهما تجاه بعض. (المادة 55)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "متى يكون العقد ملزماً لجانب واحد؟",
+    "back": "يكون العقد ملزماً لجانب واحد إذا التزم أحد المتعاقدين وحده دون التزام مقابل من الطرف الآخر. (المادة 56)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو العقد التبادلي؟",
+    "back": "العقد التبادلي هو العقد الذي يعتبر فيه التزام كل طرف مقابلاً لالتزام الطرف الآخر. (المادة 57)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما القاعدة الأساسية في تفسير العقود؟",
+    "back": "العقد شريعة المتعاقدين، فلا يجوز نقضه أو تعديله إلا باتفاق الطرفين أو في الحالات التي يقررها القانون. (المادة 106)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "بأي مبدأ يجب تنفيذ العقد؟",
+    "back": "يجب تنفيذ العقد طبقاً لما اشتمل عليه وبحسن نية. (المادة 107/1)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يقتصر العقد على ما ورد في ألفاظه؟",
+    "back": "لا، يمتد أيضاً إلى ما يعد من مستلزماته وفق القانون والعرف والعدالة وطبيعة الالتزام. (المادة 107/2)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "متى يجوز للقاضي تعديل الالتزام بسبب الظروف الطارئة؟",
+    "back": "إذا طرأت حوادث استثنائية عامة غير متوقعة جعلت التنفيذ مرهقاً للمدين بخسارة فادحة، جاز للقاضي رد الالتزام إلى الحد المعقول. (المادة 107/3)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يجوز الاتفاق على استبعاد تطبيق نظرية الظروف الطارئة؟",
+    "back": "لا، يقع باطلاً كل اتفاق يخالف أحكام الظروف الطارئة. (المادة 107/3)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما حكم الالتزام الطبيعي؟",
+    "back": "المدين لا يجبر على تنفيذ الالتزام الطبيعي قضاءً. (المادة 160)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "من الذي يقدر وجود الالتزام الطبيعي؟",
+    "back": "القاضي هو الذي يقدر وجود الالتزام الطبيعي، بشرط ألا يخالف النظام العام. (المادة 161)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يجوز استرداد ما دفع وفاءً لالتزام طبيعي؟",
+    "back": "لا، إذا نفذ المدين الالتزام الطبيعي باختياره فلا يجوز له استرداد ما دفعه. (المادة 162)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يمكن أن يكون الالتزام الطبيعي سبباً لالتزام مدني؟",
+    "back": "نعم، يمكن أن يكون الالتزام الطبيعي سبباً لقيام التزام مدني. (المادة 163)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "متى يجبر المدين على التنفيذ العيني؟",
+    "back": "يجبر المدين بعد إعذاره على تنفيذ التزامه عيناً متى كان التنفيذ ممكناً. (المادة 164)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "متى تنتقل ملكية الشيء المعين بالذات؟",
+    "back": "إذا كان محل الالتزام شيئاً معيناً بالذات يملكه الملتزم، تنتقل الملكية بحكم القانون مع مراعاة أحكام الإشهار العقاري. (المادة 165)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يجوز للدائن رفض الوفاء من غير المدين؟",
+    "back": "يجوز إذا نص الاتفاق أو استوجبت طبيعة الالتزام أن ينفذه المدين بنفسه. (المادة 169)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ماذا يفعل الدائن إذا امتنع المدين عن تنفيذ الالتزام بعمل؟",
+    "back": "يجوز للدائن طلب ترخيص من القاضي لتنفيذ الالتزام على نفقة المدين إذا كان التنفيذ ممكناً. (المادة 170)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "متى يكون حكم القاضي سنداً للتنفيذ؟",
+    "back": "قد يكون الحكم سنداً للتنفيذ إذا سمحت طبيعة الالتزام بذلك. (المادة 171)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "متى يعد المدين منفذاً لالتزامه ببذل عناية؟",
+    "back": "إذا بذل عناية الشخص العادي ولو لم تتحقق النتيجة المقصودة. (المادة 172)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو تعريف الالتزام المقترن بشرط؟",
+    "back": "هو الالتزام الذي يتوقف وجوده أو زواله على أمر مستقبل غير محقق الوقوع. (المواد 203 إلى 208)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "متى يرجع أثر تحقق الشرط؟",
+    "back": "الأصل أن يرجع أثر تحقق الشرط إلى يوم نشوء الالتزام، ما لم يتبين خلاف ذلك من الإرادة أو طبيعة العقد. (المادة 208)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو تعريف الالتزام المقترن بأجل؟",
+    "back": "هو الالتزام الذي يكون نفاذه أو انقضاؤه مرتبطاً بأمر مستقبل محقق الوقوع. (المادة 209)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ماذا يفعل القاضي إذا كان المدين لا يستطيع الوفاء إلا عند الميسرة؟",
+    "back": "يعين القاضي ميعاداً مناسباً للوفاء مع مراعاة ظروف المدين. (المادة 210)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو المصدر الأول للالتزامات في القانون المدني الجزائري؟",
+    "back": "القانون، وتطبق على الالتزامات الناشئة مباشرة عنه النصوص القانونية الخاصة بها. (المادة 53)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "إذا كان العقد باطلاً وتوافرت فيه أركان عقد آخر، فما الحكم؟",
+    "back": "يصح باعتباره العقد الذي توافرت أركانه إذا تبين أن نية المتعاقدين انصرفت إليه. (المادة 105)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "كيف يكون إعذار المدين؟",
+    "back": "يكون إعذار المدين بإنذاره أو بما يقوم مقام الإنذار، ويجوز أن يتم عن طريق البريد أو باتفاق يجعل المدين معذرًا بمجرد حلول الأجل. (المادة 180)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "اذكر حالة لا يكون فيها إعذار المدين ضروريًا.",
+    "back": "إذا أصبح تنفيذ الالتزام مستحيلاً أو غير مجدٍ بفعل المدين. (المادة 181)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يشترط إعذار المدين في المسؤولية التقصيرية؟",
+    "back": "لا، إذا كان محل الالتزام تعويضًا عن عمل ضار فلا ضرورة للإعذار. (المادة 181)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يشترط إعذار المدين إذا صرح كتابة بعدم تنفيذ التزامه؟",
+    "back": "لا، إذا صرح المدين كتابة أنه لا ينوي تنفيذ التزامه فلا حاجة إلى إعذاره. (المادة 181)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "من الذي يقدر التعويض إذا لم يكن محددًا؟",
+    "back": "القاضي هو الذي يقدر التعويض إذا لم يكن مقدرًا في العقد أو في القانون. (المادة 182)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ماذا يشمل التعويض وفق القانون المدني؟",
+    "back": "يشمل ما لحق الدائن من خسارة وما فاته من كسب إذا كانا نتيجة طبيعية لعدم الوفاء أو التأخر فيه. (المادة 182)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالضرر الطبيعي في التعويض؟",
+    "back": "هو الضرر الذي لا يستطيع الدائن أن يتوقاه ببذل جهد معقول. (المادة 182)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يعوض المدين حسن النية عن كل الأضرار العقدية؟",
+    "back": "لا، إذا لم يرتكب غشًا أو خطأً جسيمًا فلا يلتزم إلا بالضرر المتوقع عادة وقت التعاقد. (المادة 182)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يشمل التعويض الضرر المعنوي؟",
+    "back": "نعم، يشمل المساس بالحرية أو الشرف أو السمعة أو الاعتبار. (المادة 182 مكرر)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما هو الشرط الجزائي؟",
+    "back": "هو اتفاق يحدد فيه المتعاقدان مقدماً مقدار التعويض المستحق عند الإخلال بالالتزام. (المادة 183)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يجوز للقاضي تعديل الشرط الجزائي؟",
+    "back": "يجوز للقاضي تخفيض أو رفع التعويض الاتفاقي في الحالات التي يقررها القانون. (المواد 183 وما بعدها)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالوفاء؟",
+    "back": "الوفاء هو تنفيذ المدين الالتزام الذي في ذمته على الوجه المتفق عليه. (باب الوفاء)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "من يملك حق استيفاء الوفاء؟",
+    "back": "الدائن أو من يمثله قانونًا أو اتفاقًا. (أحكام الوفاء)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يجوز الوفاء من شخص غير المدين؟",
+    "back": "يجوز ذلك ما لم تكن شخصية المدين محل اعتبار أو يوجد اتفاق يقضي بغير ذلك. (المادة 169)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما أثر الوفاء الصحيح؟",
+    "back": "يترتب عليه انقضاء الالتزام وبراءة ذمة المدين. (أحكام الوفاء)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالمقاصة؟",
+    "back": "هي انقضاء دينين متقابلين بقدر الأقل منهما إذا توافرت شروطها القانونية. (باب انقضاء الالتزام)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالإبراء؟",
+    "back": "هو نزول الدائن عن حقه اختيارًا مما يؤدي إلى انقضاء الالتزام. (باب انقضاء الالتزام)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود باتحاد الذمة؟",
+    "back": "هو اجتماع صفتي الدائن والمدين في شخص واحد بالنسبة إلى الدين نفسه، مما يؤدي إلى انقضاء الالتزام. (باب انقضاء الالتزام)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود بالتجديد؟",
+    "back": "هو انقضاء الالتزام الأصلي وإنشاء التزام جديد يحل محله إذا توافرت شروطه القانونية. (باب التجديد)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "هل يفترض التجديد؟",
+    "back": "لا، لا يفترض التجديد ويجب أن تكون نية التجديد واضحة. (أحكام التجديد)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المقصود باستحالة التنفيذ؟",
+    "back": "هي استحالة تنفيذ الالتزام بسبب أجنبي لا يد للمدين فيه، ويترتب عليها انقضاء الالتزام. (المادة 307)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما أثر القوة القاهرة على الالتزام؟",
+    "back": "إذا جعلت القوة القاهرة تنفيذ الالتزام مستحيلاً انقضى الالتزام وانقضت المسؤولية وفق أحكام القانون. (المادة 307)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما الأصل في انتقال الالتزام؟",
+    "back": "يجوز انتقال الحق أو الدين وفق أحكام حوالة الحق أو حوالة الدين متى استوفت الشروط القانونية. (باب انتقال الالتزام)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما القاعدة العامة في تنفيذ الالتزامات؟",
+    "back": "يجب تنفيذ الالتزامات بحسن نية وفقًا للعقد والقانون والعرف. (المادة 107)",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "ما المصدر الأساسي لدراسة نظرية الالتزامات في الجزائر؟",
+    "back": "القانون المدني الجزائري (الأمر 75-58 المعدل والمتمم)، مع الرجوع إلى الاجتهاد القضائي والفقه الجزائري. :contentReference[oaicite:1]{index=1}",
+    "frontDir": "rtl",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  }
+]
