@@ -1,0 +1,452 @@
+[
+  {
+    "front": "Bien qu'il soit fatigué, il a continué à travailler.",
+    "back": "على الرغم من أنه كان متعبًا، إلا أنه واصل العمل.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Si j'avais su, je ne serais pas venu.",
+    "back": "لو كنت أعلم، لما جئت.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il se peut que la réunion soit reportée à la semaine prochaine.",
+    "back": "من المحتمل أن يتم تأجيل الاجتماع إلى الأسبوع المقبل.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Plus il travaille, plus il gagne d'argent.",
+    "back": "كلما عمل أكثر، كلما كسب مالًا أكثر.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je doute qu'il vienne à la fête ce soir.",
+    "back": "أشك في أنه سيأتي إلى الحفلة هذا المساء.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Malgré les difficultés, l'entreprise a réussi à se développer.",
+    "back": "على الرغم من الصعوبات، تمكنت الشركة من التطور.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "C'est le meilleur film que j'aie jamais vu.",
+    "back": "إنه أفضل فيلم شاهدته على الإطلاق.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il faudrait que tu prennes une décision rapidement.",
+    "back": "يجب أن تتخذ قرارًا بسرعة.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elle a agi comme si de rien n'était.",
+    "back": "تصرفت وكأن شيئًا لم يكن.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "À moins qu'il ne pleuve, nous irons à la plage.",
+    "back": "ما لم تمطر، سنذهب إلى الشاطئ.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ce projet nécessite une attention particulière aux détails.",
+    "back": "يتطلب هذا المشروع اهتمامًا خاصًا بالتفاصيل.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nous aurions dû partir plus tôt pour éviter les embouteillages.",
+    "back": "كان يجب أن نغادر مبكرًا لتجنب الازدحام المروري.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Quoi qu'il arrive, je resterai à tes côtés.",
+    "back": "مهما حدث، سأبقى إلى جانبك.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il est peu probable qu'elle accepte cette offre.",
+    "back": "من غير المحتمل أن تقبل هذا العرض.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Le gouvernement a annoncé de nouvelles mesures économiques.",
+    "back": "أعلنت الحكومة عن إجراءات اقتصادية جديدة.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Si seulement j'avais écouté ton conseil !",
+    "back": "ليتني استمعت إلى نصيحتك!",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ce n'est pas la peine de t'excuser, ce n'était pas ta faute.",
+    "back": "لا داعي للاعتذار، لم يكن هذا خطأك.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Les négociations se sont poursuivies jusqu'à tard dans la nuit.",
+    "back": "استمرت المفاوضات حتى وقت متأخر من الليل.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je m'attendais à ce que tu sois en retard.",
+    "back": "كنت أتوقع أن تتأخر.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Bien qu'elle soit jeune, elle fait preuve d'une grande maturité.",
+    "back": "على الرغم من صغر سنها، إلا أنها تظهر نضجًا كبيرًا.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il n'en demeure pas moins que la situation reste préoccupante.",
+    "back": "ومع ذلك، تظل الحالة مثيرة للقلق.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Une fois le rapport terminé, envoie-le-moi immédiatement.",
+    "back": "بمجرد الانتهاء من التقرير، أرسله لي فورًا.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Elle a fini par accepter, bien qu'à contrecœur.",
+    "back": "انتهى بها الأمر بالقبول، وإن كان على مضض.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Le succès de ce projet dépend en grande partie de votre engagement.",
+    "back": "يعتمد نجاح هذا المشروع إلى حد كبير على التزامكم.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Pour peu qu'on lui donne une chance, il pourrait réussir.",
+    "back": "إذا أُتيحت له فرصة ولو بسيطة، قد ينجح.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Cela fait des années que nous n'avons pas eu de nouvelles de lui.",
+    "back": "مرت سنوات ولم نسمع أي أخبار عنه.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Les scientifiques ont mis au point un nouveau vaccin.",
+    "back": "طوّر العلماء لقاحًا جديدًا.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il vaudrait mieux que nous reportions cette réunion.",
+    "back": "من الأفضل أن نؤجل هذا الاجتماع.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "En dépit de tous ses efforts, il n'a pas obtenu le poste.",
+    "back": "على الرغم من كل جهوده، لم يحصل على الوظيفة.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Sitôt qu'il fut arrivé, la réunion commença.",
+    "back": "بمجرد وصوله، بدأ الاجتماع.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ce dont nous avons besoin, c'est d'une solution durable.",
+    "back": "ما نحتاجه هو حل دائم.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Nul ne peut prédire avec certitude l'évolution du marché.",
+    "back": "لا أحد يستطيع التنبؤ بيقين بتطور السوق.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Je préférerais que tu ne dises rien à ce sujet.",
+    "back": "أفضّل ألا تقول شيئًا حول هذا الموضوع.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Face à cette crise, les autorités ont dû réagir rapidement.",
+    "back": "في مواجهة هذه الأزمة، اضطرت السلطات إلى التصرف بسرعة.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Quelle que soit la difficulté, nous trouverons une solution.",
+    "back": "مهما كانت الصعوبة، سنجد حلاً.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il a fait semblant de ne pas me reconnaître.",
+    "back": "تظاهر بأنه لا يعرفني.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Étant donné les circonstances, il vaut mieux annuler l'événement.",
+    "back": "نظرًا للظروف، من الأفضل إلغاء الحدث.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Le taux de chômage a nettement diminué au cours des derniers mois.",
+    "back": "انخفض معدل البطالة بشكل ملحوظ خلال الأشهر الأخيرة.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "J'aurais aimé pouvoir assister à la cérémonie.",
+    "back": "كنت أتمنى لو تمكنت من حضور الحفل.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Contrairement à ce qu'on pensait, les ventes ont augmenté.",
+    "back": "على عكس ما كان يُعتقد، ارتفعت المبيعات.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Rien ne laissait présager un tel changement.",
+    "back": "لم يكن هناك ما يوحي بهذا التغيير.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Le comité a examiné la proposition avant de la rejeter.",
+    "back": "درست اللجنة الاقتراح قبل أن ترفضه.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Aussi étrange que cela puisse paraître, c'est la vérité.",
+    "back": "مهما بدا الأمر غريبًا، فهذه هي الحقيقة.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il s'est excusé auprès de tous ceux qu'il avait offensés.",
+    "back": "اعتذر لجميع من أساء إليهم.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Dès lors que vous acceptez les conditions, vous pouvez signer.",
+    "back": "بمجرد أن توافق على الشروط، يمكنك التوقيع.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Ils ont convenu de reporter la décision à une date ultérieure.",
+    "back": "اتفقوا على تأجيل القرار إلى موعد لاحق.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Loin de s'améliorer, la situation s'est aggravée.",
+    "back": "بدلاً من أن تتحسن، ازدادت الحالة سوءًا.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Il importe peu que tu sois d'accord ou non.",
+    "back": "لا يهم كثيرًا إن كنت موافقًا أم لا.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Tout porte à croire que les prix vont encore grimper.",
+    "back": "كل الدلائل تشير إلى أن الأسعار ستستمر في الارتفاع.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  },
+  {
+    "front": "Pour autant que je sache, il n'a pas encore répondu.",
+    "back": "على حد علمي، لم يرد بعد.",
+    "frontDir": "ltr",
+    "backDir": "rtl",
+    "frontAlign": "center",
+    "backAlign": "center",
+    "learned": false
+  }
+]
