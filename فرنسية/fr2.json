@@ -1,7 +1,7 @@
 [
   {
-    "front": "Bien qu'il soit fatigué, il a continué à travailler.",
-    "back": "على الرغم من أنه كان متعبًا، إلا أنه واصل العمل.",
+    "front": "Si j'avais plus de temps, je voyagerais davantage.",
+    "back": "لو كان لدي وقت أكثر، لسافرت أكثر.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -9,8 +9,8 @@
     "learned": false
   },
   {
-    "front": "Si j'avais su, je ne serais pas venu.",
-    "back": "لو كنت أعلم، لما جئت.",
+    "front": "Elle travaille dans l'entreprise où son père a commencé sa carrière.",
+    "back": "هي تعمل في الشركة التي بدأ فيها والدها مسيرته المهنية.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -18,8 +18,8 @@
     "learned": false
   },
   {
-    "front": "Il se peut que la réunion soit reportée à la semaine prochaine.",
-    "back": "من المحتمل أن يتم تأجيل الاجتماع إلى الأسبوع المقبل.",
+    "front": "Quand j'étais enfant, j'avais peur du noir.",
+    "back": "عندما كنت طفلاً، كنت أخاف من الظلام.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -27,8 +27,8 @@
     "learned": false
   },
   {
-    "front": "Plus il travaille, plus il gagne d'argent.",
-    "back": "كلما عمل أكثر، كلما كسب مالًا أكثر.",
+    "front": "Il vaut mieux réserver à l'avance pendant la haute saison.",
+    "back": "من الأفضل الحجز مسبقًا خلال موسم الذروة.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -36,8 +36,8 @@
     "learned": false
   },
   {
-    "front": "Je doute qu'il vienne à la fête ce soir.",
-    "back": "أشك في أنه سيأتي إلى الحفلة هذا المساء.",
+    "front": "Une fois arrivé à l'aéroport, appelle-moi pour me rassurer.",
+    "back": "بمجرد وصولك إلى المطار، اتصل بي لتطمئنني.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -45,8 +45,8 @@
     "learned": false
   },
   {
-    "front": "Malgré les difficultés, l'entreprise a réussi à se développer.",
-    "back": "على الرغم من الصعوبات، تمكنت الشركة من التطور.",
+    "front": "Ce que je préfère dans cette ville, c'est son ambiance calme.",
+    "back": "ما أفضّله في هذه المدينة هو أجواؤها الهادئة.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -54,8 +54,8 @@
     "learned": false
   },
   {
-    "front": "C'est le meilleur film que j'aie jamais vu.",
-    "back": "إنه أفضل فيلم شاهدته على الإطلاق.",
+    "front": "Après avoir terminé ses études, elle a trouvé un emploi rapidement.",
+    "back": "بعد أن أنهت دراستها، وجدت وظيفة بسرعة.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -63,8 +63,8 @@
     "learned": false
   },
   {
-    "front": "Il faudrait que tu prennes une décision rapidement.",
-    "back": "يجب أن تتخذ قرارًا بسرعة.",
+    "front": "Je regrette de ne pas avoir accepté cette offre.",
+    "back": "أنا نادم على عدم قبولي هذا العرض.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -72,8 +72,8 @@
     "learned": false
   },
   {
-    "front": "Elle a agi comme si de rien n'était.",
-    "back": "تصرفت وكأن شيئًا لم يكن.",
+    "front": "Les habitants de la région dépendent surtout de l'agriculture.",
+    "back": "يعتمد سكان المنطقة بشكل رئيسي على الزراعة.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -81,8 +81,8 @@
     "learned": false
   },
   {
-    "front": "À moins qu'il ne pleuve, nous irons à la plage.",
-    "back": "ما لم تمطر، سنذهب إلى الشاطئ.",
+    "front": "Plus on vieillit, plus on apprécie les petits plaisirs de la vie.",
+    "back": "كلما تقدمنا في العمر، كلما قدّرنا ملذات الحياة الصغيرة.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -90,8 +90,8 @@
     "learned": false
   },
   {
-    "front": "Ce projet nécessite une attention particulière aux détails.",
-    "back": "يتطلب هذا المشروع اهتمامًا خاصًا بالتفاصيل.",
+    "front": "Il a dû annuler son voyage à cause d'un imprévu.",
+    "back": "اضطر إلى إلغاء رحلته بسبب أمر طارئ.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -99,8 +99,8 @@
     "learned": false
   },
   {
-    "front": "Nous aurions dû partir plus tôt pour éviter les embouteillages.",
-    "back": "كان يجب أن نغادر مبكرًا لتجنب الازدحام المروري.",
+    "front": "Malheureusement, nous n'avons pas pu joindre le responsable.",
+    "back": "للأسف، لم نتمكن من الاتصال بالمسؤول.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -108,8 +108,8 @@
     "learned": false
   },
   {
-    "front": "Quoi qu'il arrive, je resterai à tes côtés.",
-    "back": "مهما حدث، سأبقى إلى جانبك.",
+    "front": "Elle s'entraîne chaque matin avant d'aller au bureau.",
+    "back": "هي تتدرب كل صباح قبل الذهاب إلى المكتب.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -117,8 +117,8 @@
     "learned": false
   },
   {
-    "front": "Il est peu probable qu'elle accepte cette offre.",
-    "back": "من غير المحتمل أن تقبل هذا العرض.",
+    "front": "Le contrat sera signé dès que les deux parties seront d'accord.",
+    "back": "سيتم توقيع العقد بمجرد اتفاق الطرفين.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -126,8 +126,8 @@
     "learned": false
   },
   {
-    "front": "Le gouvernement a annoncé de nouvelles mesures économiques.",
-    "back": "أعلنت الحكومة عن إجراءات اقتصادية جديدة.",
+    "front": "Je n'aurais jamais imaginé qu'il déménagerait si loin.",
+    "back": "لم أكن لأتخيل أبدًا أنه سينتقل إلى مكان بعيد جدًا.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -135,8 +135,8 @@
     "learned": false
   },
   {
-    "front": "Si seulement j'avais écouté ton conseil !",
-    "back": "ليتني استمعت إلى نصيحتك!",
+    "front": "Ce quartier a beaucoup changé depuis mon enfance.",
+    "back": "لقد تغير هذا الحي كثيرًا منذ طفولتي.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -144,8 +144,8 @@
     "learned": false
   },
   {
-    "front": "Ce n'est pas la peine de t'excuser, ce n'était pas ta faute.",
-    "back": "لا داعي للاعتذار، لم يكن هذا خطأك.",
+    "front": "Nous devrions consulter un spécialiste avant de prendre une décision.",
+    "back": "يجب أن نستشير أخصائيًا قبل اتخاذ قرار.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -153,8 +153,8 @@
     "learned": false
   },
   {
-    "front": "Les négociations se sont poursuivies jusqu'à tard dans la nuit.",
-    "back": "استمرت المفاوضات حتى وقت متأخر من الليل.",
+    "front": "Il est arrivé en avance, contrairement à son habitude.",
+    "back": "وصل مبكرًا، على عكس عادته.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -162,8 +162,8 @@
     "learned": false
   },
   {
-    "front": "Je m'attendais à ce que tu sois en retard.",
-    "back": "كنت أتوقع أن تتأخر.",
+    "front": "Grâce à ses efforts constants, elle a obtenu une promotion.",
+    "back": "بفضل جهودها المستمرة، حصلت على ترقية.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -171,8 +171,8 @@
     "learned": false
   },
   {
-    "front": "Bien qu'elle soit jeune, elle fait preuve d'une grande maturité.",
-    "back": "على الرغم من صغر سنها، إلا أنها تظهر نضجًا كبيرًا.",
+    "front": "Ils ont failli rater le vol à cause des embouteillages.",
+    "back": "كادوا يفوتون الرحلة بسبب الازدحام المروري.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -180,8 +180,8 @@
     "learned": false
   },
   {
-    "front": "Il n'en demeure pas moins que la situation reste préoccupante.",
-    "back": "ومع ذلك، تظل الحالة مثيرة للقلق.",
+    "front": "Le vieux pont a été remplacé par une structure moderne.",
+    "back": "تم استبدال الجسر القديم بهيكل حديث.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -189,8 +189,8 @@
     "learned": false
   },
   {
-    "front": "Une fois le rapport terminé, envoie-le-moi immédiatement.",
-    "back": "بمجرد الانتهاء من التقرير، أرسله لي فورًا.",
+    "front": "Je me demande si elle sera libre ce week-end.",
+    "back": "أتساءل إن كانت ستكون متفرغة نهاية هذا الأسبوع.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -198,8 +198,8 @@
     "learned": false
   },
   {
-    "front": "Elle a fini par accepter, bien qu'à contrecœur.",
-    "back": "انتهى بها الأمر بالقبول، وإن كان على مضض.",
+    "front": "Ce roman a été traduit dans plus de vingt langues.",
+    "back": "تُرجمت هذه الرواية إلى أكثر من عشرين لغة.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -207,8 +207,8 @@
     "learned": false
   },
   {
-    "front": "Le succès de ce projet dépend en grande partie de votre engagement.",
-    "back": "يعتمد نجاح هذا المشروع إلى حد كبير على التزامكم.",
+    "front": "Elle a hésité longtemps avant de répondre.",
+    "back": "ترددت طويلًا قبل أن تجيب.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -216,8 +216,8 @@
     "learned": false
   },
   {
-    "front": "Pour peu qu'on lui donne une chance, il pourrait réussir.",
-    "back": "إذا أُتيحت له فرصة ولو بسيطة، قد ينجح.",
+    "front": "Le rapport annuel montre une nette amélioration des résultats.",
+    "back": "يُظهر التقرير السنوي تحسنًا ملحوظًا في النتائج.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -225,8 +225,8 @@
     "learned": false
   },
   {
-    "front": "Cela fait des années que nous n'avons pas eu de nouvelles de lui.",
-    "back": "مرت سنوات ولم نسمع أي أخبار عنه.",
+    "front": "On m'a conseillé de ne pas insister davantage.",
+    "back": "نُصحت بألا أصر أكثر من ذلك.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -234,8 +234,8 @@
     "learned": false
   },
   {
-    "front": "Les scientifiques ont mis au point un nouveau vaccin.",
-    "back": "طوّر العلماء لقاحًا جديدًا.",
+    "front": "Ce qui m'inquiète le plus, c'est le manque de communication.",
+    "back": "ما يقلقني أكثر هو نقص التواصل.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -243,8 +243,8 @@
     "learned": false
   },
   {
-    "front": "Il vaudrait mieux que nous reportions cette réunion.",
-    "back": "من الأفضل أن نؤجل هذا الاجتماع.",
+    "front": "Nous avons enfin trouvé un logement qui nous convient.",
+    "back": "وجدنا أخيرًا سكنًا يناسبنا.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -252,8 +252,8 @@
     "learned": false
   },
   {
-    "front": "En dépit de tous ses efforts, il n'a pas obtenu le poste.",
-    "back": "على الرغم من كل جهوده، لم يحصل على الوظيفة.",
+    "front": "Le directeur a insisté sur l'importance du respect des délais.",
+    "back": "شدد المدير على أهمية احترام المواعيد النهائية.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -261,8 +261,8 @@
     "learned": false
   },
   {
-    "front": "Sitôt qu'il fut arrivé, la réunion commença.",
-    "back": "بمجرد وصوله، بدأ الاجتماع.",
+    "front": "Je viens de recevoir une réponse à ma candidature.",
+    "back": "لقد تلقيت للتو ردًا على طلب توظيفي.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -270,8 +270,8 @@
     "learned": false
   },
   {
-    "front": "Ce dont nous avons besoin, c'est d'une solution durable.",
-    "back": "ما نحتاجه هو حل دائم.",
+    "front": "Ils envisagent de déménager dans une autre région.",
+    "back": "يفكرون في الانتقال إلى منطقة أخرى.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -279,8 +279,8 @@
     "learned": false
   },
   {
-    "front": "Nul ne peut prédire avec certitude l'évolution du marché.",
-    "back": "لا أحد يستطيع التنبؤ بيقين بتطور السوق.",
+    "front": "La conférence a été annulée en raison du mauvais temps.",
+    "back": "تم إلغاء المؤتمر بسبب سوء الأحوال الجوية.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -288,8 +288,8 @@
     "learned": false
   },
   {
-    "front": "Je préférerais que tu ne dises rien à ce sujet.",
-    "back": "أفضّل ألا تقول شيئًا حول هذا الموضوع.",
+    "front": "Elle a réussi à convaincre ses parents de la laisser partir.",
+    "back": "نجحت في إقناع والديها بالسماح لها بالمغادرة.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -297,8 +297,8 @@
     "learned": false
   },
   {
-    "front": "Face à cette crise, les autorités ont dû réagir rapidement.",
-    "back": "في مواجهة هذه الأزمة، اضطرت السلطات إلى التصرف بسرعة.",
+    "front": "Le prix de l'essence a augmenté de manière significative.",
+    "back": "ارتفع سعر البنزين بشكل ملحوظ.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -306,8 +306,8 @@
     "learned": false
   },
   {
-    "front": "Quelle que soit la difficulté, nous trouverons une solution.",
-    "back": "مهما كانت الصعوبة، سنجد حلاً.",
+    "front": "Nous nous sommes perdus en essayant de trouver un raccourci.",
+    "back": "تهنا ونحن نحاول إيجاد طريق مختصر.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -315,8 +315,8 @@
     "learned": false
   },
   {
-    "front": "Il a fait semblant de ne pas me reconnaître.",
-    "back": "تظاهر بأنه لا يعرفني.",
+    "front": "Il faut savoir profiter du moment présent.",
+    "back": "يجب أن نعرف كيف نستمتع باللحظة الحالية.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -324,8 +324,8 @@
     "learned": false
   },
   {
-    "front": "Étant donné les circonstances, il vaut mieux annuler l'événement.",
-    "back": "نظرًا للظروف، من الأفضل إلغاء الحدث.",
+    "front": "Cette entreprise recrute uniquement des candidats expérimentés.",
+    "back": "توظف هذه الشركة المرشحين ذوي الخبرة فقط.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -333,8 +333,8 @@
     "learned": false
   },
   {
-    "front": "Le taux de chômage a nettement diminué au cours des derniers mois.",
-    "back": "انخفض معدل البطالة بشكل ملحوظ خلال الأشهر الأخيرة.",
+    "front": "Je n'arrive pas à me souvenir où j'ai garé la voiture.",
+    "back": "لا أستطيع تذكر أين ركنت السيارة.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -342,8 +342,8 @@
     "learned": false
   },
   {
-    "front": "J'aurais aimé pouvoir assister à la cérémonie.",
-    "back": "كنت أتمنى لو تمكنت من حضور الحفل.",
+    "front": "Le musée propose une exposition temporaire sur l'art moderne.",
+    "back": "يقدم المتحف معرضًا مؤقتًا عن الفن الحديث.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -351,8 +351,8 @@
     "learned": false
   },
   {
-    "front": "Contrairement à ce qu'on pensait, les ventes ont augmenté.",
-    "back": "على عكس ما كان يُعتقد، ارتفعت المبيعات.",
+    "front": "Il a fallu attendre plusieurs heures avant d'obtenir une réponse.",
+    "back": "استلزم الأمر الانتظار عدة ساعات قبل الحصول على رد.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -360,8 +360,8 @@
     "learned": false
   },
   {
-    "front": "Rien ne laissait présager un tel changement.",
-    "back": "لم يكن هناك ما يوحي بهذا التغيير.",
+    "front": "Ce n'est qu'en pratiquant régulièrement qu'on progresse vraiment.",
+    "back": "لا نتقدم حقًا إلا من خلال الممارسة المنتظمة.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -369,8 +369,8 @@
     "learned": false
   },
   {
-    "front": "Le comité a examiné la proposition avant de la rejeter.",
-    "back": "درست اللجنة الاقتراح قبل أن ترفضه.",
+    "front": "Elle a changé d'avis à la dernière minute.",
+    "back": "غيرت رأيها في اللحظة الأخيرة.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -378,8 +378,8 @@
     "learned": false
   },
   {
-    "front": "Aussi étrange que cela puisse paraître, c'est la vérité.",
-    "back": "مهما بدا الأمر غريبًا، فهذه هي الحقيقة.",
+    "front": "Nous tenons à vous remercier pour votre patience.",
+    "back": "نحرص على شكركم على صبركم.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -387,8 +387,8 @@
     "learned": false
   },
   {
-    "front": "Il s'est excusé auprès de tous ceux qu'il avait offensés.",
-    "back": "اعتذر لجميع من أساء إليهم.",
+    "front": "Ce village a su préserver ses traditions malgré la modernisation.",
+    "back": "استطاعت هذه القرية الحفاظ على تقاليدها رغم التحديث.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -396,8 +396,8 @@
     "learned": false
   },
   {
-    "front": "Dès lors que vous acceptez les conditions, vous pouvez signer.",
-    "back": "بمجرد أن توافق على الشروط، يمكنك التوقيع.",
+    "front": "Il a été surpris par la rapidité de la réponse.",
+    "back": "فوجئ بسرعة الرد.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -405,8 +405,8 @@
     "learned": false
   },
   {
-    "front": "Ils ont convenu de reporter la décision à une date ultérieure.",
-    "back": "اتفقوا على تأجيل القرار إلى موعد لاحق.",
+    "front": "Nous devons faire face à de nombreux défis cette année.",
+    "back": "علينا مواجهة العديد من التحديات هذا العام.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -414,8 +414,8 @@
     "learned": false
   },
   {
-    "front": "Loin de s'améliorer, la situation s'est aggravée.",
-    "back": "بدلاً من أن تتحسن، ازدادت الحالة سوءًا.",
+    "front": "Elle passe la plupart de son temps libre à lire.",
+    "back": "تقضي معظم وقت فراغها في القراءة.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -423,8 +423,8 @@
     "learned": false
   },
   {
-    "front": "Il importe peu que tu sois d'accord ou non.",
-    "back": "لا يهم كثيرًا إن كنت موافقًا أم لا.",
+    "front": "Le nouveau règlement entrera en vigueur le mois prochain.",
+    "back": "ستدخل اللائحة الجديدة حيز التنفيذ الشهر المقبل.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -432,8 +432,8 @@
     "learned": false
   },
   {
-    "front": "Tout porte à croire que les prix vont encore grimper.",
-    "back": "كل الدلائل تشير إلى أن الأسعار ستستمر في الارتفاع.",
+    "front": "Ils se sont réconciliés après plusieurs mois de silence.",
+    "back": "تصالحوا بعد عدة أشهر من الصمت.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
@@ -441,8 +441,8 @@
     "learned": false
   },
   {
-    "front": "Pour autant que je sache, il n'a pas encore répondu.",
-    "back": "على حد علمي، لم يرد بعد.",
+    "front": "Je te tiendrai au courant dès que j'aurai des nouvelles.",
+    "back": "سأبقيك على اطلاع بمجرد أن يصلني خبر.",
     "frontDir": "ltr",
     "backDir": "rtl",
     "frontAlign": "center",
