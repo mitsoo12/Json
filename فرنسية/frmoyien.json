@@ -6,6 +6,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "الفعل s'appeler معناه \"يُسمّى نفسه\". هنا نسأل شخصًا عن اسمه، لذلك نقول: t'appelles-tu؟",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -15,6 +19,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "voudrais معناها \"أريد\" لكن بأدب أكثر، كأننا نقول \"أودّ\". نستعملها عندما نطلب شيئًا بلطف.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -24,6 +32,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "عبارة il fait beau تُقال دائمًا عن حالة الطقس، مثل: الجو جميل، الجو حار...",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -33,6 +45,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "vais تعني \"أذهب\" (من الفعل aller). نستعملها للتعبير عن التنقل من مكان لمكان.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -42,6 +58,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "peux-tu؟ تعني \"هل تستطيع؟\" (من الفعل pouvoir). نستعملها لطلب المساعدة بأدب.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -51,6 +71,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "apprends تعني \"أتعلّم\". وكلمة depuis تعني \"منذ\"، تُستعمل عندما يبدأ الشيء في الماضي ولا يزال مستمرًا الآن.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -60,6 +84,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "avons rendez-vous تعني \"لدينا موعد\". avons هي تصريف الفعل avoir (يملك) مع nous.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -69,6 +97,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "se trouve تعني \"يقع/يوجد\"، تُستعمل عندما نسأل عن مكان شيء ما.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -78,6 +110,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "ai oublié تعني \"نسيتُ\" — نستعملها للحديث عن شيء حدث في الماضي وانتهى.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -87,9 +123,12 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "explique تعني \"يشرح\"، فعل بسيط في المضارع نستعمله عندما يحدث الفعل الآن أو بشكل عام.",
+    "backNotes": "",
     "learned": false
-  }
-,
+  },
   {
     "front": "Je dois terminer ce travail avant demain.",
     "back": "يجب أن أنهي هذا العمل قبل الغد.",
@@ -97,6 +136,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "dois تعني \"يجب عليّ\" (من الفعل devoir). نستعملها عندما نتحدث عن التزام أو واجب.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -106,6 +149,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "avons passé تعني \"قضينا\" — للحديث عن شيء حدث وانتهى في الماضي (مثل العطلة).",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -115,6 +162,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "il est important de تعني \"من المهمّ أن...\" — عبارة نستعملها لإعطاء نصيحة.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -124,6 +175,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "préfère تعني \"أفضّل\"، فعل بسيط في المضارع يُستعمل للتعبير عن الذوق الشخصي.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -133,6 +188,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "habitent تعني \"يسكنون\" — فعل في المضارع مع \"هم/هن\" (ils).",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -142,6 +201,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "n'ai pas compris تعني \"لم أفهم\" — لنفي شيء حدث في الماضي نضيف ne...pas حول الفعل المساعد.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -151,6 +214,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "parle تعني \"تتحدّث\" — فعل بسيط في المضارع مع \"هي\" (elle).",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -160,6 +227,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "allons visiter تعني \"سنزور\" — طريقة سهلة للتعبير عن المستقبل: aller + فعل آخر.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -169,6 +240,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "est arrivé تعني \"وصل\" — بعض الأفعال (مثل arriver) تستعمل être بدل avoir في الماضي.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -178,9 +253,12 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "aime écouter تعني \"أحبّ الاستماع\" — عندما يتبع فعلًا فعلٌ آخر، يبقى الفعل الثاني في صورته الأصلية (المصدر).",
+    "backNotes": "",
     "learned": false
-  }
-,
+  },
   {
     "front": "Nous devons partir très tôt demain matin.",
     "back": "يجب أن نغادر مبكرًا جدًا صباح الغد.",
@@ -188,6 +266,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "devons partir تعني \"يجب أن نغادر\" — devoir + فعل آخر يعبّران عن واجب أو ضرورة.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -197,6 +279,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "cherche تعني \"أبحث عن\" — فعل بسيط في المضارع.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -206,6 +292,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "était تعني \"كان\" (ماضٍ). وplus...que تعني \"أكثر من...\"، تُستعمل للمقارنة.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -215,6 +305,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "travaille تعني \"يعمل\" — فعل بسيط في المضارع مع \"هو\" (il).",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -224,6 +318,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "vais acheter تعني \"سأشتري\" — نفس طريقة المستقبل السهل: aller + فعل.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -233,6 +331,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "il faut تعني \"يجب\" — عبارة ثابتة تُستعمل دائمًا بنفس الشكل مهما كان الفاعل.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -242,6 +344,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "jouent تعني \"يلعبون\" — فعل بسيط في المضارع مع \"هم\" (ils).",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -251,6 +357,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "est connue تعني \"معروفة\" — نستعملها لوصف شيء (هنا المدينة) بصفة معروفة عنه.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -260,6 +370,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "voudrais apprendre تعني \"أودّ أن أتعلّم\" — voudrais بأدب + فعل آخر في صورته الأصلية.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -269,9 +383,12 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "avons oublié تعني \"نسينا\" — للحديث عن شيء حدث في الماضي.",
+    "backNotes": "",
     "learned": false
-  }
-,
+  },
   {
     "front": "Je pense que tu as raison.",
     "back": "أعتقد أنك على حق.",
@@ -279,6 +396,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "pense تعني \"أعتقد/أفكّر\" — وavoir raison تعني \"يكون على حق\".",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -288,6 +409,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "a oublié تعني \"نسيت\" (هي) — نفس تصريف الماضي مثل الجملة 8 لكن مع elle.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -297,6 +422,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "allons faire تعني \"سنقوم بـ...\" — المستقبل السهل مرة أخرى: aller + فعل.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -306,6 +435,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "pleut تعني \"تمطر\" — فعل خاص بالطقس، يُستعمل فقط مع il.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -315,6 +448,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "voudrais changer تعني \"أودّ أن أغيّر\" — طلب مؤدب بواسطة voudrais.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -324,6 +461,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "ferment تعني \"تُغلق\" — فعل بسيط في المضارع مع \"هي/هم\" (les magasins).",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -333,6 +474,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "avons rencontré تعني \"التقينا بـ...\" — فعل في الماضي، للحديث عن لقاء حدث وانتهى.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -342,6 +487,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "ne peux pas تعني \"لا أستطيع\" — نفي الفعل pouvoir بإضافة ne...pas حوله.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -351,6 +500,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "a conseillé تعني \"نصح\" — فعل في الماضي، وm' تعني \"لي\" (المفعول به).",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -360,9 +513,12 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "moins...que تعني \"أقل من...\"، عكس plus...que، تُستعمل للمقارنة أيضًا.",
+    "backNotes": "",
     "learned": false
-  }
-,
+  },
   {
     "front": "J'espère que tout ira bien.",
     "back": "آمل أن يسير كل شيء على ما يرام.",
@@ -370,6 +526,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "espère تعني \"آمل\" — وira تعني \"سيذهب/سيسير\" (فعل في المستقبل).",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -379,6 +539,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "sont partis تعني \"غادروا\" — فعل partir يستعمل être في الماضي، مثل arriver.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -388,6 +552,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "prends تعني \"آخذ/أستقلّ\" — فعل بسيط في المضارع نستعمله عن عادة يومية.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -397,6 +565,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "avons besoin de تعني \"نحتاج إلى...\" — عبارة ثابتة مع الفعل avoir.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -406,6 +578,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "lit تعني \"تقرأ\" — فعل بسيط في المضارع مع \"هي\" (elle).",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -415,6 +591,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "voudrais payer تعني \"أودّ أن أدفع\" — طلب مؤدب بواسطة voudrais.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -424,6 +604,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "est fermé تعني \"مُغلق\" — تصف حالة المتجر (مثل est connue في الجملة 27).",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -433,6 +617,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "ne fonctionne plus تعني \"لم يعد يعمل\" — عبارة نفي خاصة تعني توقف شيء كان يعمل.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -442,6 +630,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "avons décidé تعني \"قرّرنا\" — فعل في الماضي، للحديث عن قرار اتُّخذ.",
+    "backNotes": "",
     "learned": false
   },
   {
@@ -451,6 +643,10 @@
     "backDir": "rtl",
     "frontAlign": "center",
     "backAlign": "center",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "il est interdit de تعني \"يُمنع...\" — عبارة ثابتة نستعملها لمنع فعل شيء.",
+    "backNotes": "",
     "learned": false
   }
 ]
