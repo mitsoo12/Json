@@ -1,0 +1,2563 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+<title>بطاقاتي التعليمية</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&family=Amiri:ital@0;1&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#14202b;
+    --ink-2:#1c2e3d;
+    --parchment:#f4ecd8;
+    --parchment-2:#ece0c4;
+    --amber:#d99a3f;
+    --amber-dark:#b97c26;
+    --teal:#3e7d78;
+    --line: rgba(244,236,216,0.14);
+    --text-soft: rgba(244,236,216,0.65);
+    --radius: 22px;
+    --font-scale: 1;
+    --notes-font-scale: 1;
+  }
+  *{box-sizing:border-box;}
+  html,body{height:100%;}
+  html{
+    overflow-x:hidden;
+  }
+  /* Manual landscape rotation: activated only by the user tapping the 🔄
+     button on the card (not by any sensor), so it's fully predictable. Rotates
+     the whole page 90deg to fill the screen in landscape while the phone
+     itself stays physically in the user's hand however they're holding it. */
+  html.manual-landscape{ overflow:hidden; }
+  body.manual-landscape{
+    position:fixed;
+    top:0;
+    left:100%;
+    width:100vh;
+    height:100vw;
+    transform-origin:0 0;
+    transform:rotate(90deg);
+    overflow-y:auto;
+    overflow-x:hidden;
+  }
+
+  body{
+    margin:0;
+    min-height:100vh;
+    max-width:100vw;
+    overflow-x:hidden;
+    background:
+      radial-gradient(circle at 15% -10%, rgba(217,154,63,0.16), transparent 45%),
+      radial-gradient(circle at 90% 110%, rgba(62,125,120,0.18), transparent 50%),
+      var(--ink);
+    color:var(--parchment);
+    font-family:'Tajawal', sans-serif;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:28px 16px 60px;
+  }
+
+  .brand{
+    display:flex;
+    align-items:baseline;
+    gap:10px;
+    margin-bottom:4px;
+  }
+  .brand h1{
+    font-size:clamp(24px,4vw,34px);
+    font-weight:900;
+    margin:0;
+    letter-spacing:0.5px;
+  }
+  .brand span{
+    font-family:'Amiri', serif;
+    font-style:italic;
+    color:var(--amber);
+    font-size:16px;
+  }
+  .subtitle{
+    color:var(--text-soft);
+    font-size:14px;
+    margin-bottom:26px;
+  }
+
+  .toolbar{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+    margin-bottom:22px;
+    max-width:min(640px, 94vw);
+  }
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:10px 18px;
+    border-radius:14px;
+    border:1px solid var(--line);
+    background:var(--ink-2);
+    color:var(--parchment);
+    font-family:inherit;
+    font-size:14px;
+    font-weight:500;
+    cursor:pointer;
+    transition:transform .15s ease, background .15s ease, border-color .15s ease;
+  }
+  .btn:hover{ transform:translateY(-2px); border-color:var(--amber); }
+  .btn:active{ transform:translateY(0px); }
+  .btn.primary{
+    background:linear-gradient(135deg, var(--amber), var(--amber-dark));
+    border-color:transparent;
+    color:#241505;
+    font-weight:700;
+  }
+  .btn.ghost{ background:transparent; }
+  input[type="file"]{ display:none; }
+
+  .font-toolbar{
+    display:flex;
+    align-items:center;
+    gap:7px;
+    margin-bottom:16px;
+    padding:6px 12px;
+    border:1px solid var(--line);
+    border-radius:14px;
+    background:var(--ink-2);
+    flex-wrap:wrap;
+    justify-content:center;
+    max-width:94vw;
+  }
+  .font-label{
+    font-size:13px;
+    color:var(--text-soft);
+  }
+  .font-value{
+    font-size:13px;
+    color:var(--amber);
+    font-weight:700;
+    min-width:42px;
+    text-align:center;
+  }
+  .nav-btn.small{
+    width:34px;
+    height:34px;
+    font-size:13px;
+    font-weight:700;
+  }
+  .btn.small-btn{
+    padding:6px 12px;
+    font-size:12.5px;
+  }
+
+  .card-number-badge, .order-badge{
+    font-size:13px;
+    font-weight:700;
+    color:var(--parchment);
+    background:rgba(244,236,216,0.08);
+    padding:10px 16px;
+    min-height:40px;
+    border-radius:10px;
+    white-space:nowrap;
+    display:inline-flex;
+    align-items:center;
+  }
+  .order-badge{
+    border:1px solid var(--line);
+    cursor:pointer;
+    font-family:inherit;
+    font-size:14px;
+    transition:transform .12s ease, border-color .15s ease, background .15s ease;
+  }
+  .order-badge:hover{
+    transform:translateY(-1px);
+    border-color:var(--amber);
+  }
+  .order-badge:active{ transform:scale(0.95); }
+  .order-badge.pulse{ animation: badgePulse .4s ease; }
+  @keyframes badgePulse{
+    0%{ transform:scale(1); }
+    40%{ transform:scale(1.15); }
+    100%{ transform:scale(1); }
+  }
+  .order-badge.is-random{
+    color:#241505;
+    background:linear-gradient(135deg, var(--amber), var(--amber-dark));
+    border-color:transparent;
+  }
+
+  .toast{
+    position:fixed;
+    left:50%;
+    bottom:28px;
+    transform:translateX(-50%) translateY(20px);
+    background:var(--ink-2);
+    border:1px solid var(--amber);
+    color:var(--parchment);
+    padding:12px 22px;
+    border-radius:14px;
+    font-size:14px;
+    font-weight:700;
+    box-shadow:0 12px 30px rgba(0,0,0,0.5);
+    z-index:2000;
+    opacity:0;
+    pointer-events:none;
+    transition:opacity .25s ease, transform .25s ease;
+  }
+  .toast.show{
+    opacity:1;
+    transform:translateX(-50%) translateY(0);
+  }
+
+  .timer-group{
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .timer-toggle-btn{
+    width:36px;
+    height:36px;
+    border-radius:50%;
+    border:1px solid var(--line);
+    background:var(--ink-2);
+    color:var(--parchment);
+    font-size:15px;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:background .15s ease, border-color .15s ease, transform .15s ease;
+  }
+  .timer-toggle-btn:hover{ border-color:var(--amber); transform:translateY(-1px); }
+  .timer-toggle-btn.active{
+    background:linear-gradient(135deg, #e85d5d, #b93a3a);
+    border-color:transparent;
+    color:#2a0808;
+  }
+  .timer-ring-wrap{
+    position:relative;
+    width:40px;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .timer-ring-wrap svg{ position:absolute; inset:0; }
+  .ring-bg{ stroke:rgba(244,236,216,0.15); }
+  .ring-fg{
+    stroke:var(--amber);
+    stroke-linecap:round;
+  }
+  .ring-fg.ring-time-up{ stroke:#4fae87; }
+  .timer-num{
+    position:relative;
+    font-size:12px;
+    font-weight:800;
+    color:var(--parchment);
+    font-variant-numeric: tabular-nums;
+  }
+  .timer-select{
+    background:var(--ink-2);
+    color:var(--parchment);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:6px 8px;
+    font-size:13px;
+    font-family:inherit;
+    cursor:pointer;
+  }
+
+  .auto-speak-group{
+    display:flex;
+    align-items:center;
+    gap:6px;
+  }
+  .auto-speak-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
+    height:34px;
+    padding:0 12px;
+    border-radius:12px;
+    border:1px solid var(--line);
+    background:var(--ink-2);
+    color:var(--parchment);
+    font-family:inherit;
+    font-size:12.5px;
+    font-weight:700;
+    cursor:pointer;
+    transition:background .15s ease, border-color .15s ease, transform .15s ease;
+    white-space:nowrap;
+  }
+  .auto-speak-btn:hover{ transform:translateY(-1px); border-color:var(--amber); }
+  .auto-speak-btn.active{
+    background:linear-gradient(135deg, var(--teal), #2c5f5b);
+    border-color:transparent;
+    color:#eafaf7;
+  }
+
+  .hide-btn{
+    position:absolute;
+    top:16px;
+    left:16px;
+    width:84px;
+    height:84px;
+    border-radius:50%;
+    border:none;
+    background:rgba(20,32,43,0.08);
+    color:var(--ink);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    font-size:34px;
+    transition:background .15s ease;
+    z-index:6;
+  }
+  .hide-btn:hover{ background:rgba(20,32,43,0.18); }
+  .face.back .hide-btn{ color:var(--ink); }
+
+  .font-toggle-btn{
+    position:absolute;
+    top:108px;
+    left:66px;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    border:2px solid rgba(20,32,43,0.18);
+    background:var(--parchment);
+    color:var(--ink);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    font-size:18px;
+    box-shadow:0 5px 16px rgba(0,0,0,0.4);
+    transition:background .15s ease;
+    z-index:5;
+  }
+  .font-toggle-btn:hover{ background:#fff; }
+  .face.back .font-toggle-btn{ color:var(--ink); }
+  .font-toggle-btn.active{
+    background:var(--teal);
+    border-color:transparent;
+    color:#fff;
+  }
+
+  body.handwritten-font .face .txt{
+    font-family:'Mrs Saint Delafield', cursive;
+    font-weight:400;
+    font-size:calc(clamp(26px, 4.2vw, 40px) * var(--font-scale, 1));
+    -webkit-text-stroke:0.6px currentColor;
+    text-stroke:0.6px currentColor;
+  }
+
+  body.controls-hidden .card-wrap:not(.is-fullscreen){
+    position:fixed;
+    inset:0;
+    z-index:998;
+    width:100vw;
+    height:100vh;
+    max-width:none;
+    max-height:none;
+    aspect-ratio:auto;
+    background:var(--ink);
+    display:flex;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+  }
+  body.controls-hidden .card-wrap:not(.is-fullscreen) .card{
+    max-width:none;
+    max-height:none;
+    width:100%;
+    height:100%;
+    flex:none;
+    min-height:0;
+  }
+  body.controls-hidden .card-wrap:not(.is-fullscreen) .face{
+    border-radius:0;
+  }
+  body.controls-hidden.fs-active .card-wrap.is-fullscreen{
+    padding:0;
+  }
+  body.controls-hidden.fs-active .card-wrap.is-fullscreen .card{
+    max-width:none;
+    max-height:none;
+    width:100%;
+    height:100%;
+  }
+  body.controls-hidden.fs-active .card-wrap.is-fullscreen .face{
+    border-radius:0;
+  }
+
+  body.controls-hidden .toolbar,
+  body.controls-hidden .font-toolbar,
+  body.controls-hidden .hint,
+  body.controls-hidden .deck-status{
+    display:none !important;
+  }
+
+  .progress-badge{
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .progress-count{
+    font-size:16px;
+    font-weight:900;
+    color:var(--amber);
+    min-width:56px;
+    text-align:center;
+    letter-spacing:0.5px;
+    font-variant-numeric: tabular-nums;
+  }
+  .progress-bar{
+    width:90px;
+    height:8px;
+    border-radius:999px;
+    background:rgba(244,236,216,0.15);
+    overflow:hidden;
+  }
+  .progress-fill{
+    height:100%;
+    width:0%;
+    background:linear-gradient(90deg, var(--teal), #4fae87);
+    border-radius:999px;
+    transition:width .4s ease;
+  }
+
+  .card-wrap.swipe-anim{
+    transition: transform .18s ease, opacity .18s ease;
+  }
+  .card-wrap.swipe-out-left{ transform: translateX(-60px); opacity:0.25; }
+  .card-wrap.swipe-out-right{ transform: translateX(60px); opacity:0.25; }
+
+  .sep{
+    width:1px;
+    height:22px;
+    background:var(--line);
+    margin:0 2px;
+  }
+
+  body.fs-active{
+    overflow:hidden;
+  }
+  body.fs-active .font-toolbar{
+    z-index:1002;
+    box-shadow:0 10px 28px rgba(0,0,0,0.45);
+    flex-shrink:0;
+  }
+  #navControls{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+  }
+  body.fs-active .hint,
+  body.fs-active .toolbar,
+  body.fs-active .deck-status,
+  body.fs-active .brand,
+  body.fs-active .subtitle{
+    display:none;
+  }
+  #dirToggleBtn.active{
+    background:linear-gradient(135deg, var(--amber), var(--amber-dark));
+    color:#241505;
+    border-color:transparent;
+  }
+  #alignToggleBtn.state-right{
+    background:linear-gradient(135deg, #4f9bd9, #2f6fa8);
+    color:#08182a;
+    border-color:transparent;
+  }
+  #alignToggleBtn.state-left{
+    background:linear-gradient(135deg, #c77dd6, #8a4aa3);
+    color:#20081f;
+    border-color:transparent;
+  }
+
+  .order-toggle{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:10px 16px;
+    border-radius:14px;
+    border:1px solid var(--line);
+    background:var(--ink-2);
+    font-size:14px;
+    cursor:pointer;
+    color:var(--parchment);
+    user-select:none;
+  }
+  .order-toggle input{
+    width:16px;
+    height:16px;
+    accent-color:var(--amber);
+    cursor:pointer;
+  }
+
+  .nav-btn.understood-btn{
+    background:linear-gradient(135deg, #4fae87, #2f7f5c);
+    border-color:transparent;
+    color:#082418;
+    font-size:22px;
+    font-weight:900;
+  }
+  .nav-btn.understood-btn:hover{ filter:brightness(1.08); }
+
+  .done-msg{
+    text-align:center;
+    padding:40px 24px;
+  }
+  .done-msg .big{
+    font-size:44px;
+    margin-bottom:10px;
+  }
+  .done-msg .txt2{
+    font-size:18px;
+    font-weight:700;
+  }
+
+  .deck-status{
+    color:var(--text-soft);
+    font-size:13px;
+    margin-bottom:14px;
+    letter-spacing:0.5px;
+  }
+  .deck-status b{ color:var(--amber); font-weight:700; }
+
+  .stage{
+    width:100%;
+    max-width:min(560px, 94vw);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .card-wrap{
+    position:relative;
+    width:100%;
+    aspect-ratio: 3 / 2;
+    perspective:1600px;
+    margin-bottom:22px;
+    touch-action: pan-y pinch-zoom;
+  }
+  .card-wrap.is-fullscreen{
+    position:absolute;
+    inset:0;
+    z-index:999;
+    max-width:none;
+    aspect-ratio:auto;
+    background:var(--ink);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:14px;
+    padding:14px;
+    margin:0;
+    overflow:auto;
+  }
+  .card-wrap.is-fullscreen .card{
+    max-width:1300px;
+    max-height:92vh;
+    width:96%;
+    flex:1 1 auto;
+    min-height:0;
+  }
+
+  /* Combined rotate + fill-screen mode (🔄 button beside ⛶). This rotates
+     and enlarges only the card-wrap element itself — the phone stays
+     however it's physically held, and the rest of the page (html/body)
+     never rotates, unlike the old manual-landscape page-flip. */
+  .card-wrap.is-fullscreen.landscape-rotate{
+    position:fixed;
+    inset:auto;
+    top:50%;
+    left:50%;
+    width:100vh;
+    height:100vw;
+    margin:0;
+    transform:translate(-50%, -50%) rotate(90deg);
+  }
+  .card-wrap.is-fullscreen.landscape-rotate .card{
+    max-width:none;
+    max-height:none;
+    width:92%;
+    height:88%;
+  }
+
+  .card{
+    position:relative;
+    width:100%;
+    height:100%;
+    cursor:pointer;
+    transform-style:preserve-3d;
+    transition:transform .55s cubic-bezier(.4,.2,.2,1);
+  }
+  .card.flipped{ transform:rotateY(180deg); }
+
+  /* Card-attached countdown progress bar: sits glued to the top edge of the
+     card, stays flat while the card flips (it lives in card-wrap, not
+     inside the rotating .card), and mirrors the same countdown driving the
+     round timer ring — amber while answering, green during the reveal. */
+  .card-timer-bar{
+    position:absolute;
+    top:-9px;
+    right:14px;
+    left:14px;
+    height:12px;
+    border-radius:999px;
+    background:rgba(20,32,43,0.55);
+    box-shadow:0 4px 14px rgba(0,0,0,0.35), inset 0 0 0 1px rgba(244,236,216,0.12);
+    overflow:hidden;
+    opacity:0;
+    transform:translateY(4px);
+    transition:opacity .25s ease, transform .25s ease;
+    pointer-events:none;
+    z-index:5;
+  }
+  .card-timer-bar.show{
+    opacity:1;
+    transform:translateY(0);
+  }
+  .card-timer-fill{
+    height:100%;
+    width:100%;
+    border-radius:999px;
+    background:linear-gradient(90deg, var(--amber-dark), var(--amber));
+    box-shadow:0 0 10px rgba(217,154,63,0.55);
+    transform-origin:right center;
+    transition:transform linear;
+  }
+  .card-timer-bar.reveal .card-timer-fill{
+    background:linear-gradient(90deg, #2f7d5e, #4fae87);
+    box-shadow:0 0 10px rgba(79,174,135,0.55);
+  }
+
+  /* Card position bar: glued to the BOTTOM edge of the card (lives in
+     card-wrap, not inside the rotating .card, so it stays flat while the
+     card flips — same trick as .card-timer-bar above). Shows "current card
+     / total" and fills up as you move through the deck. Tapping it opens a
+     small popover to jump straight to any card by its number. */
+  /* Card position bar: lives INSIDE each face (front & back), centered at
+     the bottom with a clear margin above the card's edge — sits between the
+     speak-btn (bottom-left) and expand-btn (bottom-right) without touching
+     either. Shows "current card / total" and fills up as you progress
+     through the deck. Tapping it opens a small popover to jump straight to
+     any card by its number.
+     It now shares the bottom-center spot with .card-understood-bar (learned
+     vs. total cards), laid out side by side by .card-bottom-bars — both
+     bars use identical sizing so they read as a matched pair. */
+  .face .card-bottom-bars{
+    position:absolute;
+    left:50%;
+    bottom:18px;
+    transform:translateX(-50%);
+    width:calc(100% - 76px);
+    max-width:340px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    flex-wrap:wrap;
+    z-index:6;
+  }
+  .face .card-position-bar, .face .card-understood-bar{
+    position:relative;
+    flex:0 0 auto;
+    width:min(42%, 150px);
+    height:26px;
+    border-radius:999px;
+    background:rgba(20,32,43,0.10);
+    box-shadow:inset 0 0 0 1px rgba(20,32,43,0.16);
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    font-family:inherit;
+  }
+  .face.back .card-position-bar, .face.back .card-understood-bar{
+    background:rgba(20,32,43,0.08);
+  }
+  .card-position-fill, .card-understood-fill{
+    position:absolute;
+    inset:0;
+    width:0%;
+    background:linear-gradient(90deg, var(--amber-dark), var(--amber));
+    border-radius:999px;
+    transition:width .35s ease;
+  }
+  .card-understood-fill{
+    background:linear-gradient(90deg, #2f7d5e, #4fae87);
+  }
+  .card-position-label, .card-understood-label{
+    position:relative;
+    width:100%;
+    text-align:center;
+    font-size:11px;
+    font-weight:800;
+    color:var(--ink);
+    letter-spacing:0.3px;
+    font-variant-numeric: tabular-nums;
+    pointer-events:none;
+  }
+  /* The actual number input/dragging is handled by a native <input type=range>
+     stretched invisibly over the capsule — this gives free, reliable
+     click-anywhere-to-jump and drag-to-scrub behavior (plus arrow-key
+     stepping once focused) without reinventing pointer math. */
+  .card-position-range{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    margin:0;
+    opacity:0;
+    cursor:pointer;
+    -webkit-appearance:none;
+    appearance:none;
+    background:transparent;
+  }
+  .card-position-range:disabled{ cursor:default; }
+  .face .card-position-bar:hover{ filter:brightness(1.08); }
+  .face .card-understood-bar:hover{ filter:brightness(1.08); }
+  .face .card-position-bar:has(.card-position-range:active){ transform:scale(0.97); }
+
+  @media (max-width:480px){
+    .face .card-bottom-bars{ gap:6px; }
+    .face .card-position-bar, .face .card-understood-bar{ width:min(40%, 120px); height:22px; }
+    .card-position-label, .card-understood-label{ font-size:10px; }
+  }
+  @media (orientation:landscape){
+    .face .card-bottom-bars{ bottom:10px; gap:6px; }
+    .face .card-position-bar, .face .card-understood-bar{ height:20px; width:min(38%, 120px); }
+    .card-position-label, .card-understood-label{ font-size:9.5px; }
+  }
+  body.manual-landscape .face .card-bottom-bars{ bottom:10px; gap:6px; }
+  body.manual-landscape .face .card-position-bar, body.manual-landscape .face .card-understood-bar{ height:20px; width:min(38%, 120px); }
+  body.manual-landscape .card-position-label, body.manual-landscape .card-understood-label{ font-size:9.5px; }
+
+  /* Merge buttons now live INSIDE the card-btn-stack (their own "دمج" group,
+     front & back, duplicated so both sides have them) instead of floating
+     as separate corner buttons — sizing/position comes from the shared
+     .btn-group > button rules below; only the disabled look is kept here. */
+  .face .btn-group > .merge-side-btn:disabled{ opacity:0.3; cursor:not-allowed; }
+
+  .jump-popover{
+    position:absolute;
+    left:50%;
+    bottom:50px;
+    transform:translate(-50%, 8px);
+    background:var(--ink-2);
+    border:1px solid var(--amber);
+    border-radius:16px;
+    padding:14px 16px;
+    box-shadow:0 16px 34px rgba(0,0,0,0.5);
+    z-index:20;
+    display:none;
+    flex-direction:column;
+    gap:10px;
+    min-width:220px;
+    opacity:0;
+    pointer-events:none;
+    transition:opacity .18s ease, transform .18s ease;
+  }
+  .jump-popover.show{
+    display:flex;
+    opacity:1;
+    transform:translate(-50%, 0);
+    pointer-events:auto;
+  }
+  .jump-popover-title{
+    font-size:13px;
+    color:var(--text-soft);
+    text-align:center;
+    font-weight:700;
+  }
+  .jump-popover-row{
+    display:flex;
+    gap:8px;
+  }
+  .jump-input{
+    flex:1;
+    min-width:0;
+    background:rgba(244,236,216,0.08);
+    border:1px solid var(--line);
+    border-radius:10px;
+    color:var(--parchment);
+    font-family:inherit;
+    font-size:15px;
+    font-weight:700;
+    text-align:center;
+    padding:8px 10px;
+  }
+  .jump-input:focus{ outline:none; border-color:var(--amber); }
+  .jump-popover-hint{
+    font-size:11px;
+    color:var(--text-soft);
+    text-align:center;
+  }
+
+  .face{
+    position:absolute;
+    inset:0;
+    backface-visibility:hidden;
+    border-radius:var(--radius);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:34px 34px 34px 62px;
+    background:linear-gradient(160deg, var(--parchment), var(--parchment-2));
+    color:var(--ink);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.35), inset 0 0 0 1px rgba(20,32,43,0.06);
+  }
+  .face .txt{
+    width:100%;
+    font-size:calc(clamp(20px, 3.4vw, 32px) * var(--font-scale, 1));
+    font-weight:700;
+    line-height:1.5;
+    word-break:break-word;
+  }
+  /* Temporary hover-tint for the word / letter under the cursor. Painted via
+     the CSS Custom Highlight API directly on the live Range, so it never
+     touches the DOM (works fine with colored text, editing, RTL/LTR mixed
+     lines, and the card's flip/landscape transforms) and disappears the
+     instant the pointer moves off. */
+  ::highlight(word-hover){
+    background-color: rgba(217,154,63,0.55);
+    color: var(--ink);
+  }
+  ::highlight(letter-hover){
+    background-color: rgba(62,125,120,0.6);
+    color: #fff;
+  }
+  ::highlight(word-speak-hover){
+    background-color: rgba(184,90,140,0.6);
+    color: #fff;
+  }
+  .face.back{
+    transform:rotateY(180deg);
+    background:linear-gradient(160deg, #eaf3f1, #dcece7);
+  }
+  .face .tag{
+    position:absolute;
+    top:16px;
+    right:20px;
+    font-size:11px;
+    letter-spacing:1px;
+    color:var(--teal);
+    font-weight:700;
+    opacity:0.7;
+  }
+  .face .edit-btn{
+    position:absolute;
+    top:108px;
+    left:16px;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    border:2px solid rgba(20,32,43,0.18);
+    background:var(--parchment);
+    color:var(--ink);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    font-size:16px;
+    box-shadow:0 5px 16px rgba(0,0,0,0.4);
+    transition:background .15s ease;
+  }
+  .face .edit-btn:hover{ background:#fff; }
+  .face .edit-btn.editing{
+    background:var(--teal);
+    border-color:transparent;
+    color:#fff;
+  }
+  .face .cancel-edit-btn{
+    display:none;
+  }
+  .face .btn-group > button.cancel-edit-btn{
+    display:none;
+  }
+  .face .btn-group > .edit-btn.editing + button.cancel-edit-btn{
+    display:flex;
+    background:rgba(192,57,43,0.85);
+    color:#fff;
+  }
+  .face .cancel-edit-btn:hover{ background:rgba(192,57,43,1); }
+  .face .txt[contenteditable="true"]{
+    outline:2px dashed var(--teal);
+    outline-offset:6px;
+    border-radius:10px;
+    cursor:text;
+  }
+
+  .face .color-toolbar{
+    position:absolute;
+    top:158px;
+    left:14px;
+    display:none;
+    align-items:center;
+    gap:6px;
+    background:rgba(20,32,43,0.07);
+    padding:6px 8px;
+    border-radius:14px;
+    z-index:5;
+    max-width:calc(100% - 28px);
+    flex-wrap:wrap;
+  }
+  .face .color-toolbar.show{ display:flex; }
+
+  /* ---- Notes panel: an extra, on-demand "face" per side (front/back) for
+     free-form notes. Opens as a scrollable overlay inside the same face —
+     it never touches or resizes the question/answer text itself. ---- */
+  .face .notes-panel{
+    position:absolute;
+    inset:52px 14px 60px 14px;
+    background:rgba(244,236,216,0.98);
+    border:1px solid rgba(20,32,43,0.16);
+    border-radius:16px;
+    display:none;
+    flex-direction:column;
+    z-index:9;
+    box-shadow:0 14px 34px rgba(0,0,0,0.28);
+    text-align:right;
+  }
+  .face.back .notes-panel{ background:rgba(234,243,241,0.98); }
+  .face .notes-panel.show{ display:flex; }
+  .notes-panel-header{
+    display:flex; align-items:center; justify-content:space-between;
+    gap:8px; padding:10px 14px; border-bottom:1px solid rgba(20,32,43,0.12);
+    flex-shrink:0;
+  }
+  .notes-panel-title{ font-size:13px; font-weight:800; color:var(--ink); opacity:0.85; }
+  .notes-panel-actions{ display:flex; gap:6px; flex-shrink:0; }
+  .notes-edit-btn, .notes-close-btn{
+    width:27px; height:27px; border-radius:50%; border:1px solid rgba(20,32,43,0.18);
+    background:var(--parchment); color:var(--ink); cursor:pointer; font-size:12px;
+    display:flex; align-items:center; justify-content:center; flex-shrink:0;
+  }
+  .notes-edit-btn:hover, .notes-close-btn:hover{ border-color:var(--amber); }
+  .notes-edit-btn.editing{ background:var(--teal); border-color:var(--teal); color:#fff; }
+  .notes-font-btn{
+    width:27px; height:27px; border-radius:8px; border:1px solid rgba(20,32,43,0.18);
+    background:var(--parchment); color:var(--ink); cursor:pointer; font-size:11px; font-weight:800;
+    display:flex; align-items:center; justify-content:center; flex-shrink:0;
+  }
+  .notes-font-btn:hover{ border-color:var(--amber); }
+  .notes-panel-body{
+    flex:1; overflow-y:auto; -webkit-overflow-scrolling:touch;
+    padding:14px 16px 18px; font-size:calc(15px * var(--notes-font-scale, 1)); line-height:1.85; color:var(--ink);
+    font-weight:500;
+  }
+  .notes-panel-body[contenteditable="true"]{
+    outline:2px dashed var(--teal); outline-offset:-4px; border-radius:10px; cursor:text;
+  }
+  .notes-panel-body:empty::before{
+    content:'لا توجد ملاحظات بعد — اضغط ✏️ للإضافة'; color:var(--text-soft); font-style:italic; font-weight:400;
+  }
+  .mini-btn.has-notes{ box-shadow:0 0 0 2px var(--amber) inset; }
+  .color-swatch{
+    width:22px;
+    height:22px;
+    min-width:22px;
+    border-radius:50%;
+    border:2px solid rgba(20,32,43,0.18);
+    cursor:pointer;
+    padding:0;
+    transition:transform .12s ease, border-color .12s ease;
+  }
+  .color-swatch:hover{ transform:scale(1.18); border-color:var(--ink); }
+  .color-swatch:active{ transform:scale(0.95); }
+  .color-picker-wrap{
+    width:22px;
+    height:22px;
+    border-radius:50%;
+    overflow:hidden;
+    border:2px solid rgba(20,32,43,0.18);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:conic-gradient(red,yellow,lime,cyan,blue,magenta,red);
+  }
+  .color-picker-wrap input[type="color"]{
+    width:34px;
+    height:34px;
+    border:none;
+    padding:0;
+    margin:0;
+    cursor:pointer;
+    background:none;
+  }
+  .color-clear-btn{
+    width:22px;
+    height:22px;
+    min-width:22px;
+    border-radius:50%;
+    border:none;
+    background:rgba(20,32,43,0.12);
+    color:var(--ink);
+    cursor:pointer;
+    font-size:11px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    line-height:1;
+    padding:0;
+  }
+  .color-clear-btn:hover{ background:rgba(20,32,43,0.22); }
+
+  /* Button stack: grouped into task blocks (edit / audio / search & tint /
+     view), each block laid out as its own 3-column grid instead of one long
+     vertical column. The stack's own wrapper is fully transparent — it's
+     just a positioning/grid container — so nothing dims the card behind it;
+     each button instead carries its own solid, opaque circle so it reads
+     clearly no matter what's behind it. On desktop (mouse + hover-capable
+     screens) the whole stack stays hidden until the pointer enters the box
+     itself, then fades in, and hides again the moment the pointer leaves
+     that same box (not merely leaving the card face); on touch devices (no
+     hover) it stays visible as before, since there's no pointer to "enter"
+     with. */
+  .face .card-btn-stack{
+    position:absolute;
+    top:50%;
+    left:8px;
+    transform:translateY(-50%);
+    display:flex;
+    flex-direction:column;
+    gap:22px;
+    z-index:7;
+    max-height:calc(100% - 8px);
+    overflow-y:auto;
+    overflow-x:hidden;
+    padding:12px 8px;
+    background:transparent;
+    transition:opacity .18s ease, transform .18s ease;
+  }
+  .face .card-btn-stack::-webkit-scrollbar{ display:none; }
+  .face .stack-toggle-btn{
+    display:none;
+    position:absolute;
+    top:14px;
+    right:14px;
+    width:36px;
+    height:36px;
+    border-radius:50%;
+    border:1px solid rgba(20,32,43,0.18);
+    background:rgba(244,236,216,0.92);
+    color:var(--ink);
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    font-size:20px;
+    font-weight:700;
+    z-index:8;
+    box-shadow:0 4px 12px rgba(0,0,0,0.28);
+    transition:transform .15s ease, background .15s ease, color .15s ease;
+  }
+  .face.back .stack-toggle-btn{ background:rgba(255,255,255,0.92); }
+  .face .stack-toggle-btn:active{ transform:scale(0.92); }
+  .face.stack-open .stack-toggle-btn{
+    background:var(--amber);
+    color:#241505;
+    border-color:transparent;
+  }
+  .face .btn-group{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:16px;
+  }
+  .face .btn-group-label{
+    grid-column:1 / -1;
+    font-size:13px;
+    font-weight:800;
+    color:#fff;
+    background:rgba(20,32,43,0.78);
+    width:fit-content;
+    margin:0 auto;
+    padding:4px 12px;
+    border-radius:9px;
+    text-align:center;
+    letter-spacing:0.3px;
+  }
+  .face .btn-group > button{
+    position:static !important;
+    top:auto !important; left:auto !important; right:auto !important; bottom:auto !important;
+    width:104px !important;
+    height:104px !important;
+    min-width:104px !important;
+    border-radius:50%;
+    box-shadow:0 6px 18px rgba(0,0,0,0.42) !important;
+    font-size:38px !important;
+    line-height:1;
+    padding:0 !important;
+    margin:0;
+    opacity:1;
+    transition:transform .15s ease, background .15s ease, box-shadow .15s ease;
+  }
+  .face .btn-group > button:hover{ transform:scale(1.08); box-shadow:0 8px 22px rgba(0,0,0,0.52) !important; }
+  .face .btn-group > button:active{ transform:scale(0.94); }
+  .face .btn-group > .mini-btn{
+    border:2px solid rgba(20,32,43,0.18);
+    background:var(--parchment);
+    color:var(--ink);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    font-weight:800;
+  }
+  .face .btn-group > .mini-btn.active{ background:var(--teal); border-color:transparent; color:#fff; }
+
+  /* Desktop / mouse only: hide the stack until the cursor enters the box
+     itself, then reveal it — and hide it again as soon as the cursor
+     leaves that box (opacity doesn't affect hit-testing, so the invisible
+     box can still be "entered" to trigger the reveal). Touch devices have
+     no hover, so this rule simply never applies there and the stack stays
+     visible like before. */
+  @media (hover:hover) and (pointer:fine){
+    .face .card-btn-stack{
+      opacity:0;
+      transform:translateY(-50%) translateX(-8px);
+    }
+    .face .card-btn-stack:hover{
+      opacity:1;
+      transform:translateY(-50%) translateX(0);
+    }
+    /* Fullscreen on desktop: keep the side button stack at its normal
+       (non-enlarged) size — no more doubling to 208px buttons. Instead of
+       auto-revealing on hover (which used to pop the huge stack open by
+       itself over the enlarged card), it now stays hidden until the ⋮
+       toggle button is tapped, exactly like the touch-device behavior. */
+    body.fs-active .face .card-btn-stack{
+      opacity:0;
+      pointer-events:none;
+      transform:translateY(-50%) translateX(-8px);
+    }
+    body.fs-active .face.stack-open .card-btn-stack{
+      opacity:1;
+      pointer-events:auto;
+      transform:translateY(-50%) translateX(0);
+    }
+    body.fs-active .face .stack-toggle-btn{ display:flex; }
+  }
+
+  /* Touch devices (no hover): the button stack stays fully hidden until the
+     person taps the ⋮ toggle button in the corner, so it never sits on top
+     of / collides with the hide-btn or the rest of the card. Tapping again
+     (or tapping the toggle on the other face) closes it. */
+  @media (hover:none){
+    .face .card-btn-stack{
+      opacity:0;
+      pointer-events:none;
+      transform:translateY(-50%) translateX(-8px);
+    }
+    .face.stack-open .card-btn-stack{
+      opacity:1;
+      pointer-events:auto;
+      transform:translateY(-50%) translateX(0);
+    }
+    .face .stack-toggle-btn{ display:flex; }
+  }
+
+  @media (max-width:480px){
+    .face .card-btn-stack{ left:5px; gap:10px; padding:8px 5px; }
+    .face .btn-group{ gap:8px; }
+    .face .btn-group > button{ width:50px !important; height:50px !important; min-width:50px !important; font-size:19px !important; }
+    .face .btn-group-label{ font-size:10.5px; }
+    .face .stack-toggle-btn{ top:10px; right:10px; width:32px; height:32px; font-size:17px; }
+  }
+
+  .face .speak-btn{
+    position:absolute;
+    bottom:16px;
+    left:16px;
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    border:none;
+    background:var(--ink);
+    color:var(--amber);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    box-shadow:0 6px 14px rgba(0,0,0,0.25);
+    font-size:19px;
+  }
+  .face .speak-btn:hover{ background:var(--ink-2); }
+  .face .expand-btn{
+    position:absolute;
+    bottom:16px;
+    right:16px;
+    width:66px;
+    height:66px;
+    border-radius:50%;
+    border:none;
+    background:var(--ink);
+    color:var(--parchment);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    box-shadow:0 6px 14px rgba(0,0,0,0.25);
+    font-size:26px;
+  }
+  .face .expand-btn:hover{ background:var(--ink-2); }
+
+  /* Combined "rotate landscape + fill screen" button — lives right next to
+     the fullscreen (⛶) button at the bottom, instead of inside the
+     card-btn-stack button box. Unlike the old manual-landscape toggle, it
+     never rotates the whole page: it rotates and enlarges the card itself
+     (see .card-wrap.is-fullscreen.landscape-rotate below). */
+  .face .landscape-fs-btn{
+    position:absolute;
+    bottom:16px;
+    right:92px;
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    border:none;
+    background:var(--ink);
+    color:var(--parchment);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    box-shadow:0 6px 14px rgba(0,0,0,0.25);
+    font-size:19px;
+    z-index:6;
+  }
+  .face .landscape-fs-btn:hover{ background:var(--ink-2); }
+  .face .landscape-fs-btn.active{
+    background:linear-gradient(135deg, var(--amber), var(--amber-dark));
+    color:#241505;
+  }
+
+  /* Copy-sentence button — lives right next to the fullscreen (⛶) and
+     rotate (🔄) buttons, same bottom row. Copies this face's current text
+     to the clipboard. */
+  .face .copy-btn{
+    position:absolute;
+    bottom:16px;
+    right:150px;
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    border:none;
+    background:var(--ink);
+    color:var(--parchment);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    box-shadow:0 6px 14px rgba(0,0,0,0.25);
+    font-size:19px;
+    z-index:6;
+  }
+  .face .copy-btn:hover{ background:var(--ink-2); }
+  .face .copy-btn.copied{
+    background:linear-gradient(135deg, var(--amber), var(--amber-dark));
+    color:#241505;
+  }
+
+  /* Flip button glued to the card itself (bottom-LEFT corner, always — a
+     physical "left" position on purpose, regardless of RTL/LTR text
+     direction) instead of living in the toolbar. Being inside .face — not
+     .toolbar — means it stays visible in every mode: normal, hidden-controls
+     (🙈) and fullscreen (⛶) alike, exactly like expand-btn/hide-btn. Tapping
+     it flips only the card, never the page. */
+  .face .flip-face-btn{
+    position:absolute;
+    bottom:16px;
+    left:16px;
+    width:66px;
+    height:66px;
+    border-radius:50%;
+    border:none;
+    background:var(--ink);
+    color:var(--parchment);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    box-shadow:0 6px 14px rgba(0,0,0,0.25);
+    font-size:26px;
+    z-index:6;
+  }
+  .face .flip-face-btn:hover{ background:var(--ink-2); }
+
+  .controls{
+    display:flex;
+    align-items:center;
+    gap:6px;
+  }
+  .nav-btn{
+    width:34px;
+    height:34px;
+    border-radius:50%;
+    border:1px solid var(--line);
+    background:var(--ink-2);
+    color:var(--parchment);
+    font-size:14px;
+    font-weight:700;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:transform .15s ease, border-color .15s ease;
+  }
+  .nav-btn:hover{ transform:scale(1.06); border-color:var(--amber); }
+  .nav-btn:disabled{ opacity:0.35; cursor:not-allowed; }
+  .nav-btn.understood-btn{
+    font-size:15px;
+  }
+
+  .hint{
+    margin-top:18px;
+    color:var(--text-soft);
+    font-size:12.5px;
+    text-align:center;
+    max-width:min(480px, 92vw);
+    line-height:1.8;
+  }
+
+  .empty{
+    max-width:min(480px, 92vw);
+    text-align:center;
+    color:var(--text-soft);
+    line-height:2;
+    margin-top:10px;
+    padding:26px;
+    border:1px dashed var(--line);
+    border-radius:18px;
+  }
+  .empty b{ color:var(--amber); }
+
+  .fs-exit{
+    position:fixed;
+    top:18px;
+    left:18px;
+    z-index:1000;
+  }
+
+  @media (max-width:480px){
+    .card-wrap{ aspect-ratio: 4/5; }
+    .face .txt{ font-size:calc(20px * var(--font-scale, 1)); }
+    .face{ padding:30px 20px 30px 52px; }
+    .face .speak-btn{ width:42px; height:42px; font-size:17px; }
+    .face .expand-btn{ width:58px; height:58px; font-size:22px; }
+    .face .landscape-fs-btn{ width:42px; height:42px; font-size:17px; right:82px; }
+    .face .copy-btn{ width:42px; height:42px; font-size:17px; right:132px; }
+    .face .flip-face-btn{ width:58px; height:58px; font-size:22px; }
+    .face .hide-btn{ width:70px; height:70px; font-size:28px; }
+    .face .font-toggle-btn{ width:38px; height:38px; }
+  }
+
+  /* ---- Landscape layout: applies both to real device rotation and to the
+     manual 🔄 landscape toggle. In landscape the card gets much shorter, so
+     it needs to be sized by the available height (not width) and every
+     control on the face needs to shrink/tighten so the corner buttons and
+     the vertical button stack never collide. ---- */
+  @media (orientation:landscape){
+    .stage{ max-width:min(86vh, 640px); }
+    .card-wrap:not(.is-fullscreen){ width:auto; height:min(80vh, 420px); aspect-ratio:3/2; }
+  }
+  body.manual-landscape .stage{ max-width:min(80vh, 640px); }
+  body.manual-landscape .card-wrap:not(.is-fullscreen){ width:auto; height:min(76vh, 420px); aspect-ratio:3/2; }
+
+  @media (orientation:landscape){
+    .face{ padding:16px 16px 16px 40px; }
+    .face .tag{ top:8px; right:12px; font-size:10px; }
+    .face .txt{ font-size:calc(clamp(15px,2.6vw,22px) * var(--font-scale, 1)); }
+    .face .hide-btn{ width:36px; height:36px; font-size:15px; top:6px; left:6px; }
+    .face .expand-btn{ width:32px; height:32px; font-size:13px; bottom:6px; right:6px; }
+    .face .landscape-fs-btn{ width:26px; height:26px; font-size:11px; bottom:6px; right:42px; }
+    .face .copy-btn{ width:26px; height:26px; font-size:11px; bottom:6px; right:72px; }
+    .face .flip-face-btn{ width:32px; height:32px; font-size:13px; bottom:6px; left:6px; }
+    .face .card-btn-stack{ left:5px; gap:4px; max-height:calc(100% - 88px); padding:6px 4px; }
+    .face .btn-group{ gap:4px; }
+    .face .btn-group > button{ width:22px !important; height:22px !important; min-width:22px !important; font-size:9px !important; }
+    .face .btn-group-label{ font-size:8px; }
+    .face .stack-toggle-btn{ top:6px; right:6px; width:28px; height:28px; font-size:15px; }
+  }
+  body.manual-landscape .face{ padding:16px 16px 16px 40px; }
+  body.manual-landscape .face .tag{ top:8px; right:12px; font-size:10px; }
+  body.manual-landscape .face .txt{ font-size:calc(clamp(15px,2.6vw,22px) * var(--font-scale, 1)); }
+  body.manual-landscape .face .hide-btn{ width:36px; height:36px; font-size:15px; top:6px; left:6px; }
+  body.manual-landscape .face .expand-btn{ width:32px; height:32px; font-size:13px; bottom:6px; right:6px; }
+  body.manual-landscape .face .copy-btn{ width:26px; height:26px; font-size:11px; bottom:6px; right:42px; }
+  body.manual-landscape .face .flip-face-btn{ width:32px; height:32px; font-size:13px; bottom:6px; left:6px; }
+  body.manual-landscape .face .card-btn-stack{ left:5px; gap:4px; max-height:calc(100% - 88px); padding:6px 4px; }
+  body.manual-landscape .face .btn-group{ gap:4px; }
+  body.manual-landscape .face .btn-group > button{ width:22px !important; height:22px !important; min-width:22px !important; font-size:9px !important; }
+  body.manual-landscape .face .btn-group-label{ font-size:8px; }
+  body.manual-landscape .face .stack-toggle-btn{ top:6px; right:6px; width:28px; height:28px; font-size:15px; }
+
+  /* ---- Database tree panel ---- */
+  .tree-overlay{
+    position:fixed; inset:0; background:rgba(10,16,22,0.72);
+    display:none; align-items:center; justify-content:center; z-index:2000; padding:20px;
+  }
+  .tree-overlay.show{ display:flex; }
+  .tree-panel{
+    background:var(--ink-2); border:1px solid var(--line); border-radius:20px;
+    width:min(560px, 100%); max-height:85vh; display:flex; flex-direction:column;
+    box-shadow:0 20px 60px rgba(0,0,0,0.5);
+  }
+  #searchPanel{ transition:transform .15s ease; transform-origin:center center; }
+  .tree-panel-header{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:16px 20px; border-bottom:1px solid var(--line);
+  }
+  .tree-panel-header h2{ margin:0; font-size:17px; }
+  .tree-close-btn{
+    width:32px;height:32px;border-radius:50%;border:1px solid var(--line);
+    background:var(--ink); color:var(--parchment); cursor:pointer; font-size:14px;
+    flex-shrink:0;
+  }
+  .tree-close-btn:hover{ border-color:var(--amber); }
+  .tree-toolbar{ padding:12px 20px; border-bottom:1px solid var(--line); }
+  .tree-body{ overflow-y:auto; padding:12px 16px 20px; flex:1; }
+  .tree-node{ margin:2px 0; }
+  .tree-node-row{
+    display:flex; align-items:center; gap:6px; padding:8px 8px; border-radius:10px;
+    cursor:pointer; transition:background .12s ease;
+  }
+  .tree-node-row:hover{ background:rgba(244,236,216,0.06); }
+  .tree-node-row .tree-toggle{ width:14px; text-align:center; color:var(--text-soft); font-size:11px; flex-shrink:0; }
+  .tree-node-row .tree-icon{ font-size:15px; flex-shrink:0; }
+  .tree-node-row .tree-name{ font-size:14px; }
+  .tree-node-row .tree-db-url{
+    font-size:11px; color:var(--text-soft); direction:ltr; text-align:left;
+    max-width:100%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+  }
+  .tree-node-row .tree-actions{ display:flex; gap:4px; opacity:0; transition:opacity .12s ease; margin-inline-start:auto; flex-shrink:0; }
+  .tree-node-row:hover .tree-actions,
+  .tree-node-row:focus-within .tree-actions{ opacity:1; }
+  .tree-icon-btn{
+    width:27px;height:27px;border-radius:8px;border:1px solid var(--line);
+    background:var(--ink); color:var(--parchment); font-size:12px; cursor:pointer;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .tree-icon-btn:hover{ border-color:var(--amber); }
+  .tree-children{
+    padding-inline-start:20px; margin-inline-start:13px;
+    border-inline-start:1px dashed var(--line);
+  }
+  .tree-empty-msg{ color:var(--text-soft); font-size:12.5px; text-align:center; padding:16px 8px; }
+
+  .merge-section-title{
+    display:flex; align-items:center; justify-content:space-between; gap:8px;
+    font-size:12.5px; font-weight:700; color:var(--amber);
+    padding:10px 4px 6px; margin-top:4px;
+  }
+  .merge-section-title:first-child{ margin-top:0; }
+  .merge-refresh-mini{
+    border:1px solid var(--line); background:var(--ink); color:var(--parchment);
+    border-radius:8px; font-size:11px; padding:4px 8px; cursor:pointer; font-family:inherit;
+  }
+  .merge-refresh-mini:hover{ border-color:var(--amber); }
+  .merge-checkbox{
+    width:17px; height:17px; flex-shrink:0; accent-color:var(--amber); cursor:pointer;
+  }
+  .tree-panel.merge-panel{ width:min(620px, 100%); }
+  .merge-footer{
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    padding:14px 20px; border-top:1px solid var(--line); flex-wrap:wrap;
+  }
+  .merge-count{ font-size:13px; color:var(--text-soft); }
+  .merge-count b{ color:var(--amber); }
+  .merge-footer-actions{ display:flex; gap:8px; }
+  .btn:disabled{ opacity:0.4; cursor:not-allowed; transform:none !important; }
+
+  .search-toolbar-input{
+    width:100%; padding:11px 14px; border-radius:12px; border:1px solid var(--line);
+    background:var(--ink); color:var(--parchment); font-family:inherit; font-size:15px;
+  }
+  .search-toolbar-input:focus{ outline:none; border-color:var(--amber); }
+  .search-count-line{ font-size:12.5px; color:var(--text-soft); margin-top:8px; min-height:16px; }
+  .search-count-line b{ color:var(--amber); }
+  .search-result-card{
+    border:1px solid var(--line); border-radius:14px; padding:12px 14px; margin-bottom:10px;
+    cursor:pointer; background:rgba(244,236,216,0.03);
+    transition:border-color .15s ease, transform .15s ease, background .15s ease;
+  }
+  .search-result-card:hover{ border-color:var(--amber); transform:translateY(-2px); background:rgba(244,236,216,0.07); }
+  .search-result-head{ display:flex; align-items:center; justify-content:space-between; margin-bottom:8px; }
+  .search-result-num{ font-size:11.5px; color:var(--text-soft); font-weight:700; }
+  .search-result-learned-tag{
+    font-size:10px; color:var(--teal); border:1px solid var(--teal); border-radius:8px; padding:2px 8px; font-weight:700;
+  }
+  .search-result-face{ font-size:14.5px; line-height:1.7; }
+  .search-result-label{ display:block; font-size:11px; color:var(--text-soft); font-weight:800; margin-bottom:3px; }
+  .search-result-lines > div{ margin:1px 0; }
+  .search-result-divider{ height:1px; background:var(--line); margin:9px 0; }
+  .search-highlight{
+    background:linear-gradient(135deg, var(--amber), var(--amber-dark));
+    color:#241505; padding:1px 5px; border-radius:5px; font-weight:800;
+  }
+
+  .tree-form-overlay{
+    position:fixed; inset:0; background:rgba(10,16,22,0.72);
+    display:none; align-items:center; justify-content:center; z-index:2100; padding:20px;
+  }
+  .tree-form-overlay.show{ display:flex; }
+  .tree-form{
+    background:var(--ink-2); border:1px solid var(--line); border-radius:18px;
+    width:min(420px, 100%); padding:22px;
+  }
+  .tree-form h3{ margin:0 0 6px; font-size:16px; }
+  .tree-form label{ display:block; font-size:12.5px; color:var(--text-soft); margin:12px 0 4px; }
+  .tree-form input{
+    width:100%; padding:10px 12px; border-radius:10px; border:1px solid var(--line);
+    background:var(--ink); color:var(--parchment); font-family:inherit; font-size:14px;
+  }
+  .tree-form input:focus{ outline:none; border-color:var(--amber); }
+  .tree-form-actions{ display:flex; justify-content:flex-end; gap:8px; margin-top:20px; }
+</style>
+</head>
+<body>
+
+  <div class="toast" id="toast"></div>
+
+  <div class="brand">
+    <h1>بطاقاتي التعليمية</h1>
+    <span>Flashcards</span>
+  </div>
+  <div class="subtitle">استورد بطاقاتك، اقلبها، كبّرها، واستمع إليها</div>
+
+  <div class="toolbar">
+    <label class="btn primary" for="fileInput">📥 استيراد ملف بطاقات</label>
+    <input type="file" id="fileInput" accept=".json,.csv,.txt">
+    <label class="order-toggle" for="randomModeCheckbox">
+      <input type="checkbox" id="randomModeCheckbox">
+      <span>ترتيب عشوائي</span>
+    </label>
+    <button class="btn" id="shuffleBtn" title="خلط ترتيب البطاقات (S)">🔀 خلط الآن</button>
+    <button class="btn" id="restoreBtn" title="استعادة كل البطاقات المفهومة (R)">↻ استعادة المفهومة</button>
+    <button class="btn" id="exportBtn">💾 حفظ نسخة معدّلة</button>
+    <button class="btn" id="resetBtn">🗑 مسح الكل</button>
+    <button class="btn ghost" id="sampleBtn">🧪 تحميل نموذج</button>
+    <button class="btn" id="dbTreeBtn">🗂 قواعد البيانات</button>
+    <button class="btn" id="externalTreeBtn">🌐 قاعدة خارجية</button>
+    <button class="btn" id="githubTreeBtn">🐙 مجلد GitHub</button>
+    <button class="btn" id="mergedTreeBtn">🗃 شجرة موحّدة (دمج)</button>
+  </div>
+
+
+  <div class="tree-overlay" id="treeOverlay">
+    <div class="tree-panel">
+      <div class="tree-panel-header">
+        <h2>🗂 شجرة قواعد البيانات</h2>
+        <button class="tree-close-btn" id="treeCloseBtn" title="إغلاق">✕</button>
+      </div>
+      <div class="tree-toolbar">
+        <button class="btn ghost" id="treeAddRootBtn">➕ تصنيف جديد</button>
+      </div>
+      <div class="tree-body" id="treeBody"></div>
+    </div>
+  </div>
+
+  <div class="tree-form-overlay" id="treeFormOverlay">
+    <div class="tree-form">
+      <h3 id="treeFormTitle">إضافة عنصر</h3>
+      <label for="treeFormName">الاسم</label>
+      <input type="text" id="treeFormName" placeholder="مثال: إنجليزية">
+      <div id="treeFormUrlWrap">
+        <label for="treeFormUrl">رابط قاعدة البيانات (JSON)</label>
+        <input type="text" id="treeFormUrl" placeholder="https://cdn.jsdelivr.net/gh/user/repo@main/cards.json">
+      </div>
+      <div class="tree-form-actions">
+        <button class="btn ghost" id="treeFormCancelBtn">إلغاء</button>
+        <button class="btn primary" id="treeFormSaveBtn">حفظ</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="tree-overlay" id="externalTreeOverlay">
+    <div class="tree-panel">
+      <div class="tree-panel-header">
+        <h2>🌐 قاعدة البيانات الخارجية (للقراءة فقط)</h2>
+        <button class="tree-close-btn" id="externalTreeCloseBtn" title="إغلاق">✕</button>
+      </div>
+      <div class="tree-toolbar">
+        <button class="btn ghost" id="externalTreeSetUrlBtn">🔗 رابط الفهرس</button>
+        <button class="btn ghost" id="externalTreeRefreshBtn">🔄 تحديث</button>
+      </div>
+      <div class="tree-body" id="externalTreeBody"></div>
+    </div>
+  </div>
+
+  <div class="tree-form-overlay" id="externalUrlFormOverlay">
+    <div class="tree-form">
+      <h3>رابط ملف فهرس القاعدة الخارجية (JSON)</h3>
+      <label for="externalUrlInput">الرابط</label>
+      <input type="text" id="externalUrlInput" placeholder="https://raw.githubusercontent.com/user/repo/main/index.json">
+      <div class="tree-form-actions">
+        <button class="btn ghost" id="externalUrlCancelBtn">إلغاء</button>
+        <button class="btn primary" id="externalUrlSaveBtn">حفظ وتحميل</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="tree-overlay" id="githubTreeOverlay">
+    <div class="tree-panel">
+      <div class="tree-panel-header">
+        <h2>🐙 مجلد GitHub (جلب تلقائي لكل ملفات JSON)</h2>
+        <button class="tree-close-btn" id="githubTreeCloseBtn" title="إغلاق">✕</button>
+      </div>
+      <div class="tree-toolbar">
+        <button class="btn ghost" id="githubTreeSetUrlBtn">🔗 رابط المستودع</button>
+        <button class="btn ghost" id="githubTreeRefreshBtn">🔄 تحديث</button>
+      </div>
+      <div class="tree-body" id="githubTreeBody"></div>
+    </div>
+  </div>
+
+  <div class="tree-form-overlay" id="githubUrlFormOverlay">
+    <div class="tree-form">
+      <h3>رابط مستودع GitHub</h3>
+      <label for="githubUrlInput">الرابط (يقبل جميع هذه الأشكال)</label>
+      <input type="text" id="githubUrlInput" placeholder="https://cdn.jsdelivr.net/gh/user/repo@main">
+      <div class="tree-form-actions">
+        <button class="btn ghost" id="githubUrlCancelBtn">إلغاء</button>
+        <button class="btn primary" id="githubUrlSaveBtn">حفظ وتحميل</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="tree-overlay" id="mergedTreeOverlay">
+    <div class="tree-panel merge-panel">
+      <div class="tree-panel-header">
+        <h2>🗃 شجرة موحّدة — دمج عدّة قواعد</h2>
+        <button class="tree-close-btn" id="mergedTreeCloseBtn" title="إغلاق">✕</button>
+      </div>
+      <div class="tree-toolbar">
+        حدّد أكثر من قاعدة بيانات (داخلية و/أو خارجية) بالمربعات، ثم اضغط "دمج المحدد" لقراءتها كقاعدة واحدة.
+      </div>
+      <div class="tree-body" id="mergedTreeBody"></div>
+      <div class="merge-footer">
+        <div class="merge-count" id="mergedCount">لا يوجد تحديد</div>
+        <div class="merge-footer-actions">
+          <button class="btn ghost small-btn" id="mergedClearBtn">مسح التحديد</button>
+          <button class="btn primary" id="mergedMergeBtn" disabled>🔗 دمج المحدد</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tree-overlay" id="searchOverlay">
+    <div class="tree-panel merge-panel" id="searchPanel">
+      <div class="tree-panel-header">
+        <h2>🔍 بحث عن كلمة في البطاقات</h2>
+        <button class="tree-close-btn" id="searchCloseBtn" title="إغلاق">✕</button>
+      </div>
+      <div class="tree-toolbar">
+        <input type="text" class="search-toolbar-input" id="searchWordInput" placeholder="اكتب كلمة أو جزءًا منها...">
+        <div class="search-count-line" id="searchCountLine"></div>
+      </div>
+      <div class="tree-body" id="searchResultsBody"></div>
+    </div>
+  </div>
+
+  <div class="font-toolbar" id="floatToolbar">
+    <div class="card-number-badge" id="cardNumberBadge">بطاقة #0</div>
+    <button class="order-badge" id="orderBadge" title="اضغط لتبديل نمط العرض بين المرتب والعشوائي">↕ مرتب</button>
+    <span class="sep"></span>
+    <div class="timer-group">
+      <button class="timer-toggle-btn" id="timerToggleBtn" title="تشغيل/إيقاف المؤقت (T)">⏱</button>
+      <div class="timer-ring-wrap" id="timerRingWrap" title="الوقت المتبقي للإجابة">
+        <svg width="40" height="40" viewBox="0 0 40 40">
+          <circle class="ring-bg" cx="20" cy="20" r="16" stroke-width="4" fill="none"/>
+          <circle class="ring-fg" id="timerRingFg" cx="20" cy="20" r="16" stroke-width="4" fill="none" stroke-dasharray="100.53" stroke-dashoffset="0" transform="rotate(-90 20 20)"/>
+        </svg>
+        <span class="timer-num" id="timerNum">10</span>
+      </div>
+      <select class="timer-select" id="timerDurationSelect" title="مدة الإجابة بالثواني">
+        <option value="5">5 ث</option>
+        <option value="10" selected>10 ث</option>
+        <option value="15">15 ث</option>
+        <option value="20">20 ث</option>
+        <option value="30">30 ث</option>
+      </select>
+      <select class="timer-select" id="revealDurationSelect" title="مدة عرض الإجابة">
+        <option value="2">جواب 2 ث</option>
+        <option value="3" selected>جواب 3 ث</option>
+        <option value="5">جواب 5 ث</option>
+        <option value="10">جواب 10 ث</option>
+      </select>
+      <select class="timer-select" id="questionDelaySelect" title="تأخير ظهور السؤال">
+        <option value="0">سؤال فوري</option>
+        <option value="1" selected>تأخير 1 ث</option>
+        <option value="2">تأخير 2 ث</option>
+        <option value="3">تأخير 3 ث</option>
+      </select>
+    </div>
+    <span class="sep"></span>
+    <div class="progress-badge" id="progressBadge">
+      <span class="progress-count" id="progressCount">0/0</span>
+      <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+    </div>
+    <span class="sep"></span>
+    <span class="font-label">حجم الخط</span>
+    <button class="nav-btn small" id="fontDecBtn" title="تصغير الخط (-)">A-</button>
+    <span class="font-value" id="fontValue">100%</span>
+    <button class="nav-btn small" id="fontIncBtn" title="تكبير الخط (+)">A+</button>
+    <button class="btn ghost small-btn" id="fontResetBtn">إعادة الضبط</button>
+    <span class="sep"></span>
+    <button class="nav-btn small" id="dirToggleBtn" title="تبديل اتجاه الكتابة (D)">ع/A</button>
+    <button class="nav-btn small" id="alignToggleBtn" title="تبديل محاذاة النص (G)">≡</button>
+    <span class="sep"></span>
+    <div class="auto-speak-group">
+      <button class="auto-speak-btn" id="autoSpeakFrontBtn" title="قراءة صوتية تلقائية عند ظهور وجه السؤال (1)">🔊 س تلقائي</button>
+      <button class="auto-speak-btn" id="autoSpeakBackBtn" title="قراءة صوتية تلقائية عند ظهور وجه الجواب (2)">🔊 ج تلقائي</button>
+    </div>
+    <span class="sep"></span>
+    <div class="controls" id="navControls">
+      <button class="nav-btn small" id="prevBtn" title="السابق">›</button>
+      <button class="nav-btn small" id="nextBtn" title="التالي">‹</button>
+      <button class="nav-btn small understood-btn" id="understoodBtn" title="تم فهم هذه البطاقة (U أو Enter)">✓</button>
+    </div>
+  </div>
+
+  <div class="deck-status" id="deckStatus"></div>
+
+  <div class="stage">
+    <div class="card-wrap" id="cardWrap">
+      <div class="card-timer-bar" id="cardTimerBar"><div class="card-timer-fill" id="cardTimerFill"></div></div>
+      <div class="card" id="card">
+        <div class="face front">
+          <span class="tag">سؤال</span>
+          <div class="txt" id="frontTxt" contenteditable="false">لا توجد بطاقات بعد</div>
+          <div class="color-toolbar" id="frontColorToolbar"></div>
+          <div class="notes-panel" id="frontNotesPanel">
+            <div class="notes-panel-header">
+              <span class="notes-panel-title">🗒️ ملاحظات السؤال</span>
+              <div class="notes-panel-actions">
+                <button class="notes-font-btn" id="frontNotesFontDecBtn" title="تصغير خط الملاحظات">A-</button>
+                <button class="notes-font-btn" id="frontNotesFontIncBtn" title="تكبير خط الملاحظات">A+</button>
+                <button class="notes-edit-btn" id="frontNotesEditBtn" title="تعديل الملاحظات">✏️</button>
+                <button class="notes-close-btn" id="frontNotesCloseBtn" title="إغلاق الملاحظات">✖</button>
+              </div>
+            </div>
+            <div class="notes-panel-body" id="frontNotesTxt" contenteditable="false"></div>
+          </div>
+          <button class="hide-btn" id="hideBtnFront" title="إخفاء الأشرطة العلوية وتكبير البطاقة (H)">🙈</button>
+          <button class="expand-btn" id="expandBtn1" title="تكبير (F)">⛶</button>
+          <button class="landscape-fs-btn" id="landscapeFsBtn1" title="تدوير البطاقة أفقيًا وملء الشاشة بالكامل">🔄</button>
+          <button class="copy-btn" id="copyBtn1" title="نسخ الجملة">📋</button>
+          <button class="flip-face-btn" id="flipFaceBtn1" title="اقلب البطاقة (مسافة)">⇄</button>
+          <button class="stack-toggle-btn" id="stackToggleFront" title="إظهار/إخفاء لوحة الأزرار">⋮</button>
+          <div class="card-btn-stack">
+            <div class="btn-group" data-group="edit">
+              <span class="btn-group-label">تعديل</span>
+              <button class="edit-btn" id="editFrontBtn" title="تعديل النص (E)">✏️</button>
+              <button class="cancel-edit-btn mini-btn" id="cancelEditFrontBtn" title="تراجع والعودة للجملة الأصلية (Esc)">↩️</button>
+              <button class="font-toggle-btn" id="fontToggleFront" title="تبديل إلى الخط اليدوي المتصل (Alt)">✒️</button>
+              <button class="mini-btn" id="miniFontIncFront" title="تكبير الخط (+)">A+</button>
+              <button class="mini-btn" id="miniFontDecFront" title="تصغير الخط (-)">A-</button>
+              <button class="mini-btn" id="miniAddCardFront" title="إضافة بطاقة جديدة (N)">➕</button>
+              <button class="mini-btn" id="miniDeleteCardFront" title="حذف هذه البطاقة (Delete)">🗑️</button>
+            </div>
+            <div class="btn-group" data-group="audio">
+              <span class="btn-group-label">صوت</span>
+              <button class="mini-btn" id="miniAutoSpeakFront" title="قراءة صوتية تلقائية عند ظهور هذا الوجه (1)">🔊</button>
+              <button class="speak-btn" id="speakFrontBtn" title="استمع">🔊</button>
+              <button class="mini-btn" id="miniWordSpeakFront" title="نطق الكلمة وتظليلها عند مرور المؤشر تحتها (K)">🗣️</button>
+            </div>
+            <div class="btn-group" data-group="search">
+              <span class="btn-group-label">بحث وتضليل</span>
+              <button class="mini-btn" id="miniSearchFront" title="بحث عن كلمة في البطاقات (W)">🔍</button>
+              <button class="mini-btn" id="miniWordHoverFront" title="تلوين مؤقت للكلمة عند مرور المؤشر تحتها (C)">🖍️</button>
+              <button class="mini-btn" id="miniLetterHoverFront" title="تلوين مؤقت للحرف عند مرور المؤشر تحته (L)">🔠</button>
+            </div>
+            <div class="btn-group" data-group="view">
+              <span class="btn-group-label">عرض</span>
+              <button class="mini-btn" id="miniShuffleFront" title="خلط البطاقات (S)">🔀</button>
+            </div>
+            <div class="btn-group" data-group="manage">
+              <span class="btn-group-label">إدارة</span>
+              <button class="mini-btn understood-btn" id="miniUnderstoodFront" title="تم فهم هذه البطاقة (U أو Enter)">✓</button>
+              <button class="mini-btn" id="miniDbFront" title="فتح شجرة قواعد البيانات الموحّدة (داخلية + GitHub)">🗂</button>
+              <button class="mini-btn" id="miniAlignFront" title="تبديل محاذاة النص (G)">≡</button>
+              <button class="mini-btn" id="miniForceCenterFront" title="توسيط قسري لكل الأسطر — يلغي أي محاذاة يمين أو يسار مهما كانت">🎯</button>
+              <button class="mini-btn" id="miniNotesFront" title="ملاحظات إضافية لوجه السؤال (وجه ثالث قابل للتمرير) (M)">🗒️</button>
+            </div>
+            <div class="btn-group" data-group="merge">
+              <span class="btn-group-label">دمج</span>
+              <button type="button" class="mini-btn merge-side-btn" id="mergePrevBtnFront" title="دمج مع البطاقة السابقة (تصبحان بطاقة واحدة)">🔗›</button>
+              <button type="button" class="mini-btn merge-side-btn" id="mergeNextBtnFront" title="دمج مع البطاقة التالية (تصبحان بطاقة واحدة)">‹🔗</button>
+            </div>
+          </div>
+          <div class="card-bottom-bars">
+            <div class="card-position-bar" id="cardPositionBarFront" title="انقر مرتين أو بالزر الأيمن لكتابة رقم البطاقة والانتقال إليها">
+              <div class="card-position-fill" id="cardPositionFillFront"></div>
+              <span class="card-position-label" id="cardPositionLabelFront">0 / 0</span>
+              <input type="range" class="card-position-range" id="cardPositionRangeFront" min="1" max="1" value="1" step="1" disabled>
+            </div>
+            <div class="card-understood-bar" id="cardUnderstoodBarFront" title="نسبة البطاقات المفهومة من إجمالي البطاقات">
+              <div class="card-understood-fill" id="cardUnderstoodFillFront"></div>
+              <span class="card-understood-label" id="cardUnderstoodLabelFront">✓ 0 / 0</span>
+            </div>
+          </div>
+        </div>
+        <div class="face back">
+          <span class="tag">جواب</span>
+          <div class="txt" id="backTxt" contenteditable="false">استورد ملفك من الأعلى</div>
+          <div class="color-toolbar" id="backColorToolbar"></div>
+          <div class="notes-panel" id="backNotesPanel">
+            <div class="notes-panel-header">
+              <span class="notes-panel-title">🗒️ ملاحظات الجواب</span>
+              <div class="notes-panel-actions">
+                <button class="notes-font-btn" id="backNotesFontDecBtn" title="تصغير خط الملاحظات">A-</button>
+                <button class="notes-font-btn" id="backNotesFontIncBtn" title="تكبير خط الملاحظات">A+</button>
+                <button class="notes-edit-btn" id="backNotesEditBtn" title="تعديل الملاحظات">✏️</button>
+                <button class="notes-close-btn" id="backNotesCloseBtn" title="إغلاق الملاحظات">✖</button>
+              </div>
+            </div>
+            <div class="notes-panel-body" id="backNotesTxt" contenteditable="false"></div>
+          </div>
+          <button class="hide-btn" id="hideBtnBack" title="إخفاء الأشرطة العلوية وتكبير البطاقة (H)">🙈</button>
+          <button class="expand-btn" id="expandBtn2" title="تكبير (F)">⛶</button>
+          <button class="landscape-fs-btn" id="landscapeFsBtn2" title="تدوير البطاقة أفقيًا وملء الشاشة بالكامل">🔄</button>
+          <button class="copy-btn" id="copyBtn2" title="نسخ الجملة">📋</button>
+          <button class="flip-face-btn" id="flipFaceBtn2" title="اقلب البطاقة (مسافة)">⇄</button>
+          <button class="stack-toggle-btn" id="stackToggleBack" title="إظهار/إخفاء لوحة الأزرار">⋮</button>
+          <div class="card-btn-stack">
+            <div class="btn-group" data-group="edit">
+              <span class="btn-group-label">تعديل</span>
+              <button class="edit-btn" id="editBackBtn" title="تعديل النص (E)">✏️</button>
+              <button class="cancel-edit-btn mini-btn" id="cancelEditBackBtn" title="تراجع والعودة للجملة الأصلية (Esc)">↩️</button>
+              <button class="font-toggle-btn" id="fontToggleBack" title="تبديل إلى الخط اليدوي المتصل (Alt)">✒️</button>
+              <button class="mini-btn" id="miniFontIncBack" title="تكبير الخط (+)">A+</button>
+              <button class="mini-btn" id="miniFontDecBack" title="تصغير الخط (-)">A-</button>
+              <button class="mini-btn" id="miniAddCardBack" title="إضافة بطاقة جديدة (N)">➕</button>
+              <button class="mini-btn" id="miniDeleteCardBack" title="حذف هذه البطاقة (Delete)">🗑️</button>
+            </div>
+            <div class="btn-group" data-group="audio">
+              <span class="btn-group-label">صوت</span>
+              <button class="mini-btn" id="miniAutoSpeakBack" title="قراءة صوتية تلقائية عند ظهور هذا الوجه (2)">🔊</button>
+              <button class="speak-btn" id="speakBackBtn" title="استمع">🔊</button>
+              <button class="mini-btn" id="miniWordSpeakBack" title="نطق الكلمة وتظليلها عند مرور المؤشر تحتها (K)">🗣️</button>
+            </div>
+            <div class="btn-group" data-group="search">
+              <span class="btn-group-label">بحث وتضليل</span>
+              <button class="mini-btn" id="miniSearchBack" title="بحث عن كلمة في البطاقات (W)">🔍</button>
+              <button class="mini-btn" id="miniWordHoverBack" title="تلوين مؤقت للكلمة عند مرور المؤشر تحتها (C)">🖍️</button>
+              <button class="mini-btn" id="miniLetterHoverBack" title="تلوين مؤقت للحرف عند مرور المؤشر تحته (L)">🔠</button>
+            </div>
+            <div class="btn-group" data-group="view">
+              <span class="btn-group-label">عرض</span>
+              <button class="mini-btn" id="miniShuffleBack" title="خلط البطاقات (S)">🔀</button>
+            </div>
+            <div class="btn-group" data-group="manage">
+              <span class="btn-group-label">إدارة</span>
+              <button class="mini-btn understood-btn" id="miniUnderstoodBack" title="تم فهم هذه البطاقة (U أو Enter)">✓</button>
+              <button class="mini-btn" id="miniDbBack" title="فتح شجرة قواعد البيانات الموحّدة (داخلية + GitHub)">🗂</button>
+              <button class="mini-btn" id="miniAlignBack" title="تبديل محاذاة النص (G)">≡</button>
+              <button class="mini-btn" id="miniForceCenterBack" title="توسيط قسري لكل الأسطر — يلغي أي محاذاة يمين أو يسار مهما كانت">🎯</button>
+              <button class="mini-btn" id="miniNotesBack" title="ملاحظات إضافية لوجه الجواب (وجه ثالث قابل للتمرير) (M)">🗒️</button>
+            </div>
+            <div class="btn-group" data-group="merge">
+              <span class="btn-group-label">دمج</span>
+              <button type="button" class="mini-btn merge-side-btn" id="mergePrevBtnBack" title="دمج مع البطاقة السابقة (تصبحان بطاقة واحدة)">🔗›</button>
+              <button type="button" class="mini-btn merge-side-btn" id="mergeNextBtnBack" title="دمج مع البطاقة التالية (تصبحان بطاقة واحدة)">‹🔗</button>
+            </div>
+          </div>
+          <div class="card-bottom-bars">
+            <div class="card-position-bar" id="cardPositionBarBack" title="انقر مرتين أو بالزر الأيمن لكتابة رقم البطاقة والانتقال إليها">
+              <div class="card-position-fill" id="cardPositionFillBack"></div>
+              <span class="card-position-label" id="cardPositionLabelBack">0 / 0</span>
+              <input type="range" class="card-position-range" id="cardPositionRangeBack" min="1" max="1" value="1" step="1" disabled>
+            </div>
+            <div class="card-understood-bar" id="cardUnderstoodBarBack" title="نسبة البطاقات المفهومة من إجمالي البطاقات">
+              <div class="card-understood-fill" id="cardUnderstoodFillBack"></div>
+              <span class="card-understood-label" id="cardUnderstoodLabelBack">✓ 0 / 0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="jump-popover" id="jumpPopover">
+        <div class="jump-popover-title">الانتقال إلى بطاقة رقم</div>
+        <div class="jump-popover-row">
+          <input type="number" id="jumpInput" class="jump-input" min="1" inputmode="numeric" placeholder="مثال: 12">
+          <button type="button" class="btn primary small-btn" id="jumpGoBtn">اذهب</button>
+        </div>
+        <div class="jump-popover-hint" id="jumpPopoverHint"></div>
+      </div>
+    </div>
+
+    <div class="hint">
+      اضغط ضغطتين متتاليتين (دبل كليك أو دبل تاب) على البطاقة لقلبها، أو اسحبها بإصبعك يمينًا للبطاقة السابقة ويسارًا للبطاقة التالية. زر ⛶ لتكبيرها بحجم الشاشة، وزر 🔊 لقراءة النص صوتيًا.<br>
+      زر "⏱" يشغّل وضع الاختبار الزمني: تُمنح المدة المختارة (5-30 ثانية) للإجابة قبل أن تنقلب البطاقة تلقائيًا لتُظهر الجواب، ثم تنتقل تلقائيًا للبطاقة التالية بعد 3 ثوانٍ. يمكنك أيضًا قلب البطاقة يدويًا في أي لحظة لتخطي الانتظار.<br>
+      صيغ الاستيراد المدعومة: CSV (سؤال,جواب في كل سطر) أو JSON (مصفوفة من {"front":"...","back":"...","frontDir":"rtl|ltr","backDir":"rtl|ltr","frontAlign":"right|left|center","backAlign":"right|left|center"}) أو نص عادي. إذا كان ملف JSON يحتوي عطبًا بسيطًا (فواصل زائدة، أقواس غير مغلقة، علامات اقتباس غير منتظمة...) سيحاول التطبيق إصلاحه تلقائيًا قبل قراءته. زر "ع/A" وزر "≡" يضبطان اتجاه ومحاذاة الوجه الظاهر حاليًا فقط (أمامي أو خلفي) بشكل مستقل، وزر "🎯" يفعّل توسيطًا قسريًا لكل أسطر هذا الوجه له الأولوية دائمًا ويلغي أي محاذاة يمين أو يسار (حتى الأسطر اللاتينية/الرياضية التي تُحاذى يسارًا تلقائيًا)، والضغط عليه مجددًا يلغي التوسيط القسري ويعيد المحاذاة العادية، وزر "💾 حفظ نسخة معدّلة" يحفظ كل هذه الإعدادات مع كل بطاقة في ملف جديد. زرا "🔊 س تلقائي" و"🔊 ج تلقائي" يفعّلان القراءة الصوتية التلقائية فور ظهور وجه السؤال أو وجه الجواب على التوالي. زر "🗂 قواعد البيانات" يفتح شجرة تصنيفات داخلية قابلة للإضافة والتعديل والحذف (تصنيفات وتصنيفات فرعية بلا حد) تحفظ كل قاعدة بيانات كرابط JSON منفصل، وتُخزَّن كاملة في متصفحك (localStorage) فتبقى محفوظة حتى بعد إغلاق الحاسوب. زر "🌐 قاعدة خارجية" يفتح شجرة مستقلة للقراءة فقط: محتواها بالكامل (كل التصنيفات والقواعد) يأتي من ملف فهرس JSON واحد تضعه على GitHub (بنفس بنية العناصر: {"type":"folder","name":"...","children":[...]} أو {"type":"db","name":"...","url":"..."})؛ التطبيق يحفظ فقط رابط ذلك الفهرس عبر زر "🔗 رابط الفهرس"، ولا يمكن إضافة أو تعديل أو حذف أي عنصر منها من داخل البرنامج — أي تعديل يتم فقط بتحرير ملف الفهرس مباشرة على GitHub، ثم الضغط على "🔄 تحديث". في الحالتين، الضغط على اسم أي قاعدة بيانات (📄) يجلبها فورًا ويحوّلها إلى البطاقات الحالية. القراءة الصوتية تتعرف تلقائيًا على لغة النص (عربية أو فرنسية أو إنجليزية) وتختار الصوت المناسب لها. زر "🙈" الموجود على كل وجه من البطاقة (يبقى ظاهرًا حتى في وضع ملء الشاشة) يُخفي كل الأزرار والأشرطة ويكبّر البطاقة لتملأ الشاشة تقريبًا، واضغط عليه مجددًا (🙈➜👁) لإعادة كل شيء لوضعه الطبيعي. عند الضغط على زر "✏️" لتعديل النص، يظهر شريط ألوان صغير أسفله: حدد (ظلّل) الجزء الذي تريده من الجملة بإصبعك أو بالماوس، ثم اضغط على أحد الألوان الجاهزة أو دائرة "اختيار لون مخصص" لتلوين الجزء المحدد فقط، ويمكنك إزالة اللون عن أي تحديد بالضغط على زر "✖". يُحفظ التلوين مع البطاقة تلقائيًا (بما في ذلك عند تصديرها بزر "💾 حفظ نسخة معدّلة").<br><br>
+      <b>اختصارات لوحة المفاتيح:</b> ← / → للتنقل، مسافة للقلب، Ctrl للاستماع، Alt للخط اليدوي، E للتعديل، H لإخفاء/إظهار الأشرطة، F لملء الشاشة، S للخلط، U أو Enter لتمييز "مفهومة"، T لتشغيل/إيقاف المؤقت، D لاتجاه الكتابة، G للمحاذاة، W للبحث عن كلمة، C لتلوين الكلمة عند مرور المؤشر، L لتلوين الحرف عند مرور المؤشر، K لنطق الكلمة وتظليلها عند مرور المؤشر، R لاستعادة المفهومة، M لفتح/إغلاق ملاحظات الوجه الحالي، 1/2 للقراءة الصوتية التلقائية للسؤال/الجواب، + و- لتكبير/تصغير الخط، Esc للخروج من ملء الشاشة.
+    </div>
+  </div>
+
+<script>
+(function(){
+  // ---- Keep screen awake while the app is open (Wake Lock API, with a
+  // NoSleep-style silent-video fallback for browsers that don't support it) ----
+  let wakeLockSentinel = null;
+  let noSleepVideo = null;
+
+  function createNoSleepFallback(){
+    if(noSleepVideo) return noSleepVideo;
+    const v = document.createElement('video');
+    v.setAttribute('playsinline', '');
+    v.setAttribute('muted', '');
+    v.muted = true;
+    v.loop = true;
+    v.style.position = 'fixed';
+    v.style.width = '1px';
+    v.style.height = '1px';
+    v.style.opacity = '0';
+    v.style.pointerEvents = 'none';
+    // Minimal silent looping video, embedded as a data URI (tiny mp4).
+    v.src = 'data:video/mp4;base64,AAAAHGZ0eXBpc29tAAACAGlzb21pc28yYXZjMQAAAAhmcmVlAAAC/W1kYXQAAAAv';
+    document.body.appendChild(v);
+    noSleepVideo = v;
+    return v;
+  }
+
+  async function requestWakeLock(){
+    try{
+      if('wakeLock' in navigator){
+        wakeLockSentinel = await navigator.wakeLock.request('screen');
+        wakeLockSentinel.addEventListener('release', () => { wakeLockSentinel = null; });
+      } else {
+        const v = createNoSleepFallback();
+        v.play().catch(() => {});
+      }
+    }catch(err){
+      // Wake Lock can fail (e.g. low battery mode) - fall back silently.
+      try{ createNoSleepFallback().play().catch(() => {}); }catch(e2){}
+    }
+  }
+
+  document.addEventListener('visibilitychange', () => {
+    if(document.visibilityState === 'visible') requestWakeLock();
+  });
+  window.addEventListener('focus', requestWakeLock);
+  requestWakeLock();
+
+  // ---- Word-tap-to-search must be "armed" first by pressing a search
+  // button; the armed state auto-reverts to unpressed after 5 seconds ----
+  let wordSearchArmed = false;
+  let wordSearchArmTimeout = null;
+
+  function setSearchButtonsPressedVisual(pressed){
+    [miniSearchFrontBtn, miniSearchBackBtn].forEach(btn => {
+      if(btn) btn.classList.toggle('active', pressed);
+    });
+  }
+
+  function disarmWordSearch(){
+    wordSearchArmed = false;
+    if(wordSearchArmTimeout){ clearTimeout(wordSearchArmTimeout); wordSearchArmTimeout = null; }
+    setSearchButtonsPressedVisual(false);
+  }
+
+  function armWordSearch(){
+    wordSearchArmed = true;
+    setSearchButtonsPressedVisual(true);
+    if(wordSearchArmTimeout) clearTimeout(wordSearchArmTimeout);
+    wordSearchArmTimeout = setTimeout(disarmWordSearch, 5000);
+  }
+
+  // ---- Temporary word / letter hover highlight ----
+  // Toggled on independently by their own buttons. While active, whichever
+  // word/letter the cursor is currently over gets a temporary color tint
+  // that vanishes the moment the pointer moves off it. Implemented with the
+  // CSS Custom Highlight API (paints directly on a live Range) so it never
+  // rewrites the card's HTML — colors, editing, and RTL/LTR text all keep
+  // working normally.
+  const supportsCustomHighlight = !!(window.Highlight && window.CSS && CSS.highlights);
+  const wordHoverHighlight = supportsCustomHighlight ? new Highlight() : null;
+  const letterHoverHighlight = supportsCustomHighlight ? new Highlight() : null;
+  const wordSpeakHoverHighlight = supportsCustomHighlight ? new Highlight() : null;
+  if(supportsCustomHighlight){
+    CSS.highlights.set('word-hover', wordHoverHighlight);
+    CSS.highlights.set('letter-hover', letterHoverHighlight);
+    CSS.highlights.set('word-speak-hover', wordSpeakHoverHighlight);
+  }
+  let wordHoverEnabled = false;
+  let letterHoverEnabled = false;
+  let wordSpeakHoverEnabled = false;
+  let lastSpokenHoverWord = '';
+
+  function setHoverButtonsVisual(){
+    [miniWordHoverFrontBtn, miniWordHoverBackBtn].forEach(btn => { if(btn) btn.classList.toggle('active', wordHoverEnabled); });
+    [miniLetterHoverFrontBtn, miniLetterHoverBackBtn].forEach(btn => { if(btn) btn.classList.toggle('active', letterHoverEnabled); });
+    [miniWordSpeakFrontBtn, miniWordSpeakBackBtn].forEach(btn => { if(btn) btn.classList.toggle('active', wordSpeakHoverEnabled); });
+  }
+  function clearWordHover(){ if(wordHoverHighlight) wordHoverHighlight.clear(); }
+  function clearLetterHover(){ if(letterHoverHighlight) letterHoverHighlight.clear(); }
+  function clearWordSpeakHover(){ if(wordSpeakHoverHighlight) wordSpeakHoverHighlight.clear(); lastSpokenHoverWord = ''; }
+  function clearAllHoverHighlights(){ clearWordHover(); clearLetterHover(); clearWordSpeakHover(); }
+
+  function toggleWordHover(){
+    if(!supportsCustomHighlight){ showToast('⚠ متصفحك لا يدعم هذه الميزة'); return; }
+    wordHoverEnabled = !wordHoverEnabled;
+    if(!wordHoverEnabled) clearWordHover();
+    setHoverButtonsVisual();
+  }
+  function toggleLetterHover(){
+    if(!supportsCustomHighlight){ showToast('⚠ متصفحك لا يدعم هذه الميزة'); return; }
+    letterHoverEnabled = !letterHoverEnabled;
+    if(!letterHoverEnabled) clearLetterHover();
+    setHoverButtonsVisual();
+  }
+  // Reads each word aloud (and gives it the same temporary tint) the moment
+  // the cursor passes under it. Only re-speaks when the word under the
+  // cursor actually changes, so it doesn't repeat itself while the pointer
+  // sits still or drifts within the same word.
+  function toggleWordSpeakHover(){
+    if(!supportsCustomHighlight){ showToast('⚠ متصفحك لا يدعم هذه الميزة'); return; }
+    wordSpeakHoverEnabled = !wordSpeakHoverEnabled;
+    if(!wordSpeakHoverEnabled) clearWordSpeakHover();
+    setHoverButtonsVisual();
+  }
+
+  let cards = [];       // {front, back, learned}
+  let order = [];       // indices into cards currently queued for display
+  let pos = 0;           // pointer within order
+  let flipped = false;
+  let randomMode = false;
+  // Global forced-centering mode: once switched on via the 🎯 button it stays
+  // ON for every face of every card (current and future) until the button is
+  // pressed again to cancel it — independent of any per-card setting, and
+  // remembered across reloads.
+  let globalForceCenter = false;
+  try { globalForceCenter = localStorage.getItem('fc_globalForceCenter') === '1'; } catch(e){}
+  function effectiveForceCenter(card, face){
+    return globalForceCenter || !!(card && card[face + 'ForceCenter']);
+  }
+  let isFullscreen = false;
+  let editingFace = null; // 'front' | 'back' | null
+  let guidingNewCardIdx = null; // set by addNewCard(); lets stopEdit() auto-advance to editing the back face
+  // ---- Extra "notes" face per side (front/back): an on-demand scrollable
+  // panel for free-form notes, independent of the question/answer text.
+  let notesOpenFace = null;        // 'front' | 'back' | null — which panel (if any) is currently open
+  let notesOpenForCardIdx = null;  // which cards[] index that open panel belongs to
+  let notesEditingFace = null;     // 'front' | 'back' | null — which panel is currently in edit mode
+  let autoSpeakFront = false;
+  let autoSpeakBack = false;
+
+  // Timed quiz mode state
+  let timerActive = false;
+  let timerSeconds = 10;
+  let questionDelaySeconds = 1;
+  let revealSeconds = 3;
+  let answerTimeoutId = null;
+  let advanceTimeoutId = null;
+  let tickInterval = null;
+  const RING_CIRC = 100.53; // 2 * PI * 16, matches the SVG circle radius
+
+  const cardWrap = document.getElementById('cardWrap');
+  const floatToolbar = document.getElementById('floatToolbar');
+  let floatToolbarAnchor = null, floatToolbarParent = null;
+  const cardEl = document.getElementById('card');
+  const frontTxt = document.getElementById('frontTxt');
+  const backTxt = document.getElementById('backTxt');
+  const deckStatus = document.getElementById('deckStatus');
+  const progressCount = document.getElementById('progressCount');
+  const progressFill = document.getElementById('progressFill');
+  const cardNumberBadge = document.getElementById('cardNumberBadge');
+  const orderBadge = document.getElementById('orderBadge');
+  const fileInput = document.getElementById('fileInput');
+  const cardPositionBarFront = document.getElementById('cardPositionBarFront');
+  const cardPositionFillFront = document.getElementById('cardPositionFillFront');
+  const cardPositionLabelFront = document.getElementById('cardPositionLabelFront');
+  const cardPositionRangeFront = document.getElementById('cardPositionRangeFront');
+  const cardPositionBarBack = document.getElementById('cardPositionBarBack');
+  const cardPositionFillBack = document.getElementById('cardPositionFillBack');
+  const cardPositionLabelBack = document.getElementById('cardPositionLabelBack');
+  const cardPositionRangeBack = document.getElementById('cardPositionRangeBack');
+  const cardUnderstoodFillFront = document.getElementById('cardUnderstoodFillFront');
+  const cardUnderstoodLabelFront = document.getElementById('cardUnderstoodLabelFront');
+  const cardUnderstoodFillBack = document.getElementById('cardUnderstoodFillBack');
+  const cardUnderstoodLabelBack = document.getElementById('cardUnderstoodLabelBack');
+  const jumpPopover = document.getElementById('jumpPopover');
+  const jumpInput = document.getElementById('jumpInput');
+  const jumpGoBtn = document.getElementById('jumpGoBtn');
+  const jumpPopoverHint = document.getElementById('jumpPopoverHint');
+  const mergePrevBtnFront = document.getElementById('mergePrevBtnFront');
+  const mergeNextBtnFront = document.getElementById('mergeNextBtnFront');
+  const mergePrevBtnBack = document.getElementById('mergePrevBtnBack');
+  const mergeNextBtnBack = document.getElementById('mergeNextBtnBack');
+
+  // ---- Per-line auto direction: each sentence/line aligns itself according to
+  // its own script — Latin (French/English/...) lines go left, Arabic lines go
+  // right — regardless of the manual per-face direction toggle. This only
+  // affects DISPLAY; the underlying card.front/back HTML stays untouched so
+  // editing and exporting keep working normally. ----
+  function detectLineDir(text){
+    for(const ch of text){
+      if(/[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]/.test(ch)) return 'rtl';
+      if(/[A-Za-z]/.test(ch)) return 'ltr';
+    }
+    return null; // no strong-direction character on this line (digits/punct only)
+  }
+  function autoAlignHTML(html, forcedAlign, forceCenter){
+    if(!html) return html;
+    const align = ['left','right','center'].includes(forcedAlign) ? forcedAlign : 'center';
+    const temp = document.createElement('div');
+    temp.innerHTML = html;
+    // Normalize: unwrap top-level block elements (DIV/P, produced by Enter
+    // while editing) into a flat run of inline content separated by <br>,
+    // so every line — however it was produced — is handled the same way.
+    const norm = document.createElement('div');
+    Array.from(temp.childNodes).forEach((n) => {
+      if(n.nodeType === 1 && /^(DIV|P)$/i.test(n.tagName)){
+        if(norm.childNodes.length > 0) norm.appendChild(document.createElement('br'));
+        Array.from(n.childNodes).forEach(c => norm.appendChild(c.cloneNode(true)));
+      } else {
+        norm.appendChild(n.cloneNode(true));
+      }
+    });
+    const rawLines = norm.innerHTML.split(/<br\s*\/?>/i);
+    const wrapped = rawLines.map(line => {
+      const probe = document.createElement('div');
+      probe.innerHTML = line;
+      const text = probe.textContent.trim();
+      if(!text) return line;
+      // dir controls how characters flow *inside* the line (so a French
+      // sentence still reads left-to-right even inside an RTL card). The
+      // block's position (left/center/right) normally follows the face's
+      // own align setting (defaults to centered, changes only via the
+      // align button) — EXCEPT for pure left-to-right lines (math
+      // expressions, calculations), which always align left so operations
+      // read naturally left-to-right regardless of the face's align mode.
+      const detected = detectLineDir(text);
+      const dir = detected || 'rtl';
+      // Force-center mode (توسيط قسري button): every single line is centered,
+      // overriding even the automatic left-alignment normally given to pure
+      // LTR/math lines — this always wins over any right/left alignment.
+      const lineAlign = forceCenter ? 'center' : (detected === 'ltr' ? 'left' : align);
+      return '<div dir="' + dir + '" style="text-align:' + lineAlign + '">' + line + '</div>';
+    });
+    return wrapped.join('');
+  }
+
+  const sample = [
+    {front:"ما هو عاصمة الجزائر؟", back:"الجزائر العاصمة"},
+    {front:"ناتج 7 × 8", back:"56"},
+    {front:"من مؤلف كتاب 'مقدمة ابن خلدون'؟", back:"ابن خلدون"},
+    {front:"ما هي أصغر وحدة في المادة؟", back:"الذرة"},
+  ];
+
+  // ---- Timed quiz mode: countdown ring + auto flip + auto advance ----
+  const timerRingFg = document.getElementById('timerRingFg');
+  const timerNumEl = document.getElementById('timerNum');
+  const timerToggleBtn = document.getElementById('timerToggleBtn');
+  const timerDurationSelect = document.getElementById('timerDurationSelect');
+  const timerRingWrap = document.getElementById('timerRingWrap');
+  const revealDurationSelect = document.getElementById('revealDurationSelect');
+  const questionDelaySelect = document.getElementById('questionDelaySelect');
+  const cardTimerBar = document.getElementById('cardTimerBar');
+  const cardTimerFill = document.getElementById('cardTimerFill');
+
+  function hideCardText(){
+    frontTxt.style.visibility='hidden';
+    backTxt.style.visibility='hidden';
+  }
+  function showCardText(){
+    frontTxt.style.visibility='visible';
+    backTxt.style.visibility='visible';
+  }
+
+
+  function clearAllTimers(){
+    clearTimeout(answerTimeoutId); answerTimeoutId = null;
+    clearTimeout(advanceTimeoutId); advanceTimeoutId = null;
+    clearInterval(tickInterval); tickInterval = null;
+  }
+
+  function resetTimerVisual(){
+    timerRingFg.style.transition = 'none';
+    timerRingFg.style.strokeDashoffset = '0';
+    timerRingFg.classList.remove('ring-time-up');
+    timerNumEl.textContent = timerSeconds;
+
+    cardTimerBar.classList.remove('show', 'reveal');
+    cardTimerFill.style.transition = 'none';
+    cardTimerFill.style.transform = 'scaleX(1)';
+  }
+
+  function startAnsweringPhase(){
+    clearAllTimers();
+    revealSeconds=parseInt(revealDurationSelect.value,10)||3;
+    questionDelaySeconds=parseInt(questionDelaySelect.value,10)||1;
+    if(!timerActive || order.length===0 || editingFace){ resetTimerVisual(); return; }
+
+    timerRingFg.classList.remove('ring-time-up');
+    timerRingFg.style.transition = 'none';
+    timerRingFg.style.strokeDashoffset = '0';
+    // force reflow so the browser registers the reset before animating
+    void timerRingFg.getBoundingClientRect();
+    timerRingFg.style.transition = `stroke-dashoffset ${timerSeconds}s linear`;
+    timerRingFg.style.strokeDashoffset = String(RING_CIRC);
+
+    cardTimerBar.classList.remove('reveal');
+    cardTimerBar.classList.add('show');
+    cardTimerFill.style.transition = 'none';
+    cardTimerFill.style.transform = 'scaleX(1)';
+    // force reflow so the browser registers the reset before animating
+    void cardTimerFill.getBoundingClientRect();
+    cardTimerFill.style.transition = `transform ${timerSeconds}s linear`;
+    cardTimerFill.style.transform = 'scaleX(0)';
+
+    let remaining = timerSeconds;
+    timerNumEl.textContent = remaining;
+    tickInterval = setInterval(() => {
+      remaining -= 1;
+      timerNumEl.textContent = Math.max(remaining, 0);
+      if(remaining <= 0) clearInterval(tickInterval);
+    }, 1000);
+
+    answerTimeoutId = setTimeout(() => {
+      if(!flipped) flip(); // triggers the reveal phase via flip()
+    }, timerSeconds * 1000);
+  }
+
+  function startRevealPhase(){
+    clearTimeout(advanceTimeoutId);
+    timerRingFg.style.transition = 'none';
+    timerRingFg.style.strokeDashoffset = String(RING_CIRC);
+    timerRingFg.classList.add('ring-time-up');
+    timerNumEl.textContent = '✓';
+
+    cardTimerBar.classList.add('show', 'reveal');
+    cardTimerFill.style.transition = 'none';
+    cardTimerFill.style.transform = 'scaleX(1)';
+    // force reflow so the browser registers the reset before animating
+    void cardTimerFill.getBoundingClientRect();
+    cardTimerFill.style.transition = `transform ${revealSeconds}s linear`;
+    cardTimerFill.style.transform = 'scaleX(0)';
+
+    advanceTimeoutId = setTimeout(() => {
+      if(timerActive) next();
+    }, revealSeconds * 1000);
+  }
+
+  function setTimerActive(value){
+    timerActive = value;
+    timerToggleBtn.classList.toggle('active', timerActive);
+    timerToggleBtn.textContent = timerActive ? '⏸' : '⏱';
+    timerToggleBtn.title = timerActive ? 'إيقاف المؤقت الزمني' : 'تشغيل المؤقت الزمني';
+    clearAllTimers();
+    if(timerActive && order.length > 0 && !editingFace){
+      flipped = false;
+      cardEl.classList.remove('flipped');
+      startAnsweringPhase();
+    } else {
+      resetTimerVisual();
+    }
+  }
+
+  timerToggleBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    setTimerActive(!timerActive);
+  });
+
+  timerDurationSelect.addEventListener('change', (e) => {
+    e.stopPropagation();
+    timerSeconds = parseInt(timerDurationSelect.value, 10) || 10;
+    if(timerActive) startAnsweringPhase();
+    else resetTimerVisual();
+  });
+  timerDurationSelect.addEventListener('click', (e) => e.stopPropagation());
+
+revealDurationSelect.addEventListener('change',()=>{revealSeconds=parseInt(revealDurationSelect.value,10)||3;});
+questionDelaySelect.addEventListener('change',()=>{questionDelaySeconds=parseInt(questionDelaySelect.value,10)||1;});
+
+
+  resetTimerVisual();
+
+  function buildOrder(preserveCurrentId){
+    const keepId = preserveCurrentId && order.length ? cards[order[pos]] : null;
+    order = cards.map((c, i) => i).filter(i => !cards[i].learned);
+    if(randomMode){
+      for(let i = order.length - 1; i > 0; i--){
+        const j = Math.floor(Math.random() * (i + 1));
+        [order[i], order[j]] = [order[j], order[i]];
+      }
+    }
+    pos = 0;
+    if(keepId){
+      const idx = order.indexOf(cards.indexOf(keepId));
+      if(idx !== -1) pos = idx;
+    }
+    flipped = false;
+    render();
+  }
+
+  function setMergeButtonsDisabled(prevDisabled, nextDisabled){
+    mergePrevBtnFront.disabled = prevDisabled;
+    mergePrevBtnBack.disabled = prevDisabled;
+    mergeNextBtnFront.disabled = nextDisabled;
+    mergeNextBtnBack.disabled = nextDisabled;
+  }
+
+  function setPositionBar(labelText, pct, value, max, disabled){
+    cardPositionLabelFront.textContent = labelText;
+    cardPositionLabelBack.textContent = labelText;
+    cardPositionFillFront.style.width = pct;
+    cardPositionFillBack.style.width = pct;
+    [cardPositionRangeFront, cardPositionRangeBack].forEach(r => {
+      r.max = String(Math.max(1, max || 1));
+      r.value = String(value || 1);
+      r.disabled = !!disabled;
+    });
+  }
+
+  function render(){
+    clearAllHoverHighlights();
+    // If a notes panel is open but we're about to display a different card
+    // (or no card at all), save+close it first so notes never leak onto —
+    // or get lost from — the wrong card.
+    if(notesOpenFace !== null && (order.length === 0 || notesOpenForCardIdx !== order[pos])){
+      closeNotesPanel(notesOpenFace, true);
+    }
+    const total = cards.length;
+    const learnedCount = cards.filter(c => c.learned).length;
+
+    progressCount.textContent = `${learnedCount}/${total}`;
+    progressFill.style.width = total > 0 ? `${(learnedCount / total) * 100}%` : '0%';
+    const understoodPct = total > 0 ? `${(learnedCount / total) * 100}%` : '0%';
+    cardUnderstoodFillFront.style.width = understoodPct;
+    cardUnderstoodFillBack.style.width = understoodPct;
+    cardUnderstoodLabelFront.textContent = `✓ ${learnedCount} / ${total}`;
+    cardUnderstoodLabelBack.textContent = `✓ ${learnedCount} / ${total}`;
+    orderBadge.textContent = randomMode ? '🔀 عشوائي' : '↕ مرتب';
+    orderBadge.classList.toggle('is-random', randomMode);
+    closeJumpPopover();
+
+    if(total === 0){
+      frontTxt.textContent = "لا توجد بطاقات بعد";
+      backTxt.textContent = "استورد ملفك من الأعلى";
+      deckStatus.innerHTML = "لا توجد بطاقات محمّلة";
+      cardNumberBadge.textContent = "بطاقة #0";
+      setPositionBar("0 / 0", '0%', 1, 1, true);
+      setMergeButtonsDisabled(true, true);
+      cardEl.classList.remove('flipped');
+      clearAllTimers();
+      resetTimerVisual();
+      return;
+    }
+
+    if(order.length === 0){
+      frontTxt.innerHTML = `<div class="done-msg"><div class="big">🎉</div><div class="txt2">أتممت فهم كل البطاقات!</div></div>`;
+      backTxt.innerHTML = `<div class="done-msg"><div class="big">✅</div><div class="txt2">يمكنك استعادتها من زر "استعادة المفهومة"</div></div>`;
+      deckStatus.innerHTML = `تم فهم <b>${learnedCount}</b> من <b>${total}</b> — لا توجد بطاقات متبقية`;
+      cardNumberBadge.textContent = "اكتمل ✓";
+      setPositionBar(`${total} / ${total}`, '100%', total, total, false);
+      setMergeButtonsDisabled(true, true);
+      cardEl.classList.remove('flipped');
+      clearAllTimers();
+      resetTimerVisual();
+      return;
+    }
+
+    const c = cards[order[pos]];
+    const cardNumber = order[pos] + 1; // the card's fixed number within the original deck
+    const orderLabel = randomMode ? 'عشوائي 🔀' : 'مرتب ↕';
+    frontTxt.innerHTML = autoAlignHTML(c.front, c.frontAlign, effectiveForceCenter(c, 'front'));
+    backTxt.innerHTML = autoAlignHTML(c.back, c.backAlign, effectiveForceCenter(c, 'back'));
+    cardNumberBadge.textContent = `بطاقة #${cardNumber} من ${total}`;
+    setPositionBar(`${cardNumber} / ${total}`, `${(cardNumber / total) * 100}%`, cardNumber, total, false);
+    setMergeButtonsDisabled(order[pos] <= 0, order[pos] >= total - 1);
+    deckStatus.innerHTML = `بطاقة رقم <b>${cardNumber}</b> من <b>${total}</b> &nbsp;•&nbsp; متبقٍ <b>${pos + 1}</b> من <b>${order.length}</b> &nbsp;•&nbsp; تم فهم <b>${learnedCount}</b> &nbsp;•&nbsp; الترتيب: <b>${orderLabel}</b>`;
+    cardEl.classList.toggle('flipped', flipped);
+    applyCardStyle(c);
+    refitCardText();
+
+    hideCardText();
+    setTimeout(() => { showCardText(); autoSpeakFace('front'); }, questionDelaySeconds * 1000);
+
+    if(timerActive && !editingFace){
+      startAnsweringPhase();
+    } else {
+      resetTimerVisual();
+    }
+  }
+
+  function flip(){
+    if(order.length === 0 || editingFace) return;
+    flipped = !flipped;
+    cardEl.classList.toggle('flipped', flipped);
+    applyCardStyle(cards[order[pos]]);
+    autoSpeakFace(flipped ? 'back' : 'front');
+    if(timerActive && flipped){
+      // the person answered early (or the timer itself just flipped it) — move to the reveal phase
+      clearTimeout(answerTimeoutId);
+      clearInterval(tickInterval);
+      startRevealPhase();
+    }
+  }
+
+  const FLIP_BACK_MS = 560; // fallback only, in case transitionend never fires
+  let navTransitionTimeout = null;
+  let navTransitionHandler = null;
+
+  // Runs `changeFn` (which updates pos/order/etc.) then renders.
+  // If the card is currently showing its answer side, it first animates
+  // back to the question side and only swaps content once that ANIMATION
+  // has genuinely finished (via the transitionend event, not a guessed
+  // timeout) — so the swap can never happen mid-flip on a slow device.
+  function goToCard(changeFn){
+    clearTimeout(navTransitionTimeout);
+    if(navTransitionHandler){
+      cardEl.removeEventListener('transitionend', navTransitionHandler);
+      navTransitionHandler = null;
+    }
+    clearAllTimers();
+    flipped = false;
+    changeFn();
+    render();
+  }
+
+  function next(){
+    if(order.length === 0) return;
+    clearAllTimers();
+    stopEdit(true);
+    goToCard(() => { pos = (pos + 1) % order.length; });
+  }
+  function prev(){
+    if(order.length === 0) return;
+    clearAllTimers();
+    stopEdit(true);
+    goToCard(() => { pos = (pos - 1 + order.length) % order.length; });
+  }
+
+  // Debounces repeated/held arrow-key presses: the first press in a while
+  // runs immediately; any press that follows within ARROW_NAV_COOLDOWN_MS
+  // resets a timer instead, so navigation only fires once, 2s after the
+  // last press, rather than once per keystroke.
+  const ARROW_NAV_COOLDOWN_MS = 2000;
+  let arrowNavTimer = null;
+  let lastArrowNavAt = 0;
+  function handleArrowNav(navFn){
+    const now = Date.now();
+    const isRepeatedPress = (now - lastArrowNavAt) < ARROW_NAV_COOLDOWN_MS;
+    lastArrowNavAt = now;
+    clearTimeout(arrowNavTimer);
+    if(!isRepeatedPress){
+      arrowNavTimer = null;
+      navFn();
+    } else {
+      arrowNavTimer = setTimeout(() => { arrowNavTimer = null; navFn(); }, ARROW_NAV_COOLDOWN_MS);
+    }
+  }
+
+  // Inserts a brand-new blank card right after the one currently on screen
+  // (or as the very first card if the deck is empty), jumps to it, and
+  // immediately opens its front face for editing so the person can start
+  // typing right away.
+  function addNewCard(){
+    stopEdit(true);
+    const newCard = { front: '', back: '', learned: false, frontNotes: '', backNotes: '' };
+    const insertAt = (order.length > 0) ? order[pos] + 1 : cards.length;
+    cards.splice(insertAt, 0, newCard);
+    order = order.map(i => (i >= insertAt ? i + 1 : i));
+    const newPos = (order.length > 0) ? pos + 1 : 0;
+    order.splice(newPos, 0, insertAt);
+    pos = newPos;
+    clearAllTimers();
+    flipped = false;
+    render();
+    guidingNewCardIdx = insertAt;
+    startEdit('front');
+  }
+
+  // Permanently removes the card currently on screen, after asking for
+  // confirmation since this can't be undone.
+  function deleteCurrentCard(){
+    if(order.length === 0) return;
+    if(editingFace) stopEdit(false);
+    if(!window.confirm('هل تريد حذف هذه البطاقة نهائيًا؟ لا يمكن التراجع عن هذا.')) return;
+    const cardIdx = order[pos];
+    cards.splice(cardIdx, 1);
+    order = order.filter(i => i !== cardIdx).map(i => (i > cardIdx ? i - 1 : i));
+    pos = order.length > 0 ? Math.min(pos, order.length - 1) : 0;
+    clearAllTimers();
+    flipped = false;
+    render();
+  }
+
+  function markUnderstood(){
+    if(order.length === 0) return;
+    clearAllTimers();
+    stopEdit(true);
+    goToCard(() => {
+      const cardIdx = order[pos];
+      cards[cardIdx].learned = true;
+      order.splice(pos, 1);
+      if(order.length === 0){
+        pos = 0;
+      } else if(pos >= order.length){
+        pos = 0;
+      }
+    });
+  }
+
+  function shuffleNow(){
+    if(order.length < 2) return;
+    clearAllTimers();
+    stopEdit(true);
+    goToCard(() => {
+      for(let i = order.length - 1; i > 0; i--){
+        const j = Math.floor(Math.random() * (i + 1));
+        [order[i], order[j]] = [order[j], order[i]];
+      }
+      pos = 0;
+    });
+  }
+
+  function restoreLearned(){
+    stopEdit(true);
+    cards.forEach(c => c.learned = false);
+    buildOrder();
+  }
+
+  function normDir(v, fallback){
+    if(v === 'ltr' || v === 'rtl') return v;
+    return fallback === 'ltr' ? 'ltr' : 'rtl';
+  }
+  function normAlign(v, fallback){
+    if(v === 'left' || v === 'right' || v === 'center') return v;
+    return ['left','right','center'].includes(fallback) ? fallback : 'center';
+  }
+
+  function normalizeForDedupe(s){
+    return String(s || '').trim().replace(/\s+/g, ' ').toLowerCase();
+  }
+  function cardDedupeKey(c){
+    return normalizeForDedupe(c.front) + '\u0001' + normalizeForDedupe(c.back);
+  }
+  // Removes cards whose front+back text already appeared earlier in the same
+  // list (keeps the first occurrence). Returns the cleaned list plus a count
+  // of how many duplicates were dropped, so callers can notify the user.
+  function dedupeCards(list){
+    const seen = new Set();
+    const unique = [];
+    let removed = 0;
+    for(const c of list){
+      const key = cardDedupeKey(c);
+      if(seen.has(key)){ removed++; continue; }
+      seen.add(key);
+      unique.push(c);
+    }
+    return { unique, removed };
+  }
+
+  let lastLoadDuplicatesRemoved = 0;
+
+  function loadCards(newCards){
+    if(!newCards || newCards.length
