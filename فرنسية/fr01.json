@@ -26,6 +26,15 @@
     "learned": false
   },
   {
+    "front": "",
+    "back": "",
+    "frontForceCenter": false,
+    "backForceCenter": false,
+    "frontNotes": "",
+    "backNotes": "",
+    "learned": false
+  },
+  {
     "front": "Il fait très beau aujourd'hui.",
     "back": "الطقس جميل جدًا اليوم.",
     "frontDir": "ltr",
@@ -476,7 +485,7 @@
     "backAlign": "center",
     "frontForceCenter": false,
     "backForceCenter": false,
-    "frontNotes": "avons rencontré تعني \"التقينا بـ...\" — فعل في الماضي، للحديث عن لقاء حدث وانتهى.",
+    "frontNotes": "<p data-path-to-node=\"0\" style=\"font-family: &quot;Google Sans Text&quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">هذه الجملة صيغت في زمن <b data-path-to-node=\"0\" data-index-in-node=\"23\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\">الماضي المركب (Le passé composé)</b>.</p><hr data-path-to-node=\"1\" style=\"font-family: &quot;Google Sans Text&quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><h3 data-path-to-node=\"2\" style=\"font-family: &quot;Google Sans&quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">توضيح التركيبة والقواعد:</h3><ul data-path-to-node=\"3\" style=\"padding-inline-start: 32px; font-family: &quot;Google Sans Text&quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><li style=\"line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"3,0,0\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"3,0,0\" data-index-in-node=\"0\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\">Nous</b>: ضمير الفاعل (نحن).</p></li><li style=\"line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"3,1,0\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"3,1,0\" data-index-in-node=\"0\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\">avons</b>: هو تصريف فعل المساعد <b data-path-to-node=\"3,1,0\" data-index-in-node=\"28\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\">avoir</b> في زمن الحاضر مع الضمير (<span class=\"math-inline\" data-math=\"Nous\" data-index-in-node=\"59\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\">$Nous$</span>).</p></li><li style=\"line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"3,2,0\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"3,2,0\" data-index-in-node=\"0\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\">rencontré</b>: هو اسم المفعول (Le participe passé) من فعل <b data-path-to-node=\"3,2,0\" data-index-in-node=\"54\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\">rencontrer</b> (يلتقي/يقابل)، وهو فعل منتظم من المجموعة الأولى (تنتهي بـ <span class=\"math-inline\" data-math=\"er\" data-index-in-node=\"123\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\">$er$</span>).</p></li><li style=\"line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"3,3,0\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"3,3,0\" data-index-in-node=\"0\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\">beaucoup de</b>: تعبير كمية يعني (الكثير من / العديد من)، ويأتي بعده الاسم دائماً سواء كان جمعاً أو مفرداً دون تغيير في كلمة <span class=\"math-inline\" data-math=\"de\" data-index-in-node=\"121\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\">$de$</span>.</p></li><li style=\"line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"3,4,0\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"3,4,0\" data-index-in-node=\"0\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\">personnes</b>: اسم مؤنث جمع يعني (أشخاص / ناس).</p></li><li style=\"line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"3,5,0\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"3,5,0\" data-index-in-node=\"0\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\">sympathiques</b>: صفة تعني (لطفاء / ودودين)، ولأنها تصف كلمة <i data-path-to-node=\"3,5,0\" data-index-in-node=\"57\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\">personnes</i> الجمع، أضفنا لها حرف <b data-path-to-node=\"3,5,0\" data-index-in-node=\"88\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\">s</b> في النهاية للمطابقة.</p></li></ul><hr data-path-to-node=\"4\" style=\"font-family: &quot;Google Sans Text&quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><h3 data-path-to-node=\"5\" style=\"font-family: &quot;Google Sans&quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">🔍 لماذا استخدمنا avoir هنا؟</h3><p data-path-to-node=\"6\" style=\"font-family: &quot;Google Sans Text&quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">لأن فعل <b data-path-to-node=\"6\" data-index-in-node=\"8\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\">rencontrer</b> ليس من أفعال الحركة الـ 14 التي تأخذ <i data-path-to-node=\"6\" data-index-in-node=\"56\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\">être</i>، وليس فعلاً ضميرياً. كما أنه يتطلب مفعولاً به (يلتقي <b data-path-to-node=\"6\" data-index-in-node=\"114\" style=\"line-height: 1.15 !important; margin-top: 0px !important;\">بشخص ما</b>).</p>",
     "backNotes": "",
     "learned": false
   },
@@ -615,7 +624,7 @@
     "back": "لم يعد حاسوبي يعمل.",
     "frontDir": "ltr",
     "backDir": "rtl",
-    "frontAlign": "right",
+    "frontAlign": "center",
     "backAlign": "center",
     "frontForceCenter": false,
     "backForceCenter": false,
