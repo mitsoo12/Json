@@ -1,0 +1,3472 @@
+[
+  {
+    "front": "Le petit garçon court dans la cour puis s'arrête pour boire de l'<span style='color:#d62828;font-weight:700'>eau</span>.",
+    "back": "يركض الولد الصغير في الساحة ثم يتوقف ليشرب الماء.",
+    "learned": true
+  },
+  {
+    "front": "Maman coupe des tomates fraîches puis les met dans la grande <span style='color:#d62828;font-weight:700'>salade</span>.",
+    "back": "تقطع أمي طماطم طازجة ثم تضعها في السلطة الكبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Le chat gris saute sur la chaise et regarde le joli <span style='color:#d62828;font-weight:700'>canari</span>.",
+    "back": "يقفز القط الرمادي على الكرسي وينظر إلى الكناري الجميل.",
+    "learned": true
+  },
+  {
+    "front": "Je prends mon joli cahier jaune pour écrire mes devoirs du <span style='color:#d62828;font-weight:700'>soir</span>.",
+    "back": "آخذ كراسي الأصفر الجميل لأكتب واجبات المساء.",
+    "learned": true
+  },
+  {
+    "front": "Le grand bus rouge s'arrête devant l'école pour laisser descendre les <span style='color:#d62828;font-weight:700'>enfants</span>.",
+    "back": "تتوقف الحافلة الحمراء الكبيرة أمام المدرسة لتنزل الأطفال.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une bonne soupe de légumes puis je prends un fruit <span style='color:#d62828;font-weight:700'>frais</span>.",
+    "back": "آكل حساء خضار طيباً ثم آخذ فاكهة طازجة.",
+    "learned": true
+  },
+  {
+    "front": "Le jardinier plante un petit rosier dans l'allée du <span style='color:#d62828;font-weight:700'>jardin</span>.",
+    "back": "يغرس البستاني شجيرة ورد صغيرة في ممر الحديقة.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme le grand placard blanc pour ranger mes jouets en <span style='color:#d62828;font-weight:700'>bois</span>.",
+    "back": "أغلق خزانة الملابس البيضاء الكبيرة لأرتب ألعابي الخشبية.",
+    "learned": true
+  },
+  {
+    "front": "Le petit oiseau marron boit de l'eau dans la petite <span style='color:#d62828;font-weight:700'>flaque</span>.",
+    "back": "يشرب العصفور البني الصغير الماء من بركة الماء الصغيرة.",
+    "learned": true
+  },
+  {
+    "front": "Maman prépare un bon jus de fraises et y ajoute des glaçons <span style='color:#d62828;font-weight:700'>frais</span>.",
+    "back": "تجهز أمي عصير فراولة طيباً وتضيف إليه مكعبات ثلج باردة.",
+    "learned": true
+  },
+  {
+    "front": "Le chien noir aboie fort car il voit un inconnu devant le <span style='color:#d62828;font-weight:700'>portail</span>.",
+    "back": "ينبح الكلب الأسود بقوة لأنه يرى غريباً أمام البوابة.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mes bottes en caoutchouc bleues pour marcher sous la <span style='color:#d62828;font-weight:700'>pluie</span>.",
+    "back": "أرتدي حذاء المطاط الأزرق لأمشي تحت المطر.",
+    "learned": true
+  },
+  {
+    "front": "Le poisson orange tourne en rond dans son petit bocal en <span style='color:#d62828;font-weight:700'>verre</span>.",
+    "back": "يدور السمك البرتقالي في وعائه الزجاجي الصغير.",
+    "learned": true
+  },
+  {
+    "front": "Je découpe une étoile en carton jaune avec mes petits <span style='color:#d62828;font-weight:700'>ciseaux</span>.",
+    "back": "أقص نجمة من الكرتون الأصفر بمقصي الصغير.",
+    "learned": true
+  },
+  {
+    "front": "Le lion fort marche lentement puis se couche sur l'herbe <span style='color:#d62828;font-weight:700'>sèche</span>.",
+    "back": "يمشي الأسد القوي ببطء ثم يستلقي على العشب الجاف.",
+    "learned": true
+  },
+  {
+    "front": "Je me lave le visage à l'eau claire après m'être <span style='color:#d62828;font-weight:700'>réveillé</span>.",
+    "back": "أغسل وجهي بالماء النقي بعد استيقاظي.",
+    "learned": true
+  },
+  {
+    "front": "Le boulanger sort une longue baguette chaude et me la vend avec le <span style='color:#d62828;font-weight:700'>sourire</span>.",
+    "back": "يخرج الخباز رغيف خبز طويل ساخن ويبيعه لي بابتسامة.",
+    "learned": true
+  },
+  {
+    "front": "Je range mes crayons multicolores dans ma jolie trousse en <span style='color:#d62828;font-weight:700'>tissu</span>.",
+    "back": "أرتب أقلامي متعددة الألوان في مقلمتي القماشية الجميلة.",
+    "learned": true
+  },
+  {
+    "front": "Le petit singe attrape une grosse banane verte et grimpe sur l'<span style='color:#d62828;font-weight:700'>arbre</span>.",
+    "back": "يمسك القرد الصغير موزة خضراء ضخمة ويتسلق الشجرة.",
+    "learned": true
+  },
+  {
+    "front": "Maman pose une nappe fleurie sur la table avant le dîner de ce <span style='color:#d62828;font-weight:700'>soir</span>.",
+    "back": "تضع أمي مفرشاً مزيناً بالزهور على الطاولة قبل عشاء هذا المساء.",
+    "learned": true
+  },
+  {
+    "front": "Je prends ma petite brosse rose pour coiffer mes cheveux devant le <span style='color:#d62828;font-weight:700'>miroir</span>.",
+    "back": "آخذ فرشاتي الوردية الصغيرة لأصفف شعري أمام المرآة.",
+    "learned": true
+  },
+  {
+    "front": "Le train vert siffle doucement en arrivant à la petite <span style='color:#d62828;font-weight:700'>station</span>.",
+    "back": "يطلق القطار الأخضر صفارة خفيفة عند وصوله إلى المحطة الصغيرة.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde le beau papillon bleu se poser sur une feuille de <span style='color:#d62828;font-weight:700'>menthe</span>.",
+    "back": "أتأمل الفراشة الزرقاء الجميلة وهي تحط على ورقة نعناع.",
+    "learned": true
+  },
+  {
+    "front": "Papa achète un joli dictionnaire de poche pour m'aider à comprendre la <span style='color:#d62828;font-weight:700'>leçon</span>.",
+    "back": "يشتري أبي قاموس جيب جميل ليساعدني في فهم الدرس.",
+    "learned": true
+  },
+  {
+    "front": "Le petit écureuil ramasse une petite amande puis la cache sous la <span style='color:#d62828;font-weight:700'>terre</span>.",
+    "back": "يجمع السنجاب الصغير لوزة صغيرة ثم يخفيها تحت الأرض.",
+    "learned": true
+  },
+  {
+    "front": "Je bois mon verre de lait bien tiède puis je ferme les <span style='color:#d62828;font-weight:700'>yeux</span>.",
+    "back": "أشرب كوب الحليب الدافئ ثم أغلق عيني.",
+    "learned": true
+  },
+  {
+    "front": "La maîtresse écrit une phrase simple au tableau et demande de la <span style='color:#d62828;font-weight:700'>lire</span>.",
+    "back": "تكتب المعلمة جملة بسيطة على السبورة وتطلب قراءتها.",
+    "learned": true
+  },
+  {
+    "front": "Le gros canard blanc plonge la tête sous l'eau de la petite <span style='color:#d62828;font-weight:700'>rivière</span>.",
+    "back": "يغمس البط الأبيض الضخم رأسه تحت ماء النهر الصغير.",
+    "learned": true
+  },
+  {
+    "front": "Maman fait cuire des biscuits ronds et une bonne odeur remplit la <span style='color:#d62828;font-weight:700'>maison</span>.",
+    "back": "تخبز أمي بسكويتاً مستديراً وتملأ رائحة طيبة المنزل.",
+    "learned": true
+  },
+  {
+    "front": "Je mets un morceau de fromage blanc sur ma tartine de pain <span style='color:#d62828;font-weight:700'>frais</span>.",
+    "back": "أضع قطعة من الجبن الأبيض على شريحة خبزي الطازج.",
+    "learned": true
+  },
+  {
+    "front": "Le vent d'été souffle doucement et fait bouger les rideaux de la <span style='color:#d62828;font-weight:700'>chambre</span>.",
+    "back": "تهب رياح الصيف بلطف وتحرك ستائر الغرفة.",
+    "learned": true
+  },
+  {
+    "front": "Je trouve un joli crayon rouge par terre et je le donne au <span style='color:#d62828;font-weight:700'>maître</span>.",
+    "back": "أجد قلماً أحمر جميلاً على الأرض وأعطيه للمعلم.",
+    "learned": true
+  },
+  {
+    "front": "Le petit lapin gris grignote une pomme rouge tombée de l'<span style='color:#d62828;font-weight:700'>arbre</span>.",
+    "back": "يقضم الأرنب الرمادي الصغير تفاحة حمراء سقطت من الشجرة.",
+    "learned": true
+  },
+  {
+    "front": "Je nettoie mes petites chaussures de sport avec un chiffon doux et <span style='color:#d62828;font-weight:700'>propre</span>.",
+    "back": "أنظف حذاء رياضتي الصغير بقطعة قماش ناعمة ونظيفة.",
+    "learned": true
+  },
+  {
+    "front": "L'éléphant gris utilise sa longue trompe pour s'arroser avec de l'<span style='color:#d62828;font-weight:700'>eau</span>.",
+    "back": "يستخدم الفيل الرمادي خرطومه الطويل ليرش نفسه بالماء.",
+    "learned": true
+  },
+  {
+    "front": "Maman allume la veilleuse bleue dans ma chambre avant de fermer la <span style='color:#d62828;font-weight:700'>porte</span>.",
+    "back": "تشعل أمي المصباح الليلي الأزرق في غرفتي قبل إغلاق الباب.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une bonne poire jaune et bien sucrée pour mon <span style='color:#d62828;font-weight:700'>goûter</span>.",
+    "back": "آكل إجاصة صفراء طيبة وحلوة جداً في وجبة لمجتي.",
+    "learned": true
+  },
+  {
+    "front": "Le petit poussin jaune trotte derrière sa maman dans la grande <span style='color:#d62828;font-weight:700'>basse-cour</span>.",
+    "back": "يمشي الكتكوت الأصفر الصغير خلف أمه في قن الدجاج الكبير.",
+    "learned": true
+  },
+  {
+    "front": "Je tourne la page de mon cahier puis je commence à dessiner un <span style='color:#d62828;font-weight:700'>bateau</span>.",
+    "back": "أقلب صفحة كراسي ثم أبدأ في رسم قارب.",
+    "learned": true
+  },
+  {
+    "front": "Le renard roux se cache derrière un grand buisson pour observer les <span style='color:#d62828;font-weight:700'>oiseaux</span>.",
+    "back": "يختبئ الثعلب الأحمر خلف شجيرة كبيرة ليراقب العصافير.",
+    "learned": true
+  },
+  {
+    "front": "Je lave mes mains sales avec du savon liquide avant de passer à <span style='color:#d62828;font-weight:700'>table</span>.",
+    "back": "أغسل يدي المتسختين بالصابون السائل قبل الجلوس إلى الطاولة.",
+    "learned": true
+  },
+  {
+    "front": "La petite souris blanche court vite pour éviter le gros chat <span style='color:#d62828;font-weight:700'>noir</span>.",
+    "back": "تركض الفأرة البيضاء الصغيرة بسرعة لتتجنب القط الأسود الضخم.",
+    "learned": true
+  },
+  {
+    "front": "Papa plante une petite graine de tournesol dans un pot en <span style='color:#d62828;font-weight:700'>terre</span>.",
+    "back": "يغرس أبي بذرة عباد شمس صغيرة في أصيص فخاري.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde le ciel noir et je vois une étoile filante très <span style='color:#d62828;font-weight:700'>brillante</span>.",
+    "back": "أنظر إلى السماء السوداء وأرى شهاباً لامعاً جداً.",
+    "learned": true
+  },
+  {
+    "front": "Le dauphin bleu nage près du bateau et fait des sauts <span style='color:#d62828;font-weight:700'>amusants</span>.",
+    "back": "يسبح الدلفين الأزرق قرب القارب ويقوم بقفزات مسلية.",
+    "learned": true
+  },
+  {
+    "front": "Maman achète un joli cartable rose pour ma petite sœur <span style='color:#d62828;font-weight:700'>Maya</span>.",
+    "back": "تشتري أمي محفظة وردية جميلة لأختي الصغيرة مايا.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme ma grande boîte de jeux pour ne pas perdre les petites <span style='color:#d62828;font-weight:700'>pièces</span>.",
+    "back": "أغلق علبة ألعابي الكبيرة لكي لا أفقد القطع الصغيرة.",
+    "learned": true
+  },
+  {
+    "front": "Le petit singe brun fait des grimaces et amuse beaucoup les <span style='color:#d62828;font-weight:700'>enfants</span>.",
+    "back": "يصنع القرد البني الصغير حركات مضحكة ويسلي الأطفال كثيراً.",
+    "learned": true
+  },
+  {
+    "front": "Je bois un verre de jus de pomme bien frais après mon cours de <span style='color:#d62828;font-weight:700'>sport</span>.",
+    "back": "أشرب كوباً من عصير التفاح البارد بعد حصة الرياضة.",
+    "learned": true
+  },
+  {
+    "front": "La tortue marche lentement sur le sable fin puis entre dans la <span style='color:#d62828;font-weight:700'>mer</span>.",
+    "back": "تمشي السلحفاة ببطء على الرمل الناعم ثم تدخل البحر.",
+    "learned": true
+  },
+  {
+    "front": "Je colorie le dessin du grand dinosaure avec un feutre <span style='color:#d62828;font-weight:700'>vert</span>.",
+    "back": "ألون رسم الديناصور الكبير بقلم تلوين أخضر.",
+    "learned": true
+  },
+  {
+    "front": "Le tracteur bleu du fermier avance doucement dans le champ de <span style='color:#d62828;font-weight:700'>blé</span>.",
+    "back": "يتقدم جرار الفلاح الأزرق ببطء في حقل القمح.",
+    "learned": true
+  },
+  {
+    "front": "Je mets un joli ruban rouge autour du cou de mon ours en <span style='color:#d62828;font-weight:700'>peluche</span>.",
+    "back": "أضع شريطاً أحمر جميلاً حول رقبة دبي المحشو (اللعبة).",
+    "learned": true
+  },
+  {
+    "front": "Le médecin écoute le cœur du petit garçon avec son <span style='color:#d62828;font-weight:700'>stéthoscope</span>.",
+    "back": "يستمع الطبيب إلى دقات قلب الولد الصغير بسماعته الطبية.",
+    "learned": true
+  },
+  {
+    "front": "J'aide mon grand-père à cueillir des figues mûres dans son <span style='color:#d62828;font-weight:700'>jardin</span>.",
+    "back": "أساعد جدي في قطف التين الناضج من حديقته.",
+    "learned": true
+  },
+  {
+    "front": "Le chat noir dort sur la table basse et bouge doucement sa <span style='color:#d62828;font-weight:700'>queue</span>.",
+    "back": "ينام القط الأسود على الطاولة المنخفضة ويحرك ذيله بلطف.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme la fenêtre du salon car la pluie recommence à <span style='color:#d62828;font-weight:700'>tomber</span>.",
+    "back": "أغلق نافذة الصالون لأن المطر بدأ يتساقط مجدداً.",
+    "learned": true
+  },
+  {
+    "front": "Le petit oiseau bleu s'envole vers le grand nuage blanc du <span style='color:#d62828;font-weight:700'>ciel</span>.",
+    "back": "يطير العصفور الأزرق الصغير نحو الغيمة البيضاء الكبيرة في السماء.",
+    "learned": true
+  },
+  {
+    "front": "Maman prépare une bonne soupe de lentilles et la sert bien <span style='color:#d62828;font-weight:700'>chaude</span>.",
+    "back": "تجهز أمي حساء عدس طيباً وتقدمه ساخناً جداً.",
+    "learned": true
+  },
+  {
+    "front": "Je prends ma règle en plastique pour mesurer mon nouveau <span style='color:#d62828;font-weight:700'>crayon</span>.",
+    "back": "آخذ مسطرتي البلاستيكية لأقيس قلمي الجديد.",
+    "learned": true
+  },
+  {
+    "front": "Le lion puissant rugit fort et fait fuir tous les petits <------------- <span style='color:#d62828;font-weight:700'>animaux</span>.",
+    "back": "يزأر الأسد القوي بقوة ويجعل كل الحيوانات الصغيرة تهرب.",
+    "learned": true
+  },
+  {
+    "front": "Je pose ma tasse de chocolat chaud sur le petit plateau en <span style='color:#d62828;font-weight:700'>bois</span>.",
+    "back": "أضع كوب الشوكولاتة الساخنة على الصينية الخشبية الصغيرة.",
+    "learned": true
+  },
+  {
+    "front": "Le petit poisson rouge se cache sous une pierre de l'<span style='color:#d62828;font-weight:700'>aquarium</span>.",
+    "back": "يختبئ السمك الأحمر الصغير تحت صخرة في الحوض الزجاجي.",
+    "learned": true
+  },
+  {
+    "front": "Je mange un morceau de galette bien chaude pour mon petit <span style='color:#d62828;font-weight:700'>déjeuner</span>.",
+    "back": "آكل قطعة من الفطيرة الساخنة في وجبة فطور الصباح.",
+    "learned": true
+  },
+  {
+    "front": "Le vent souffle fort et fait tourner le joli moulin en <span style='color:#d62828;font-weight:700'>plastique</span>.",
+    "back": "تهب الرياح بقوة وتجعل الطاحونة البلاستيكية الجميلة تدور.",
+    "learned": true
+  },
+  {
+    "front": "Maman coupe un morceau de viande avec un couteau bien <span style='color:#d62828;font-weight:700'>aiguisé</span>.",
+    "back": "تقطع أمي قطعة لحم بسكين شحذت جيداً.",
+    "learned": true
+  },
+  {
+    "front": "Je me lave les dents tous les soirs pour garder un beau <span style='color:#d62828;font-weight:700'>sourire</span>.",
+    "back": "أنظف أسناني كل مساء لأحافظ على ابتسامة جميلة.",
+    "learned": true
+  },
+  {
+    "front": "Le petit escargot gris monte lentement sur une grande feuille <span style='color:#d62828;font-weight:700'>verte</span>.",
+    "back": "يصعد الحلزون الرمادي الصغير ببطء على ورقة خضراء كبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Je range mes jouets préférés dans mon grand coffre en <span style='color:#d62828;font-weight:700'>plastique</span>.",
+    "back": "أرتب ألعابي المفضلة في صندوقي البلاستيكي الكبير.",
+    "learned": true
+  },
+  {
+    "front": "Le canard blanc nage sur le lac et secoue ses plumes <span style='color:#d62828;font-weight:700'>mouillées</span>.",
+    "back": "يسبح البط الأبيض في البحيرة ويهز ريشه المبلل.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une petite fraise rouge et je trouve son goût <------------- <span style='color:#d62828;font-weight:700'>délicieux</span>.",
+    "back": "آكل فراولة حمراء صغيرة وأجد طعمها لcurrent_dateذcurrent_dateاً.",
+    "learned": true
+  },
+  {
+    "front": "Le soir venu, la lune blanche éclaire doucement ma petite <span style='color:#d62828;font-weight:700'>chambre</span>.",
+    "back": "عند حلول المساء، يضيء القمر الأبيض غرفتي الصغيرة بلطف.",
+    "learned": true
+  },
+  {
+    "front": "Je prends mon éponge jaune pour nettoyer la petite table en <span style='color:#d62828;font-weight:700'>plastique</span>.",
+    "back": "آخذ إسفنجتي الصفراء لأنظف الطاولة البلاستيكية الصغيرة.",
+    "learned": true
+  },
+  {
+    "front": "Le petit lapin blanc mange une carotte orange dans le <span style='color:#d62828;font-weight:700'>potager</span>.",
+    "back": "يأكل الأرنب الأبيض الصغير جزرة برتقالية في حديقة الخضروات.",
+    "learned": true
+  },
+  {
+    "front": "Maman prépare une tarte aux pommes et l'odeur remplit la <span style='color:#d62828;font-weight:700'>cuisine</span>.",
+    "back": "تجهز أمي فطيرة تفاح وتملأ الرائحة المطبخ.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mon grand manteau bleu car le vent est très <span style='color:#d62828;font-weight:700'>froid</span>.",
+    "back": "أرتدي معطفي الأزرق الكبير لأن الرياح باردة جداً.",
+    "learned": true
+  },
+  {
+    "front": "Le gros chien noir court après le petit chat blanc de la <span style='color:#d62828;font-weight:700'>voisine</span>.",
+    "back": "يركض الكلب الأسود الضخم خلف قط الجارة الأبيض الصغير.",
+    "learned": true
+  },
+  {
+    "front": "Je trouve une jolie plume blanche par terre et je la garde dans mon <span style='color:#d62828;font-weight:700'>cahier</span>.",
+    "back": "أجد ريشة بيضاء جميلة على الأرض وأحتفظ بها في كراسي.",
+    "learned": true
+  },
+  {
+    "front": "Le train rapide traverse la campagne et siffle dans la <span style='color:#d62828;font-weight:700'>vallée</span>.",
+    "back": "يعبر القطار السريع الريف ويطلق صفارة في الوادي.",
+    "learned": true
+  },
+  {
+    "front": "Je bois un verre de lait tiède au miel pour apaiser ma <span style='color:#d62828;font-weight:700'>gorge</span>.",
+    "back": "أشرب كوباً من الحليب الدافئ بالعسل لتهدئة حلقي.",
+    "learned": true
+  },
+  {
+    "front": "Le petit poussin jaune picore des grains de blé dans la <span style='color:#d62828;font-weight:700'>paille</span>.",
+    "back": "ينقر الكتكوت الأصفر الصغير حبات القمح في القش.",
+    "learned": true
+  },
+  {
+    "front": "Maman lave mon cartable vert et le suspend pour le faire <span style='color:#d62828;font-weight:700'>sécher</span>.",
+    "back": "تغسل أمي محفظتي الخضراء وتعلقها لتجف.",
+    "learned": true
+  },
+  {
+    "front": "Je dessine un grand arbre vert puis je colorie le tronc en <span style='color:#d62828;font-weight:700'>marron</span>.",
+    "back": "أرسم شجرة خضراء كبيرة ثم ألون الجذع باللون البني.",
+    "learned": true
+  },
+  {
+    "front": "Le petit chaton blanc boit son lait puis s'endort sur le <span style='color:#d62828;font-weight:700'>tapis</span>.",
+    "back": "يشرب الهرير الأبيض الصغير حليبه ثم ينام على السجادة.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme le grand livre d'images car mes yeux sont <span style='color:#d62828;font-weight:700'>fatigués</span>.",
+    "back": "أغلق كتاب الصور الكبير لأن عيني متعبتان.",
+    "learned": true
+  },
+  {
+    "front": "Le jardinier coupe les fleurs sèches pour rendre le jardin plus <span style='color:#d62828;font-weight:700'>beau</span>.",
+    "back": "يقص البستاني الزهور الجافة ليجعل الحديقة أجمل.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une banane mûre puis je mets la peau dans la <span style='color:#d62828;font-weight:700'>poubelle</span>.",
+    "back": "آكل موزة ناضجة ثم أضع القشرة في سلة المهملات.",
+    "learned": true
+  },
+  {
+    "front": "Le singe agile grimpe sur la corde et fait rire les <span style='color:#d62828;font-weight:700'>enfants</span>.",
+    "back": "يتسلق القرد الرشيق الحبل ويضحك الأطفال.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mes chaussures de sport bleues avant de courir dans le <span style='color:#d62828;font-weight:700'>parc</span>.",
+    "back": "أرتدي حذاء رياضتي الأزرق قبل الركض في الحديقة العامة.",
+    "learned": true
+  },
+  {
+    "front": "Maman allume la petite bougie blanche sur la table du <------------- <span style='color:#d62828;font-weight:700'>salon</span>.",
+    "back": "تشعل أمي الشمعة البيضاء الصغيرة على طاولة الصالون.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde les papillons colorés voler au-dessus des roses du <span style='color:#d62828;font-weight:700'>jardin</span>.",
+    "back": "أتأمل الفراشات الملونة وهي تطير فوق ورود الحديقة.",
+    "learned": true
+  },
+  {
+    "front": "Le petit oiseau bleu cherche des brindilles pour réparer son <span style='color:#d62828;font-weight:700'>nid</span>.",
+    "back": "يبحث العصفور الأزرق الصغير عن أغصان صغيرة ليصلح عشه.",
+    "learned": true
+  },
+  {
+    "front": "Je peins un grand soleil jaune et je colore le ciel en <span style='color:#d62828;font-weight:700'>bleu</span>.",
+    "back": "أرسم شمساً صفراء كبيرة وألون السماء باللون الأزرق.",
+    "learned": true
+  },
+  {
+    "front": "Le fermier remplit un seau de lait frais après avoir trait la <span style='color:#d62828;font-weight:700'>vache</span>.",
+    "back": "يملأ الفلاح دلواً من الحليب الطازج بعد حلب البقرة.",
+    "learned": true
+  },
+  {
+    "front": "Je prends mon petit déjeuner puis je me lave le <span style='color:#d62828;font-weight:700'>visage</span>.",
+    "back": "أتناول فطور الصباح ثم أغسل وجهي.",
+    "learned": true
+  },
+  {
+    "front": "La maman oiseau apporte une petite chenille verte à son petit <span style='color:#d62828;font-weight:700'>poussin</span>.",
+    "back": "تجلب أم العصافير يرقانة خضراء صغيرة لفرخها الصغير.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme le grand portail bleu de la maison avant la tombée de la <span style='color:#d62828;font-weight:700'>nuit</span>.",
+    "back": "أغلق بوابة المنزل الزرقاء الكبيرة قبل حلول الليل.",
+    "learned": true
+  },
+  {
+    "front": "Le boulanger prépare la pâte à pain puis la met dans le <span style='color:#d62828;font-weight:700'>four</span>.",
+    "back": "يجهز الخباز عجينة الخبز ثم يضعها في الفرن.",
+    "learned": true
+  },
+  {
+    "front": "Je porte mon bonnet en laine rouge car il fait très <span style='color:#d62828;font-weight:700'>froid</span>.",
+    "back": "أرتدي قبعتي الصوفية الحمراء لأن الطقس بارد جداً.",
+    "learned": true
+  },
+  {
+    "front": "Le petit chat boit son lait blanc puis nettoie sa <span style='color:#d62828;font-weight:700'>frimousse</span> avec sa patte.",
+    "back": "يشرب القط الصغير حليبه الأبيض ثم ينظف وجهه الصغير بمخلبه.",
+    "learned": true
+  },
+  {
+    "front": "Je mets un joli bouquet de fleurs jaunes dans le grand <span style='color:#d62828;font-weight:700'>vase</span> du salon.",
+    "back": "أضع باقة جميلة من الزهور الصفراء في مزهرية الصالون الكبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Le gros camion rouge roule vite sur la route et klaxonne <span style='color:#d62828;font-weight:700'>fort</span>.",
+    "back": "تسير الشاحنة الحمراء الضخمة بسرعة على الطريق وتطلق زموراً قوياً.",
+    "learned": true
+  },
+  {
+    "front": "Maman prépare une bonne soupe chaude car j'ai un peu de <span style='color:#d62828;font-weight:700'>fièvre</span>.",
+    "back": "تجهز أمي حساءً ساخناً طيباً لأنني أعاني من قليل من الحمى.",
+    "learned": true
+  },
+  {
+    "front": "Je dessine un beau soleil jaune puis je colorie le ciel en <span style='color:#d62828;font-weight:700'>bleu</span>.",
+    "back": "أرسم شمساً صفراء جميلة ثم ألون السماء باللون الأزرق.",
+    "learned": true
+  },
+  {
+    "front": "L'oiseau ramasse un petit brin d'herbe pour construire son <span style='color:#d62828;font-weight:700'>nid</span>.",
+    "back": "يجمع العصفور غصن عشب صغير ليبني عشه.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une banane bien mûre puis je jette la peau dans la <span style='color:#d62828;font-weight:700'>poubelle</span>.",
+    "back": "آكل موزة ناضجة جداً ثم أرمي القشرة في سلة المهملات.",
+    "learned": true
+  },
+  {
+    "front": "Le vent d'automne souffle fort et fait tomber les feuilles <span style='color:#d62828;font-weight:700'>mortes</span>.",
+    "back": "تهب رياح الخريف بقوة وتُسقط الأوراق الميتة (الجافة).",
+    "learned": true
+  },
+  {
+    "front": "Je mets mes jolies lunettes de soleil avant d'aller jouer à la <span style='color:#d62828;font-weight:700'>plage</span>.",
+    "back": "أرتدي نظاراتي الشمسية الجميلة قبل الذهاب للعب في الشاطئ.",
+    "learned": true
+  },
+  {
+    "front": "Le boulanger sort les croissants chauds du four et l'odeur est <span style='color:#d62828;font-weight:700'>délicieuse</span>.",
+    "back": "يخرج الخباز الكرواسان الساخن من الفرن ورائحته لcurrent_dateذيذة.",
+    "learned": true
+  },
+  {
+    "front": "Je prends mon petit sac à dos bleu puis je pars à l'<span style='color:#d62828;font-weight:700'>école</span>.",
+    "back": "آخذ حقيبة ظهري الزرقاء الصغيرة ثم أنطلق إلى المدرسة.",
+    "learned": true
+  },
+  {
+    "front": "La petite tortue se cache sous sa carapace car elle a <span style='color:#d62828;font-weight:700'>peur</span>.",
+    "back": "تختبئ السلحفاة الصغيرة تحت قوقعتها لأنها خائفة.",
+    "learned": true
+  },
+  {
+    "front": "Papa allume le grand écran noir pour regarder un match de <span style='color:#d62828;font-weight:700'>football</span>.",
+    "back": "يشعل أبي الشاشة السوداء الكبيرة لمشاهدة مباراة كرة قدم.",
+    "learned": true
+  },
+  {
+    "front": "Je me lave les mains avec du savon après avoir caressé le <span style='color:#d62828;font-weight:700'>lapin</span>.",
+    "back": "أغسل يدي بالصابون بعد أن دللت الأرنب.",
+    "learned": true
+  },
+  {
+    "front": "Le singe agile saute de branche en branche et mange une <span style='color:#d62828;font-weight:700'>banane</span>.",
+    "back": "يقفز القرد الرشيق من غصن إلى غصن ويأكل موزة.",
+    "learned": true
+  },
+  {
+    "front": "J'ouvre la grande fenêtre de ma chambre pour laisser entrer l'air <span style='color:#d62828;font-weight:700'>frais</span>.",
+    "back": "أفتح نافذة غرفتي الكبيرة لأسمح بدخول الهواء العليل.",
+    "learned": true
+  },
+  {
+    "front": "Le dauphin saute joyeusement hors de l'eau devant le grand <span style='color:#d62828;font-weight:700'>bateau</span>.",
+    "back": "يقفز الدلفين بمرح خارج الماء أمام القارب الكبير.",
+    "learned": true
+  },
+  {
+    "front": "Maman coupe une tranche de pain frais puis étale du <span style='color:#d62828;font-weight:700'>beurre</span>.",
+    "back": "تقطع أمي شريحة من الخبز الطازج ثم تدهن زبدة.",
+    "learned": true
+  },
+  {
+    "front": "Je porte mon bonnet en laine rouge car il fait très <span style='color:#d62828;font-weight:700'>froid</span> dehors.",
+    "back": "أرتدي قبعتي الصوفية الحمراء لأن الطقس بارد جداً بالخارج.",
+    "learned": true
+  },
+  {
+    "front": "Le lion puissant dort à l'ombre d'un grand arbre de la <span style='color:#d62828;font-weight:700'>savane</span>.",
+    "back": "ينام الأسد القوي في ظل شجرة كبيرة في السافانا.",
+    "learned": true
+  },
+  {
+    "front": "Je tourne le bouton de la radio pour écouter une belle <span style='color:#d62828;font-weight:700'>chanson</span>.",
+    "back": "أدير زر الراديو لأستمع إلى أغنية جميلة.",
+    "learned": true
+  },
+  {
+    "front": "Le petit escargot sort ses cornes après la tombée de la <span style='color:#d62828;font-weight:700'>pluie</span>.",
+    "back": "يخرج الحلزون الصغير قرونه بعد هطول المطر.",
+    "learned": true
+  },
+  {
+    "front": "Je prends ma règle verte pour tracer une ligne droite sur mon <span style='color:#d62828;font-weight:700'>cahier</span>.",
+    "back": "آخذ مسطرتي الخضراء لأرسم خطاً مستقيماً على كراسي.",
+    "learned": true
+  },
+  {
+    "front": "Le jardinier coupe les mauvaises herbes pour nettoyer le joli <span style='color:#d62828;font-weight:700'>jardin</span>.",
+    "back": "يقص البستاني الأعشاب الضارة لينظف الحديقة الجميلة.",
+    "learned": true
+  },
+  {
+    "front": "Je bois un grand verre d'eau fraîche après avoir couru dans la <span style='color:#d62828;font-weight:700'>cour</span>.",
+    "back": "أشرب كوباً كبيراً من الماء البارد بعد أن ركضت في الساحة.",
+    "learned": true
+  },
+  {
+    "front": "Le gros poisson rouge nage vite pour attraper une petite <span style='color:#d62828;font-weight:700'>mouche</span>.",
+    "back": "يسبح السمك الأحمر الضخم بسرعة ليمسك ذبابة صغيرة.",
+    "learned": true
+  },
+  {
+    "front": "Maman achète de belles pommes rouges puis les lave dans la <span style='color:#d62828;font-weight:700'>cuisine</span>.",
+    "back": "تشتري أمي تفاحاً أحمر جميلاً ثم تغسله في المطبخ.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme le grand livre d'histoires car il est l'heure de <span style='color:#d62828;font-weight:700'>dormir</span>.",
+    "back": "أغلق كتاب القصص الكبير لأن وقت النوم قد حان.",
+    "learned": true
+  },
+  {
+    "front": "Le petit oiseau bleu s'envole haut dans le ciel <span style='color:#d62828;font-weight:700'>nuageux</span>.",
+    "back": "يطير العصفور الأزرق الصغير عالياً في السماء المليئة بالغيوم.",
+    "learned": true
+  },
+  {
+    "front": "Papa répare la petite table en bois avec un gros <span style='color:#d62828;font-weight:700'>marteau</span>.",
+    "back": "يصلح أبي الطاولة الخشبية الصغيرة بمطرقة كبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Je colorie la robe de la poupée en rose avec un <span style='color:#d62828;font-weight:700'>feutre</span>.",
+    "back": "ألون فستان الدمية باللون الوردي باستخدام قلم تلوين (لبدي).",
+    "learned": true
+  },
+  {
+    "front": "La petite souris grise grignote un morceau de fromage caché sous la <span style='color:#d62828;font-weight:700'>table</span>.",
+    "back": "تقضم الفأرة الرمادية الصغيرة قطعة جبن مختبئة تحت الطاولة.",
+    "learned": true
+  },
+  {
+    "front": "Je mange un yaourt aux fraises au dessert puis je jette le <span style='color:#d62828;font-weight:700'>pot</span>.",
+    "back": "آكل تحلية ياغورت بالفراولة ثم أرمي العلبة.",
+    "learned": true
+  },
+  {
+    "front": "Le train siffle bruyamment avant d'entrer dans le long <span style='color:#d62828;font-weight:700'>tunnel</span>.",
+    "back": "يطلق القطار صفارة مزعجة قبل دخول النفق الطويل.",
+    "learned": true
+  },
+  {
+    "front": "J'aide ma petite sœur à lacer ses chaussures de sport <span style='color:#d62828;font-weight:700'>neuves</span>.",
+    "back": "أساعد أختي الصغيرة في ربط حذاء رياضتها الجديد.",
+    "learned": true
+  },
+  {
+    "front": "Le chat noir grimpe sur le toit rouge pour chasser un <span style='color:#d62828;font-weight:700'>pigeon</span>.",
+    "back": "يتسلق القط الأسود السقف الأحمر ليصطاد حمامة.",
+    "learned": true
+  },
+  {
+    "front": "Je nettoie mon petit bureau en plastique avec une éponge <span style='color:#d62828;font-weight:700'>humide</span>.",
+    "back": "أنظف مكتبي البلاستيكي الصغير بإسفنجة رطبة.",
+    "learned": true
+  },
+  {
+    "front": "Le vent fort fait voler le cerf-volant coloré très haut dans les <span style='color:#d62828;font-weight:700'>airs</span>.",
+    "back": "تجعل الرياح القوية الطائرة الورقية الملونة تطير عالياً جداً في الأجواء.",
+    "learned": true
+  },
+  {
+    "front": "Maman allume la petite bougie blanche et une bonne odeur se <span style='color:#d62828;font-weight:700'>diffuse</span>.",
+    "back": "تشعل أمي الشمعة البيضاء الصغيرة وتنتشر رائحة طيبة.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une bonne soupe de tomates puis je me couche sous ma <span style='color:#d62828;font-weight:700'>couverture</span>.",
+    "back": "آكل حساء طماطم طيباً ثم أستلقي تحت بطانيتي.",
+    "learned": true
+  },
+  {
+    "front": "Le petit poussin jaune cherche des petits vers dans la terre <span style='color:#d62828;font-weight:700'>humide</span>.",
+    "back": "يبحث الكتكوت الأصفر الصغير عن ديدان صغيرة في الأرض الرطبة.",
+    "learned": true
+  },
+  {
+    "front": "Je prends ma brosse à dents rose et je me lave les dents après le <span style='color:#d62828;font-weight:700'>repas</span>.",
+    "back": "آخذ فرشاة أسناني الوردية وأنظف أسناني بعد الوجبة.",
+    "learned": true
+  },
+  {
+    "front": "Le chien fidèle remue la queue quand il voit son gentil <span style='color:#d62828;font-weight:700'>maître</span>.",
+    "back": "يهز الكلب الأمين ذيله عندما يرى صاحبه اللطيف.",
+    "learned": true
+  },
+  {
+    "front": "J'efface les mots écrits sur le tableau noir avec une grosse <span style='color:#d62828;font-weight:700'>brosse</span>.",
+    "back": "أمسح الكلمات المكتوبة على السبورة السوداء بممسحة كبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Le canard nage tranquillement sur le lac vert avec ses petits <span style='color:#d62828;font-weight:700'>canetons</span>.",
+    "back": "يسبح البط بهدوء في البحيرة الخضراء مع فراخه الصغيرة.",
+    "learned": true
+  },
+  {
+    "front": "Maman prépare un gâteau d'anniversaire et ajoute des bougies <span style='color:#d62828;font-weight:700'>colorées</span>.",
+    "back": "تجهز أمي كعكة عيد ميلاد وتضيف شموعاً ملونة.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mes bottes en caoutchouc pour marcher dans les grandes <span style='color:#d62828;font-weight:700'>flaques</span>.",
+    "back": "أرتدي حذاء المطاط الخاص بي لأمشي في برك الماء الكبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Le petit écureuil roux grimpe sur l'arbre pour cacher une <span style='color:#d62828;font-weight:700'>noisette</span>.",
+    "back": "يتسلق السنجاب الأحمر الصغير الشجرة ليخفي بندقة.",
+    "learned": true
+  },
+  {
+    "front": "Je découpe une image de voiture rouge avec mes ciseaux à bouts <span style='color:#d62828;font-weight:700'>ronds</span>.",
+    "back": "أقص صورة سيارة حمراء بمقصي ذو الأطراف المستديرة.",
+    "learned": true
+  },
+  {
+    "front": "Le médecin examine la gorge du garçon puis lui donne un bon <span style='color:#d62828;font-weight:700'>sirop</span>.",
+    "back": "يفحص الطبيب حلق الولد ثم يعطيه شراباً طبياً طيباً.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme le placard de la cuisine car le chat essaie d'y <span style='color:#d62828;font-weight:700'>entrer</span>.",
+    "back": "أغلق خزانة المطبخ لأن القط يحاول الدخول إليها.",
+    "learned": true
+  },
+  {
+    "front": "Le papillon coloré se pose doucement sur une belle fleur <span style='color:#d62828;font-weight:700'>rouge</span>.",
+    "back": "تحط الفراشة الملونة بلطف على زهرة حمراء جميلة.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une tranche de pastèque bien fraîche pendant la chaude <span style='color:#d62828;font-weight:700'>journée</span>.",
+    "back": "آكل شريحة بطيخ باردة جداً خلال اليوم الحار.",
+    "learned": true
+  },
+  {
+    "front": "Le loup gris court dans la forêt sombre pour chasser un petit <span style='color:#d62828;font-weight:700'>lapin</span>.",
+    "back": "يركض الذئب الرمادي في الغابة المظلمة ليصطاد أرنباً صغيراً.",
+    "learned": true
+  },
+  {
+    "front": "J'écoute attentivement l'histoire amusante que raconte ma gentille <span style='color:#d62828;font-weight:700'>maîtresse</span>.",
+    "back": "أستمع بتركيز إلى القصة المسلية التي ترويها معلمتي اللطيفة.",
+    "learned": true
+  },
+  {
+    "front": "Le fermier remplit un grand seau de lait blanc après avoir trait la <span style='color:#d62828;font-weight:700'>vache</span>.",
+    "back": "يملأ الفلاح دلواً كبيراً من الحليب الأبيض بعد حلب البقرة.",
+    "learned": true
+  },
+  {
+    "front": "Je range mes crayons de couleur dans ma trousse en plastique <span style='color:#d62828;font-weight:700'>bleu</span>.",
+    "back": "أرتب أقلام التلوين الخاصة بي في مقلمتي البلاستيكية الزرقاء.",
+    "learned": true
+  },
+  {
+    "front": "La pluie s'arrête enfin et un magnifique arc-en-ciel apparaît dans le <span style='color:#d62828;font-weight:700'>ciel</span>.",
+    "back": "يتوقف المطر أخيراً ويظهر قوس قزح رائع في السماء.",
+    "learned": true
+  },
+  {
+    "front": "Je pose mon verre de jus d'orange sur la petite table du <span style='color:#d62828;font-weight:700'>salon</span>.",
+    "back": "أضع كوب عصير البرتقال الخاص بي على طاولة الصالون الصغيرة.",
+    "learned": true
+  },
+  {
+    "front": "Le singe grimpe tout en haut du grand cocotier pour cueillir une noix de <span style='color:#d62828;font-weight:700'>coco</span>.",
+    "back": "يتسلق القرد إلى أعلى شجرة جوز الهند الكبيرة ليقطف حبة جوز هند.",
+    "learned": true
+  },
+  {
+    "front": "Je mets un morceau de sucre blanc dans mon verre de thé chaud puis je <span style='color:#d62828;font-weight:700'>mélange</span>.",
+    "back": "أضع قطعة سكر أبيض في كوب الشاي الساخن ثم أخلط.",
+    "learned": true
+  },
+  {
+    "front": "La petite fille enfile sa jolie robe rose avant de partir à la <span style='color:#d62828;font-weight:700'>fête</span>.",
+    "back": "ترتدي البنت الصغيرة فستانها الوردي الجميل قبل الذهاب إلى الحفلة.",
+    "learned": true
+  },
+  {
+    "front": "Le gros poisson noir se cache derrière une grande plante verte de l'<span style='color:#d62828;font-weight:700'>aquarium</span>.",
+    "back": "يختبئ السمك الأسود الضخم خلف نبتة خضراء كبيرة في الحوض الزجاجي.",
+    "learned": true
+  },
+  {
+    "front": "Maman lave les assiettes sales dans l'évier de la cuisine avec de l'eau <span style='color:#d62828;font-weight:700'>chaude</span>.",
+    "back": "تغسل أمي الصحون المتسخة في حوض المطبخ بماء ساخن.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde les petites étoiles briller dans le ciel noir depuis mon <span style='color:#d62828;font-weight:700'>lit</span>.",
+    "back": "أراقب النجوم الصغيرة وهي تلمع في السماء السوداء من سريري.",
+    "learned": true
+  },
+  {
+    "front": "Le tracteur rouge du fermier traverse le grand champ de blé <span style='color:#d62828;font-weight:700'>doré</span>.",
+    "back": "يعبر جرار الفلاح الأحمر حقل القمح الذهبي الكبير.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une bonne pomme verte bien sucrée pendant la récréation dans la <span style='color:#d62828;font-weight:700'>cour</span>.",
+    "back": "آكل تفاحة خضراء حلوة جداً أثناء الاستراحة في الساحة.",
+    "learned": true
+  },
+  {
+    "front": "L'oiseau blanc se pose sur le bord de la fenêtre et chante une douce <span style='color:#d62828;font-weight:700'>mélodie</span>.",
+    "back": "يحط العصفور الأبيض على حافة النافذة ويغني لحناً عذباً.",
+    "learned": true
+  },
+  {
+    "front": "Papa achète des fruits frais au marché puis les range dans le <span style='color:#d62828;font-weight:700'>réfrigérateur</span>.",
+    "back": "يشتري أبي فواكه طازجة من السوق ثم يرتبها في الثلاجة.",
+    "learned": true
+  },
+  {
+    "front": "Je souffle doucement sur ma soupe de légumes car elle est trop <span style='color:#d62828;font-weight:700'>chaude</span>.",
+    "back": "أنفخ بلطف على حساء الخضار الخاص بي لأنه ساخن جداً أكثر من اللازم.",
+    "learned": true
+  },
+  {
+    "front": "Le petit chien blanc court vite dans l'allée pour attraper le <span style='color:#d62828;font-weight:700'>ballon</span>.",
+    "back": "يركض الكلب الأبيض الصغير بسرعة في الممر ليمسك بالكرة.",
+    "learned": true
+  },
+  {
+    "front": "Maman allume la petite lampe de chevet puis me raconte une belle <span style='color:#d62828;font-weight:700'>histoire</span>.",
+    "back": "تشعل أمي مصباح الطاولة الصغير ثم تقص علي قصة جميلة.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme la porte d'entrée à clé avant que la nuit ne <span style='color:#d62828;font-weight:700'>tombe</span>.",
+    "back": "أغلق باب المدخل بالمفتاح قبل أن يحل الليل.",
+    "learned": true
+  },
+  {
+    "front": "Le petit lapin blanc grignote une feuille de chou dans le grand <span style='color:#d62828;font-weight:700'>potager</span>.",
+    "back": "يقضم الأرنب الأبيض الصغير ورقة ملفوف في حديقة الخضروات الكبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Je prends mes crayons de couleur pour dessiner un magnifique château <span style='color:#d62828;font-weight:700'>fort</span>.",
+    "back": "آخذ أقلام التلوين الخاصة بي لأرسم قلعة حصينة رائعة.",
+    "learned": true
+  },
+  {
+    "front": "La maman oiseau apporte une petite chenille verte à ses petits dans le <span style='color:#d62828;font-weight:700'>nid</span>.",
+    "back": "تجلب أم العصافير يرقانة خضراء صغيرة لصغارها في العش.",
+    "learned": true
+  },
+  {
+    "front": "Je me lave les dents après le repas pour éviter les vilaines <span style='color:#d62828;font-weight:700'>caries</span>.",
+    "back": "أنظف أسناني بعد الوجبة لتجنب تسوس الأسنان المزعج.",
+    "learned": true
+  },
+  {
+    "front": "Le boulanger prépare de la pâte à pain puis la met dans le grand <span style='color:#d62828;font-weight:700'>four</span>.",
+    "back": "يجهز الخباز عجينة الخبز ثم يضعها في الفرن الكبير.",
+    "learned": true
+  },
+  {
+    "front": "Ma petite sœur pleure parce qu'elle a perdu sa jolie poupée <span style='color:#d62828;font-weight:700'>rose</span>.",
+    "back": "تبكي أختي الصغيرة لأنها فقدت دميتها الوردية الجميلة.",
+    "learned": true
+  },
+  {
+    "front": "Le vent fort souffle sur la plage et fait voler le sable <span style='color:#d62828;font-weight:700'>fin</span>.",
+    "back": "تهب الرياح القوية على الشاطئ وتجعل الرمل الناعم يطير.",
+    "learned": true
+  },
+  {
+    "front": "Je mange un morceau de gâteau au chocolat puis je bois un verre de <span style='color:#d62828;font-weight:700'>jus</span>.",
+    "back": "آكل قطعة من كعكة الشوكولاتة ثم أشرب كوباً من العصير.",
+    "learned": true
+  },
+  {
+    "front": "Le petit garçon ouvre son grand parapluie rouge car la pluie commence à <span style='color:#d62828;font-weight:700'>tomber</span>.",
+    "back": "يفتح الولد الصغير مظلته الحمراء الكبيرة لأن المطر بدأ يتساقط.",
+    "learned": true
+  },
+  {
+    "front": "Le poisson rouge nage tranquillement au fond de son joli <span style='color:#d62828;font-weight:700'>aquarium</span>.",
+    "back": "يسبح السمك الأحمر بهدوء في قاع حوضه الزجاجي الجميل.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mes chaussures neuves puis je pars faire une promenade en <span style='color:#d62828;font-weight:700'>forêt</span>.",
+    "back": "أرتدي حذائي الجديد ثم أنطلق للقيام بنزهة في الغابة.",
+    "learned": true
+  },
+  {
+    "front": "Le gros chien noir court après le ballon rouge dans la grande <span style='color:#d62828;font-weight:700'>allée</span>.",
+    "back": "يركض الكلب الأسود الضخم خلف الكرة الحمراء في الممر الكبير.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une bonne soupe de légumes bien chaude et je me sens <span style='color:#d62828;font-weight:700'>mieux</span>.",
+    "back": "آكل حساء خضار ساخناً جداً وطيباً وأشعر أنني أفضل.",
+    "learned": true
+  },
+  {
+    "front": "Le maître écrit la date du jour sur le grand tableau <span style='color:#d62828;font-weight:700'>noir</span>.",
+    "back": "يكتب المعلم تاريخ اليوم على السبورة السوداء الكبيرة.",
+    "learned": true
+  },
+  {
+    "front": "La tortue marche lentement sur le sable puis plonge dans la <span style='color:#d62828;font-weight:700'>mer</span>.",
+    "back": "تمشي السلحفاة ببطء على الرمل ثم تغوص في البحر.",
+    "learned": true
+  },
+  {
+    "front": "J'aide mon grand-père à ramasser le bois sec pour la <span style='color:#d62828;font-weight:700'>cheminée</span>.",
+    "back": "أساعد جدي في جمع الخشب الجاف من أجل المدفأة.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme la fenêtre de ma chambre car le vent souffle trop <span style='color:#d62828;font-weight:700'>fort</span>.",
+    "back": "أغلق نافذة غرفتي لأن الرياح تهب بقوة أكثر من اللازم.",
+    "learned": true
+  },
+  {
+    "front": "Le petit oiseau bleu chante sa douce mélodie sur une haute <span style='color:#d62828;font-weight:700'>branche</span>.",
+    "back": "يغرد العصفور الأزرق الصغير لحنه العذب على غصن عالي.",
+    "learned": true
+  },
+  {
+    "front": "Maman prépare une tarte aux fraises et l'odeur remplit la <span style='color:#d62828;font-weight:700'>maison</span>.",
+    "back": "تجهز أمي فطيرة بالفراولة وتملأ الرائحة المنزل.",
+    "learned": true
+  },
+  {
+    "front": "Je prends mon cahier d'exercices puis je commence à résoudre le <span style='color:#d62828;font-weight:700'>problème</span>.",
+    "back": "آخذ كراس التمارين ثم أبدأ في حل المسألة.",
+    "learned": true
+  },
+  {
+    "front": "Le lion puissant rugit dans la savane et fait fuir les <span style='color:#d62828;font-weight:700'>gazelles</span>.",
+    "back": "يزأر الأسد القوي في السافانا ويجعل الغزلان تهرب.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mon joli bonnet en laine avant de sortir jouer dans la <span style='color:#d62828;font-weight:700'>neige</span>.",
+    "back": "أرتدي قبعتي الصوفية الجميلة قبل الخروج للعب في الثلج.",
+    "learned": true
+  },
+  {
+    "front": "Le jardinier arrose les belles fleurs rouges avec un grand <span style='color:#d62828;font-weight:700'>arrosoir</span>.",
+    "back": "يسقي البستاني الزهور الحمراء الجميلة بمرشة ماء كبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Je bois un verre de lait chaud au miel pour apaiser ma <span style='color:#d62828;font-weight:700'>gorge</span>.",
+    "back": "أشرب كوباً من الحليب الدافئ بالعسل لتهدئة حلقي.",
+    "learned": true
+  },
+  {
+    "front": "J'écris une belle lettre pour mon ami puis je la mets dans l'<span style='color:#d62828;font-weight:700'>enveloppe</span>.",
+    "back": "أكتب رسالة جميلة لصديقي ثم أضعها في الظرف.",
+    "learned": true
+  },
+  {
+    "front": "Le train rapide siffle fort en entrant dans la grande <span style='color:#d62828;font-weight:700'>gare</span>.",
+    "back": "يطلق القطار السريع صفارة قوية عند دخوله المحطة الكبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Le petit garçon ouvre son grand <span style='color:#d62828;font-weight:700'>parapluie</span> rouge car la pluie commence à tomber.",
+    "back": "يفتح الولد الصغير مظلته الحمراء الكبيرة لأن المطر بدأ يتساقط.",
+    "learned": true
+  },
+  {
+    "front": "La maman oiseau apporte une petite <span style='color:#d62828;font-weight:700'>chenille</span> verte à ses petits dans le nid.",
+    "back": "تجلب أم العصافير يرقانة خضراء صغيرة لصغارها في العش.",
+    "learned": true
+  },
+  {
+    "front": "Je mange un morceau de gâteau au chocolat puis je bois un verre de <span style='color:#d62828;font-weight:700'>jus</span>.",
+    "back": "آكل قطعة من كعكة الشوكولاتة ثم أشرب كوباً من العصير.",
+    "learned": true
+  },
+  {
+    "front": "Le gros chat gris grimpe sur la clôture et regarde le petit <span style='color:#d62828;font-weight:700'>poussin</span>.",
+    "back": "يتسلق القط الرمادي الضخم السياج وينظر إلى الكتكوت الصغير.",
+    "learned": true
+  },
+  {
+    "front": "Papa achète des fruits frais au marché puis les range dans la <span style='color:#d62828;font-weight:700'>cuisine</span>.",
+    "back": "يشتري أبي فواكه طازجة من السوق ثم يرتبها في المطبخ.",
+    "learned": true
+  },
+  {
+    "front": "Je prends mes crayons de couleur pour dessiner un magnifique <span style='color:#d62828;font-weight:700'>château</span> fort.",
+    "back": "آخذ أقلام التلوين الخاصة بي لأرسم قلعة حصينة رائعة.",
+    "learned": true
+  },
+  {
+    "front": "Le vent fort souffle sur la plage et fait voler le sable <span style='color:#d62828;font-weight:700'>fin</span>.",
+    "back": "تهب الرياح القوية على الشاطئ وتجعل الرمل الناعم يطير.",
+    "learned": true
+  },
+  {
+    "front": "Ma petite sœur pleure parce qu'elle a perdu sa jolie poupée <span style='color:#d62828;font-weight:700'>rose</span>.",
+    "back": "تبكي أختي الصغيرة لأنها فقدت دميتها الوردية الجميلة.",
+    "learned": true
+  },
+  {
+    "front": "Le boulanger prépare de la pâte à pain puis la met dans le <span style='color:#d62828;font-weight:700'>four</span>.",
+    "back": "يجهز الخباز عجينة الخبز ثم يضعها في الفرن.",
+    "learned": true
+  },
+  {
+    "front": "Je me lave les dents après le repas pour éviter les vilaines <span style='color:#d62828;font-weight:700'>caries</span>.",
+    "back": "أنظف أسناني بعد الوجبة لتجنب تسوس الأسنان المزعج.",
+    "learned": true
+  },
+  {
+    "front": "Le petit lapin blanc grignote une feuille de chou dans le <span style='color:#d62828;font-weight:700'>potager</span>.",
+    "back": "يقضم الأرنب الأبيض الصغير ورقة ملفوف في حديقة الخضروات.",
+    "learned": true
+  },
+  {
+    "front": "Maman allume la petite lampe de chevet puis me raconte une belle <span style='color:#d62828;font-weight:700'>histoire</span>.",
+    "back": "تشعل أمي مصباح الطاولة الصغير ثم تقص علي قصة جميلة.",
+    "learned": true
+  },
+  {
+    "front": "Le gros chien noir court après le ballon rouge dans la grande <span style='color:#d62828;font-weight:700'>allée</span>.",
+    "back": "يركض الكلب الأسود الضخم خلف الكرة الحمراء في الممر الكبير.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mes chaussures neuves puis je pars faire une promenade en <span style='color:#d62828;font-weight:700'>forêt</span>.",
+    "back": "أرتدي حذائي الجديد ثم أطلق للقيام بنزهة في الغابة.",
+    "learned": true
+  },
+  {
+    "front": "Le poisson rouge nage tranquillement au fond de son joli <span style='color:#d62828;font-weight:700'>aquarium</span>.",
+    "back": "يسبح السمك الأحمر بهدوء في قاع حوضه الزجاجي الجميل.",
+    "learned": true
+  },
+  {
+    "front": "Le maître écrit la date du jour sur le grand tableau <span style='color:#d62828;font-weight:700'>noir</span>.",
+    "back": "يكتب المعلم تاريخ اليوم على السبورة السوداء الكبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une bonne soupe de légumes bien chaude et je me sens <span style='color:#d62828;font-weight:700'>mieux</span>.",
+    "back": "آكل حساء خضار ساخناً جداً وطيباً وأشعر أنني أفضل.",
+    "learned": true
+  },
+  {
+    "front": "Le singe amusant grimpe sur l'arbre et jette une noix de <span style='color:#d62828;font-weight:700'>coco</span>.",
+    "back": "يتسلق القرد المسلي الشجرة ويرمي حبة جوز هند.",
+    "learned": true
+  },
+  {
+    "front": "J'aide mon grand-père à ramasser le bois sec pour la <span style='color:#d62828;font-weight:700'>cheminée</span>.",
+    "back": "أساعد جدي في جمع الخشب الجاف من أجل المدفأة.",
+    "learned": true
+  },
+  {
+    "front": "La tortue marche lentement sur le sable puis plonge dans la <span style='color:#d62828;font-weight:700'>mer</span>.",
+    "back": "تمشي السلحفاة ببطء على الرمل ثم تغوص في البحر.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme la fenêtre de ma chambre car le vent souffle trop <span style='color:#d62828;font-weight:700'>fort</span>.",
+    "back": "أغلق نافذة غرفتي لأن الرياح تهب بقوة أكثر من اللازم.",
+    "learned": true
+  },
+  {
+    "front": "Le petit oiseau bleu chante sa douce mélodie sur une haute <span style='color:#d62828;font-weight:700'>branche</span>.",
+    "back": "يغرد العصفور الأزرق الصغير لحنه العذب على غصن عالي.",
+    "learned": true
+  },
+  {
+    "front": "Maman prépare une tarte aux fraises et l'odeur remplit la <span style='color:#d62828;font-weight:700'>maison</span>.",
+    "back": "تجهز أمي فطيرة بالفراولة وتملأ الرائحة المنزل.",
+    "learned": true
+  },
+  {
+    "front": "Je prends mon cahier d'exercices puis je commence à résoudre le <span style='color:#d62828;font-weight:700'>problème</span>.",
+    "back": "آخذ كراس التمارين ثم أبدأ في حل المسألة.",
+    "learned": true
+  },
+  {
+    "front": "Le lion puissant rugit dans la savane et fait fuir les <span style='color:#d62828;font-weight:700'>gazelles</span>.",
+    "back": "يزأر الأسد القوي في السافانا ويجعل الغزلان تهرب.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mon joli bonnet en laine avant de sortir jouer dans la <span style='color:#d62828;font-weight:700'>neige</span>.",
+    "back": "أرتدي قبعتي الصوفية الجميلة قبل الخروج للعب في الثلج.",
+    "learned": true
+  },
+  {
+    "front": "Le jardinier arrose les belles fleurs rouges avec un grand <span style='color:#d62828;font-weight:700'>arrosoir</span>.",
+    "back": "يسقي البستاني الزهور الحمراء الجميلة بمرشة ماء كبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Je bois un verre de lait chaud au miel pour apaiser ma <span style='color:#d62828;font-weight:700'>gorge</span>.",
+    "back": "أشرب كوباً من الحليب الدافئ بالعسل لتهدئة حلقي.",
+    "learned": true
+  },
+  {
+    "front": "Le dauphin joueur saute hors de l'eau et salue les enfants du <span style='color:#d62828;font-weight:700'>bateau</span>.",
+    "back": "يقفز الدلفين اللعوب خارج الماء ويحيي أطفال القارب.",
+    "learned": true
+  },
+  {
+    "front": "J'écris une belle lettre pour mon ami puis je la mets dans l'<span style='color:#d62828;font-weight:700'>enveloppe</span>.",
+    "back": "أكتب رسالة جميلة لصديقي ثم أضعها في الظرف.",
+    "learned": true
+  },
+  {
+    "front": "Le train rapide siffle fort en entrant dans la grande <span style='color:#d62828;font-weight:700'>gare</span>.",
+    "back": "يطلق القطار السريع صفارة قوية عند دخوله المحطة الكبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Je nettoie mon petit bureau en plastique après avoir fini mes <span style='color:#d62828;font-weight:700'>devoirs</span>.",
+    "back": "أنظف مكتبي البلاستيكي الصغير بعد إنهاء واجباتي.",
+    "learned": true
+  },
+  {
+    "front": "La petite souris grise court vite pour se cacher dans son <span style='color:#d62828;font-weight:700'>trou</span>.",
+    "back": "تركض الفأرة الرمادية الصغيرة بسرعة لتختبئ في جحرها.",
+    "learned": true
+  },
+  {
+    "front": "Papa répare la chaîne de mon vélo rouge puis nous faisons une <span style='color:#d62828;font-weight:700'>course</span>.",
+    "back": "يصلح أبي سلسلة دراجتي الحمراء ثم نقوم بسباق.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une pomme verte bien sucrée pendant la <span style='color:#d62828;font-weight:700'>récréation</span>.",
+    "back": "آكل تفاحة خضراء حلوة جداً أثناء الاستراحة.",
+    "learned": true
+  },
+  {
+    "front": "Le loup gris cache ses petits louveteaux derrière un grand <span style='color:#d62828;font-weight:700'>rocher</span>.",
+    "back": "يخفي الذئب الرمادي جراءه الصغيرة خلف صخرة كبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde les papillons colorés voler au-dessus des roses du <span style='color:#d62828;font-weight:700'>jardin</span>.",
+    "back": "أتأمل الفراشات الملونة وهي تطير فوق ورود الحديقة.",
+    "learned": true
+  },
+  {
+    "front": "Maman coupe la viande avec un couteau bien aiguisé sur la <span style='color:#d62828;font-weight:700'>table</span>.",
+    "back": "تقطع أمي اللحم بسكين شحذت جيداً على الطاولة.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme le grand portail bleu de la maison avant la tombée de la <span style='color:#d62828;font-weight:700'>nuit</span>.",
+    "back": "أغلق بوابة المنزل الزرقاء الكبيرة قبل حلول الليل.",
+    "learned": true
+  },
+  {
+    "front": "L'écureuil roux ramasse une noisette puis la cache sous des <span style='color:#d62828;font-weight:700'>feuilles</span>.",
+    "back": "يجمع السنجاب الأحمر بندقة ثم يخفيها تحت الأوراق.",
+    "learned": true
+  },
+  {
+    "front": "Je porte mon grand manteau en laine car il fait très <span style='color:#d62828;font-weight:700'>froid</span>.",
+    "back": "أرتدي معطفي الصوفي الكبير لأن الطقس بارد جداً.",
+    "learned": true
+  },
+  {
+    "front": "Le médecin examine le bras du petit garçon puis pose un <span style='color:#d62828;font-weight:700'>pansement</span>.",
+    "back": "يفحص الطبيب ذراع الولد الصغير ثم يضع ضمادة.",
+    "learned": true
+  },
+  {
+    "front": "Je tourne la page de mon livre de contes pour voir les <span style='color:#d62828;font-weight:700'>images</span>.",
+    "back": "أقلب صفحة كتاب القصص الخاص بي لأرى الصور.",
+    "learned": true
+  },
+  {
+    "front": "Le coq chante fièrement au lever du jour et réveille la <span style='color:#d62828;font-weight:700'>ferme</span>.",
+    "back": "يصيح الديك بفخر عند شروق الشمس ويوقظ المزرعة.",
+    "learned": true
+  },
+  {
+    "front": "Je colorie le grand dinosaure en vert et je dessine de l'<span style='color:#d62828;font-weight:700'>herbe</span>.",
+    "back": "ألون الديناصور الكبير باللون الأخضر وأرسم عشباً.",
+    "learned": true
+  },
+  {
+    "front": "Je prends une règle en plastique pour mesurer la taille de mon <span style='color:#d62828;font-weight:700'>crayon</span>.",
+    "back": "آخذ مسطرة بلاستيكية لأقيس حجم قلمي.",
+    "learned": true
+  },
+  {
+    "front": "L'éléphant utilise sa longue trompe pour ramasser des feuilles sur l'<span style='color:#d62828;font-weight:700'>arbre</span>.",
+    "back": "يستخدم الفيل خرطومه الطويل ليجمع الأوراق من الشجرة.",
+    "learned": true
+  },
+  {
+    "front": "Je mange un morceau de pain avec du fromage au <span style='color:#d62828;font-weight:700'>petit-déjeuner</span>.",
+    "back": "آكل قطعة خبز مع الجبن في وجبة فطور الصباح.",
+    "learned": true
+  },
+  {
+    "front": "Le chat noir grimpe sur le mur gris et guette un petit <span style='color:#d62828;font-weight:700'>oiseau</span>.",
+    "back": "يتسلق القط الأسود الجدار الرمادي ويترصد عصفوراً صغيراً.",
+    "learned": true
+  },
+  {
+    "front": "Je mets un joli ruban rose dans les cheveux de ma <span style='color:#d62828;font-weight:700'>poupée</span>.",
+    "back": "أضع شريطاً وردياً جميلاً في شعر دميتي.",
+    "learned": true
+  },
+  {
+    "front": "Le pompier conduit son grand camion rouge en allumant la <span style='color:#d62828;font-weight:700'>sirène</span>.",
+    "back": "يقود الإطفائي شاحنته الحمراء الكبيرة مشعلاً صفارة الإنذار.",
+    "learned": true
+  },
+  {
+    "front": "Je construis une haute tour avec des cubes en bois dans ma <span style='color:#d62828;font-weight:700'>chambre</span>.",
+    "back": "أبني برجاً عالياً بمكعبات الخشب في غرفتي.",
+    "learned": true
+  },
+  {
+    "front": "Le petit garçon court après son ballon de football dans la <span style='color:#d62828;font-weight:700'>cour</span>.",
+    "back": "يركض الولد الصغير خلف كرة القدم في الساحة.",
+    "learned": true
+  },
+  {
+    "front": "J'écris mon prénom avec un stylo noir sur la première page du <span style='color:#d62828;font-weight:700'>cahier</span>.",
+    "back": "أكتب اسمي بقلم أسود في الصفحة الأولى من الكراس.",
+    "learned": true
+  },
+  {
+    "front": "Le loup vit dans la haute montagne et en descend pour <span style='color:#d62828;font-weight:700'>chasser</span>.",
+    "back": "يعيش الذئب في الجبل العالي وينزل منه ليصطاد.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une poire sucrée puis je jette la queue dans la <span style='color:#d62828;font-weight:700'>poubelle</span>.",
+    "back": "آكل إجاصة حلوة ثم أرمي سويقتها في سلة المهملات.",
+    "learned": true
+  },
+  {
+    "front": "Le médecin examine la gorge de la petite fille et lui donne un <span style='color:#d62828;font-weight:700'>sirop</span>.",
+    "back": "يفحص الطبيب حلق البنت الصغيرة ويعطيها شراباً طبياً.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde le magnifique coucher du soleil depuis le <span style='color:#d62828;font-weight:700'>balcon</span> de la maison.",
+    "back": "أتأمل غروب الشمس الرائع من شرفة المنزل.",
+    "learned": true
+  },
+  {
+    "front": "Le petit lapin blanc grignote une carotte orange sous le grand <span style='color:#d62828;font-weight:700'>chou</span>.",
+    "back": "يقضم الأرنب الأبيض الصغير جزرة برتقالية تحت ملفوفة كبيرة.",
+    "learned": true
+  },
+  {
+    "front": "J'aide mon grand-père à ramasser les olives mûres dans son grand <span style='color:#d62828;font-weight:700'>champ</span>.",
+    "back": "أساعد جدي في جمع الزيتون الناضج في حقله الكبير.",
+    "learned": true
+  },
+  {
+    "front": "Le petit oiseau vole vers son nid perché sur la haute <span style='color:#d62828;font-weight:700'>branche</span>.",
+    "back": "يطير العصفور الصغير نحو عشه الجاثم على الغصن العالي.",
+    "learned": true
+  },
+  {
+    "front": "Je lave mes mains avec de l'eau propre après avoir joué avec mon <span style='color:#d62828;font-weight:700'>chien</span>.",
+    "back": "أغسل يدي بماء نظيف بعد أن لعبت مع كلبي.",
+    "learned": true
+  },
+  {
+    "front": "Le train rapide s'arrête en gare et les voyageurs pressés <span style='color:#d62828;font-weight:700'>descendent</span>.",
+    "back": "يتوقف القطار السريع في المحطة وينزل المسافرون المستعجلون.",
+    "learned": true
+  },
+  {
+    "front": "Maman allume une bougie parfumée pour chasser les mauvaises <span style='color:#d62828;font-weight:700'>odeurs</span>.",
+    "back": "تشعل أمي شمعة معطرة لتطرد الروائح الكريهة.",
+    "learned": true
+  },
+  {
+    "front": "Je peins un grand dessin et je colore le soleil en jaune <span style='color:#d62828;font-weight:700'>brillant</span>.",
+    "back": "أرسم لوحة كبيرة وألون الشمس باللون الأصفر اللامع.",
+    "learned": true
+  },
+  {
+    "front": "Le chat court après une petite souris grise cachée sous l'<span style='color:#d62828;font-weight:700'>armoire</span>.",
+    "back": "يركض القط خلف فأرة رمادية صغيرة مختبئة تحت الخزانة.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme les yeux dans mon lit et je m'endors <span style='color:#d62828;font-weight:700'>rapidement</span>.",
+    "back": "أغلق عيني في سريري وأنام بسرعة.",
+    "learned": true
+  },
+  {
+    "front": "Le jardinier arrose les petites tomates de son <span style='color:#d62828;font-weight:700'>potager</span> tous les matins.",
+    "back": "يسقي البستاني الطماطم الصغيرة في حديقة خضرواته كل صباح.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une bonne salade verte puis je prends un morceau de <span style='color:#d62828;font-weight:700'>fromage</span>.",
+    "back": "آكل سلطة خضراء طيبة ثم آخذ قطعة جبن.",
+    "learned": true
+  },
+  {
+    "front": "Le singe amusant fait des grimaces et fait rire les enfants du <span style='color:#d62828;font-weight:700'>zoo</span>.",
+    "back": "يصنع القرد المسلي حركات مضحكة ويضحك أطفال حديقة الحيوان.",
+    "learned": true
+  },
+  {
+    "front": "Je trouve un joli coquillage blanc sur le sable mouillé de la <span style='color:#d62828;font-weight:700'>plage</span>.",
+    "back": "أجد قوقعة بيضاء جميلة على رمال الشاطئ المبللة.",
+    "learned": true
+  },
+  {
+    "front": "L'oiseau bleu s'envole vers le ciel et disparaît derrière un <span style='color:#d62828;font-weight:700'>nuage</span>.",
+    "back": "يطير العصفور الأزرق نحو السماء ويختفي خلف سحابة.",
+    "learned": true
+  },
+  {
+    "front": "J'efface le tableau noir avec la brosse puis j'écris la <span style='color:#d62828;font-weight:700'>leçon</span>.",
+    "back": "أمسح السبورة السوداء بالممسحة ثم أكتب الدرس.",
+    "learned": true
+  },
+  {
+    "front": "Mon oncle a un grand tracteur rouge pour labourer la terre de sa <span style='color:#d62828;font-weight:700'>ferme</span>.",
+    "back": "يملك عمي جراراً أحمر كبيراً ليحرث أرض مزرعته.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mes lunettes de piscine bleues avant de plonger dans l'<span style='color:#d62828;font-weight:700'>eau</span>.",
+    "back": "أرتدي نظارات السباحة الزرقاء قبل الغوص في الماء.",
+    "learned": true
+  },
+  {
+    "front": "Le vent fort souffle sur les arbres et fait tomber les <span style='color:#d62828;font-weight:700'>fruits</span>.",
+    "back": "تهب الرياح القوية على الأشجار وتُسقط الثمار.",
+    "learned": true
+  },
+  {
+    "front": "Je dessine un grand oiseau bleu puis je le découpe avec mes <span style='color:#d62828;font-weight:700'>ciseaux</span>.",
+    "back": "أرسم عصفوراً أزرق كبيراً ثم أقصه بمقصي.",
+    "learned": true
+  },
+  {
+    "front": "La petite souris blanche grignote du fromage puis retourne dans son <span style='color:#d62828;font-weight:700'>trou</span>.",
+    "back": "تقضم الفأرة البيضاء الصغيرة الجبن ثم تعود إلى جحرها.",
+    "learned": true
+  },
+  {
+    "front": "Je monte les escaliers en courant et j'ouvre la porte de la <span style='color:#d62828;font-weight:700'>maison</span>.",
+    "back": "أصعد السلالم راكضاً وأفتح باب المنزل.",
+    "learned": true
+  },
+  {
+    "front": "Maman prépares un grand gâteau et je l'aide à mélanger la <span style='color:#d62828;font-weight:700'>farine</span>.",
+    "back": "تجهز أمي كعكة كبيرة وأساعدها في خلط الدقيق.",
+    "learned": true
+  },
+  {
+    "front": "Je lave mes mains sales avec du savon puis je les essuie avec une <span style='color:#d62828;font-weight:700'>serviette</span>.",
+    "back": "أغسل يدي المتسختين بالصابون ثم أجففهما بمنشفة.",
+    "learned": true
+  },
+  {
+    "front": "Mon grand frère répare son vélo rouge puis nous faisons le tour du <span style='color:#d62828;font-weight:700'>quartier</span>.",
+    "back": "يصلح أخي الأكبر دراجته الحمراء ثم نقوم بجولة حول الحي.",
+    "learned": true
+  },
+  {
+    "front": "Je bois un verre de jus d'orange frais puis je mange une <span style='color:#d62828;font-weight:700'>tartine</span>.",
+    "back": "أشرب كوباً من عصير البرتقال الطازج ثم آكل قطعة خبز.",
+    "learned": true
+  },
+  {
+    "front": "Dans la grande forêt, je ramasse des feuilles sèches et je regarde les <span style='color:#d62828;font-weight:700'>oiseaux</span>.",
+    "back": "أجمع الأوراق الجافة في الغابة الكبيرة وأراقب العصافير.",
+    "learned": true
+  },
+  {
+    "front": "Le petit lapin mange une carotte orange puis saute sur l'<span style='color:#d62828;font-weight:700'>herbe</span>.",
+    "back": "يأكل الأرنب الصغير جزرة برتقالية ثم يقفز على العشب.",
+    "learned": true
+  },
+  {
+    "front": "À la mer, je construis un magnifique château de sable avec mon <span style='color:#d62828;font-weight:700'>seau</span>.",
+    "back": "أبني قلعة رملية رائعة عند البحر بدولي.",
+    "learned": true
+  },
+  {
+    "front": "Le chat dort paisiblement sur le tapis rouge et bouge sa <span style='color:#d62828;font-weight:700'>queue</span>.",
+    "back": "ينام القط بسلام على السجادة الحمراء ويحرك ذيله.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde le ciel bleu clair et je vois un grand <span style='color:#d62828;font-weight:700'>avion</span>.",
+    "back": "أنظر إلى السماء الزرقاء الصافية وأرى طائرة كبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Le fermier trait la grosse vache noire et remplit son seau en <span style='color:#d62828;font-weight:700'>bois</span>.",
+    "back": "يحلب الفلاح البقرة السوداء الضخمة ويملأ دلوه الخشبي.",
+    "learned": true
+  },
+  {
+    "front": "Les petits oiseaux fabriquent un nid de paille sur le <span style='color:#d62828;font-weight:700'>pommier</span>.",
+    "back": "تصنع العصافير الصغيرة عشاً من القش على شجرة التفاح.",
+    "learned": true
+  },
+  {
+    "front": "Je donne des graines dorées aux poules puis je cherche les <span style='color:#d62828;font-weight:700'>œufs</span>.",
+    "back": "أعطي حبوباً ذهبية للدجاج ثم أبحث عن البيض.",
+    "learned": true
+  },
+  {
+    "front": "Le soir venu, la lune brille fort et les étoiles <span style='color:#d62828;font-weight:700'>illuminent</span> le ciel.",
+    "back": "عند حلول المساء، يلمع القمر بقوة وتضيء النجوم السماء.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mes bottes de pluie jaunes et je saute dans les <span style='color:#d62828;font-weight:700'>flaques</span>.",
+    "back": "أرتدي حذاء المطر الأصفر وأقفز في برك الماء.",
+    "learned": true
+  },
+  {
+    "front": "Au printemps, les fleurs poussent partout et les <span style='color:#d62828;font-weight:700'>papillons</span> volent.",
+    "back": "تنمو الزهور في الربيع في كل مكان وتطير الفراشات.",
+    "learned": true
+  },
+  {
+    "front": "Le chien fidèle aboie derrière la porte et court vers son <span style='color:#d62828;font-weight:700'>maître</span>.",
+    "back": "ينبح الكلب الأمين خلف الباب ويركض نحو صاحبه.",
+    "learned": true
+  },
+  {
+    "front": "Je jette les emballages sales dans la poubelle pour garder la chambre <span style='color:#d62828;font-weight:700'>propre</span>.",
+    "back": "أرمي الأغلفة المتسخة في سلة المهملات لأحافظ على نظافة الغرفة.",
+    "learned": true
+  },
+  {
+    "front": "Le poisson rouge nage dans son aquarium et ouvre sa petite <span style='color:#d62828;font-weight:700'>bouche</span>.",
+    "back": "يسبح السمك الأحمر في حوضه ويفتح فمه الصغير.",
+    "learned": true
+  },
+  {
+    "front": "Nous plantons un petit arbre dans le jardin avec un <span style='color:#d62828;font-weight:700'>arrosoir</span>.",
+    "back": "نغرس شجرة صغيرة في الحديقة باستخدام مرشة الماء.",
+    "learned": true
+  },
+  {
+    "front": "Au magasin de jouets, j'achète un gros ballon bleu pour <span style='color:#d62828;font-weight:700'>jouer</span>.",
+    "back": "أشتري كرة زرقاء كبيرة من متجر الألعاب لألعب.",
+    "learned": true
+  },
+  {
+    "front": "Pendant l'hiver froid, la neige tombe et je porte un manteau <span style='color:#d62828;font-weight:700'>chaud</span>.",
+    "back": "يسقط الثلج خلال الشتاء البارد وأرتدي معطفاً دافئاً.",
+    "learned": true
+  },
+  {
+    "front": "Le petit garçon sourit à sa <span style='color:#d62828;font-weight:700'>grand-mère</span> puis lui donne un joli baiser.",
+    "back": "يبتسم الولد الصغير لجدته ثم يطبع عليها قبلة جميلة.",
+    "learned": true
+  },
+  {
+    "front": "Le loup sauvage hurle dans la nuit et réveille les petits <span style='color:#d62828;font-weight:700'>animaux</span>.",
+    "back": "يعوي الذئب البري في الليل ويوقظ الحيوانات الصغيرة.",
+    "learned": true
+  },
+  {
+    "front": "J'ouvre la grande armoire blanche et je choisis un joli <span style='color:#d62828;font-weight:700'>pantalon</span>.",
+    "back": "أفتح الخزانة البيضاء الكبيرة وأختار بنطالاً جميلاً.",
+    "learned": true
+  },
+  {
+    "front": "Le canard nage sur le lac calme puis secoue ses plumes <span style='color:#d62828;font-weight:700'>mouillées</span>.",
+    "back": "يسبح البط في البحيرة الهادئة ثم يهز ريشه المبلل.",
+    "learned": true
+  },
+  {
+    "front": "Maman prépare une bonne soupe chaude pour soigner ma vilaine <span style='color:#d62828;font-weight:700'>grippe</span>.",
+    "back": "تجهز أمي حساءً ساخناً طيباً لعلاج إنفلونزايا المزعجة.",
+    "learned": true
+  },
+  {
+    "front": "Je prends un morceau de sucre blanc et je le mets dans ma tasse de <span style='color:#d62828;font-weight:700'>lait</span>.",
+    "back": "آذخ قطعة سكر أبيض وأضعها في كوب الحليب الخاص بي.",
+    "learned": true
+  },
+  {
+    "front": "Le gros camion rouge roule sur l'autoroute et transporte des <span style='color:#d62828;font-weight:700'>marchandises</span>.",
+    "back": "تسير الشاحنة الحمراء الضخمة على الطريق السريع وتنقل البضائع.",
+    "learned": true
+  },
+  {
+    "front": "Je dessine un beau paysage de campagne puis je colorie le <span style='color:#d62828;font-weight:700'>soleil</span>.",
+    "back": "أرسم منظراً طبيعياً جميلاً للريف ثم ألون الشمس.",
+    "learned": true
+  },
+  {
+    "front": "La petite chenille verte rampe sur la feuille puis devient un <span style='color:#d62828;font-weight:700'>papillon</span>.",
+    "back": "تزحف اليرقة الخضراء الصغيرة على الورقة ثم تصبح فراشة.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde par la fenêtre ouverte et je vois une petite <span style='color:#d62828;font-weight:700'>étoile</span>.",
+    "back": "أنظر من النافذة المفتوحة وأرى نجمة صغيرة.",
+    "learned": true
+  },
+  {
+    "front": "Le menuisier coupe le bois avec une scie puis fabrique une <span style='color:#d62828;font-weight:700'>chaise</span>.",
+    "back": "يقطع النجار الخشب بالمنشار ثم يصنع كرسياً.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une glace à la fraise puis je m'essuie la <span style='color:#d62828;font-weight:700'>bouche</span>.",
+    "back": "آكل مثلجات بالفراولة ثم أمسح فمي.",
+    "learned": true
+  },
+  {
+    "front": "Le singe malicieux saute de branche en branche et mange une <span style='color:#d62828;font-weight:700'>banane</span>.",
+    "back": "يقفز القرد الخبيث من غصن إلى غصن ويأكل موزة.",
+    "learned": true
+  },
+  {
+    "front": "J'attends le bus scolaire sur le trottoir puis je monte <span style='color:#d62828;font-weight:700'>tranquillement</span>.",
+    "back": "أنتظر حافلة المدرسة على الرصيف ثم أصعد بهدوء.",
+    "learned": true
+  },
+  {
+    "front": "Le poisson rouge tourne dans son bocal et cherche sa <span style='color:#d62828;font-weight:700'>nourriture</span>.",
+    "back": "يدور السمك الأحمر في وعائه الزجاجي ويبحث عن طعامه.",
+    "learned": true
+  },
+  {
+    "front": "Papa plante des graines de fleurs puis les arrose avec le <span style='color:#d62828;font-weight:700'>tuyau</span>.",
+    "back": "يغرس أبي بذور زهور ثم يسقيها بالخرطوم.",
+    "learned": true
+  },
+  {
+    "front": "Je ramasse mes jouets éparpillés sur le sol puis je les mets dans le <span style='color:#d62828;font-weight:700'>coffre</span>.",
+    "back": "أجمع ألعابي المتناثرة على الأرض ثم أضعها في الصندوق.",
+    "learned": true
+  },
+  {
+    "front": "Le lion puissant protège ses petits lionceaux cachés dans la <span style='color:#d62828;font-weight:700'>grotte</span>.",
+    "back": "يحمي الأسد القوي أشباله الصغيرة المختبئة في الكهف.",
+    "learned": true
+  },
+  {
+    "front": "Je découpe une image dans un magazine puis je la colle sur mon <span style='color:#d62828;font-weight:700'>cahier</span>.",
+    "back": "أقص صورة من مجلة ثم ألصقها على كراسي.",
+    "learned": true
+  },
+  {
+    "front": "Le boulanger prépare des croissants chauds et l'odeur attire les <span style='color:#d62828;font-weight:700'>clients</span>.",
+    "back": "يجهز الخباز كرواسان ساخناً وتجذب الرائحة الزبائن.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mon joli bonnet en laine car le vent souffle <span style='color:#d62828;font-weight:700'>fort</span>.",
+    "back": "أرتدي قبعتي الصوفية الجميلة لأن الرياح تهب بقوة.",
+    "learned": true
+  },
+  {
+    "front": "Le petit chaton boit son lait puis lèche ses petites <span style='color:#d62828;font-weight:700'>pattes</span>.",
+    "back": "يشرب الهر الصغير حليبه ثم يلعق قوائمه الصغيرة.",
+    "learned": true
+  },
+  {
+    "front": "J'écoute attentivement la maîtresse en classe puis je lève la <span style='color:#d62828;font-weight:700'>main</span>.",
+    "back": "أستمع بتركيز للمعلمة في القسم ثم أرفع يدي.",
+    "learned": true
+  },
+  {
+    "front": "L'oiseau construit son nid avec des brindilles sur le haut du <span style='color:#d62828;font-weight:700'>toit</span>.",
+    "back": "يبني العصفور عشه بأعواد صغيرة فوق السقف العالي.",
+    "learned": true
+  },
+  {
+    "front": "Maman coupe une grosse pastèque juteuse et nous la mangeons au <span style='color:#d62828;font-weight:700'>jardin</span>.",
+    "back": "تقطع أمي بطيخة كبيرة مليئة بالعصير ونأكلها في الحديقة.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme la porte de ma chambre à clé puis je commence à <span style='color:#d62828;font-weight:700'>étudier</span>.",
+    "back": "أغلق باب غرفتي بالمفتاح ثم أبدأ في الدراسة.",
+    "learned": true
+  },
+  {
+    "front": "Le jardinier ramasse les feuilles mortes puis les met dans une <span style='color:#d62828;font-weight:700'>brouette</span>.",
+    "back": "يجمع البستاني الأوراق الميتة ثم يضعها في عربة يد.",
+    "learned": true
+  },
+  {
+    "front": "Je lave ma pomme rouge sous l'eau courante avant de la <span style='color:#d62828;font-weight:700'>croquer</span>.",
+    "back": "أغسل تفاحتي الحمراء تحت الماء الجاري قبل أن أقضمها.",
+    "learned": true
+  },
+  {
+    "front": "Le petit train bleu siffle fort puis entre doucement dans la <span style='color:#d62828;font-weight:700'>gare</span>.",
+    "back": "يطلق القطار الأزرق الصغير صفارة قوية ثم يدخل المحطة ببطء.",
+    "learned": true
+  },
+  {
+    "front": "J'écris une lettre pour mon ami puis je la glisse dans une <span style='color:#d62828;font-weight:700'>enveloppe</span>.",
+    "back": "أكتب رسالة لصديقي ثم أدخلها في ظرف.",
+    "learned": true
+  },
+  {
+    "front": "Le gros chien noir aboie après le facteur puis retourne dans sa <span style='color:#d62828;font-weight:700'>niche</span>.",
+    "back": "ينبح الكلب الأسود الضخم على ساعي البريد ثم يعود إلى وجاره (خمّه).",
+    "learned": true
+  },
+  {
+    "front": "Je mets mes bottes en caoutchouc vert pour marcher dans la <span style='color:#d62828;font-weight:700'>boue</span>.",
+    "back": "أرتدي حذائي المطاطي الأخضر لأمشي في الوحل.",
+    "learned": true
+  },
+  {
+    "front": "La tortue avance lentement sur le chemin puis cache sa tête sous sa <span style='color:#d62828;font-weight:700'>carapace</span>.",
+    "back": "تتقدم السلحفاة ببطء على الطريق ثم تخفي رأسها تحت قوقعتها.",
+    "learned": true
+  },
+  {
+    "front": "Maman achète un joli gâteau d'anniversaire et y place dix <span style='color:#d62828;font-weight:700'>bougies</span>.",
+    "back": "تشتري أمي كعكة عيد ميلاد جميلة وتضع فيها عشر شمعات.",
+    "learned": true
+  },
+  {
+    "front": "Je brosse mes dents blanches après le repas puis je rince ma <span style='color:#d62828;font-weight:700'>bouche</span>.",
+    "back": "أنظف أسناني البيضاء بعد الوجبة ثم أشطف فمي.",
+    "learned": true
+  },
+  {
+    "front": "L'écureuil roux grimpe au sommet de l'arbre et cache une <span style='color:#d62828;font-weight:700'>noisette</span>.",
+    "back": "يتسلق السنجاب الأحمر قمة الشجرة ويخفي بندقة.",
+    "learned": true
+  },
+  {
+    "front": "Je prends un mouchoir en papier dans ma poche puis je me mouche le <span style='color:#d62828;font-weight:700'>nez</span>.",
+    "back": "آخذ منديلاً ورقياً من جيبي ثم أنظف أنفي.",
+    "learned": true
+  },
+  {
+    "front": "Le vent d'automne souffle sur le verger et fait tomber les <span style='color:#d62828;font-weight:700'>poires</span>.",
+    "back": "تهب رياح الخريف على البستان وتُسقط ثمار الإجاص.",
+    "learned": true
+  },
+  {
+    "front": "Je dessine une grande fusée spatiale puis je peins les ailes en <span style='color:#d62828;font-weight:700'>bleu</span>.",
+    "back": "أرسم صاروخاً فضائياً كبيراً ثم ألون الأجنحة باللون الأزرق.",
+    "learned": true
+  },
+  {
+    "front": "Le petit agneau blanc boit le lait de sa mère puis court dans le <span style='color:#d62828;font-weight:700'>pré</span>.",
+    "back": "يشرب الحمل الأبيض الصغير حليب أمه ثم يركض في المرعى.",
+    "learned": true
+  },
+  {
+    "front": "Je bois un grand verre d'eau fraîche car j'ai très <span style='color:#d62828;font-weight:700'>soif</span>.",
+    "back": "أشرب كوباً كبيراً من الماء البارد لأنني عطشان جداً.",
+    "learned": true
+  },
+  {
+    "front": "Le maçon utilise des briques rouges pour élever le nouveau <span style='color:#d62828;font-weight:700'>bâtiment</span>.",
+    "back": "يستخدم البناء الطوب الأحمر ليرفع المبنى الجديد.",
+    "learned": true
+  },
+  {
+    "front": "Maman me donne un morceau de pain d'épices au <span style='color:#d62828;font-weight:700'>goûter</span>.",
+    "back": "تعطيني أمي قطعة من خبز التوابل في وقت العصرونية.",
+    "learned": true
+  },
+  {
+    "front": "Le dauphin nage rapidement sous l'eau puis saute dans les <span style='color:#d62828;font-weight:700'>airs</span>.",
+    "back": "يسبح الدلفين بسرعة تحت الماء ثم يقفز في الهواء.",
+    "learned": true
+  },
+  {
+    "front": "Je cherche mon stylo vert sous le bureau mais il n'y est <span style='color:#d62828;font-weight:700'>pas</span>.",
+    "back": "أبحث عن قلمي الأخضر تحت المكتب ولكنه ليس هناك.",
+    "learned": true
+  },
+  {
+    "front": "Le fermier rassemble les vaches dans l'étable avant que la pluie ne <span style='color:#d62828;font-weight:700'>commence</span>.",
+    "back": "يجمع الفلاح الأبقار في الحظيرة قبل أن يبدأ المطر.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mes chaussons confortables en rentrant à la <span style='color:#d62828;font-weight:700'>maison</span>.",
+    "back": "أرتدي خفي المريح عند عودتي إلى المنزل.",
+    "learned": true
+  },
+  {
+    "front": "Le petit oiseau chante une douce mélodie posé sur le bord du <span style='color:#d62828;font-weight:700'>balcon</span>.",
+    "back": "يغرد العصفور الصغير لحناً عذباً وهو جاثم على حافة الشرفة.",
+    "learned": true
+  },
+  {
+    "front": "Papa allume la radio dans le salon pour écouter les <span style='color:#d62828;font-weight:700'>informations</span>.",
+    "back": "يشغل أبي المذياع في غرفة المعيشة للاستماع إلى الأخبار.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une bonne soupe de lentilles puis je prends une <span style='color:#d62828;font-weight:700'>orange</span>.",
+    "back": "آكل حساء عدس طيباً ثم آخذ برتقالة.",
+    "learned": true
+  },
+  {
+    "front": "Le vent souffle sur le sable du désert et forme une grande <span style='color:#d62828;font-weight:700'>dune</span>.",
+    "back": "تهب الرياح على رمال الصحراء وتُشكل كثيباً رملياً كبيراً.",
+    "learned": true
+  },
+  {
+    "front": "Je colorie la grande carte du monde avec mes feutres de <span style='color:#d62828;font-weight:700'>couleur</span>.",
+    "back": "ألون خريطة العالم الكبيرة بأقلام التلوين اللبادية الخاصة بي.",
+    "learned": true
+  },
+  {
+    "front": "Le chaton gris joue avec un bouchon en liège sur le <span style='color:#d62828;font-weight:700'>tapis</span>.",
+    "back": "يلعب الهر الصغير الرمادي بسدادة فلينية على السجادة.",
+    "learned": true
+  },
+  {
+    "front": "Maman range les assiettes propres dans le grand placard de la <span style='color:#d62828;font-weight:700'>cuisine</span>.",
+    "back": "ترتب أمي الأطباق النظيفة في خزانة المطبخ الكبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Je prends ma règle jaune pour tracer une ligne droite sur mon <span style='color:#d62828;font-weight:700'>cahier</span>.",
+    "back": "آخذ مسطرتي الصفراء لأرسم خطاً مستقيماً على كراسي.",
+    "learned": true
+  },
+  {
+    "front": "Le gros ours brun dort dans sa tanière pendant tout l'<span style='color:#d62828;font-weight:700'>hiver</span>.",
+    "back": "ينام الدب البني الضخم في وجاره طوال فصل الشتاء.",
+    "learned": true
+  },
+  {
+    "front": "Je mange un morceau de chocolat noir puis je bois un verre d'<span style='color:#d62828;font-weight:700'>eau</span>.",
+    "back": "آكل قطعة شوكولاتة سوداء ثم أشرب كوب ماء.",
+    "learned": true
+  },
+  {
+    "front": "Le coq chante au lever du soleil pour annoncer une nouvelle <span style='color:#d62828;font-weight:700'>journée</span>.",
+    "back": "يصيح الديك عند شروق الشمس ليعلن عن يوم جديد.",
+    "learned": true
+  },
+  {
+    "front": "Je mets ma casquette rouge sur la tête avant de sortir sous le <span style='color:#d62828;font-weight:700'>soleil</span>.",
+    "back": "أضع قبعتي الحمراء على رأسي قبل الخروج تحت أشعة الشمس.",
+    "learned": true
+  },
+  {
+    "front": "La petite souris grise grignote un morceau de pain sec sous l'<span style='color:#d62828;font-weight:700'>escalier</span>.",
+    "back": "تقضم الفأرة الرمادية الصغيرة قطعة خبز جاف تحت السلم.",
+    "learned": true
+  },
+  {
+    "front": "J'aide mon père à laver la voiture grise avec une grosse <span style='color:#d62828;font-weight:700'>éponge</span>.",
+    "back": "أساعد أبي في غسل السيارة الرمادية بإسفنجة كبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Le singe grimpe sur le grand baobab pour cueillir des <span style='color:#d62828;font-weight:700'>fruits</span>.",
+    "back": "يتسلق القرد شجرة الباوباب الكبيرة ليقطف الثمار.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme les rideaux bleus de ma chambre puis je m'allonge sur le <span style='color:#d62828;font-weight:700'>lit</span>.",
+    "back": "أغلق ستائر غرفتي الزرقاء ثم أستلقي على السرير.",
+    "learned": true
+  },
+  {
+    "front": "Le petit poussin jaune suit sa mère la poule dans la <span style='color:#d62828;font-weight:700'>cour</span>.",
+    "back": "يتبع الكتكوت الأصفر الصغير أمه الدجاجة في الساحة.",
+    "learned": true
+  },
+  {
+    "front": "Papa prépare une bonne salade avec des tomates fraîches du <span style='color:#d62828;font-weight:700'>potager</span>.",
+    "back": "يجهز أبي سلطة طيبة بطماطم طازجة من حديقة الخضروات.",
+    "learned": true
+  },
+  {
+    "front": "Je tourne la poignée en métal puis j'ouvre la grande porte du <span style='color:#d62828;font-weight:700'>salon</span>.",
+    "back": "أدير المقبض المعدني ثم أفتح باب غرفة المعيشة الكبير.",
+    "learned": true
+  },
+  {
+    "front": "Le médecin écoute le cœur du petit garçon avec son <span style='color:#d62828;font-weight:700'>stéthoscope</span>.",
+    "back": "يستمع الطبيب إلى قلب الولد الصغير بسماعته الطبية.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une pomme verte bien sucrée puis je range mon <span style='color:#d62828;font-weight:700'>assiette</span>.",
+    "back": "آكل تفاحة خضراء حلوة جداً ثم أرتب طبقي.",
+    "learned": true
+  },
+  {
+    "front": "Le grand lion dort à l'ombre d'un rocher pendant l'après-midi <span style='color:#d62828;font-weight:700'>chaud</span>.",
+    "back": "ينام الأسد الكبير في ظل صخرة خلال فترة بعد الظهيرة الحارة.",
+    "learned": true
+  },
+  {
+    "front": "J'efface mes erreurs sur le cahier avec une gomme blanche <span style='color:#d62828;font-weight:700'>neuve</span>.",
+    "back": "أمسح أخطائي على الكراس بممحاة بيضاء جديدة.",
+    "learned": true
+  },
+  {
+    "front": "Le jardinier plante un jeune rosier puis tasse la terre tout <('color:#d62828;font-weight:700')>autour</span>.",
+    "back": "يغرس البستاني شتلة ورد صغيرة ثم يضغط التربة حولها تماماً.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mes chaussettes bleues avant d'enfiler mes chaussures de <span style='color:#d62828;font-weight:700'>sport</span>.",
+    "back": "أرتدي جواربي الزرقاء قبل أن أنعل حذاء الرياضة الخاص بي.",
+    "learned": true
+  },
+  {
+    "front": "Le vent fait bouger les branches du grand sapin dans la <span style='color:#d62828;font-weight:700'>forêt</span>.",
+    "back": "تحرك الرياح أغصان شجرة الصنوبر الكبيرة في الغابة.",
+    "learned": true
+  },
+  {
+    "front": "Maman prépare un bon thé à la menthe et nous le buvons au <span style='color:#d62828;font-weight:700'>salon</span>.",
+    "back": "تجهز أمي شياً طيباً بالنعناع ونشربه في غرفة المعيشة.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde les petits poissons nager sous le grand pont en <span style='color:#d62828;font-weight:700'>pierre</span>.",
+    "back": "أراقب الأسماك الصغيرة وهي تسبح تحت الجسر الحجري الكبير.",
+    "learned": true
+  },
+  {
+    "front": "Le chat noir dort sur la chaise en paille et ronronne doucement de <span style='color:#d62828;font-weight:700'>plaisir</span>.",
+    "back": "ينام القط الأسود على الكرسي القشي ويخرخر بلطف من السعادة.",
+    "learned": true
+  },
+  {
+    "front": "Je prends mon cartable rouge puis je marche vers l'école avec mon <span style='color:#d62828;font-weight:700'>frère</span>.",
+    "back": "آخذ محفظتي الحمراء ثم أمشي نحو المدرسة مع أخي.",
+    "learned": true
+  },
+  {
+    "front": "Le petit lapin blanc se cache derrière un buisson pour fuir le <span style='color:#d62828;font-weight:700'>chasseur</span>.",
+    "back": "يختبئ الأرنب الأبيض الصغير خلف شجيرة ليهرب من الصياد.",
+    "learned": true
+  },
+  {
+    "front": "J'ouvre mon grand parapluie bleu car de grosses gouttes de pluie <span style='color:#d62828;font-weight:700'>tombent</span>.",
+    "back": "أفتح مظلتي الزرقاء الكبيرة لأن قطرات مطر ضخمة تتساقط.",
+    "learned": true
+  },
+  {
+    "front": "Le fermier remplit les mangeoires avec du grain doré pour ses <span style='color:#d62828;font-weight:700'>poules</span>.",
+    "back": "يملأ الفلاح المعالف بالحبوب الذهبية لدجاجه.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une tartine de confiture de fraises au <span style='color:#d62828;font-weight:700'>petit-déjeuner</span>.",
+    "back": "آكل قطعة خبز بمربى الفراولة في وجبة فطور الصباح.",
+    "learned": true
+  },
+  {
+    "front": "La tortue avance sur l'herbe verte et cherche une feuille de <span style='color:#d62828;font-weight:700'>salade</span>.",
+    "back": "تتقدم السلحفاة على العشب الأخضر وتبحث عن ورقة سلطة.",
+    "learned": true
+  },
+  {
+    "front": "Papa achète un nouveau dictionnaire pour m'aider dans mes <span style='color:#d62828;font-weight:700'>études</span>.",
+    "back": "يشتري أبي قاموساً جديداً ليساعدني في دراستي.",
+    "learned": true
+  },
+  {
+    "front": "Je nettoie la table du salon avec un chiffon doux après le <span style='color:#d62828;font-weight:700'>repas</span>.",
+    "back": "أنظف طاولة غرفة المعيشة بخرقة ناعمة بعد الوجبة.",
+    "learned": true
+  },
+  {
+    "front": "Le petit oiseau bleu trouve un ver de terre et l'apporte à son <span style='color:#d62828;font-weight:700'>nid</span>.",
+    "back": "يجد العصفور الأزرق الصغير دودة أرض ويجلبها إلى عشه.",
+    "learned": true
+  },
+  {
+    "front": "Je mets ma veste chaude en laine avant d'aller jouer dans la <span style='color:#d62828;font-weight:700'>cour</span>.",
+    "back": "أرتدي سكرتيرتي الصوفية الدافئة قبل الذهاب للعب في الساحة.",
+    "learned": true
+  },
+  {
+    "front": "Le soleil brille fort dans le ciel bleu et réchauffe toute la <span style='color:#d62828;font-weight:700'>nature</span>.",
+    "back": "تشرق الشمس بقوة في السماء الزرقاء وتدفئ الطبيعة كلها.",
+    "learned": true
+  },
+  {
+    "front": "Maman coupe le gâteau aux pommes en parts égales avec un <span style='color:#d62828;font-weight:700'>couteau</span>.",
+    "back": "تقطع أمي كعكة التفاح إلى أجزاء متساوية بسكين.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde un joli documentaire sur les grands dauphins à la <span style='color:#d62828;font-weight:700'>télévision</span>.",
+    "back": "أشاهد وثائقياً جميلاً عن الدلافين الكبيرة على التلفاز.",
+    "learned": true
+  },
+  {
+    "front": "Le chaton blanc s'étire doucement puis saute sur les genoux de de <span style='color:#d62828;font-weight:700'>maman</span>.",
+    "back": "يتمدد الهر الصغير الأبيض بلطف ثم يقفز على ركبتي أمي.",
+    "learned": true
+  },
+  {
+    "front": "Je prends mon cahier de dessin et je peins une fleur en <span style='color:#d62828;font-weight:700'>rouge</span>.",
+    "back": "آخذ كراس الرسم الخاص بي وألون زهرة باللون الأحمر.",
+    "learned": true
+  },
+  {
+    "front": "Le vent souffle sur le lac et fait danser les petites <span style='color:#d62828;font-weight:700'>vagues</span>.",
+    "back": "تهب الرياح على البحيرة وتجعل الأمواج الصغيرة ترقص.",
+    "learned": true
+  },
+  {
+    "front": "Papa répare la lampe du bureau puis vérifie si elle s'allume <span style='color:#d62828;font-weight:700'>bien</span>.",
+    "back": "يصلح أبي مصباح المكتب ثم يتحقق مما إذا كان يشتعل جيداً.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une bonne poire jaune bien mûre au fond du <span style='color:#d62828;font-weight:700'>jardin</span>.",
+    "back": "آكل إجاصة صفراء ناضجة جداً طيبة في عمق الحديقة.",
+    "learned": true
+  },
+  {
+    "front": "Le petit poussin noir picore des miettes de pain sur le <span style='color:#d62828;font-weight:700'>sol</span>.",
+    "back": "يلتقط الكتكوت الأسود الصغير فتات الخبز من على الأرض.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme le grand livre d'histoires puis je plonge dans un sommeil <span style='color:#d62828;font-weight:700'>profond</span>.",
+    "back": "أغلق كتاب القصص الكبير ثم أغرق في نوم عميق.",
+    "learned": true
+  },
+  {
+    "front": "Le singe grimpe sur le grand bananier et attrape un gros <span style='color:#d62828;font-weight:700'>régime</span>.",
+    "back": "يتسلق القرد شجرة الموز الكبيرة ويمسك بعذق (سباطة) ضخم.",
+    "learned": true
+  },
+  {
+    "front": "J'aide ma mère à essuyer les verres en verre avec un torchon <span style='color:#d62828;font-weight:700'>propre</span>.",
+    "back": "أساعد أمي في تجفيف الكؤوس الزجاجية بمنديل صحون نظيف.",
+    "learned": true
+  },
+  {
+    "front": "Le chien fidèle dort devant la porte et protège notre jolie <span style='color:#d62828;font-weight:700'>maison</span>.",
+    "back": "ينام الكلب الأمين أمام الباب ويحمي منزلنا الجميل.",
+    "learned": true
+  },
+  {
+    "front": "Le matin, je mets mon <span style='color:#d62828;font-weight:700'>tablier</span> bleu puis je prends le chemin de l'école.",
+    "back": "أرتدي مئزري الأزرق صباحاً ثم آخذ طريق المدرسة.",
+    "learned": true
+  },
+  {
+    "front": "Le petit agneau suit sa <span style='color:#d62828;font-weight:700'>mère</span> dans le grand pré vert et boit son lait.",
+    "back": "يتبع الحمل الصغير أمه في المرعى الأخضر الكبير ويشرب حليبها.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une banane <span style='color:#d62828;font-weight:700'>jaune</span> puis je range ma place proprement.",
+    "back": "آكل موزة صفراء ثم أرتب مكاني بنظافة.",
+    "learned": true
+  },
+  {
+    "front": "Le grand lion dort sous l'arbre et se réveille quand il fait <span style='color:#d62828;font-weight:700'>nuit</span>.",
+    "back": "ينام الأسد الكبير تحت الشجرة ويستيقظ عندما يحل الليل.",
+    "learned": true
+  },
+  {
+    "front": "Maman prépare un jus d'orange <span style='color:#d62828;font-weight:700'>frais</span> et nous le buvons ensemble au goûter.",
+    "back": "تجهز أمي عصير برتقال طازج ونشربه معاً في وقت العصرونية.",
+    "learned": true
+  },
+  {
+    "front": "Je dessine une jolie maison et je peins le <span style='color:#d62828;font-weight:700'>toit</span> en rouge vif.",
+    "back": "أرسم بيتاً جميلاً وألون السقف باللون الأحمر الزاهي.",
+    "learned": true
+  },
+  {
+    "front": "Le chaton blanc joue avec une <span style='color:#d62828;font-weight:700'>pelote</span> de laine puis s'endort fatigué.",
+    "back": "يلعب الهر الصغير الأبيض بكرة صوف ثم ينام تعباً.",
+    "learned": true
+  },
+  {
+    "front": "Je prends mon cahier d'<span style='color:#d62828;font-weight:700'>exercices</span> et je commence à résoudre le problème de mathématiques.",
+    "back": "آخذ كراس التمارين وأبدأ في حل مسألة الرياضيات.",
+    "learned": true
+  },
+  {
+    "front": "Le vent souffle sur les fenêtres et fait bouger les <span style='color:#d62828;font-weight:700'>rideaux</span> de la chambre.",
+    "back": "تهب الرياح على النوافذ وتحرك ستائر الغرفة.",
+    "learned": true
+  },
+  {
+    "front": "Ma petite sœur sourit quand elle voit son <span style='color:#d62828;font-weight:700'>doudou</span> sur le lit.",
+    "back": "تبتسم أختي الصغيرة عندما ترى دميتها المحشوة على السرير.",
+    "learned": true
+  },
+  {
+    "front": "Je lave mes mains avec du savon avant de toucher mon <span style='color:#d62828;font-weight:700'>repas</span>.",
+    "back": "أغسل يدي بالصابون قبل أن ألمس وجبة طعامي.",
+    "learned": true
+  },
+  {
+    "front": "Le jardinier coupe les roses fanées et arrose les nouvelles <span style='color:#d62828;font-weight:700'>fleurs</span>.",
+    "back": "يقص البستاني الورود الذابلة ويسقي الزهور الجديدة.",
+    "learned": true
+  },
+  {
+    "front": "Nous montons dans le grand <span style='color:#d62828;font-weight:700'>bus</span> de l'école et nous saluons le chauffeur.",
+    "back": "نركب في حافلة المدرسة الكبيرة ونحيي السائق.",
+    "learned": true
+  },
+  {
+    "front": "Le chien court vite et rattrape le <span style='color:#d62828;font-weight:700'>bâton</span> que son maître a jeté.",
+    "back": "يركض الكلب سريعاً ويلتقط العصا التي رماها صاحبه.",
+    "learned": true
+  },
+  {
+    "front": "J'éteins la lumière de ma chambre puis je ferme les <span style='color:#d62828;font-weight:700'>yeux</span> pour dormir.",
+    "back": "أطفئ ضوء غرفتي ثم أغلق عيني لأنام.",
+    "learned": true
+  },
+  {
+    "front": "Le boulanger sort le pain chaud du four et le pose sur l'<span style='color:#d62828;font-weight:700'>étagère</span>.",
+    "back": "يخرج الخباز الخبز الساخن من الفرن ويضعه على الرف.",
+    "learned": true
+  },
+  {
+    "front": "Je cherche ma gomme dans ma trousse mais je ne la trouve <span style='color:#d62828;font-weight:700'>pas</span>.",
+    "back": "أبحث عن ممحاتي في مقلمتي ولكني لا أجدها.",
+    "learned": true
+  },
+  {
+    "front": "Le petit poisson rouge nage joyeusement au milieu des <span style='color:#d62828;font-weight:700'>plantes</span> vertes.",
+    "back": "يسبح السمك الأحمر الصغير بفرح وسط النباتات الخضراء.",
+    "learned": true
+  },
+  {
+    "front": "Papa achète une boîte de <span style='color:#d62828;font-weight:700'>chocolat</span> pour l'offrir à maman ce soir.",
+    "back": "يشتري أبي علبة شوكولاتة ليهديها لأمي هذا المساء.",
+    "learned": true
+  },
+  {
+    "front": "La maîtresse écrit une belle phrase sur le tableau avec sa craie <span style='color:#d62828;font-weight:700'>blanche</span>.",
+    "back": "تكتب المعلمة جملة جميلة على السبورة بطبشورها الأبيض.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une soupe de légumes bien chaude et je me sens beaucoup <span style='color:#d62828;font-weight:700'>mieux</span>.",
+    "back": "آكل حساء خضار ساخناً جداً وأشعر أنني أفضل بكثير.",
+    "learned": true
+  },
+  {
+    "front": "Le canard plonge sa tête sous l'eau du lac pour attraper un petit <span style='color:#d62828;font-weight:700'>poisson</span>.",
+    "back": "يغمس البط رأسه تحت ماء البحيرة ليمسك سمكة صغيرة.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mes chaussures neuves puis je sors faire une <span style='color:#d62828;font-weight:700'>promenade</span> dans la forêt.",
+    "back": "أرتدي حذائي الجديد ثم أخرج للقيام بنزهة في الغابة.",
+    "learned": true
+  },
+  {
+    "front": "Le maçon mélange le ciment avec du sable pour construire un nouveau <span style='color:#d62828;font-weight:700'>mur</span>.",
+    "back": "يخلط البناء الإسمنت بالرمل ليبني جداراً جديداً.",
+    "learned": true
+  },
+  {
+    "front": "J'écoute une belle histoire avant de dormir et je fais un rêve <span style='color:#d62828;font-weight:700'>magique</span>.",
+    "back": "أستمع إلى قصة جميلة قبل النوم وأرى حلماً سحرياً.",
+    "learned": true
+  },
+  {
+    "front": "Le singe grimpe sur le grand cocotier et prend une grosse noix de <span style='color:#d62828;font-weight:700'>coco</span>.",
+    "back": "يتسلق القرد شجرة جوز الهند الكبيرة ويأخذ حبة جوز هند ضخمة.",
+    "learned": true
+  },
+  {
+    "front": "Je nettoie mon bureau après avoir fini mes devoirs et je ferme mon <span style='color:#d62828;font-weight:700'>cahier</span>.",
+    "back": "أنظف مكتبي بعد إنهاء واجباتي وأغلق كراسي.",
+    "learned": true
+  },
+  {
+    "front": "La tortue marche lentement sur le sable chaud puis elle entre dans la <span style='color:#d62828;font-weight:700'>mer</span>.",
+    "back": "تمشي السلحفاة ببطء على الرمل الساخن ثم تدخل البحر.",
+    "learned": true
+  },
+  {
+    "front": "Papa répare la chaîne de mon vélo puis nous faisons une <span style='color:#d62828;font-weight:700'>course</span> ensemble.",
+    "back": "يصلح أبي سلسلة دراجتي ثم نقوم بسباق معاً.",
+    "learned": true
+  },
+  {
+    "front": "Je partage ma pomme rouge avec mon camarade de classe pendant la <span style='color:#d62828;font-weight:700'>récréation</span>.",
+    "back": "أشارك تفاحتي الحمراء مع زميلي في القسم أثناء الاستراحة.",
+    "learned": true
+  },
+  {
+    "front": "Le loup gris cache ses petits louveteaux derrière un grand <span style='color:#d62828;font-weight:700'>rocher</span> sombre.",
+    "back": "يخفي الذئب الرمادي جراءه الصغيرة خلف صخرة كبيرة مظلمة.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde les papillons colorés voler au-dessus des fleurs du <span style='color:#d62828;font-weight:700'>jardin</span>.",
+    "back": "أتأمل الفراشات الملونة وهي تطير فوق زهور الحديقة.",
+    "learned": true
+  },
+  {
+    "front": "Maman coupe la viande avec un couteau bien aiguisé sur la <span style='color:#d62828;font-weight:700'>table</span>.",
+    "back": "تقطع أمي اللحم بسكين شحذت جيداً على الطاولة.",
+    "learned": true
+  },
+  {
+    "front": "Le petit poussin jaune brise sa coquille et sort de son <span style='color:#d62828;font-weight:700'>œuf</span>.",
+    "back": "يكسر الكتكوت الأصفر الصغير قشرته ويخرج من بيضته.",
+    "learned": true
+  },
+  {
+    "front": "Je bois une tasse de lait chaud au miel pour apaiser ma <span style='color:#d62828;font-weight:700'>gorge</span> fatiguée.",
+    "back": "أشرب كوباً من الحليب الدافئ بالعسل لتهدئة حلقي المتعب.",
+    "learned": true
+  },
+  {
+    "front": "Le fermier remplit un grand seau de lait après avoir trait la <span style='color:#d62828;font-weight:700'>vache</span>.",
+    "back": "يملأ الفلاح دلواً كبيراً من الحليب بعد أن حلب البقرة.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme le grand portail bleu de la maison avant que la nuit ne <span style='color:#d62828;font-weight:700'>tombe</span>.",
+    "back": "أغلق بوابة المنزل الزرقاء الكبيرة قبل أن يحل الليل.",
+    "learned": true
+  },
+  {
+    "front": "L'écureuil ramasse une petite noisette puis la cache sous une pile de <span style='color:#d62828;font-weight:700'>feuilles</span>.",
+    "back": "يجمع السنجاب بندقة صغيرة ثم يخفيها تحت كومة أوراق.",
+    "learned": true
+  },
+  {
+    "front": "Je porte mon manteau en laine car il commence à faire très <span style='color:#d62828;font-weight:700'>froid</span> dehors.",
+    "back": "أرتدي معطفي الصوفي لأن الطقس بدأ يصبح بارداً جداً بالخارج.",
+    "learned": true
+  },
+  {
+    "front": "Le médecin examine le bras du petit garçon puis lui met un <span style='color:#d62828;font-weight:700'>pansement</span>.",
+    "back": "يفحص الطبيب ذراع الولد الصغير ثم يضع له ضمادة.",
+    "learned": true
+  },
+  {
+    "front": "Je tourne la page de mon livre de contes pour voir la suite des <span style='color:#d62828;font-weight:700'>images</span>.",
+    "back": "أقلب صفحة كتاب القصص الخاص بي لأرى بقية الصور.",
+    "learned": true
+  },
+  {
+    "front": "Le coq chante fièrement au lever du jour et réveille toute la <span style='color:#d62828;font-weight:700'>ferme</span>.",
+    "back": "يصيح الديك بفخر عند شروق الشمس ويوقظ المزرعة كلها.",
+    "learned": true
+  },
+  {
+    "front": "Je colorie le grand dinosaure en vert et je dessine de l'<span style='color:#d62828;font-weight:700'>herbe</span> autour.",
+    "back": "ألون الديناصور الكبير باللون الأخضر وأرسم عشباً حوله.",
+    "learned": true
+  },
+  {
+    "front": "Le dauphin joueur saute hors de l'eau et salue les spectateurs du <span style='color:#d62828;font-weight:700'>bateau</span>.",
+    "back": "يقفز الدلفين اللعوب خارج الماء ويحيي متفرجي القارب.",
+    "learned": true
+  },
+  {
+    "front": "Maman prépare une bonne tarte aux pommes fraîches et l'odeur remplit la <span style='color:#d62828;font-weight:700'>cuisine</span>.",
+    "back": "تجهز أمي فطيرة تفاح طازجة طيبة وتملأ الرائحة المطبخ.",
+    "learned": true
+  },
+  {
+    "front": "Je prends une règle en plastique pour mesurer la longueur de mon <span style='color:#d62828;font-weight:700'>crayon</span>.",
+    "back": "آخذ مسطرة بلاستيكية لأقيس طول قلمي.",
+    "learned": true
+  },
+  {
+    "front": "L'éléphant utilise sa longue trompe pour ramasser des feuilles sur l'<span style='color:#d62828;font-weight:700'>arbre</span>.",
+    "back": "يستخدم الفيل خرطومه الطويل ليجمع الأوراق من الشجرة.",
+    "learned": true
+  },
+  {
+    "front": "Je mange un morceau de pain avec du fromage blanc au <span style='color:#d62828;font-weight:700'>petit-déjeuner</span>.",
+    "back": "آكل قطعة خبز مع الجبن الأبيض في وجبة فطور الصباح.",
+    "learned": true
+  },
+  {
+    "front": "Le chat noir grimpe sur le mur gris et guette un petit <span style='color:#d62828;font-weight:700'>oiseau</span>.",
+    "back": "يتسلق القط الأسود الجدار الرمادي ويترصد عصفوراً صغيراً.",
+    "learned": true
+  },
+  {
+    "front": "Je mets un joli ruban rose dans les cheveux de ma petite <span style='color:#d62828;font-weight:700'>poupée</span>.",
+    "back": "أضع شريطاً وردياً جميلاً في شعر دميتي الصغيرة.",
+    "learned": true
+  },
+  {
+    "front": "Le pompier conduit son grand camion rouge en allumant la <span style='color:#d62828;font-weight:700'>sirène</span>.",
+    "back": "يقود الإطفائي شاحنته الحمراء الكبيرة مشعلاً صفارة الإنذار.",
+    "learned": true
+  },
+  {
+    "front": "Je construis une haute tour avec des cubes en bois dans ma <span style='color:#d62828;font-weight:700'>chambre</span>.",
+    "back": "أبني برجاً عالياً بمكعبات الخشب في غرفتي.",
+    "learned": true
+  },
+  {
+    "front": "Le petit garçon court après son ballon de football dans la grande <span style='color:#d62828;font-weight:700'>cour</span>.",
+    "back": "يركض الولد الصغير خلف كرة القدم في الساحة الكبيرة.",
+    "learned": true
+  },
+  {
+    "front": "J'écris mon prénom avec un stylo noir sur la première page du <span style='color:#d62828;font-weight:700'>cahier</span>.",
+    "back": "أكتب اسمي بقلم أسود في الصفحة الأولى من الكراس.",
+    "learned": true
+  },
+  {
+    "front": "Le loup vit dans la haute montagne et en descend pour <span style='color:#d62828;font-weight:700'>chasser</span>.",
+    "back": "يعيش الذئب في الجبل العالي وينزل منه ليصطاد.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une poire sucrée puis je jette la queue dans la <span style='color:#d62828;font-weight:700'>poubelle</span>.",
+    "back": "آكل إجاصة حلوة ثم أرمي سويقتها في سلة المهملات.",
+    "learned": true
+  },
+  {
+    "front": "Le médecin examine la gorge de la petite fille et lui donne un <span style='color:#d62828;font-weight:700'>sirop</span>.",
+    "back": "يفحص الطبيب حلق البنت الصغيرة ويعطيها شراباً طبياً.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde le magnifique coucher du soleil depuis le <span style='color:#d62828;font-weight:700'>balcon</span> de la maison.",
+    "back": "أتأمل غروب الشمس الرائع من شرفة المنزل.",
+    "learned": true
+  },
+  {
+    "front": "Le petit lapin blanc grignote une carotte orange sous le grand <span style='color:#d62828;font-weight:700'>chou</span>.",
+    "back": "يقضم الأرنب الأبيض الصغير جزرة برتقالية تحت ملفوفة كبيرة.",
+    "learned": true
+  },
+  {
+    "front": "J'aide mon grand-père à ramasser les olives mûres dans son grand <span style='color:#d62828;font-weight:700'>champ</span>.",
+    "back": "أساعد جدي في جمع الزيتون الناضج في حقله الكبير.",
+    "learned": true
+  },
+  {
+    "front": "Le petit oiseau vole vers son nid perché sur la haute <span style='color:#d62828;font-weight:700'>branche</span>.",
+    "back": "يطير العصفور الصغير نحو عشه الجاثم على الغصن العالي.",
+    "learned": true
+  },
+  {
+    "front": "Je lave mes mains avec de l'eau propre après avoir joué avec mon <span style='color:#d62828;font-weight:700'>chien</span>.",
+    "back": "أغسل يدي بماء نظيف بعد أن لعبت مع كلبي.",
+    "learned": true
+  },
+  {
+    "front": "Le train rapide s'arrête en gare et les voyageurs pressés <span style='color:#d62828;font-weight:700'>descendent</span>.",
+    "back": "يتوقف القطار السريع في المحطة وينزل المسافرون المستعجلون.",
+    "learned": true
+  },
+  {
+    "front": "Maman allume une bougie parfumée pour chasser les mauvaises <span style='color:#d62828;font-weight:700'>odeurs</span> du salon.",
+    "back": "تشعل أمي شمعة معطرة لتطرد الروائح الكريهة من غرفة المعيشة.",
+    "learned": true
+  },
+  {
+    "front": "Je peins un grand dessin et je colore le soleil en jaune <span style='color:#d62828;font-weight:700'>brillant</span>.",
+    "back": "أرسم لوحة كبيرة وألون الشمس باللون الأصفر اللامع.",
+    "learned": true
+  },
+  {
+    "front": "Le chat court après une petite souris grise cachée sous l'<span style='color:#d62828;font-weight:700'>armoire</span>.",
+    "back": "يركض القط خلف فأرة رمادية صغيرة مختبئة تحت الخزانة.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme les yeux dans mon lit et je m'endors <span style='color:#d62828;font-weight:700'>rapidement</span> après ma journée.",
+    "back": "أغلق عيني في سريري وأنام بسرعة بعد يومي.",
+    "learned": true
+  },
+  {
+    "front": "Le jardinier arrose les petites tomates rouges de son <span style='color:#d62828;font-weight:700'>potager</span> tous les matins.",
+    "back": "يسقي البستاني طماطمه الحمراء الصغيرة في حديقة خضرواته كل صباح.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une bonne salade verte puis je prends un morceau de <span style='color:#d62828;font-weight:700'>fromage</span>.",
+    "back": "آكل سلطة خضراء طيبة ثم آخذ قطعة جبن.",
+    "learned": true
+  },
+  {
+    "front": "Le singe amusant fait des grimaces et fait rire tous les enfants du <span style='color:#d62828;font-weight:700'>zoo</span>.",
+    "back": "يصنع القرد المسلي حركات مضحكة ويضحك كل أطفال حديقة الحيوان.",
+    "learned": true
+  },
+  {
+    "front": "Je trouve un joli coquillage blanc sur le sable mouillé de la <span style='color:#d62828;font-weight:700'>plage</span>.",
+    "back": "أجد قوقعة بيضاء جميلة على رمال الشاطئ المبللة.",
+    "learned": true
+  },
+  {
+    "front": "L'oiseau bleu s'envole vers le ciel et disparaît derrière un grand <span style='color:#d62828;font-weight:700'>nuage</span>.",
+    "back": "يطير العصفور الأزرق نحو السماء ويختفي خلف سحابة كبيرة.",
+    "learned": true
+  },
+  {
+    "front": "J'efface le tableau noir avec la brosse puis j'écris la nouvelle <span style='color:#d62828;font-weight:700'>leçon</span>.",
+    "back": "أمسح السبورة السوداء بالممسحة ثم أكتب الدرس الجديد.",
+    "learned": true
+  },
+  {
+    "front": "Mon oncle a un grand tracteur rouge pour labourer la terre de sa <span style='color:#d62828;font-weight:700'>ferme</span>.",
+    "back": "يملك عمي جراراً أحمر كبيراً ليحرث أرض مزرعته.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mes lunettes de piscine bleues avant de plonger dans l'<span style='color:#d62828;font-weight:700'>eau</span>.",
+    "back": "أرتدي نظارات السباحة الزرقاء قبل الغوص في الماء.",
+    "learned": true
+  },
+  {
+    "front": "Le vent fort souffle sur les grands arbres et fait tomber les <span style='color:#d62828;font-weight:700'>fruits</span> mûrs.",
+    "back": "تهب الرياح القوية على الأشجار الكبيرة وتُسقط الثمار الناضجة.",
+    "learned": true
+  },
+  {
+    "front": "Je dessine un grand oiseau bleu puis je le découpe avec mes <span style='color:#d62828;font-weight:700'>ciseaux</span>.",
+    "back": "أرسم عصفوراً أزرق كبيراً ثم أقصه بمقصي.",
+    "learned": true
+  },
+  {
+    "front": "La petite souris blanche grignote du fromage puis retourne vite dans son <span style='color:#d62828;font-weight:700'>trou</span>.",
+    "back": "تقضم الفأرة البيضاء الصغيرة الجبن ثم تعود مسرعة إلى جحرها.",
+    "learned": true
+  },
+  {
+    "front": "Je monte les escaliers en courant et j'ouvre la porte de ma <span style='color:#d62828;font-weight:700'>maison</span>.",
+    "back": "أصعد السلالم راكضاً وأفتح باب منزلي.",
+    "learned": true
+  },
+  {
+    "front": "Maman prépare un grand gâteau au chocolat et je l'aide à mélanger la <span style='color:#d62828;font-weight:700'>farine</span>.",
+    "back": "تجهز أمي كعكة شوكولاتة كبيرة وأساعدها في خلط الدقيق.",
+    "learned": true
+  },
+  {
+    "front": "Je lave mes mains sales avec du savon puis je les essuie avec une <span style='color:#d62828;font-weight:700'>serviette</span>.",
+    "back": "أغسل يدي المتسختين بالصابون ثم أجففهما بمنشفة.",
+    "learned": true
+  },
+  {
+    "front": "Mon grand frère répare son vélo rouge puis nous faisons le tour du <span style='color:#d62828;font-weight:700'>quartier</span>.",
+    "back": "يصلح أخي الأكبر دراجته الحمراء ثم نقوم بجولة حول الحي.",
+    "learned": true
+  },
+  {
+    "front": "Je bois un verre de jus d'orange frais puis je mange une <span style='color:#d62828;font-weight:700'>tartine</span> de miel.",
+    "back": "أشرب كوباً من عصير البرتقال الطازج ثم آكل قطعة خبز بالعسل.",
+    "learned": true
+  },
+  {
+    "front": "Dans la grande forêt, je ramasse des feuilles sèches et je regarde les <span style='color:#d62828;font-weight:700'>oiseaux</span>.",
+    "back": "أجمع الأوراق الجافة في الغابة الكبيرة وأراقب العصافير.",
+    "learned": true
+  },
+  {
+    "front": "Le petit lapin mange une carotte orange puis il saute joyeusement sur l'<span style='color:#d62828;font-weight:700'>herbe</span>.",
+    "back": "يأكل الأرنب الصغير جزرة برتقالية ثم يقفز بفرح على العشب.",
+    "learned": true
+  },
+  {
+    "front": "À la mer, je construis un magnifique château de sable avec mon petit <span style='color:#d62828;font-weight:700'>seau</span>.",
+    "back": "أبني قلعة رملية رائعة عند البحر بدولي الصغير.",
+    "learned": true
+  },
+  {
+    "front": "Le chat dort paisiblement sur le tapis rouge et bouge doucement sa <span style='color:#d62828;font-weight:700'>queue</span>.",
+    "back": "ينام القط بسلام على السجادة الحمراء ويحرك ذيله بلطف.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde le ciel bleu clair et je vois un grand <span style='color:#d62828;font-weight:700'>avion</span> blanc passer.",
+    "back": "أنظر إلى السماء الزرقاء الصافية وأرى طائرة بيضاء كبيرة تمر.",
+    "learned": true
+  },
+  {
+    "front": "Le fermier trait la grosse vache noire et remplit son grand seau en <span style='color:#d62828;font-weight:700'>bois</span>.",
+    "back": "يحلب الفلاح البقرة السوداء الضخمة ويملأ دلوه الخشبي الكبير.",
+    "learned": true
+  },
+  {
+    "front": "Les petits oiseaux fabriquent un nid de paille sur la branche du <span style='color:#d62828;font-weight:700'>pommier</span>.",
+    "back": "تصنع العصافير الصغيرة عشاً من القش على غصن شجرة التفاح.",
+    "learned": true
+  },
+  {
+    "front": "Je donne des graines dorées aux poules puis je cherche les <span style='color:#d62828;font-weight:700'>œufs</span> dans le poulailler.",
+    "back": "أعطي حبوباً ذهبية للدجاج ثم أبحث عن البيض في القن.",
+    "learned": true
+  },
+  {
+    "front": "Le soir venu, la lune brille fort et les étoiles <span style='color:#d62828;font-weight:700'>illuminent</span> le ciel sombre.",
+    "back": "عند حلول المساء، يلمع القمر بقوة وتضيء النجوم السماء المظلمة.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mes bottes de pluie jaunes et je saute joyeusement dans les <span style='color:#d62828;font-weight:700'>flaques</span> d'eau.",
+    "back": "أرتدي حذاء المطر الأصفر وأقفز بفرح في برك الماء.",
+    "learned": true
+  },
+  {
+    "front": "Au printemps, les fleurs colorées poussent partout et les <span style='color:#d62828;font-weight:700'>papillons</span> volent joyeusement.",
+    "back": "تنمو الزهور الملونة في الربيع في كل مكان وتطير الفراشات بفرح.",
+    "learned": true
+  },
+  {
+    "front": "Le chien fidèle aboie derrière la porte en bois et court vers son <span style='color:#d62828;font-weight:700'>maître</span>.",
+    "back": "ينبح الكلب الأمين خلف الباب الخشبي ويركض نحو صاحبه.",
+    "learned": true
+  },
+  {
+    "front": "Je jette les emballages sales dans la poubelle pour garder ma chambre <span style='color:#d62828;font-weight:700'>propre</span>.",
+    "back": "أرمي الأغلفة المتسخة في سلة المهملات لأحافظ على نظافة غرفتي.",
+    "learned": true
+  },
+  {
+    "front": "Le poisson rouge nage dans son aquarium en verre et ouvre sa petite <span style='color:#d62828;font-weight:700'>bouche</span>.",
+    "back": "يسبح السمك الأحمر في حوضه الزجاجي ويفتح فمه الصغير.",
+    "learned": true
+  },
+  {
+    "front": "Nous plantons un petit arbre dans le jardin et nous l'arrosons avec un <span style='color:#d62828;font-weight:700'>arrosoir</span>.",
+    "back": "نغرس شجرة صغيرة في الحديقة ونسقيها بمرشة الماء.",
+    "learned": true
+  },
+  {
+    "front": "Au magasin de jouets, j'achète un gros ballon bleu pour <span style='color:#d62828;font-weight:700'>jouer</span> avec mes amis.",
+    "back": "أشتري كرة زرقاء كبيرة من متجر الألعاب لألعب مع أصدقائي.",
+    "learned": true
+  },
+  {
+    "front": "Pendant l'hiver froid, la neige blanche tombe et je porte un manteau <span style='color:#d62828;font-weight:700'>chaud</span>.",
+    "back": "يسقط الثلج الأبيض خلال الشتاء البارد وأرتدي معطفاً دافئاً.",
+    "learned": true
+  },
+  {
+    "front": "Le matin, le soleil se <span style='color:#d62828;font-weight:700'>lève</span> derrière la colline et réchauffe toute la nature.",
+    "back": "تشرق الشمس صباحاً خلف التل وتدفئ الطبيعة كلها.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une pomme <span style='color:#d62828;font-weight:700'>verte</span> puis je jette les pépins dans le jardin.",
+    "back": "آكل تفاحة خضراء ثم أرمي البذور في الحديقة.",
+    "learned": true
+  },
+  {
+    "front": "Le grand lion rugit <span style='color:#d62828;font-weight:700'>fortement</span> et fait peur aux petits animaux du zoo.",
+    "back": "يزأر الأسد الكبير بقوة ويخيف الحيوانات الصغيرة في حديقة الحيوان.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mon joli <span style='color:#d62828;font-weight:700'>bonnet</span> bleu avant de sortir jouer sous la neige.",
+    "back": "أرتدي قبعتي الصوفية الزرقاء الجميلة قبل الخروج للعب تحت الثلج.",
+    "learned": true
+  },
+  {
+    "front": "Maman coupe le gâteau en <span style='color:#d62828;font-weight:700'>parts</span> égales et le distribue aux enfants.",
+    "back": "تقسم أمي الكعكة إلى أجزاء متساوية وتوزعها على الأطفال.",
+    "learned": true
+  },
+  {
+    "front": "Le petit chat <span style='color:#d62828;font-weight:700'>boit</span> son lait tiède puis s'endort sur le canapé.",
+    "back": "يشرب القط الصغير حليبه الدافئ ثم ينام على الأريكة.",
+    "learned": true
+  },
+  {
+    "front": "Je dessine un beau <span style='color:#d62828;font-weight:700'>bateau</span> à voiles et je le colore en bleu.",
+    "back": "أرسم قارباً شراعياً جميلاً وألونه باللون الأزرق.",
+    "learned": true
+  },
+  {
+    "front": "Le fermier nettoie l'<span style='color:#d62828;font-weight:700'>étable</span> des vaches puis il va nourrir les chevaux.",
+    "back": "ينظف الفلاح حظيرة الأبقار ثم يذهب لإطعام الأحصنة.",
+    "learned": true
+  },
+  {
+    "front": "J'écoute le bruit de la <span style='color:#d62828;font-weight:700'>pluie</span> contre la vitre de ma chambre.",
+    "back": "أستمع إلى صوت المطر يضرب زجاج غرفتي.",
+    "learned": true
+  },
+  {
+    "front": "Ma sœur prépare sa <span style='color:#d62828;font-weight:700'>poupée</span> préférée pour jouer avec ses amies.",
+    "back": "تجهز أختي دميتها المفضلة للعب مع صديقاتها.",
+    "learned": true
+  },
+  {
+    "front": "Le chien court dans la <span style='color:#d62828;font-weight:700'>cour</span> puis il s'arrête devant la porte.",
+    "back": "يركض الكلب في الساحة ثم يتوقف أمام الباب.",
+    "learned": true
+  },
+  {
+    "front": "Je prends une douche <span style='color:#d62828;font-weight:700'>chaude</span> après avoir joué au football avec mes camarades.",
+    "back": "آخذ حماماً ساخناً بعد أن لعبت كرة القدم مع زملائي.",
+    "learned": true
+  },
+  {
+    "front": "Le hibou ouvre ses grands <span style='color:#d62828;font-weight:700'>yeux</span> et regarde la forêt pendant la nuit.",
+    "back": "يفتح البوم عينيه الكبيرتين وينظر إلى الغابة أثناء الليل.",
+    "learned": true
+  },
+  {
+    "front": "J'achète une glace au <span style='color:#d62828;font-weight:700'>chocolat</span> et je la mange sur le chemin.",
+    "back": "أشتري مثلجات بالشوكولاتة وآكلها في الطريق.",
+    "learned": true
+  },
+  {
+    "front": "Le singe saute d'une <span style='color:#d62828;font-weight:700'>branche</span> à l'autre en faisant des pirouettes.",
+    "back": "يقفز القرد من غصن إلى آخر وهو يقوم بشقلبات مضحكة.",
+    "learned": true
+  },
+  {
+    "front": "Mon frère allume la <span style='color:#d62828;font-weight:700'>lampe</span> du bureau pour réviser ses leçons.",
+    "back": "يشعل أخي مصباح المكتب ليراجع دروسه.",
+    "learned": true
+  },
+  {
+    "front": "La maîtresse explique un nouveau <span style='color:#d62828;font-weight:700'>mot</span> et les élèves l'écrivent.",
+    "back": "تشرح المعلمة كلمة جديدة ويكتبها التلاميذ.",
+    "learned": true
+  },
+  {
+    "front": "Je trouve un petit <span style='color:#d62828;font-weight:700'>oiseau</span> blessé au sol et je le soigne.",
+    "back": "أجد عصفوراً صغيراً مجروحاً على الأرض وأعتني به.",
+    "learned": true
+  },
+  {
+    "front": "Papa lave sa belle voiture <span style='color:#d62828;font-weight:700'>noire</span> dans le garage de la maison.",
+    "back": "يغسل أبي سيارته السوداء الجميلة في مرآب المنزل.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une banane <span style='color:#d62828;font-weight:700'>mûre</span> puis je mets la peau à la poubelle.",
+    "back": "آكل موزة ناضجة ثم أضع القشرة في سلة المهملات.",
+    "learned": true
+  },
+  {
+    "front": "Le vent souffle sur le <span style='color:#d62828;font-weight:700'>drapeau</span> et le fait bouger dans le ciel.",
+    "back": "تهب الرياح على العلم وتجعله يتحرك في السماء.",
+    "learned": true
+  },
+  {
+    "front": "Je porte ma veste en <span style='color:#d62828;font-weight:700'>cuir</span> car il fait très froid dehors.",
+    "back": "أرتدي سكرتي الجلدية لأن الطقس بارد جداً بالخارج.",
+    "learned": true
+  },
+  {
+    "front": "Le jardinier plante de jolies <span style='color:#d62828;font-weight:700'>roses</span> et les arrose chaque soir.",
+    "back": "يغرس البستاني وروداً جميلة ويسقيها كل مساء.",
+    "learned": true
+  },
+  {
+    "front": "Je colle une belle image <span style='color:#d62828;font-weight:700'>colorée</span> sur la couverture de mon cahier.",
+    "back": "ألصق صورة ملونة جميلة على غلاف كراسي.",
+    "learned": true
+  },
+  {
+    "front": "Le boulanger prépare des <span style='color:#d62828;font-weight:700'>croissants</span> chauds pour le petit-déjeuner des clients.",
+    "back": "يجهز الخباز كعك الكرواسان الساخن لفطور الصباح للزبائن.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde les poissons nager sous l'<span style='color:#d62828;font-weight:700'>eau</span> claire de la rivière.",
+    "back": "أراقب الأسماك وهي تسبح تحت ماء النهر الصافي.",
+    "learned": true
+  },
+  {
+    "front": "La tortue cache sa <span style='color:#d62828;font-weight:700'>tête</span> sous sa carapace quand elle a peur.",
+    "back": "تخفي السلحفاة رأسها تحت قوقعتها عندما تخاف.",
+    "learned": true
+  },
+  {
+    "front": "Je ramasse un joli <span style='color:#d62828;font-weight:700'>caillou</span> blanc sur le chemin de l'école.",
+    "back": "ألتقط حصاة بيضاء جميلة في طريق المدرسة.",
+    "learned": true
+  },
+  {
+    "front": "Mon oncle conduit un grand <span style='color:#d62828;font-weight:700'>camion</span> pour transporter les marchandises.",
+    "back": "يقود عمي شاحنة كبيرة لنقل البضائع.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme la <span style='color:#d62828;font-weight:700'>fenêtre</span> pour éviter que les moustiques n'entrent ce soir.",
+    "back": "أغلق النافذة لأمنع دخول البعوض هذا المساء.",
+    "learned": true
+  },
+  {
+    "front": "Le renard rusé surveille le <span style='color:#d62828;font-weight:700'>poulailler</span> en attendant le départ du fermier.",
+    "back": "يراقب الثعلب الماكر قن الدجاج في انتظار مغادرة الفلاح.",
+    "learned": true
+  },
+  {
+    "front": "Je bois une tisane à la <span style='color:#d62828;font-weight:700'>menthe</span> pour me réchauffer le corps.",
+    "back": "أشرب شاي نعناع دافئ لأدفئ جسدي.",
+    "learned": true
+  },
+  {
+    "front": "Le menuisier utilise une <span style='color:#d62828;font-weight:700'>scie</span> pour couper les planches de bois.",
+    "back": "يستخدم النجار منشاراً لقطع ألواح الخشب.",
+    "learned": true
+  },
+  {
+    "front": "Je nettoie la table avec une <span style='color:#d62828;font-weight:700'>éponge</span> humide après le repas.",
+    "back": "أنظف الطاولة بإسفنجة رطبة بعد وجبة الطعام.",
+    "learned": true
+  },
+  {
+    "front": "Le papillon vole au-dessus du <span style='color:#d62828;font-weight:700'>jardin</span> et cherche du nectar.",
+    "back": "تطير الفراشة فوق الحديقة وتبحث عن الرحيق.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mes chaussettes en <span style='color:#d62828;font-weight:700'>laine</span> avant de mettre mes bottes.",
+    "back": "أرتدي جواربي الصوفية قبل أن أنعل حذائي.",
+    "learned": true
+  },
+  {
+    "front": "La petite abeille fabrique du <span style='color:#d62828;font-weight:700'>miel</span> délicieux dans sa grande ruche.",
+    "back": "تصنع النحلة الصغيرة عسلاً لذيذاً في خليتها الكبيرة.",
+    "learned": true
+  },
+  {
+    "front": "J'aide ma grand-mère à enfiler l'<span style='color:#d62828;font-weight:700'>aiguille</span> pour recoudre sa robe.",
+    "back": "أساعد جدتي في لضم الإبرة لتعيد خياطة فستانها.",
+    "learned": true
+  },
+  {
+    "front": "Le petit garçon sourit joyeusement en voyant son <span style='color:#d62828;font-weight:700'>père</span> arriver.",
+    "back": "يبتسم الولد الصغير بفرح عندما يرى والده يصل.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une salade de <span style='color:#d62828;font-weight:700'>tomates</span> bien fraîches au déjeuner.",
+    "back": "آكل سلطة طماطم طازجة جداً في وجبة الغداء.",
+    "learned": true
+  },
+  {
+    "front": "Le poisson rouge tourne en <span style='color:#d62828;font-weight:700'>rond</span> dans son bocal en verre.",
+    "back": "يدور السمك الأحمر في حوضه الزجاجي بشكل دائري.",
+    "learned": true
+  },
+  {
+    "front": "Je prépare mon sac à <span style='color:#d62828;font-weight:700'>dos</span> avec mes livres pour demain matin.",
+    "back": "أجهز حقيبة ظهري مع كتبي من أجل صباح الغد.",
+    "learned": true
+  },
+  {
+    "front": "Le soleil brille fort et assèche la <span style='color:#d62828;font-weight:700'>terre</span> du grand champ.",
+    "back": "تشرق الشمس بقوة وتجفف أرض الحقل الكبير.",
+    "learned": true
+  },
+  {
+    "front": "Je dessine un beau soleil <span style='color:#d62828;font-weight:700'>jaune</span> en haut de mon dessin.",
+    "back": "أرسم شمساً صفراء جميلة في أعلى رسمتي.",
+    "learned": true
+  },
+  {
+    "front": "Le médecin écoute le <span style='color:#d62828;font-weight:700'>cœur</span> du malade avec son stéthoscope.",
+    "back": "يستمع الطبيب إلى قلب المريض بواسطة سماعته الطبية.",
+    "learned": true
+  },
+  {
+    "front": "Je bois un grand verre de <span style='color:#d62828;font-weight:700'>jus</span> de fruits après le sport.",
+    "back": "أشرب كوباً كبيراً من عصير الفواكه بعد الرياضة.",
+    "learned": true
+  },
+  {
+    "front": "L'oiseau se pose sur le <span style='color:#d62828;font-weight:700'>toit</span> de la maison et chante.",
+    "back": "يحط العصفور على سطح المنزل ويبدأ في الغناء.",
+    "learned": true
+  },
+  {
+    "front": "Je lave ma pomme avec de l'eau <span style='color:#d62828;font-weight:700'>propre</span> avant de la croquer.",
+    "back": "أغسل تفاحتي بماء نظيف قبل أن أقضمها.",
+    "learned": true
+  },
+  {
+    "front": "Le loup gris hurle la <span style='color:#d62828;font-weight:700'>nuit</span> sous la lumière de la lune.",
+    "back": "يعوي الذئب الرمادي ليلاً تحت ضوء القمر.",
+    "learned": true
+  },
+  {
+    "front": "Maman ajoute du <span style='color:#d62828;font-weight:700'>sucre</span> dans mon lait pour qu'il soit doux.",
+    "back": "تضيف أمي السكر في حليبي لكي يصبح حلواً.",
+    "learned": true
+  },
+  {
+    "front": "Je tourne le bouton pour ouvrir la <span style='color:#d62828;font-weight:700'>radio</span> et écouter la musique.",
+    "back": "أدير الزر لأفتح المذياع وأستمع إلى الموسيقى.",
+    "learned": true
+  },
+  {
+    "front": "Le canard marche bizarrement vers la <span style='color:#d62828;font-weight:700'>mare</span> pour aller nager.",
+    "back": "يمشي البط بطريقة غريبة نحو البركة ليذهب ويسبح.",
+    "learned": true
+  },
+  {
+    "front": "Je prends ma <span style='color:#d62828;font-weight:700'>règle</span> pour tracer un trait droit sur mon cahier.",
+    "back": "آخذ مسطرتي لأرسم خطاً مستقيماً على كراسي.",
+    "learned": true
+  },
+  {
+    "front": "Le chat noir attrape une petite <span style='color:#d62828;font-weight:700'>souris</span> dans la cuisine.",
+    "back": "يمسك القط الأسود فأرة صغيرة في المطبخ.",
+    "learned": true
+  },
+  {
+    "front": "Je mets de la confiture sur mon <span style='color:#d62828;font-weight:700'>pain</span> croustillant ce matin.",
+    "back": "أضع المربى على خبزي المقرمش هذا الصباح.",
+    "learned": true
+  },
+  {
+    "front": "Le facteur apporte une <span style='color:#d62828;font-weight:700'>lettre</span> importante pour mon grand-père.",
+    "back": "يجلب ساعي البريد رسالة مهمة لجدي.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde les étoiles <span style='color:#d62828;font-weight:700'>briller</span> dans le ciel noir de minuit.",
+    "back": "أتأمل النجوم تلمع في سماء منتصف الليل السوداء.",
+    "learned": true
+  },
+  {
+    "front": "Le gros chien garde fidèlement la <span style='color:#d62828;font-weight:700'>maison</span> pendant notre absence.",
+    "back": "يحرس الكلب الكبير المنزل بأمانة أثناء غيابنا.",
+    "learned": true
+  },
+  {
+    "front": "Je mange un bol de <span style='color:#d62828;font-weight:700'>soupe</span> chaude pour guérir de mon rhume.",
+    "back": "آكل وعاء حساء ساخن لأشفى من زكامي.",
+    "learned": true
+  },
+  {
+    "front": "Le petit singe grimpe vite sur l'<span style='color:#d62828;font-weight:700'>arbre</span> pour échapper au danger.",
+    "back": "يتسلق القرد الصغير الشجرة بسرعة ليهرب من الخطر.",
+    "learned": true
+  },
+  {
+    "front": "J'écris la date du jour avec de la <span style='color:#d62828;font-weight:700'>craie</span> blanche sur le tableau.",
+    "back": "أكتب تاريخ اليوم بالطبشور الأبيض على السبورة.",
+    "learned": true
+  },
+  {
+    "front": "Mon ami me prête son <span style='color:#d62828;font-weight:700'>crayon</span> rouge pour finir mon dessin.",
+    "back": "يعيرني صديقي قلمه الأحمر لأكمل رسمتي.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde les enfants jouer au <span style='color:#d62828;font-weight:700'>parc</span> depuis mon balcon.",
+    "back": "أراقب الأطفال يلعبون في الحديقة العامة من شرفتي.",
+    "learned": true
+  },
+  {
+    "front": "Le cheval blanc court <span style='color:#d62828;font-weight:700'>vite</span> à travers la grande plaine.",
+    "back": "يركض الحصان الأبيض بسرعة عبر السهل الواسع.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme les yeux pour faire un beau <span style='color:#d62828;font-weight:700'>rêve</span> dans mon lit.",
+    "back": "أغلق عيني لأرى حلماً جميلاً في سريري.",
+    "learned": true
+  },
+  {
+    "front": "La maman prépare un bon <span style='color:#d62828;font-weight:700'>repas</span> pour toute la famille réunie.",
+    "back": "تجهز الأم وجبة طيبة لكل العائلة المجتمعة.",
+    "learned": true
+  },
+  {
+    "front": "Je trouve un joli <span style='color:#d62828;font-weight:700'>coquillage</span> sur le sable de la plage.",
+    "back": "أجد قوقعة بحرية جميلة على رمال الشاطئ.",
+    "learned": true
+  },
+  {
+    "front": "Le train siffle en entrant dans la grande <span style='color:#d62828;font-weight:700'>gare</span> centrale.",
+    "back": "يطلق القطار صفارته عند دخوله محطة القطار المركزية الكبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Je colorie les feuilles de l'arbre en <span style='color:#d62828;font-weight:700'>vert</span> foncé.",
+    "back": "ألون أوراق الشجرة باللون الأخضر الغامق.",
+    "learned": true
+  },
+  {
+    "front": "Le lion dort sous l'<span style='color:#d62828;font-weight:700'>ombre</span> d'un grand rocher de la savane.",
+    "back": "ينام الأسد تحت ظل صخرة كبيرة في السافانا.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mes chaussures de <span style='color:#d62828;font-weight:700'>sport</span> avant d'aller courir dehors.",
+    "back": "أرتدي حذاء الرياضة الخاص بي قبل الذهاب للجري بالخارج.",
+    "learned": true
+  },
+  {
+    "front": "L'éléphant boit beaucoup d'eau grâce à sa <span style='color:#d62828;font-weight:700'>trompe</span>.",
+    "back": "يشرب الفيل الكثير من الماء بفضل خرطومه الطويل.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une tartine de <span style='color:#d62828;font-weight:700'>fromage</span> salé avec mon thé chaud.",
+    "back": "آكل قطعة خبز بجبن مالح مع شاي الساخن.",
+    "learned": true
+  },
+  {
+    "front": "La petite fille pleure parce qu'elle a perdu son <span style='color:#d62828;font-weight:700'>jouet</span>.",
+    "back": "تبكي البنت الصغيرة لأنها فقدت لعبتها.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde un grand avion voler haut dans le <span style='color:#d62828;font-weight:700'>ciel</span>.",
+    "back": "أشاهد طائرة كبيرة تحلق عالياً في السماء.",
+    "learned": true
+  },
+  {
+    "front": "Le jardinier coupe les mauvaises herbes avec ses <span style='color:#d62828;font-weight:700'>outils</span>.",
+    "back": "يقص البستاني الأعشاب الضارة بواسطة أدواته.",
+    "learned": true
+  },
+  {
+    "front": "Je bois du lait frais dans ma <span style='color:#d62828;font-weight:700'>tasse</span> préférée le matin.",
+    "back": "أشرب حليباً طازجاً في كوبي المفضل صباحاً.",
+    "learned": true
+  },
+  {
+    "front": "La cloche sonne la fin des <span style='color:#d62828;font-weight:700'>cours</span> et nous sortons vite.",
+    "back": "يدق الجرس معلناً نهاية الدروس ونخرج مسرعين.",
+    "learned": true
+  },
+  {
+    "front": "Je range mes petits crayons de couleur dans ma <span style='color:#d62828;font-weight:700'>trousse</span>.",
+    "back": "أرتب أقلام التلوين الصغيرة في مقلمتي.",
+    "learned": true
+  },
+  {
+    "front": "Le crocodile se repose au bord du grand fleuve <span style='color:#d62828;font-weight:700'>calme</span>.",
+    "back": "يرتاح التمساح على ضفة النهر الكبير الهادئ.",
+    "learned": true
+  },
+  {
+    "front": "Je mange un yaourt sucré avec une petite <span style='color:#d62828;font-weight:700'>cuillère</span> en plastique.",
+    "back": "آكل ياغورت حلو بملعقة بلاستيكية صغيرة.",
+    "learned": true
+  },
+  {
+    "front": "Le feu rouge s'allume et les voitures s'<span style='color:#d62828;font-weight:700'>arrêtent</span> immédiatement.",
+    "back": "تشتعل الإشارة الحمراء وتتوقف السيارات في الحين.",
+    "learned": true
+  },
+  {
+    "front": "Je donne une carotte bien lavée au petit <span style='color:#d62828;font-weight:700'>lapin</span> blanc.",
+    "back": "أعطي جزرة مغسولة جيداً للأرنب الأبيض الصغير.",
+    "learned": true
+  },
+  {
+    "front": "Le maçon construit un grand <span style='color:#d62828;font-weight:700'>mur</span> de briques pour la maison.",
+    "back": "يبني البناء جداراً كبيراً من الآجر للمنزل.",
+    "learned": true
+  },
+  {
+    "front": "Je nettoie mes dents avec une <span style='color:#d62828;font-weight:700'>brosse</span> après chaque repas.",
+    "back": "أنظف أسناني بالفرشاة بعد كل وجبة طعام.",
+    "learned": true
+  },
+  {
+    "front": "L'abeille se pose sur une jolie fleur <span style='color:#d62828;font-weight:700'>rouge</span> du balcon.",
+    "back": "تحط النحلة على زهرة حمراء جميلة في الشرفة.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde un film amusant à la <span style='color:#d62828;font-weight:700'>télévision</span> avec mon frère.",
+    "back": "أشاهد فيلماً مسلياً على التلفاز مع أخي.",
+    "learned": true
+  },
+  {
+    "front": "Le loup a de grandes <span style='color:#d62828;font-weight:700'>dents</span> pointues pour chasser dans les bois.",
+    "back": "يملك الذئب أسناناً كبيرة وحادة ليصطاد في الغابة.",
+    "learned": true
+  },
+  {
+    "front": "Je souffle les bougies de mon gâteau d'<span style='color:#d62828;font-weight:700'>anniversaire</span> ce soir.",
+    "back": "أطفئ شموع كعكة عيد ميلادي هذا المساء.",
+    "learned": true
+  },
+  {
+    "front": "Le gros poisson nage vite pour échapper au <span style='color:#d62828;font-weight:700'>pêcheur</span> habile.",
+    "back": "يسبح السمك الكبير بسرعة ليهرب من الصياد الماهر.",
+    "learned": true
+  },
+  {
+    "front": "Je mets un pull chaud car le vent souffle <span style='color:#d62828;font-weight:700'>fort</span> dehors.",
+    "back": "أرتدي سترة دافئة لأن الرياح تهب بقوة بالخارج.",
+    "learned": true
+  },
+  {
+    "front": "Le singe gourmand épluche une <span style='color:#d62828;font-weight:700'>banane</span> avant de la manger.",
+    "back": "يقشر القرد الشره موزة قبل أكلها.",
+    "learned": true
+  },
+  {
+    "front": "Je salue mon voisin avec un grand <span style='color:#d62828;font-weight:700'>sourire</span> chaque matin.",
+    "back": "أحيي جاري بابتسامة كبيرة كل صباح.",
+    "learned": true
+  },
+  {
+    "front": "Le chat court après un petit papillon dans l'<span style='color:#d62828;font-weight:700'>herbe</span> verte.",
+    "back": "يركض القط خلف فراشة صغيرة في العشب الأخضر.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme le grand <span style='color:#d62828;font-weight:700'>portail</span> bleu de la maison le soir venu.",
+    "back": "أغلق بوابة المنزل الزرقاء الكبيرة عند حلول المساء.",
+    "learned": true
+  },
+  {
+    "front": "Maman prépare une bonne tarte aux <span style='color:#d62828;font-weight:700'>pommes</span> pour le dessert.",
+    "back": "تجهز أمي فطيرة تفاح طيبة من أجل التحلية.",
+    "learned": true
+  },
+  {
+    "front": "Le petit oiseau construit son nid avec des petites <span style='color:#d62828;font-weight:700'>branches</span> d'arbre.",
+    "back": "يبني العصفور الصغير عشه بواسطة أغصان شجرة صغيرة.",
+    "learned": true
+  },
+  {
+    "front": "Je lave mes mains sales avec du savon et de l'<span style='color:#d62828;font-weight:700'>eau</span>.",
+    "back": "أغسل يدي المتسختين بالصابون والماء.",
+    "learned": true
+  },
+  {
+    "front": "Le grand train rouge s'arrête en gare et les <span style='color:#d62828;font-weight:700'>voyageurs</span> descendent.",
+    "back": "يتوقف القطار الأحمر الكبير في المحطة وينزل المسافرون.",
+    "learned": true
+  },
+  {
+    "front": "Le matin, je vais à <span style='color:#d62828;font-weight:700'>l'école</span> et je reviens à dix heures avec mon frère.",
+    "back": "أذهب إلى المدرسة صباحاً وعدت العاشرة تماماً مع أخي.",
+    "learned": true
+  },
+  {
+    "front": "L'après-midi, je joue au <span style='color:#d62828;font-weight:700'>ballon</span> puis je fais mes devoirs dans ma chambre.",
+    "back": "ألعب بالكرة مساءً ثم أكتب واجباتي في غرفتي.",
+    "learned": true
+  },
+  {
+    "front": "Le soir, je mange mon <span style='color:#d62828;font-weight:700'>dîner</span> et je me lave les dents avec maman.",
+    "back": "أتناول عشائي ليلاً وأغسل أسناني مع أمي.",
+    "learned": true
+  },
+  {
+    "front": "Le vendredi, je visite mon <span style='color:#d62828;font-weight:700'>grand-père</span> et je joue dans son grand jardin.",
+    "back": "أزور جدي يوم الجمعة وألعب في حديقته الكبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Pendant la fête, je porte des habits <span style='color:#d62828;font-weight:700'>neufs</span> et je prends des bonbons colorés.",
+    "back": "أرتدي ثياباً جديدة في العيد وآخذ حلوى ملونة.",
+    "learned": true
+  },
+  {
+    "front": "En classe, j'écoute le <span style='color:#d62828;font-weight:700'>maître</span> puis j'écris sur mon cahier proprement.",
+    "back": "أستمع إلى المعلم في القسم ثم أكتب على كراسي بنظافة.",
+    "learned": true
+  },
+  {
+    "front": "Dans la cuisine, je bois du <span style='color:#d62828;font-weight:700'>lait</span> chaud et je mange un biscuit délicieux.",
+    "back": "أشرب حليباً دافئاً في المطبخ وآكل بسكويتاً لذيذاً.",
+    "learned": true
+  },
+  {
+    "front": "Au zoo, je regarde le grand <span style='color:#d62828;font-weight:700'>lion</span> et je donne une banane au singe.",
+    "back": "أشاهد الأسد الكبير في حديقة الحيوان وأعطي الموزة للقرد.",
+    "learned": true
+  },
+  {
+    "front": "Avant de dormir, j'écoute une belle <span style='color:#d62828;font-weight:700'>histoire</span> puis j'éteins la lumière.",
+    "back": "أستمع إلى قصة جميلة قبل النوم ثم أطفئ الضوء.",
+    "learned": true
+  },
+  {
+    "front": "Le morning, j'ouvre la <span style='color:#d62828;font-weight:700'>fenêtre</span> et je regarde les petits oiseaux chanter.",
+    "back": "أفتح النافذة صباحاً وأراقب العصافير الصغيرة تغرد.",
+    "learned": true
+  },
+  {
+    "front": "Je nettoie ma petite <span style='color:#d62828;font-weight:700'>chambre</span> et je range mes jouets dans la boîte.",
+    "back": "أنظف غرفتي الصغيرة وأرتب ألعابي في الصندوق.",
+    "learned": true
+  },
+  {
+    "front": "Le maître écrit sur le <span style='color:#d62828;font-weight:700'>tableau</span> et les élèves copient la leçon.",
+    "back": "يكتب المعلم على السبورة وينقل التلاميذ الدرس.",
+    "learned": true
+  },
+  {
+    "front": "Pendant la récréation, je mange mon <span style='color:#d62828;font-weight:700'>fruit</span> et je discute avec mes amis.",
+    "back": "آكل فاكهتي أثناء الاستراحة وأتحدث مع أصدقائي.",
+    "learned": true
+  },
+  {
+    "front": "Je dessine une jolie <span style='color:#d62828;font-weight:700'>maison</span> puis je la colore avec des crayons.",
+    "back": "أرسم بيتاً جميلاً ثم ألونه بالأقلام الملونة.",
+    "learned": true
+  },
+  {
+    "front": "La cloche de l'école <span style='color:#d62828;font-weight:700'>sonne</span> et nous sortons alignés dans la cour.",
+    "back": "يدق جرس المدرسة ونخرج متراصين إلى الساحة.",
+    "learned": true
+  },
+  {
+    "front": "Papa achète un nouveau <span style='color:#d62828;font-weight:700'>cartable</span> et j'y mets mes livres neufs.",
+    "back": "يشتري أبي محفظة جديدة وأضع فيها كتبي الجديدة.",
+    "learned": true
+  },
+  {
+    "front": "Je cherche ma <span style='color:#d62828;font-weight:700'>trousse</span> bleue puis je la pose sur mon bureau.",
+    "back": "أبحث عن مقلمتي الزرقاء ثم أضعها على مكتبي.",
+    "learned": true
+  },
+  {
+    "front": "Ma sœur allume la <span style='color:#d62828;font-weight:700'>télévision</span> et nous regardons un dessin animé ensemble.",
+    "back": "تشعل أختي التلفاز ونشاهد رسوماً متحركة معاً.",
+    "learned": true
+  },
+  {
+    "front": "Je prépare mes <span style='color:#d62828;font-weight:700'>affaires</span> le soir et je dors tôt pour me réveiller en forme.",
+    "back": "أجهز أدواتي في المساء وأنام باكراً لأستيقظ بنشاط.",
+    "learned": true
+  },
+  {
+    "front": "Le matin, je salue ma <span style='color:#d62828;font-weight:700'>maîtresse</span> puis je m'assois à ma place.",
+    "back": "أحيي معلمتي صباحاً ثم أجلس في مقعدي.",
+    "learned": true
+  },
+  {
+    "front": "Je découpe une image avec les <span style='color:#d62828;font-weight:700'>ciseaux</span> et je la colle sur mon cahier.",
+    "back": "أقص صورة بالمقص وألصقها على كراسي.",
+    "learned": true
+  },
+  {
+    "front": "Maman prépare un grand <span style='color:#d62828;font-weight:700'>gâteau</span> et je l'aide à étaler le chocolat.",
+    "back": "تجهز أمي كعكة كبيرة وأساعدها في تزيين الشوكولاتة.",
+    "learned": true
+  },
+  {
+    "front": "Je lave mes mains avec du <span style='color:#d62828;font-weight:700'>savon</span> puis je les essuie avec une serviette propre.",
+    "back": "أغسل يدي بالصابون ثم أجففهما بمنشفة نظيفة.",
+    "learned": true
+  },
+  {
+    "front": "Mon grand frère répare son <span style='color:#d62828;font-weight:700'>vélo</span> et nous faisons le tour du quartier.",
+    "back": "يصلح أخي الأكبر دراجته ونقوم بجولة حول الحي.",
+    "learned": true
+  },
+  {
+    "front": "Je bois un jus d'orange <span style='color:#d62828;font-weight:700'>frais</span> et je mange une tartine de confiture.",
+    "back": "أشرب عصير برتقال طازج وآكل قطعة خبز بالمربى.",
+    "learned": true
+  },
+  {
+    "front": "Dans la forêt, je ramasse des <span style='color:#d62828;font-weight:700'>feuilles</span> et je regarde les écureuils grimper.",
+    "back": "أجمع الأوراق في الغابة وأراقب السناجب وهي تتسلق.",
+    "learned": true
+  },
+  {
+    "front": "Le petit lapin mange de la <span style='color:#d62828;font-weight:700'>carotte</span> puis il saute doucement sur l'herbe.",
+    "back": "يأكل الأرنب الصغير الجزرة ثم يقفز بلطف على العشب.",
+    "learned": true
+  },
+  {
+    "front": "À la mer, je construis un château de <span style='color:#d62828;font-weight:700'>sable</span> et je nage avec mon père.",
+    "back": "أبني قلعة رملية عند البحر وأسبح مع أبي.",
+    "learned": true
+  },
+  {
+    "front": "Le chat dort sur le <span style='color:#d62828;font-weight:700'>tapis</span> et bouge sa queue de temps en temps.",
+    "back": "ينام القط على السجادة ويحرك ذيله بين الحين والآخر.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde le ciel <span style='color:#d62828;font-weight:700'>bleu</span> et je vois un grand avion passer.",
+    "back": "أنظر إلى السماء الزرقاء وأرى طائرة كبيرة تمر.",
+    "learned": true
+  },
+  {
+    "front": "Le fermier trait la grosse <span style='color:#d62828;font-weight:700'>vache</span> et remplit un grand seau de lait.",
+    "back": "يحلب الفلاح البقرة الضخمة ويملأ دلواً كبيراً من الحليب.",
+    "learned": true
+  },
+  {
+    "front": "Les oiseaux fabriquent un <span style='color:#d62828;font-weight:700'>nid</span> sur la branche et y cachent leurs œufs.",
+    "back": "تصنع العصافير عشاً على الغصن وتخفي بيضها فيه.",
+    "learned": true
+  },
+  {
+    "front": "Je donne des graines aux <span style='color:#d62828;font-weight:700'>poules</span> et je ramasse les œufs frais du matin.",
+    "back": "أعطي الحبوب للدجاج وأجمع البيض الطازج هذا الصباح.",
+    "learned": true
+  },
+  {
+    "front": "Le soir, la lune <span style='color:#d62828;font-weight:700'>brille</span> et les étoiles illuminent le ciel sombre.",
+    "back": "يلمع القمر ليلاً وتضيء النجوم السماء المظلمة.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mes bottes de <span style='color:#d62828;font-weight:700'>pluie</span> et je saute joyeusement dans les flaques d'eau.",
+    "back": "أرتدي حذاء المطر وأقفز بفرح في برك الماء.",
+    "learned": true
+  },
+  {
+    "front": "Au printemps, les fleurs colorées <span style='color:#d62828;font-weight:700'>poussent</span> et les papillons volent partout.",
+    "back": "تنمو الزهور الملونة في الربيع وتطير الفراشات في كل مكان.",
+    "learned": true
+  },
+  {
+    "front": "Le chien aboie derrière la <span style='color:#d62828;font-weight:700'>porte</span> et court vite vers son maître.",
+    "back": "ينبح الكلب خلف الباب ويركض مسرعاً نحو صاحبه.",
+    "learned": true
+  },
+  {
+    "front": "Je jette les ordures dans la <span style='color:#d62828;font-weight:700'>poubelle</span> et j'aide à garder le quartier propre.",
+    "back": "أرمي القمامة في السلة وأساعد في تنظيف الحي.",
+    "learned": true
+  },
+  {
+    "front": "Le poisson rouge nage dans l'<span style='color:#d62828;font-weight:700'>aquarium</span> et ouvre sa petite bouche.",
+    "back": "يسبح الحوت الأحمر في حوض السمك ويفتح فمه الصغير باستمرار.",
+    "learned": true
+  },
+  {
+    "front": "Nous plantons un petit <span style='color:#d62828;font-weight:700'>arbre</span> et nous l'arrosons chaque jour pour qu'il grandisse.",
+    "back": "نغرس شجرة صغيرة ونسقيها بالماء كل يوم لكي تكبر.",
+    "learned": true
+  },
+  {
+    "front": "Au magasin, j'achète un gros <span style='color:#d62828;font-weight:700'>ballon</span> et je joue avec mes cousins.",
+    "back": "أشري كرة كبيرة من المتجر وألعب مع أبناء عمي.",
+    "learned": true
+  },
+  {
+    "front": "Pendant l'hiver, il fait très <span style='color:#d62828;font-weight:700'>froid</span> et je porte un manteau chaud.",
+    "back": "يكون الطقس بارداً جداً في الشتاء وأرتدي معطفاً دافئاً.",
+    "learned": true
+  },
+  {
+    "front": "Je prends mon bain dans la <span style='color:#d62828;font-weight:700'>baignoire</span> puis je mets mon pyjama doux.",
+    "back": "أستحم في حوض الاستحمام ثم أرتدي بيجامتي الناعمة.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une glace à la <span style='color:#d62828;font-weight:700'>fraise</span> et je profite de ma sortie en été.",
+    "back": "آكل مثلجات بالفراولة وأستمتع بنزهتي الصيفية.",
+    "learned": true
+  },
+  {
+    "front": "Mon ami me donne un joli <span style='color:#d62828;font-weight:700'>cadeau</span> et je le remercie gentiment.",
+    "back": "يعطيني صديقي هدية جميلة في عيد ميلادي وأشكره كثيراً.",
+    "learned": true
+  },
+  {
+    "front": "Nous montons dans la <span style='color:#d62828;font-weight:700'>voiture</span> de papa et nous allons à la plage.",
+    "back": "نركب في سيارة أبي ونذهب إلى الشاطئ.",
+    "learned": true
+  },
+  {
+    "front": "Le singe grimpe sur le <span style='color:#d62828;font-weight:700'>palmier</span> et prend une grosse noix de coco.",
+    "back": "يتسلق القرد نخلة ويأخذ حبة جوز هند كبيرة.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mon chapeau de <span style='color:#d62828;font-weight:700'>soleil</span> et je marche sur le sable chaud.",
+    "back": "أضع قبعتي الشمسية وأمشي فوق الرمال الذهبية.",
+    "learned": true
+  },
+  {
+    "front": "Ma mère achète des pommes <span style='color:#d62828;font-weight:700'>rouges</span> et prépare une tarte délicieuse.",
+    "back": "تشتري أمي تفاحاً أحمر وتجهز فطيرة لذيذة.",
+    "learned": true
+  },
+  {
+    "front": "Le train arrive à la <span style='color:#d62828;font-weight:700'>gare</span> et les voyageurs descendent calmement.",
+    "back": "يصل القطار إلى المحطة وينزل المسافرون بانتظام.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde un beau <span style='color:#d62828;font-weight:700'>papillon</span> se poser doucement sur les roses.",
+    "back": "أراقب فراشة جميلة تحط بلطف على الزهور.",
+    "learned": true
+  },
+  {
+    "front": "Le lion court après la <span style='color:#d62828;font-weight:700'>gazelle</span> dans la grande plaine verte.",
+    "back": "يركض الأسد خلف الغزالة في السهل الواسع السريع.",
+    "learned": true
+  },
+  {
+    "front": "Je colorie le soleil en <span style='color:#d62828;font-weight:700'>jaune</span> et les nuages en blanc.",
+    "back": "ألون الشمس باللون الأصفر والسحب باللون الأبيض.",
+    "learned": true
+  },
+  {
+    "front": "À la ferme, j'entends le <span style='color:#d62828;font-weight:700'>coq</span> chanter au lever du jour.",
+    "back": "أسمع الديك يصيح في المزرعة عند شروق الشمس.",
+    "learned": true
+  },
+  {
+    "front": "Je partage mon pain avec mon <span style='color:#d62828;font-weight:700'>camarade</span> et nous nous asseyons ensemble.",
+    "back": "أشارك خبزي مع زميلي ونجلس معاً على المقعد.",
+    "learned": true
+  },
+  {
+    "front": "Ma petite sœur boit son <span style='color:#d62828;font-weight:700'>biberon</span> puis elle s'endort calmement.",
+    "back": "تشرب أختي الصغيرة زجاجة الحليب ثم تنام بهدوء.",
+    "learned": true
+  },
+  {
+    "front": "Le canard nage sur le <span style='color:#d62828;font-weight:700'>lac</span> et cherche des petits poissons.",
+    "back": "يسبح البط في البحيرة ويبحث عن الأسماك الصغيرة.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mes chaussures <span style='color:#d62828;font-weight:700'>neuves</span> et je sors me promener en famille.",
+    "back": "أرتدي حذائي الجديد وأخرج للتنزه مع العائلة.",
+    "learned": true
+  },
+  {
+    "front": "Maman coupe la tomate avec un <span style='color:#d62828;font-weight:700'>couteau</span> et prépare une bonne salade.",
+    "back": "تقطع أمي الطماطم بالسكين وتجهز سلطة طيبة.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde les étoiles avec mon <span style='color:#d62828;font-weight:700'>père</span> et il m'explique leurs noms.",
+    "back": "أتأمل النجوم مع أبي وهو يشرح لي أسماءها.",
+    "learned": true
+  },
+  {
+    "front": "Le boulanger prépare du pain <span style='color:#d62828;font-weight:700'>chaud</span> et tout le monde fait la queue.",
+    "back": "يجهز الخباز خبزاً ساخناً ويقف الجميع في الصف.",
+    "learned": true
+  },
+  {
+    "front": "J'écoute une belle <span style='color:#d62828;font-weight:700'>chanson</span> à la radio puis je commence à danser.",
+    "back": "أستمع إلى أغنية جميلة في الراديو ثم أبدأ بالرقص.",
+    "learned": true
+  },
+  {
+    "front": "L'écureuil cache une <span style='color:#d62828;font-weight:700'>noisette</span> sous la terre pour la manger plus tard.",
+    "back": "يخفي السنجاب بندقة تحت الأرض ليأكلها لاحقاً.",
+    "learned": true
+  },
+  {
+    "front": "Je ferme les yeux dans mon <span style='color:#d62828;font-weight:700'>lit</span> et je fais un rêve magique.",
+    "back": "أغلق عيني في سريري وأرى حلماً سحرياً.",
+    "learned": true
+  },
+  {
+    "front": "Le jardinier arrose les <span style='color:#d62828;font-weight:700'>plantes</span> et coupe les mauvaises herbes.",
+    "back": "يسقي البستاني النباتات ويقص الأعشاب الضارة.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une soupe de <span style='color:#d62828;font-weight:700'>légumes</span> puis je prends un verre d'eau.",
+    "back": "آكل حساء الخضار ثم أشرب كوباً من الماء.",
+    "learned": true
+  },
+  {
+    "front": "Le singe fait des <span style='color:#d62828;font-weight:700'>grimaces</span> et fait rire tous les enfants.",
+    "back": "يصنع القرد حركات مضحكة ويضحك كل الأطفال.",
+    "learned": true
+  },
+  {
+    "front": "Je trouve un joli coquillage <span style='color:#d62828;font-weight:700'>blanc</span> et je le donne بهدية لأختي.",
+    "back": "أجد قوقعة بيضاء جميلة وأهديها لأختي.",
+    "learned": true
+  },
+  {
+    "front": "L'oiseau s'envole vers le <span style='color:#d62828;font-weight:700'>ciel</span> et disparaît derrière les nuages.",
+    "back": "يطير العصفور نحو السماء ويختفي خلف السحب.",
+    "learned": true
+  },
+  {
+    "front": "J'efface le tableau avec la <span style='color:#d62828;font-weight:700'>brosse</span> puis j'écris la nouvelle date.",
+    "back": "أمسح السبورة بالممسحة ثم أكتب التاريخ الجديد.",
+    "learned": true
+  },
+  {
+    "front": "Mon oncle a un grand <span style='color:#d62828;font-weight:700'>tracteur</span> rouge et il travaille dans son champ.",
+    "back": "يملك عمي جراراً أحمر كبيراً ويعمل به في حقله.",
+    "learned": true
+  },
+  {
+    "front": "Je porte des lunettes de <span style='color:#d62828;font-weight:700'>piscine</span> et plonge sous l'eau claire.",
+    "back": "أرتدي نظارات السباحة وأغوص تحت الماء الصافي.",
+    "learned": true
+  },
+  {
+    "front": "Le vent souffle sur les <span style='color:#d62828;font-weight:700'>arbres</span> et fait tomber les fruits mûrs.",
+    "back": "تهب الرياح على الأشجار وتُسقط الثمار الناضجة.",
+    "learned": true
+  },
+  {
+    "front": "Je peins un grand dinosaure <span style='color:#d62828;font-weight:700'>vert</span> ثم أريه لأصدقائي في القسم.",
+    "back": "ألون ديناصوراً أخضر كبيراً ثم أعرضه على أصدقائي في القسم.",
+    "learned": true
+  },
+  {
+    "front": "La petite souris grignote du <span style='color:#d62828;font-weight:700'>fromage</span> ثم تعود إلى جحرها مسرعة.",
+    "back": "تقضم الفأرة الصغيرة الجبن ثم تعود إلى جحرها مسرعة.",
+    "learned": true
+  },
+  {
+    "front": "Je monte les escaliers en <span style='color:#d62828;font-weight:700'>courant</span> et j'ouvre la porte de la maison.",
+    "back": "أصعد السلالم راكضاً وأفتح باب المنزل.",
+    "learned": true
+  },
+  {
+    "front": "Maman allume une bougie <span style='color:#d62828;font-weight:700'>parfumée</span> و تجلس لتقرأ كتابها المفضل.",
+    "back": "تشعل أمي شمعة معطرة وتجلس لتقرأ كتابها المفضل.",
+    "learned": true
+  },
+  {
+    "front": "Je mets mon pull en <span style='color:#d62828;font-weight:700'>laine</span> car il commence à pleuvoir dehors.",
+    "back": "أرتدي سترتي الصوفية لأن المطر بدأ ينزل بالخارج.",
+    "learned": true
+  },
+  {
+    "front": "Le gros chien court après la <span style='color:#d62828;font-weight:700'>balle</span> و يعيدها إلي فرحاً.",
+    "back": "يركض الكلب الكبير خلف الكرة ويعيدها إلي فرحاً.",
+    "learned": true
+  },
+  {
+    "front": "Je bois une tasse de <span style='color:#d62828;font-weight:700'>chocolat</span> chaud et je regarde le film.",
+    "back": "أشرب كوباً من الشوكولاتة الساخنة وأشاهد الفيلم.",
+    "learned": true
+  },
+  {
+    "front": "La maîtresse distribue les <span style='color:#d62828;font-weight:700'>cahiers</span> و تطلب منا بدء العمل.",
+    "back": "توزع المعلمة الكاريس وتطلب منا بدء العمل.",
+    "learned": true
+  },
+  {
+    "front": "J'aide mon grand-père à cueillir des <span style='color:#d62828;font-weight:700'>olives</span> في حقلنا الجميل.",
+    "back": "أساعد جدي في جني الزيتون في حقلنا الجميل.",
+    "learned": true
+  },
+  {
+    "front": "Le petit poussin sort de son <span style='color:#d62828;font-weight:700'>œuf</span> و يبدأ بالبحث عن أمه الدجاجة.",
+    "back": "يخرج الكتكوت الصغير من بيضته ويبدأ بالبحث عن أمه الدجاجة.",
+    "learned": true
+  },
+  {
+    "front": "Je tourne la page du <span style='color:#d62828;font-weight:700'>livre</span> و أنظر إلى الصور الملونة الجميلة.",
+    "back": "أقلب صفحة الكتاب وأنظر إلى الصور الملونة الجميلة.",
+    "learned": true
+  },
+  {
+    "front": "Le chat grimpe sur le <span style='color:#d62828;font-weight:700'>mur</span> و يراقب العصفور الصغير فوق الغصن.",
+    "back": "يتسلق القط الجدار ويراقب العصفور الصغير فوق الغصن.",
+    "learned": true
+  },
+  {
+    "front": "Je remplis ma gourde d'<span style='color:#d62828;font-weight:700'>eau</span> fraîche قبل الخروج لركوب الدراجة.",
+    "back": "أملأ قارورتي بالماء البارد قبل الخروج لركوب الدراجة.",
+    "learned": true
+  },
+  {
+    "front": "L'éléphant utilise sa long <span style='color:#d62828;font-weight:700'>trompe</span> pour boire et se rafraîchir.",
+    "back": "يستخدم الفيل خرطومه الطويل ليشرب ويرش الماء على نفسه.",
+    "learned": true
+  },
+  {
+    "front": "Je mange un morceau de <span style='color:#d62828;font-weight:700'>pain</span> avec du miel au petit-déjeuner.",
+    "back": "آكل قطعة خبز مع العسل في وجبة الفطور.",
+    "learned": true
+  },
+  {
+    "front": "La tortue marche <span style='color:#d62828;font-weight:700'>lentement</span> و لكنها تصل دائماً إلى هدفها.",
+    "back": "تمشي السلحفاة ببطء ولكنها تصل دائماً إلى هدفها.",
+    "learned": true
+  },
+  {
+    "front": "Je mets un joli ruban <span style='color:#d62828;font-weight:700'>rose</span> dans les cheveux de ma poupée.",
+    "back": "أضع شريطاً وردياً جميلاً في شعر دميتي.",
+    "learned": true
+  },
+  {
+    "front": "Le pompier conduit un grand camion <span style='color:#d62828;font-weight:700'>rouge</span> و يسرع لإطفاء الحريق.",
+    "back": "يقود إطفائي شاحنة حمراء كبيرة ويسرع لإطفاء الحريق.",
+    "learned": true
+  },
+  {
+    "front": "Je construis une tour avec des <span style='color:#d62828;font-weight:700'>cubes</span> en bois dans le salon.",
+    "back": "أبني برجاً بمكعبات الخشب في غرفة المعيشة.",
+    "learned": true
+  },
+  {
+    "front": "Le dauphin saute hors de l'<span style='color:#d62828;font-weight:700'>eau</span> و يقوم بحركات بهلوانية رائعة.",
+    "back": "يقفز الدلفين خارج الماء ويقوم بحركات بهلوانية رائعة.",
+    "learned": true
+  },
+  {
+    "front": "J'écris mon prénom avec un <span style='color:#d62828;font-weight:700'>stylo</span> noir sur la première page.",
+    "back": "أكتب اسمي بقلم أسود في الصفحة الأولى.",
+    "learned": true
+  },
+  {
+    "front": "Le loup vit dans la <span style='color:#d62828;font-weight:700'>montagne</span> et sort chasser la nuit.",
+    "back": "يعيش الذئب في الجبل ويخرج ليصطاد ليلاً.",
+    "learned": true
+  },
+  {
+    "front": "Je mange une banane <span style='color:#d62828;font-weight:700'>sucrée</span> puis je jette la peau dans la poubelle.",
+    "back": "آكل موزة حلوة ثم أرمي القشرة في سلة المهملات.",
+    "learned": true
+  },
+  {
+    "front": "Le médecin examine le petit <span style='color:#d62828;font-weight:700'>garçon</span> et lui donne un sirop doux.",
+    "back": "يفحص الطبيب الولد الصغير ويعطيه شراباً حلواً.",
+    "learned": true
+  },
+  {
+    "front": "Je regarde le coucher du <span style='color:#d62828;font-weight:700'>soleil</span> depuis la fenêtre de ma chambre.",
+    "back": "أتأمل غروب الشمس من نافذة غرفتي.",
+    "learned": true
+  }
+]
