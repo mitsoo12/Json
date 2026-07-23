@@ -1,0 +1,11 @@
+mon = ton / son / notre / votre / leur,
+ma = ta / sa / notre / votre / leur,
+mes = tes / ses / nos / vos / leurs,
+le mien = le tien / le sien / le nôtre / le vôtre / le leur,
+la mienne = la tienne / la sienne / la nôtre / la vôtre / la leur,
+j'ai = tu as / il a / elle a / nous avons / vous avez / ils ont / elles ont,
+je vais = tu vas / il va / nous allons / vous allez / ils vont,
+je veux = tu veux / il veut / nous voulons / vous voulez / ils veulent,
+je voudrais = tu voudrais / il voudrait / nous voudrions / vous voudriez / ils voudraient,
+les miens = les tiens / les siens / les nôtres / les vôtres / les leurs,
+les miennes = les tiennes / les siennes / les nôtres / les vôtres / les leurs
