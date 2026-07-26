@@ -1,0 +1,782 @@
+[
+  {
+    "front": "Bonjour.",
+    "back": "مرحباً."
+  },
+  {
+    "front": "Pour être honnête avec vous, il y a 48 h, je ne savais pas vraiment ce que j'allais dire dans ce discours.",
+    "back": "لأكون صريحة معكم، قبل 48 ساعة، لم أكن أعرف حقاً ماذا سأقول في هذا الخطاب."
+  },
+  {
+    "front": "Je n'arrêtais pas de me poser des questions, de me dire : Est-ce que je vais être assez bien ?",
+    "back": "كنت لا أتوقف عن طرح الأسئلة على نفسي، وأقول: هل سأكون جيدة بما فيه الكفاية؟"
+  },
+  {
+    "front": "Est-ce que je vais échouer ?",
+    "back": "هل سأفشل؟"
+  },
+  {
+    "front": "Est-ce que je suis légitime pour faire ce Talk ?",
+    "back": "هل أنا شرعية لأقدم هذا الحديث؟"
+  },
+  {
+    "front": "Vous l'aurez compris, je suis ce qu'on appelle une overthinker.",
+    "back": "لقد فهمتم، أنا ما يسمى بالمفرطة في التفكير."
+  },
+  {
+    "front": "Je me remets tout le temps en question",
+    "back": "أنا أتساءل دائماً عن نفسي"
+  },
+  {
+    "front": "et j'ai toujours besoin que tout soit parfait avant de me lancer.",
+    "back": "ودائماً أحتاج أن يكون كل شيء مثالياً قبل أن أبدأ."
+  },
+  {
+    "front": "S'il vous plaît, s'il y a des personnes comme moi dans la salle levez la main, pour que je me sente un peu moins seule.",
+    "back": "من فضلكم، إن كان هناك أشخاص مثلي في القاعة فليرفعوا أيديهم، لكي أشعر أنني أقل وحدة."
+  },
+  {
+    "front": "Je me suis rendue compte dernièrement que ce trait de caractère était lié à une peur de l'échec",
+    "back": "أدركت مؤخراً أن هذه السمة الشخصية مرتبطة بالخوف من الفشل"
+  },
+  {
+    "front": "et plus profondément, une peur du regard des autres.",
+    "back": "وبشكل أعمق، الخوف من نظرة الآخرين."
+  },
+  {
+    "front": "Et le regard des autres, je m'y connais bien.",
+    "back": "ونظرة الآخرين، أنا أعرفها جيداً."
+  },
+  {
+    "front": "Je me présente, je m'appelle Sally,",
+    "back": "أقدم نفسي، اسمي سالي،"
+  },
+  {
+    "front": "je suis créatrice de contenu depuis 4-5 ans maintenant.",
+    "back": "أنا صانعة محتوى منذ 4-5 سنوات الآن."
+  },
+  {
+    "front": "Je crée du contenu politique, engagé, lifestyle.",
+    "back": "أصنع محتوى سياسياً، ملتزماً، وأسلوب حياة."
+  },
+  {
+    "front": "J'ai réussi à accumuler sur mes réseaux près de 2 millions d'abonnés",
+    "back": "تمكنت من تجميع ما يقرب من 2 مليون متابع على منصاتي"
+  },
+  {
+    "front": "Et le lot de critiques qui va avec.",
+    "back": "ومعها حصة من الانتقادات."
+  },
+  {
+    "front": "Dernièrement, d'ailleurs, j'étais au cœur d'une polémique parce que j'aurais fait une mauvaise interview.",
+    "back": "مؤخراً، بالمناسبة، كنت في قلب جدل لأنني قمت بمقابلة سيئة."
+  },
+  {
+    "front": "Alors on s'est bien moqué de moi.",
+    "back": "لذا سخر مني الكثيرون."
+  },
+  {
+    "front": "On m'a dit que j'étais gênante, que je devais arrêter,",
+    "back": "قيل لي أنني محرجة، وأنه يجب أن أتوقف،"
+  },
+  {
+    "front": "que je n'avais pas ma place là-bas.",
+    "back": "وأنه ليس لي مكان هناك."
+  },
+  {
+    "front": "Et vous savez ce que j'ai fait ?",
+    "back": "أوتعلمون ماذا فعلت؟"
+  },
+  {
+    "front": "Je n'ai pas abandonné. J'ai travaillé deux fois plus.",
+    "back": "لم أستسلم. عملت ضعف ما كنت أفعله."
+  },
+  {
+    "front": "Je me suis arrachée dix fois plus.",
+    "back": "أرهقت نفسي عشرة أضعاف."
+  },
+  {
+    "front": "Et dernièrement, j'ai été sélectionnée comme la seule créatrice au monde qui pouvait interviewer Denzel Washington pour son dernier film.",
+    "back": "ومؤخراً، تم اختياري كصانعة المحتوى الوحيدة في العالم التي يمكنها مقابلة دنزل واشنطن لفيلمه الأخير."
+  },
+  {
+    "front": "Il m'a dit quelque chose que je n'oublierai jamais.",
+    "back": "قال لي شيئاً لن أنساه أبداً."
+  },
+  {
+    "front": "Il m'a dit : « Use your influence for good and for honesty. » : Utilise ton influence pour le bien et pour l'honnêteté.",
+    "back": "قال لي: « استخدمي نفوذك من أجل الخير والصدق. »"
+  },
+  {
+    "front": "C'est ce que je vais faire aujourd'hui avec vous.",
+    "back": "هذا ما سأفعله اليوم معكم."
+  },
+  {
+    "front": "Ce soir, je vais essayer de vous influencer en bien,",
+    "back": "هذا المساء، سأحاول أن أوثر فيكم نحو الخير،"
+  },
+  {
+    "front": "à vous débarrasser du regard des autres, à moins le prendre en compte,",
+    "back": "لتتخلصوا من نظرة الآخرين، وأن تأخذوها بعين الاعتبار بشكل أقل،"
+  },
+  {
+    "front": "à être beaucoup plus vous-même, mais en faisant preuve d'honnêteté,",
+    "back": "لتكونوا أكثر أنفسكم، ولكن مع الصدق،"
+  },
+  {
+    "front": "car moi-même je suis encore en plein cheminement.",
+    "back": "لأنني شخصياً ما زلت في طور التطور."
+  },
+  {
+    "front": "Je ne suis pas encore parfaite sur ce sujet,",
+    "back": "لست مثالية بعد في هذا الموضوع،"
+  },
+  {
+    "front": "mais j'ai 6 règles que j'essaye d'appliquer au quotidien",
+    "back": "لكن لدي 6 قواعد أحاول تطبيقها يومياً"
+  },
+  {
+    "front": "et qui me permettent depuis de faire un pas de géant sur le sujet.",
+    "back": "والتي تسمح لي منذ ذلك الحين بتحقيق قفزة كبيرة في هذا الموضوع."
+  },
+  {
+    "front": "La première règle, c'est : arrêter d'être la marionnette de l'opinion des autres.",
+    "back": "القاعدة الأولى هي: التوقف عن كونك دمية لرأي الآخرين."
+  },
+  {
+    "front": "Alors je vous présente Sergio, c'est la peluche de mon meilleur ami et il va m'aider pour vous expliquer ce point.",
+    "back": "لذا أقدم لكم سيرجيو، إنها الدمية المحشوة لصديقي المفضل وسيساعدني في شرح هذه النقطة."
+  },
+  {
+    "front": "Si, avant chaque geste, chaque décision que vous prenez, vous vous demandez d'abord ce que les autres vont penser de vous,",
+    "back": "إذا كنتم قبل كل حركة، كل قرار تتخذونه، تسألون أنفسكم أولاً ماذا سيفكر الآخرون فيكم،"
+  },
+  {
+    "front": "vous êtes finalement comme une marionnette tirée par les fils de l'opinion des autres.",
+    "back": "فأنتم في النهاية كدمية تجرها خيوط رأي الآخرين."
+  },
+  {
+    "front": "S'ils me disent de faire A, je fais A.",
+    "back": "إذا قالوا لي افعل أ، أفعل أ."
+  },
+  {
+    "front": "S'ils me disent de faire B, je fais B.",
+    "back": "إذا قالوا لي افعل ب، أفعل ب."
+  },
+  {
+    "front": "Sergio est très mignon, je le reconnais,",
+    "back": "سيرجيو لطيف جداً، أعترف بذلك،"
+  },
+  {
+    "front": "mais je n'ai pas du tout envie de lui ressembler.",
+    "back": "لكنني لا أريد على الإطلاق أن أشبهه."
+  },
+  {
+    "front": "Combien d'entre nous ont fait des études ou même un métier qui ne correspondait pas à ce qu'ils voulaient à la base ?",
+    "back": "كم منا درس أو حتى عمل في مهنة لا تتوافق مع ما كان يريده في الأصل؟"
+  },
+  {
+    "front": "Mais c'était la volonté de leurs parents et de la société.",
+    "back": "لكنها كانت رغبة آبائهم والمجتمع."
+  },
+  {
+    "front": "Combien d'entre nous n'ont pas réussi à être eux-mêmes avec leurs amis,",
+    "back": "كم منا لم يستطع أن يكون على طبيعته مع أصدقائه،"
+  },
+  {
+    "front": "par peur d'être rejeté ou par peur de ne pas se sentir à leur place ?",
+    "back": "خوفاً من الرفض أو خوفاً من عدم الشعور بأنه في مكانه؟"
+  },
+  {
+    "front": "Je vous ai dit que j'allais être honnête avec vous aujourd'hui.",
+    "back": "قلت لكم أنني سأكون صريحة معكم اليوم."
+  },
+  {
+    "front": "Alors, je le reconnais, j'ai été une espèce de marionnette à un moment de ma vie.",
+    "back": "لذا، أعترف، لقد كنت نوعاً من الدمى في مرحلة من حياتي."
+  },
+  {
+    "front": "Quand j'ai commencé les réseaux, j'avais tellement peur de ce que les gens allaient dire de moi,",
+    "back": "عندما بدأت على المنصات، كنت خائفة جداً مما سيقوله الناس عني،"
+  },
+  {
+    "front": "que je m'adaptais uniquement à ce qu'ils voulaient que je fasse, à qui ils voulaient que je sois.",
+    "back": "لدرجة أنني كنت أتكيف فقط مع ما يريدونني أن أفعله، ومع من يريدونني أن أكون."
+  },
+  {
+    "front": "Je restais dans ma zone de confort, pas dans ma zone de confort finalement, mais dans la place qu'ils m'avaient attribué.",
+    "back": "كنت أبقى في منطقة راحتي، ليس منطقة راحتي في النهاية، ولكن في المكان الذي خصصوه لي."
+  },
+  {
+    "front": "Je restais pour leur plaire.",
+    "back": "كنت أبقى لإرضائهم."
+  },
+  {
+    "front": "Et puis un jour, je me suis dit stop.",
+    "back": "ثم في يوم من الأيام، قلت لنفسي توقف."
+  },
+  {
+    "front": "J'ai pas envie de jouer un rôle dans la vie des autres.",
+    "back": "لا أريد أن أمثل دوراً في حياة الآخرين."
+  },
+  {
+    "front": "J'ai envie de jouer le rôle de ma vie.",
+    "back": "أريد أن أمثل دور حياتي."
+  },
+  {
+    "front": "Alors j'ai osé et je savais que ça allait déranger.",
+    "back": "لذا تجرأت وكنت أعلم أن ذلك سيزعج."
+  },
+  {
+    "front": "Et j'ai reçu beaucoup de critiques.",
+    "back": "وتلقيت الكثير من الانتقادات."
+  },
+  {
+    "front": "« Pourquoi veut-elle faire des interviews alors qu'à la base, elle est juriste ? »",
+    "back": "« لماذا تريد إجراء مقابلات بينما هي في الأصل محامية؟ »"
+  },
+  {
+    "front": "Parce que j'ai envie de le faire et parce que je peux.",
+    "back": "لأنني أريد أن أفعل ذلك ولأنني أستطيع."
+  },
+  {
+    "front": "« Pourquoi est-ce qu'elle a décidé maintenant de faire des documentaires ? »",
+    "back": "« لماذا قررت الآن صنع أفلام وثائقية؟ »"
+  },
+  {
+    "front": "Parce que j'ai envie et parce que je peux.",
+    "back": "لأنني أريد ولأنني أستطيع."
+  },
+  {
+    "front": "Il n'y a rien de plus libérateur de devenir celle ou celui que vous avez toujours voulu être.",
+    "back": "لا يوجد شيء أكثر تحريراً من أن تصبح الشخص الذي أردت دائماً أن تكونه."
+  },
+  {
+    "front": "Et surtout de voir les gens que vous appréciez pour qui vous êtes",
+    "back": "والأهم من ذلك، أن ترى الناس يقدرونك على ما أنت عليه"
+  },
+  {
+    "front": "et pas pour le rôle que vous vous êtes donné pour leur plaire.",
+    "back": "وليس للدور الذي أدته لإرضائهم."
+  },
+  {
+    "front": "Alors coupez les fils et arrêtez d'être la marionnette de l'opinion des gens.",
+    "back": "لذا اقطعوا الخيوط وتوقفوا عن كونكم دمى لرأي الناس."
+  },
+  {
+    "front": "Ça, c'est un, plus de marionnettes.",
+    "back": "هذا هو الأول، لا مزيد من الدمى."
+  },
+  {
+    "front": "La deuxième règle, c'est de ressusciter votre enfant intérieur.",
+    "back": "القاعدة الثانية هي إحياء طفلكم الداخلي."
+  },
+  {
+    "front": "Parce qu'on est tous coupables ici d'un crime.",
+    "back": "لأننا جميعاً مذنبون هنا بجريمة."
+  },
+  {
+    "front": "On a tous tué notre enfant intérieur.",
+    "back": "لقد قتلنا جميعاً طفلنا الداخلي."
+  },
+  {
+    "front": "C'est un peu la construction sociale de devenir un adulte : Il faut arrêter de rêver comme un enfant. C'est la pire des choses à faire.",
+    "back": "إنها نوعاً ما البناء الاجتماعي لتصبح بالغاً: يجب التوقف عن الحلم كطفل. هذا أسوأ شيء يمكن فعله."
+  },
+  {
+    "front": "Vous savez pourquoi ?",
+    "back": "هل تعرفون لماذا؟"
+  },
+  {
+    "front": "Parce que l'enfant que vous étiez était la version la plus pure de vous-même.",
+    "back": "لأن الطفل الذي كنتم عليه كان أنقى نسخة من أنفسكم."
+  },
+  {
+    "front": "Celle qui n'avait pas encore absorbé les insécurités et les peurs des autres.",
+    "back": "تلك التي لم تمتص بعد مخاوف الآخرين وعدم أمنهم."
+  },
+  {
+    "front": "Je vais vous raconter une scène que vous avez tous vu une fois dans votre vie :",
+    "back": "سأروي لكم مشهداً رأيتموه جميعاً مرة في حياتكم:"
+  },
+  {
+    "front": "Vous voyez un enfant tomber.",
+    "back": "ترون طفلاً يسقط."
+  },
+  {
+    "front": "Il va d'abord regarder la réaction de ses parents avant de savoir s'il va pleurer ou non.",
+    "back": "سينظر أولاً إلى رد فعل والديه قبل أن يعرف ما إذا كان سيبكي أم لا."
+  },
+  {
+    "front": "Si ses parents sont effrayés, lui aussi va pleurer.",
+    "back": "إذا كان والداه خائفين، سيبكي هو أيضاً."
+  },
+  {
+    "front": "Mais si ses parents ne réagissent pas, il se relève et se remet à marcher parce qu'il n'avait jamais eu mal.",
+    "back": "لكن إذا لم يتفاعل والداه، سيقوم ويعود للمشي لأنه لم يكن يشعر بألم."
+  },
+  {
+    "front": "J'ai besoin que vous retrouviez cet enfant intérieur",
+    "back": "أحتاج أن تستعيدوا ذلك الطفل الداخلي"
+  },
+  {
+    "front": "qui était là avant les traumas, avant les déceptions, avant les échecs.",
+    "back": "الذي كان موجوداً قبل الصدمات، قبل خيبات الأمل، قبل الإخفاقات."
+  },
+  {
+    "front": "C'est la version de vous-même qui vous connaît le mieux.",
+    "back": "إنها النسخة منكم التي تعرفكم أفضل."
+  },
+  {
+    "front": "Tout ce que je fais aujourd'hui, pour être honnête, c'est pour la petite Sally qui avait 6 ans et qui avait confiance en elle,",
+    "back": "كل ما أفعله اليوم، لأكون صريحة، هو من أجل سالي الصغيرة التي كانت في السادسة من عمرها وتثق بنفسها،"
+  },
+  {
+    "front": "qui voulait devenir juriste, avocate, mannequin, réalisatrice, tout à la fois.",
+    "back": "التي أرادت أن تصبح محامية، عارضة أزياء، مخرجة، كل شيء في آن واحد."
+  },
+  {
+    "front": "Si je le fais aujourd'hui, c'est pour lui montrer qu'elle avait eu raison de placer sa confiance en moi",
+    "back": "إذا كنت أفعل ذلك اليوم، فهو لأريها أنها كانت محقة في وضع ثقتها بي"
+  },
+  {
+    "front": "et qu'elle avait raison quand elle disait que rien n'est impossible.",
+    "back": "وأنها كانت محقة عندما قالت أن لا شيء مستحيل."
+  },
+  {
+    "front": "Les enfants disent beaucoup que rien n'est impossible.",
+    "back": "يقول الأطفال كثيراً أن لا شيء مستحيل."
+  },
+  {
+    "front": "Le proverbe est donc vrai.",
+    "back": "المثل إذاً صحيح."
+  },
+  {
+    "front": "« La vérité sort toujours de la bouche des enfants. »",
+    "back": "« الحقيقة دائماً تخرج من أفواه الأطفال. »"
+  },
+  {
+    "front": "La troisième règle est plutôt un exercice pratique, c'est d'entraîner votre esprit à ne pas être un frein, mais plutôt une impulsion.",
+    "back": "القاعدة الثالثة هي تمرين عملي إلى حد ما، وهو تدريب عقلك على ألا يكون مكبحاً، بل دافعاً."
+  },
+  {
+    "front": "J'ai un chiffre très intéressant.",
+    "back": "لدي رقم مثير جداً للاهتمام."
+  },
+  {
+    "front": "Est-ce que vous saviez que chaque jour vous produisez environ 60 000 pensées ?",
+    "back": "هل كنتم تعلمون أنكم تنتجون يومياً حوالي 60 ألف فكرة؟"
+  },
+  {
+    "front": "Et j'ai un autre chiffre encore plus intéressant :",
+    "back": "ولدي رقم آخر أكثر إثارة للاهتمام:"
+  },
+  {
+    "front": "90 % de ces pensées, sont les mêmes que vous aviez la veille.",
+    "back": "90% من هذه الأفكار، هي نفسها التي كانت لديكم في اليوم السابق."
+  },
+  {
+    "front": "Vos pensées deviennent donc des croyances, c'est un fait.",
+    "back": "أفكاركم تصبح إذاً معتقدات، هذه حقيقة."
+  },
+  {
+    "front": "Si tous les jours, vous pensez positivement en vous disant : « Je suis capable de le faire, je suis capable d'y arriver »,",
+    "back": "إذا كنتم كل يوم تفكرون بإيجابية وتقولون: « أنا قادر على فعل ذلك، أنا قادر على النجاح »،"
+  },
+  {
+    "front": "vous allez y penser le lendemain, le surlendemain, des mois plus tard.",
+    "back": "ستفكرون في ذلك في اليوم التالي، وبعد غد، وبعد أشهر."
+  },
+  {
+    "front": "Et ça va devenir une croyance. Vous croirez en vous.",
+    "back": "وسيصبح ذلك معتقداً. ستصدقون بأنفسكم."
+  },
+  {
+    "front": "Si vous avez toujours des pensées négatives, « Je ne le peux pas. Ce n'est pas pour moi. Impossible. »",
+    "back": "إذا كانت لديكم دائماً أفكار سلبية، « لا أستطيع. هذا ليس من أجلي. مستحيل. »"
+  },
+  {
+    "front": "C'est pareil. Vous allez commencer par y croire aussi.",
+    "back": "الأمر نفسه. ستبدأون أيضاً بالتصديق بذلك."
+  },
+  {
+    "front": "Encore une anecdote personnelle.",
+    "back": "حكاية شخصية أخرى."
+  },
+  {
+    "front": "Il y a plusieurs années maintenant, presque 3 ans, j'ai rompu mes ligaments croisés.",
+    "back": "منذ عدة سنوات الآن، حوالي 3 سنوات، مزقت أربطة صليبية."
+  },
+  {
+    "front": "Et pendant toutes ces années, j'étais persuadée que je ne pourrai plus skier.",
+    "back": "وخلال كل هذه السنوات، كنت مقتنعة أنني لن أستطيع التزلج مجدداً."
+  },
+  {
+    "front": "À chaque fois que j'étais sur des skis, automatiquement, je tombais parce que je m'étais persuadée que je ne pouvais plus skier parce que mon genou était abîmé.",
+    "back": "في كل مرة كنت فيها على الزلاجات، كنت أسقط تلقائياً لأنني أقنعت نفسي أنني لم أعد أستطيع التزلج لأن ركبتي تالفة."
+  },
+  {
+    "front": "Vous imaginez bien ma surprise quand, il y a quelques mois, je suis partie voir mon kiné qui m'a expliqué que ça faisait des années que mon genou était réparé,",
+    "back": "تتخيلون دهشتي عندما ذهبت منذ بضعة أشهر لرؤية معالجي الطبيعي الذي شرح لي أن ركبتي قد تم إصلاحها منذ سنوات،"
+  },
+  {
+    "front": "que j'étais totalement capable physiquement de faire du ski",
+    "back": "وأنني قادرة جسدياً تماماً على التزلج"
+  },
+  {
+    "front": "mais mon esprit était paralysé par toutes les pensées négatives que j'avais depuis accumulées.",
+    "back": "لكن عقلي كان مشلولاً بكل الأفكار السلبية التي تراكمت لدي."
+  },
+  {
+    "front": "Alors pour être honnête avec vous, je pense que je ne re-skierais quand même plus jamais",
+    "back": "لأكون صريحة معكم، أعتقد أنني لن أعود للتزلج مجدداً على أي حال"
+  },
+  {
+    "front": "mais il y a un exercice que j'utilise pour éviter de multiplier ces paralysies dans ma vie.",
+    "back": "لكن هناك تمرين أستخدمه لتجنب مضاعفة هذه الشلل في حياتي."
+  },
+  {
+    "front": "Cet exercice est très simple.",
+    "back": "هذا التمرين بسيط جداً."
+  },
+  {
+    "front": "Tous les soirs, essayez de le faire, essayez vous aussi de l'ajouter à votre routine.",
+    "back": "كل مساء، حاولوا القيام به، حاولوا أيضاً إضافته إلى روتينكم."
+  },
+  {
+    "front": "J'essaye de noter les pensées qui sont le plus revenues dans mon esprit.",
+    "back": "أحاول تدوين الأفكار التي تكررت أكثر في ذهني."
+  },
+  {
+    "front": "Si elles sont positives, je les relis et le lendemain, bizarrement, j'y repense encore.",
+    "back": "إذا كانت إيجابية، أعيد قراءتها وفي اليوم التالي، بشكل غريب، أفكر فيها مجدداً."
+  },
+  {
+    "front": "Si elles sont négatives, j'essaye de les switcher.",
+    "back": "إذا كانت سلبية، أحاول تحويلها."
+  },
+  {
+    "front": "Par exemple, je ne me suis pas sentie capable de faire ça.",
+    "back": "على سبيل المثال، لم أشعر بأنني قادرة على فعل ذلك."
+  },
+  {
+    "front": "Je le change, je me dis « Ok, je vais m'améliorer sur cette chose. Je vais me donner une seconde chance sur ce thème. »",
+    "back": "أغيرها، أقول لنفسي « حسناً، سأتحسن في هذا الأمر. سأعطي نفسي فرصة ثانية في هذا الموضوع. »"
+  },
+  {
+    "front": "Vous verrez que plus vous allez le faire, plus vous ferez un sacré pas de géant sur votre confiance en vous.",
+    "back": "سترون أنه كلما قمتم بذلك، كلما حققتم قفزة كبيرة في ثقتكم بأنفسكم."
+  },
+  {
+    "front": "La quatrième règle, alors là, on commence à arriver dans le vif du sujet.",
+    "back": "القاعدة الرابعة، هنا نبدأ في الوصول إلى صلب الموضوع."
+  },
+  {
+    "front": "c'est d'apprendre à respirer",
+    "back": "هي تعلم التنفس"
+  },
+  {
+    "front": "et de se dire : prends ton temps, mon monde m'attend.",
+    "back": "وتقول لنفسك: خذ وقتك، عالمي ينتظرني."
+  },
+  {
+    "front": "Je sais qu'on vit dans une génération, dans un monde où on est toujours dans la productivité, dans le fait de tout faire très vite.",
+    "back": "أعلم أننا نعيش في جيل، في عالم حيث نكون دائماً في الإنتاجية، وفي فعل كل شيء بسرعة."
+  },
+  {
+    "front": "En réalité, si on est honnête tous ensemble, même les théories du développement personnel sont devenues des injonctions à la productivité.",
+    "back": "في الواقع، إذا كنا صادقين معاً، حتى نظريات التنمية الذاتية أصبحت أوامر بالإنتاجية."
+  },
+  {
+    "front": "« Devenez la meilleure version de vous-même tout de suite. Voici les deux, trois étapes pour devenir la meilleure personne tout de suite. »",
+    "back": "« كونوا أفضل نسخة من أنفسكم فوراً. إليكم الخطوتين أو الثلاث لتصبحوا أفضل شخص فوراً. »"
+  },
+  {
+    "front": "Prenons notre temps.",
+    "back": "لنأخذ وقتنا."
+  },
+  {
+    "front": "Le temps est un luxe qui nous permet en réalité de nous développer et d'évoluer. L'évolution a besoin de temps.",
+    "back": "الوقت رفاهية تسمح لنا في الواقع بالتطور والنمو. التطور يحتاج وقتاً."
+  },
+  {
+    "front": "C'est impossible d'évoluer, tout de suite, en 2 secondes.",
+    "back": "من المستحيل أن نتطور، فوراً، في ثانيتين."
+  },
+  {
+    "front": "Alors je vous le dis encore une fois, c'est OK si vous avez mis dix ans à savoir quel était le métier de vos rêves.",
+    "back": "لذا أقول لكم مرة أخرى، لا بأس إذا استغرقتم عشر سنوات لتعرفوا ما هي وظيفة أحلامكم."
+  },
+  {
+    "front": "C'est OK si vous avez mis cinq ans à vous rendre compte que vous étiez dans une relation toxique et qu'il était temps de la quitter.",
+    "back": "لا بأس إذا استغرقتم خمس سنوات لتدركوا أنكم في علاقة سامة وأن الوقت قد حان لتركها."
+  },
+  {
+    "front": "C'est OK si vous ne savez pas encore ce que vous voulez faire de votre vie.",
+    "back": "لا بأس إذا كنتم لا تعرفون بعد ماذا تريدون أن تفعلوا بحياتكم."
+  },
+  {
+    "front": "C'est OK si vous changez d'avis, si vous changez de personnalité.",
+    "back": "لا بأس إذا غيرتم رأيكم، إذا غيرتم شخصيتكم."
+  },
+  {
+    "front": "Je suis la championne pour ça.",
+    "back": "أنا البطلة في ذلك."
+  },
+  {
+    "front": "Le lundi, je suis extravertie, le mardi, j'ai envie de parler à personne.",
+    "back": "يوم الإثنين، أنا منفتحة، يوم الثلاثاء، لا أريد التحدث إلى أحد."
+  },
+  {
+    "front": "C'est OK.",
+    "back": "لا بأس."
+  },
+  {
+    "front": "Et à chaque fois que vous ressentirez ces rush et ces pressions qui sont tellement nombreuses, surtout sur les réseaux sociaux,",
+    "back": "وفي كل مرة تشعرون بهذه الاندفاعات والضغوط الكثيرة، خاصة على وسائل التواصل الاجتماعي،"
+  },
+  {
+    "front": "rappelez vous, vous avez du temps.",
+    "back": "تذكروا، لديكم وقت."
+  },
+  {
+    "front": "Vous aurez toujours du temps pour les bonnes choses.",
+    "back": "سيكون لديكم دائماً وقت للأشياء الجيدة."
+  },
+  {
+    "front": "Je prends mon temps, mon monde m'attend.",
+    "back": "آخذ وقتي، عالمي ينتظرني."
+  },
+  {
+    "front": "La cinquième règle, qui est probablement la plus compliquée pour moi, la plus compliquée, je pense pour nous tous ici,",
+    "back": "القاعدة الخامسة، والتي هي على الأرجح الأصعب بالنسبة لي، الأصعب، أعتقد بالنسبة لنا جميعاً هنا،"
+  },
+  {
+    "front": "c'est d'arrêter de prendre les choses personnellement.",
+    "back": "هي التوقف عن أخذ الأمور بشكل شخصي."
+  },
+  {
+    "front": "Sacré exercice.",
+    "back": "تمرين صعب."
+  },
+  {
+    "front": "Je ne vous cache pas que le matin, quand je me réveille, j'ai un méchant commentaire.",
+    "back": "لا أخفيكم أنه في الصباح، عندما أستيقظ، أجد تعليقاً لئيماً."
+  },
+  {
+    "front": "Rien de mieux pour commencer la journée et je me dis : « Que faire pour éviter que ça me touche vraiment ? »",
+    "back": "لا شيء أفضل لبدء اليوم وأقول لنفسي: « ماذا أفعل لتجنب أن يؤثر ذلك بي حقاً؟ »"
+  },
+  {
+    "front": "Je me suis rendu compte d'une chose assez simple.",
+    "back": "أدركت شيئاً بسيطاً جداً."
+  },
+  {
+    "front": "La manière dont les gens me perçoivent, ce n'est pas vraiment de ma faute.",
+    "back": "الطريقة التي يراني بها الناس، ليست حقاً خطأي."
+  },
+  {
+    "front": "C'est tout simplement leur perception.",
+    "back": "إنها ببساطة تصورهم."
+  },
+  {
+    "front": "Comme si on avait tous des lunettes finalement.",
+    "back": "وكأن لدينا جميعاً نظارات في النهاية."
+  },
+  {
+    "front": "Tout le monde a des lunettes différentes.",
+    "back": "كل شخص لديه نظارات مختلفة."
+  },
+  {
+    "front": "Tout le monde voit la vie différemment.",
+    "back": "كل شخص يرى الحياة بشكل مختلف."
+  },
+  {
+    "front": "Certaines personnes ont des lunettes teintées, des lunettes 3D, des lunettes un peu difformes, des lunettes un peu sales qu'il faudrait penser à nettoyer.",
+    "back": "بعض الناس لديهم نظارات ملونة، نظارات ثلاثية الأبعاد، نظارات مشوهة قليلاً، نظارات متسخة قليلاً يجب التفكير في تنظيفها."
+  },
+  {
+    "front": "Et plusieurs personnes peuvent penser voir la même chose, la même personne est en face d'eux,",
+    "back": "ويمكن لعدة أشخاص أن يعتقدوا أنهم يرون نفس الشيء، نفس الشخص أمامهم،"
+  },
+  {
+    "front": "mais comme ils ont chacun leurs propres lunettes, ils ne verront jamais la même chose.",
+    "back": "لكن بما أن لكل منهم نظاراته الخاصة، فلن يروا أبداً نفس الشيء."
+  },
+  {
+    "front": "Votre job n'est pas d'acheter une nouvelle paire de lunettes toute neuve au monde entier.",
+    "back": "مهمتكم ليست شراء زوج جديد من النظارات الجديدة تماماً للعالم بأسره."
+  },
+  {
+    "front": "Votre job, c'est d'être vous-même et de vous entourer des personnes qui ont les bonnes lunettes pour vous voir, pour vous voir clairement comme vous êtes.",
+    "back": "مهمتكم هي أن تكونوا أنفسكم وأن تحيطوا أنفسكم بالأشخاص الذين لديهم النظارات المناسبة لرؤيتكم، لرؤيتكم بوضوح كما أنتم."
+  },
+  {
+    "front": "Comme je vous vois aujourd'hui clairement devant moi.",
+    "back": "كما أراك اليوم بوضوح أمامي."
+  },
+  {
+    "front": "Et la dernière règle, finalement, c'est la règle que Denzel Washington m'a enseigné : honnêteté et gratitude.",
+    "back": "والقاعدة الأخيرة، في النهاية، هي القاعدة التي علمني إياها دنزل واشنطن: الصدق والامتنان."
+  },
+  {
+    "front": "Il y avait une phrase que mon père me disait toujours depuis toute petite : « Tu es responsable de 50 %, minimum, de ce qui t'arrive dans ta vie, positivement et négativement. »",
+    "back": "كانت هناك عبارة كان والدي يرددها لي دائماً منذ صغري: « أنت مسؤولة عن 50٪، على الأقل، مما يحدث لك في حياتك، إيجاباً وسلباً. »"
+  },
+  {
+    "front": "Quand c'est négatif, il faut savoir faire preuve d'honnêteté avec soi même.",
+    "back": "عندما يكون الأمر سلبياً، يجب أن نعرف كيف نكون صادقين مع أنفسنا."
+  },
+  {
+    "front": "Oui, là, j'étais mal organisé.",
+    "back": "نعم، هنا، كنت سيئ التنظيم."
+  },
+  {
+    "front": "Oui, c'est vrai, je suis arrivé en retard. J'aurais dû me lever plus tôt.",
+    "back": "نعم، صحيح، لقد جئت متأخراً. كان يجب أن أستيقظ باكراً."
+  },
+  {
+    "front": "Oui, c'est vrai, je n'ai pas assez travaillé sur ce devoir. Je ferai mieux la prochaine fois.",
+    "back": "نعم، صحيح، لم أعمل بما فيه الكفاية على هذا الواجب. سأفعل بشكل أفضل في المرة القادمة."
+  },
+  {
+    "front": "Mais quand vous faites quelque chose de positif, s'il vous plaît pensez à vous remercier.",
+    "back": "لكن عندما تفعلون شيئاً إيجابياً، من فضلكم فكروا في شكر أنفسكم."
+  },
+  {
+    "front": "Pensez à faire preuve de reconnaissance envers vous même.",
+    "back": "فكروا في إظهار الامتنان لأنفسكم."
+  },
+  {
+    "front": "Pensez à vous faire cette petite tape sur l'épaule. Pensez à vous féliciter.",
+    "back": "فكروا في أن تربتوا على أكتافكم. فكروا في تهنئة أنفسكم."
+  },
+  {
+    "front": "Pensez à vous offrir vos propres fleurs.",
+    "back": "فكروا في تقديم الزهور لأنفسكم."
+  },
+  {
+    "front": "Vous savez, c'est un ami qui me le disait : « Avec nous-mêmes, on est un petit peu dur, vous savez, comme quand 99 prières ont été exaucées",
+    "back": "تعرفون، كان صديق يقول لي: « مع أنفسنا، نحن قاسون بعض الشيء، كما عندما استُجيبت 99 دعوة"
+  },
+  {
+    "front": "mais la 100ᵉ, le 100ᵉ vœu, il n'a pas été réalisé et on n'arrête pas d'y penser et de le ressasser. »",
+    "back": "لكن الدعوة رقم 100، لم تتحقق ونستمر في التفكير فيها واسترجاعها. »"
+  },
+  {
+    "front": "Arrêtez de faire la même chose pour vous-même.",
+    "back": "توقفوا عن فعل الشيء نفسه لأنفسكم."
+  },
+  {
+    "front": "Il y aura la 100ᵉ fois où vous allez peut-être vous rater,",
+    "back": "سيكون هناك مرة رقم 100 حيث قد تفشلون،"
+  },
+  {
+    "front": "mais pensez aux 99ᵉ fois où vous avez juste été excellent, où vous aviez vraiment passé le test.",
+    "back": "لكن فكروا في المرات الـ 99 حيث كنتم ممتازين، حيث اجتزتم الاختبار حقاً."
+  },
+  {
+    "front": "Faites preuve de reconnaissance envers vous même,",
+    "back": "أظهروا الامتنان لأنفسكم،"
+  },
+  {
+    "front": "faites preuve de gratitude envers vous même.",
+    "back": "أظهروا الشكر لأنفسكم."
+  },
+  {
+    "front": "Soyez heureux de chaque opportunité que vous avez",
+    "back": "كونوا سعداء بكل فرصة لديكم"
+  },
+  {
+    "front": "et soyez fier du fait que vous vous soyez battu pour.",
+    "back": "وكونوا فخورين بأنكم ناضلتم من أجلها."
+  },
+  {
+    "front": "C'est ce que j'essaye de faire au quotidien.",
+    "back": "هذا ما أحاول القيام به يومياً."
+  },
+  {
+    "front": "C'est ce que j'ai fait finalement en venant ici.",
+    "back": "هذا ما فعلته في النهاية عندما جئت إلى هنا."
+  },
+  {
+    "front": "D'ailleurs, je vous ai montré en live comment j'utilise ces 6 règles au quotidien,",
+    "back": "بالمناسبة، لقد أريتكم مباشرة كيف أستخدم هذه القواعد الست يومياً،"
+  },
+  {
+    "front": "en ayant assez confiance en moi pour venir devant vous,",
+    "back": "بوجود ثقة كافية في نفسي للمجيء أمامكم،"
+  },
+  {
+    "front": "en écoutant mon enfant intérieur qui aurait adoré être là,",
+    "back": "بالإصغاء إلى طفلي الداخلي الذي كان سيعشق أن يكون هنا،"
+  },
+  {
+    "front": "en ayant entraîné mon esprit, en me disant que je pouvais le faire,",
+    "back": "بتدريب عقلي، وأقول لنفسي أنني أستطيع فعل ذلك،"
+  },
+  {
+    "front": "en ayant refusé d'être la marionnette des gens qui auraient pu me dire : « Tu n'es pas légitime. »,",
+    "back": "برفض أن أكون دمية للأشخاص الذين كان يمكن أن يقولوا لي: « أنت لست شرعية. »،"
+  },
+  {
+    "front": "en ayant pris mon temps,",
+    "back": "بأخذ وقتي،"
+  },
+  {
+    "front": "en ayant été reconnaissante et honnête avec vous ce soir.",
+    "back": "بكوني ممتنة وصريحة معكم هذا المساء."
+  },
+  {
+    "front": "Et je vous le promets, en évitant de prendre les critiques, s'il y en a, de manière personnelle.",
+    "back": "وأعدكم، بتجنب أخذ الانتقادات، إن وجدت، بشكل شخصي."
+  },
+  {
+    "front": "J'ai été honnête avec vous.",
+    "back": "لقد كنت صريحة معكم."
+  },
+  {
+    "front": "Maintenant, pour terminer ce Talk, j'aimerais que vous soyez honnêtes avec vous-même.",
+    "back": "الآن، لإنهاء هذا الحديث، أود أن تكونوا صادقين مع أنفسكم."
+  },
+  {
+    "front": "Je vais vous demander de tous fermer les yeux maintenant,",
+    "back": "سأطلب منكم جميعاً أن تغمضوا أعينكم الآن،"
+  },
+  {
+    "front": "de vous imaginer en train de réaliser tous ces rêves que vous avez mis de côté",
+    "back": "أن تتخيلوا أنفسكم تحققون كل تلك الأحلام التي وضعتموها جانباً"
+  },
+  {
+    "front": "parce que vous ne vous sentiez pas capable",
+    "back": "لأنكم لم تشعروا بأنكم قادرون"
+  },
+  {
+    "front": "parce que vous avez l'impression que ce n'est pas le bon moment.",
+    "back": "لأنكم تشعرون أن هذا ليس الوقت المناسب."
+  },
+  {
+    "front": "Toutes ces passions que vous avez abandonnées.",
+    "back": "كل تلك الشغف التي تخليتم عنها."
+  },
+  {
+    "front": "J'ai envie que vous soyez en train de vous visualiser, en train de les vivre, en train d'y aller à fond.",
+    "back": "أريد أن تتخيلوا أنفسكم، تعيشونها، تذهبون فيها بكل قوة."
+  },
+  {
+    "front": "Maintenant, je vais vous demander d'ouvrir les yeux.",
+    "back": "الآن، سأطلب منكم فتح أعينكم."
+  },
+  {
+    "front": "J'ai envie que vous me fassiez une promesse, que ce soir, avant de dormir, vous vous posiez la question :",
+    "back": "أريد أن تعدوني وعداً، أن تسألوا أنفسكم هذا المساء، قبل النوم:"
+  },
+  {
+    "front": "« Quand est-ce que je vais me lancer ? »",
+    "back": "« متى سأبدأ؟ »"
+  },
+  {
+    "front": "Merci à tous.",
+    "back": "شكراً لكم جميعاً."
+  }
+]
