@@ -1,0 +1,93 @@
+{
+  "cards": [
+    {
+      "front": "grignote",
+      "back": "La petite souris grise grignote un morceau de fromage caché sous la table.<hr class=\"word-card-sep\">تقضم الفأرة الرمادية الصغيرة قطعة جبن مختبئة تحت الطاولة.",
+      "frontDir": "rtl",
+      "backDir": "rtl",
+      "frontAlign": "center",
+      "backAlign": "center",
+      "frontForceCenter": true,
+      "backForceCenter": false,
+      "frontNotes": "",
+      "backNotes": "",
+      "frontWordNotes": {},
+      "backWordNotes": {},
+      "frontImage": "",
+      "backImage": "",
+      "learned": false
+    },
+    {
+      "front": "caché",
+      "back": "La petite souris grise grignote un morceau de fromage caché sous la table.<hr class=\"word-card-sep\">تقضم الفأرة الرمادية الصغيرة قطعة جبن مختبئة تحت الطاولة.",
+      "frontDir": "rtl",
+      "backDir": "rtl",
+      "frontAlign": "center",
+      "backAlign": "center",
+      "frontForceCenter": true,
+      "backForceCenter": false,
+      "frontNotes": "",
+      "backNotes": "",
+      "frontWordNotes": {},
+      "backWordNotes": {},
+      "frontImage": "",
+      "backImage": "",
+      "learned": false
+    },
+    {
+      "front": "dessert",
+      "back": "Je mange un yaourt aux fraises au dessert puis je jette le pot.<hr class=\"word-card-sep\">آكل تحلية ياغورت بالفراولة ثم أرمي العلبة.",
+      "frontDir": "rtl",
+      "backDir": "rtl",
+      "frontAlign": "center",
+      "backAlign": "center",
+      "frontForceCenter": true,
+      "backForceCenter": false,
+      "frontNotes": "",
+      "backNotes": "",
+      "frontWordNotes": {},
+      "backWordNotes": {},
+      "frontImage": "",
+      "backImage": "",
+      "learned": false
+    },
+    {
+      "front": "jette",
+      "back": "Je mange un yaourt aux fraises au dessert puis je jette le pot.<hr class=\"word-card-sep\">آكل تحلية ياغورت بالفراولة ثم أرمي العلبة.",
+      "frontDir": "rtl",
+      "backDir": "rtl",
+      "frontAlign": "center",
+      "backAlign": "center",
+      "frontForceCenter": true,
+      "backForceCenter": false,
+      "frontNotes": "",
+      "backNotes": "",
+      "frontWordNotes": {},
+      "backWordNotes": {},
+      "frontImage": "",
+      "backImage": "",
+      "learned": false
+    },
+    {
+      "front": "nettoie",
+      "back": "Je nettoie mon petit bureau en plastique avec une éponge humide.<hr class=\"word-card-sep\">أنظف مكتبي البلاستيكي الصغير بإسفنجة رطبة.",
+      "frontDir": "rtl",
+      "backDir": "rtl",
+      "frontAlign": "center",
+      "backAlign": "center",
+      "frontForceCenter": true,
+      "backForceCenter": false,
+      "frontNotes": "",
+      "backNotes": "",
+      "frontWordNotes": {},
+      "backWordNotes": {},
+      "frontImage": "",
+      "backImage": "",
+      "learned": false
+    }
+  ],
+  "filters": {
+    "srsQualityFilter": "all",
+    "wordQualityFilter": "all"
+  }
+}
