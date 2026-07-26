@@ -1,0 +1,838 @@
+[
+  {
+    "front": "Les Misérables est un roman historique de Victor Hugo publié en 1862.",
+    "back": "البؤساء هي رواية تاريخية من تأليف فيكتور هوغو نُشرت عام 1862."
+  },
+  {
+    "front": "L'histoire se déroule en France au début du XIXe siècle.",
+    "back": "تدور أحداث القصة في فرنسا في بداية القرن التاسع عشر."
+  },
+  {
+    "front": "Le roman dénonce l'injustice sociale et la pauvreté.",
+    "back": "تندد الرواية بالظلم الاجتماعي والفقر."
+  },
+  {
+    "front": "L'histoire commence en 1815 avec la présentation de l'évêque Myriel.",
+    "back": "تبدأ القصة عام 1815 بتقديم الأسقف ميريل."
+  },
+  {
+    "front": "Myriel est un évêque généreux et humble qui aide les pauvres.",
+    "back": "ميريل هو أسقف كريم ومتواضع يساعد الفقراء."
+  },
+  {
+    "front": "Il donne la majeure partie de son revenu aux nécessiteux.",
+    "back": "يعطي الجزء الأكبر من دخله للمحتاجين."
+  },
+  {
+    "front": "Jean Valjean est libéré du bagne de Toulon après 19 ans de prison.",
+    "back": "جان فالجان يُطلق سراحه من سجن طولون بعد 19 عاماً في السجن."
+  },
+  {
+    "front": "Il a été condamné pour avoir volé un pain pour nourrir sa famille.",
+    "back": "لقد حُكم عليه لسرقته رغيف خبز لإطعام أسرته."
+  },
+  {
+    "front": "Il avait également tenté de s'évader à plusieurs reprises.",
+    "back": "كما حاول الهروب عدة مرات."
+  },
+  {
+    "front": "À sa libération, Valjean est rejeté par la société à cause de son passé.",
+    "back": "بعد إطلاق سراحه، يُرفض فالجان من المجتمع بسبب ماضيه."
+  },
+  {
+    "front": "Personne ne veut l'héberger ni lui donner du travail.",
+    "back": "لا أحد يريد أن يؤويه أو يعطيه عملاً."
+  },
+  {
+    "front": "Il erre dans les rues, affamé et désespéré.",
+    "back": "يتجول في الشوارع، جائعاً ويائساً."
+  },
+  {
+    "front": "Il frappe à la porte de l'évêque Myriel.",
+    "back": "يطرق باب الأسقف ميريل."
+  },
+  {
+    "front": "Myriel l'accueille sans jugement ni méfiance.",
+    "back": "يستقبله ميريل دون حكم أو شك."
+  },
+  {
+    "front": "Il lui offre un repas chaud et un lit pour la nuit.",
+    "back": "يقدم له وجبة دافئة وسريراً للمبيت."
+  },
+  {
+    "front": "Valjean, encore marqué par son passé, est méfiant.",
+    "back": "فالجان، لا يزال متأثراً بماضيه، يشعر بالشك."
+  },
+  {
+    "front": "Au milieu de la nuit, il se lève et vole l'argenterie de l'évêque.",
+    "back": "في منتصف الليل، يقوم ويسرق فضيات الأسقف."
+  },
+  {
+    "front": "Il s'enfuit, mais est arrêté par la police.",
+    "back": "يهرب، لكن يتم اعتقاله من قبل الشرطة."
+  },
+  {
+    "front": "Les gendarmes le ramènent chez l'évêque.",
+    "back": "يعيده رجال الدرك إلى الأسقف."
+  },
+  {
+    "front": "Myriel affirme que l'argenterie a été donnée à Valjean.",
+    "back": "يؤكد ميريل أن الفضيات قد أُعطيت لفالجان."
+  },
+  {
+    "front": "Il lui donne même ses chandeliers en argent en supplément.",
+    "back": "حتى أنه يعطيه شمعدانه الفضيين كهدية إضافية."
+  },
+  {
+    "front": "Il dit : « N'oubliez jamais que vous m'avez promis de devenir honnête. »",
+    "back": "يقول: \"لا تنسوا أبداً أنكم وعدتمني بأن تصبحوا صادقين.\""
+  },
+  {
+    "front": "Touché par ce pardon inattendu, Valjean est bouleversé.",
+    "back": "متأثراً بهذا الغفران غير المتوقع، يشعر فالجان بالصدمة."
+  },
+  {
+    "front": "Il décide de changer de vie et de se racheter.",
+    "back": "يقرر تغيير حياته والتكفير عن ذنبه."
+  },
+  {
+    "front": "Il erre encore, perdu dans ses pensées.",
+    "back": "يظل يتجول، تائهاً في أفكاره."
+  },
+  {
+    "front": "Il rencontre un jeune Savoyard nommé Petit-Gervais.",
+    "back": "يلتقي بصبي سافويارد صغير يدعى بيتي-جيرفيه."
+  },
+  {
+    "front": "L'enfant a perdu une pièce de monnaie.",
+    "back": "فقد الطفل عملة معدنية."
+  },
+  {
+    "front": "Valjean, sans réfléchir, vole cette pièce par habitude.",
+    "back": "فالجان، دون تفكير، يسرق هذه العملة بدافع العادة."
+  },
+  {
+    "front": "Petit-Gervais pleure et s'enfuit.",
+    "back": "يبكي بيتي-جيرفيه ويهرب."
+  },
+  {
+    "front": "Valjean est aussitôt rongé par le remords.",
+    "back": "يُعذب فالجان فوراً بالندم."
+  },
+  {
+    "front": "Il tente de retrouver l'enfant pour lui rendre la pièce, en vain.",
+    "back": "يحاول العثور على الصبي لإعادة العملة إليه، لكن دون جدوى."
+  },
+  {
+    "front": "Cet incident le transforme profondément.",
+    "back": "هذه الحادثة تغيره بعمق."
+  },
+  {
+    "front": "Il comprend que le pardon de l'évêque exige une véritable conversion.",
+    "back": "يفهم أن غفران الأسقف يتطلب تحولاً حقيقياً."
+  },
+  {
+    "front": "Valjean change d'identité et devient Monsieur Madeleine.",
+    "back": "يُغير فالجان هويته ويصبح السيد مادلين."
+  },
+  {
+    "front": "Il s'installe à Montreuil-sur-Mer.",
+    "back": "يستقر في مونتريوي-سور-مير."
+  },
+  {
+    "front": "Il invente un procédé de fabrication révolutionnaire.",
+    "back": "يخترع طريقة تصنيع ثورية."
+  },
+  {
+    "front": "Il devient un industriel prospère et riche.",
+    "back": "يصبح رجل صناعة مزدهراً وغنياً."
+  },
+  {
+    "front": "Il emploie des ouvriers et les traite avec humanité.",
+    "back": "يوظف عمالاً ويعاملهم بإنسانية."
+  },
+  {
+    "front": "Il crée des écoles et des hôpitaux pour la ville.",
+    "back": "ينشئ مدارس ومستشفيات للمدينة."
+  },
+  {
+    "front": "Sa générosité est légendaire.",
+    "back": "كرمه أسطوري."
+  },
+  {
+    "front": "Il est nommé maire de Montreuil-sur-Mer.",
+    "back": "يُعيّن عمدة لمونتريوي-سور-مير."
+  },
+  {
+    "front": "Javert, un policier inflexible, est nommé dans la ville.",
+    "back": "جافير، شرطي صارم، يُعيّن في المدينة."
+  },
+  {
+    "front": "Javert a une conception rigide de la justice.",
+    "back": "لدى جافير مفهوم صارم للعدالة."
+  },
+  {
+    "front": "Il croit que les criminels restent criminels pour toujours.",
+    "back": "يعتقد أن المجرمين يظلون مجرمين إلى الأبد."
+  },
+  {
+    "front": "Il reconnaît en Madeleine l'ancien bagnard Valjean.",
+    "back": "يتعرف في مادلين على السجين السابق فالجان."
+  },
+  {
+    "front": "Il le soupçonne, mais n'a pas de preuves.",
+    "back": "يشك فيه، لكن ليس لديه أدلة."
+  },
+  {
+    "front": "Il observe ses moindres gestes, attendant une erreur.",
+    "back": "يراقب أدنى حركاته، منتظراً خطأً."
+  },
+  {
+    "front": "Fantine est une jeune ouvrière de l'usine de Madeleine.",
+    "back": "فانتين عاملة شابة في مصنع مادلين."
+  },
+  {
+    "front": "Elle a eu une fille illégitime nommée Cosette.",
+    "back": "لديها ابنة غير شرعية تدعى كوزيت."
+  },
+  {
+    "front": "Le père de l'enfant, Tholomyès, l'a abandonnée.",
+    "back": "والد الطفل، تولوميس، تخلى عنها."
+  },
+  {
+    "front": "Fantine confie Cosette à Thénardier, un aubergiste.",
+    "back": "تعهد فانتين بكوزيت لتيناردييه، صاحب نزل."
+  },
+  {
+    "front": "Les Thénardier sont des gens cupides et sans scrupules.",
+    "back": "تيناردييه هما شخصان جشعان وعديمو الضمير."
+  },
+  {
+    "front": "Ils maltraitent Cosette et l'exploitent comme servante.",
+    "back": "يسيئون معاملة كوزيت ويستغلونها كخادمة."
+  },
+  {
+    "front": "Ils exigent de l'argent à Fantine, de plus en plus souvent.",
+    "back": "يطلبون المال من فانتين، بشكل متزايد."
+  },
+  {
+    "front": "Fantine est renvoyée de l'usine de Madeleine.",
+    "back": "تُطرد فانتين من مصنع مادلين."
+  },
+  {
+    "front": "Elle est accusée d'immoralité par la surveillante.",
+    "back": "تُتهم بالفجور من قبل المشرفة."
+  },
+  {
+    "front": "Pour payer les Thénardier, elle vend ses cheveux.",
+    "back": "لدفع ثمن تيناردييه، تبيع شعرها."
+  },
+  {
+    "front": "Elle vend ensuite ses dents, puis se prostitue.",
+    "back": "ثم تبيع أسنانها، ثم تمارس الدعارة."
+  },
+  {
+    "front": "Elle tombe gravement malade, épuisée par la misère.",
+    "back": "تصاب بمرض خطير، منهكة من البؤس."
+  },
+  {
+    "front": "Javert l'arrête pour avoir agressé un bourgeois.",
+    "back": "يعتقلها جافير لاعتدائها على أحد البرجوازيين."
+  },
+  {
+    "front": "Madeleine (Valjean) intervient et la sauve.",
+    "back": "يتدخل مادلين (فالجان) وينقذها."
+  },
+  {
+    "front": "Il la fait soigner et promet d'aller chercher Cosette.",
+    "back": "يوفر لها الرعاية ويعد بالذهاب لإحضار كوزيت."
+  },
+  {
+    "front": "Fantine, touchée par sa bonté, lui fait confiance.",
+    "back": "فانتين، متأثرة بلطفه، تثق به."
+  },
+  {
+    "front": "Mais Javert est persuadé que Madeleine est Valjean.",
+    "back": "لكن جافير مقتنع أن مادلين هو فالجان."
+  },
+  {
+    "front": "Un homme nommé Champmathieu est arrêté et accusé d'être Valjean.",
+    "back": "يُقبض على رجل يدعى شام ماثيو ويُتهم بأنه فالجان."
+  },
+  {
+    "front": "Il est jugé pour un crime qu'il n'a pas commis.",
+    "back": "يُحاكم بتهمة لم يرتكبها."
+  },
+  {
+    "front": "Valjean se déchire entre son devoir et sa sécurité.",
+    "back": "يمزق فالجان بين واجبه وأمانه."
+  },
+  {
+    "front": "Il se rend au tribunal et s'écrie : « Je suis Jean Valjean ! »",
+    "back": "يذهب إلى المحكمة ويصرخ: \"أنا جان فالجان!\""
+  },
+  {
+    "front": "Champmathieu est libéré, Valjean est arrêté.",
+    "back": "يُطلق سراح شام ماثيو، يُعتقل فالجان."
+  },
+  {
+    "front": "Il est condamné à la réclusion à perpétuité.",
+    "back": "يُحكم عليه بالسجن المؤبد."
+  },
+  {
+    "front": "Valjean retourne au bagne de Toulon.",
+    "back": "يعود فالجان إلى سجن طولون."
+  },
+  {
+    "front": "Fantine, en entendant cette nouvelle, est terrassée.",
+    "back": "فانتين، عند سماع هذا الخبر، تُصعق."
+  },
+  {
+    "front": "Elle meurt, sans avoir revu sa fille Cosette.",
+    "back": "تموت، دون أن ترى ابنتها كوزيت."
+  },
+  {
+    "front": "Valjean parvient à s'évader du bagne.",
+    "back": "يتمكن فالجان من الهروب من السجن."
+  },
+  {
+    "front": "Il est déclaré mort par noyade.",
+    "back": "يُعلن عن وفاته غرقاً."
+  },
+  {
+    "front": "Il retourne à Montfermeil pour sauver Cosette.",
+    "back": "يعود إلى مونتفيرميل لإنقاذ كوزيت."
+  },
+  {
+    "front": "Il la trouve servante chez les Thénardier.",
+    "back": "يجدها خادمة لدى تيناردييه."
+  },
+  {
+    "front": "Cosette est maltraitée, en haillons, terrifiée.",
+    "back": "كوزيت مساءة معاملتها، في ملابس ممزقة، مرعوبة."
+  },
+  {
+    "front": "Valjean paie une grosse somme pour la libérer.",
+    "back": "يدفع فالجان مبلغاً كبيراً لتحريرها."
+  },
+  {
+    "front": "Il emmène Cosette avec lui à Paris.",
+    "back": "يأخذ كوزيت معه إلى باريس."
+  },
+  {
+    "front": "Ils s'installent dans une petite maison rue Plumet.",
+    "back": "يستقران في منزل صغير في شارع بلوميه."
+  },
+  {
+    "front": "Valjean devient le père adoptif de Cosette.",
+    "back": "يصبح فالجان الأب بالتبني لكوزيت."
+  },
+  {
+    "front": "Il la protège et lui donne tout son amour.",
+    "back": "يحميها ويعطيها كل حبه."
+  },
+  {
+    "front": "Cosette grandit heureuse et devient une belle jeune femme.",
+    "back": "تكبر كوزيت سعيدة وتصبح شابة جميلة."
+  },
+  {
+    "front": "Marius Pontmercy est un étudiant idéaliste.",
+    "back": "ماريوس بونتميرسي هو طالب مثالي."
+  },
+  {
+    "front": "Il est orphelin et vit avec son grand-père, Gillenormand.",
+    "back": "يتيم ويعيش مع جده، جيلينورمون."
+  },
+  {
+    "front": "Il rompt avec son grand-père à cause de ses idées républicaines.",
+    "back": "ينقطع عن جده بسبب أفكاره الجمهورية."
+  },
+  {
+    "front": "Il vit pauvrement avec ses amis étudiants.",
+    "back": "يعيش بفقر مع أصدقائه الطلاب."
+  },
+  {
+    "front": "Il rencontre Cosette au jardin du Luxembourg.",
+    "back": "يلتقي بكوزيت في حديقة لوكسمبورغ."
+  },
+  {
+    "front": "Il tombe éperdument amoureux d'elle.",
+    "back": "يقع في حبها بجنون."
+  },
+  {
+    "front": "Il la suit jusqu'à la rue Plumet.",
+    "back": "يتعقبها إلى شارع بلوميه."
+  },
+  {
+    "front": "Valjean, méfiant, déménage pour fuir.",
+    "back": "فالجان، متشكك، ينتقل ليهرب."
+  },
+  {
+    "front": "Éponine, la fille des Thénardier, est amoureuse de Marius.",
+    "back": "إيبونين، ابنة تيناردييه، تحب ماريوس."
+  },
+  {
+    "front": "Elle aide Marius à retrouver Cosette par amour pur.",
+    "back": "تساعد ماريوس في العثور على كوزيت بدافع الحب الخالص."
+  },
+  {
+    "front": "Elle le guide jusqu'à la maison de la rue Plumet.",
+    "back": "ترشده إلى المنزل في شارع بلوميه."
+  },
+  {
+    "front": "Marius et Cosette se déclarent leur amour.",
+    "back": "يعلن ماريوس وكوزيت حبهما."
+  },
+  {
+    "front": "Ils vivent une idylle secrète et passionnée.",
+    "back": "يعيشان قصة حب سرية وعاطفية."
+  },
+  {
+    "front": "Thénardier et sa bande tentent de cambrioler la maison.",
+    "back": "يحاول تيناردييه وعصابته اقتحام المنزل."
+  },
+  {
+    "front": "Valjean surprend l'attaque, mais reconnaît Thénardier.",
+    "back": "يفاجأ فالجان بالهجوم، لكن يتعرف على تيناردييه."
+  },
+  {
+    "front": "Il les fait fuir sans les dénoncer.",
+    "back": "يطردهم دون أن يبلغ عنهم."
+  },
+  {
+    "front": "Marius devient obsédé par Cosette.",
+    "back": "يصبح ماريوس مهووساً بكوزيت."
+  },
+  {
+    "front": "Il la revoit chez Valjean, mais le père est distant.",
+    "back": "يراها مرة أخرى عند فالجان، لكن الأب متحفظ."
+  },
+  {
+    "front": "L'été 1832, les républicains préparent une insurrection.",
+    "back": "صيف 1832، يستعد الجمهوريون لانتفاضة."
+  },
+  {
+    "front": "Le général Lamarque, leur dernier espoir, meurt.",
+    "back": "الجنرال لامارك، أملهم الأخير، يموت."
+  },
+  {
+    "front": "Les barricades se dressent dans les rues de Paris.",
+    "back": "تُقام المتاريس في شوارع باريس."
+  },
+  {
+    "front": "Marius rejoint ses amis sur la barricade de la rue de la Chanvrerie.",
+    "back": "ينضم ماريوس إلى أصدقائه على متاريس شارع شانفري."
+  },
+  {
+    "front": "Gavroche, un gamin des rues, est déjà là.",
+    "back": "جافروش، طفل الشوارع، موجود بالفعل."
+  },
+  {
+    "front": "Gavroche est un enfant courageux, insolent et attachant.",
+    "back": "جافروش طفل شجاع، وقح وجذاب."
+  },
+  {
+    "front": "Il a été abandonné par ses parents, les Thénardier.",
+    "back": "تخلى عنه والداه، تيناردييه."
+  },
+  {
+    "front": "Il vit dans la rue, libre et débrouillard.",
+    "back": "يعيش في الشارع، حراً ومدبراً."
+  },
+  {
+    "front": "Il se bat avec les insurgés comme un vrai soldat.",
+    "back": "يقاتل مع المتمردين كجندي حقيقي."
+  },
+  {
+    "front": "Il meurt en récupérant des munitions sous le feu ennemi.",
+    "back": "يموت وهو يجمع الذخيرة تحت نيران العدو."
+  },
+  {
+    "front": "Valjean arrive sur la barricade pour sauver Marius.",
+    "back": "يصل فالجان إلى المتاريس لإنقاذ ماريوس."
+  },
+  {
+    "front": "Il se bat aux côtés des insurgés.",
+    "back": "يقاتل إلى جانب المتمردين."
+  },
+  {
+    "front": "Il demande la permission de tuer Javert, prisonnier.",
+    "back": "يطلب الإذن بقتل جافير، الأسير."
+  },
+  {
+    "front": "Il l'emmène dans une ruelle et le libère.",
+    "back": "يأخذه إلى زقاق ويُطلقه."
+  },
+  {
+    "front": "Javert, troublé par cette clémence, est bouleversé.",
+    "back": "جافير، مضطرب بهذه الرحمة، يشعر بالصدمة."
+  },
+  {
+    "front": "Son système de valeurs s'effondre.",
+    "back": "ينهار نظام قيمه."
+  },
+  {
+    "front": "La barricade tombe après une dure bataille.",
+    "back": "تسقط المتاريس بعد معركة عنيفة."
+  },
+  {
+    "front": "Les insurgés sont presque tous tués.",
+    "back": "يُقتل جميع المتمردين تقريباً."
+  },
+  {
+    "front": "Valjean sauve Marius blessé.",
+    "back": "ينقذ فالجان ماريوس المصاب."
+  },
+  {
+    "front": "Il le porte dans les égouts de Paris.",
+    "back": "يحمله في مجاري باريس."
+  },
+  {
+    "front": "Il marche des heures dans l'obscurité et la boue.",
+    "back": "يمشي لساعات في الظلام والوحل."
+  },
+  {
+    "front": "Dans les égouts, il rencontre Thénardier.",
+    "back": "في المجاري، يلتقي بتيناردييه."
+  },
+  {
+    "front": "Thénardier est en train de fouiller les poches des morts.",
+    "back": "تيناردييه يفتش جيوب الموتى."
+  },
+  {
+    "front": "Il vole la bague de Marius sans le reconnaître.",
+    "back": "يسرق خاتم ماريوس دون أن يتعرف عليه."
+  },
+  {
+    "front": "Valjean sort des égouts avec Marius inconscient.",
+    "back": "يخرج فالجان من المجاري مع ماريوس الفاقد للوعي."
+  },
+  {
+    "front": "Il arrive chez le grand-père Gillenormand.",
+    "back": "يصل إلى جده جيلينورمون."
+  },
+  {
+    "front": "Marius est sauvé grâce à Valjean.",
+    "back": "يُنجى ماريوس بفضل فالجان."
+  },
+  {
+    "front": "Javert, après avoir laissé Valjean s'enfuir, erre dans Paris.",
+    "back": "جافير، بعد أن ترك فالجان يهرب، يتجول في باريس."
+  },
+  {
+    "front": "Il est perdu, tiraillé entre son devoir et sa conscience.",
+    "back": "هو تائه، ممزق بين واجبه وضميره."
+  },
+  {
+    "front": "Il écrit une lettre à la préfecture, puis se suicide.",
+    "back": "يكتب رسالة إلى مقر الشرطة، ثم ينتحر."
+  },
+  {
+    "front": "Il se jette dans la Seine.",
+    "back": "يلقي بنفسه في نهر السين."
+  },
+  {
+    "front": "Valjean, fatigué, se retire dans sa maison.",
+    "back": "فالجان، المتعب، ينسحب إلى منزله."
+  },
+  {
+    "front": "Il a sauvé Marius par amour pour Cosette.",
+    "back": "لقد أنقذ ماريوس بدافع حبه لكوزيت."
+  },
+  {
+    "front": "Marius et Cosette se marient.",
+    "back": "يتزوج ماريوس وكوزيت."
+  },
+  {
+    "front": "Leur mariage est célébré avec faste.",
+    "back": "يُحتفل بحفل زفافهما ببذخ."
+  },
+  {
+    "front": "Valjean assiste à la noce, mais il est discret.",
+    "back": "يحضر فالجان حفل الزفاف، لكنه متحفظ."
+  },
+  {
+    "front": "Il révèle à Marius son passé de bagnard.",
+    "back": "يكشف لماريوس عن ماضيه كسجين."
+  },
+  {
+    "front": "Il avoue qu'il s'appelle Jean Valjean, pas Monsieur Madeleine.",
+    "back": "يعترف بأن اسمه جان فالجان، وليس السيد مادلين."
+  },
+  {
+    "front": "Marius, choqué, s'éloigne de lui.",
+    "back": "ماريوس، المصدوم، يبتعد عنه."
+  },
+  {
+    "front": "Il pense que Valjean est un danger pour Cosette.",
+    "back": "يعتقد أن فالجان يشكل خطراً على كوزيت."
+  },
+  {
+    "front": "Valjean, acceptant cet éloignement, s'isole.",
+    "back": "فالجان، يقبل هذا الابتعاد، ينعزل."
+  },
+  {
+    "front": "Il tombe malade, le cœur brisé.",
+    "back": "يمرض، بقلب محطم."
+  },
+  {
+    "front": "Cosette, absorbée par son bonheur, ne le voit plus.",
+    "back": "كوزيت، المنشغلة بسعادتها، لا تراه بعد الآن."
+  },
+  {
+    "front": "Marius découvre la vérité sur Thénardier.",
+    "back": "يكتشف ماريوس الحقيقة حول تيناردييه."
+  },
+  {
+    "front": "Il apprend que Thénardier voulait le tuer à la barricade.",
+    "back": "يعلم أن تيناردييه أراد قتله على المتاريس."
+  },
+  {
+    "front": "Il comprend que Valjean lui a sauvé la vie.",
+    "back": "يفهم أن فالجان أنقذ حياته."
+  },
+  {
+    "front": "Il réalise aussi que Valjean est un homme bon.",
+    "back": "يدرك أيضاً أن فالجان رجل طيب."
+  },
+  {
+    "front": "Il se précipite chez Valjean pour lui demander pardon.",
+    "back": "يسرع إلى منزل فالجان ليطلب المغفرة."
+  },
+  {
+    "front": "Il arrive trop tard. Valjean est mourant.",
+    "back": "يصل متأخراً. فالجان يحتضر."
+  },
+  {
+    "front": "Cosette est à son chevet, en larmes.",
+    "back": "كوزيت بجانب فراشه، تبكي."
+  },
+  {
+    "front": "Valjean les voit et leur sourit.",
+    "back": "فالجان يراهما ويبتسم لهما."
+  },
+  {
+    "front": "Il bénit leur mariage et leur bonheur.",
+    "back": "يبارك زواجهما وسعادتهما."
+  },
+  {
+    "front": "Il confie à Cosette l'histoire de sa mère, Fantine.",
+    "back": "يخبر كوزيت بقصة والدتها، فانتين."
+  },
+  {
+    "front": "Il lui dit que sa mère l'aimait énormément.",
+    "back": "يخبرها أن والدتها كانت تحبها كثيراً."
+  },
+  {
+    "front": "Il parle des chandeliers de l'évêque, son trésor.",
+    "back": "يتحدث عن شمعداني الأسقف، كنزه."
+  },
+  {
+    "front": "Il lui demande d'en prendre soin.",
+    "back": "يطلب منها الاعتناء بهما."
+  },
+  {
+    "front": "Il lui dit : « La lumière de ces chandeliers est pour toi. »",
+    "back": "يقول لها: \"نور هذين الشمعدانين لكِ.\""
+  },
+  {
+    "front": "Valjean meurt paisiblement, entouré d'amour.",
+    "back": "يموت فالجان بسلام، محاطاً بالحب."
+  },
+  {
+    "front": "Une lueur de paix illumine son visage.",
+    "back": "بصيص من السلام يضيء وجهه."
+  },
+  {
+    "front": "Les anges semblent l'accueillir.",
+    "back": "وكأن الملائكة تستقبله."
+  },
+  {
+    "front": "Il est enterré au cimetière du Père-Lachaise.",
+    "back": "يُدفن في مقبرة بير لاشيز."
+  },
+  {
+    "front": "Sur sa tombe, une pierre simple, sans nom.",
+    "back": "على قبره، حجر بسيط، بدون اسم."
+  },
+  {
+    "front": "Une femme qui passe y dépose parfois une fleur.",
+    "back": "امرأة تمر تضع أحياناً زهرة عليه."
+  },
+  {
+    "front": "Les Misérables est une œuvre monumentale.",
+    "back": "البؤساء هو عمل ضخم."
+  },
+  {
+    "front": "Victor Hugo y dépeint toute la société française.",
+    "back": "يرسم فيه فيكتور هوغو المجتمع الفرنسي بأكمله."
+  },
+  {
+    "front": "Il montre les pauvres, les riches, les bourgeois, les révolutionnaires.",
+    "back": "يظهر الفقراء، الأغنياء، البرجوازيين، الثوار."
+  },
+  {
+    "front": "Le roman est aussi une réflexion sur Dieu.",
+    "back": "الرواية هي أيضاً تأمل في الله."
+  },
+  {
+    "front": "L'évêque Myriel représente la bonté divine.",
+    "back": "الأسقف ميريل يمثل الخير الإلهي."
+  },
+  {
+    "front": "Valjean, grâce à lui, trouve le chemin de la rédemption.",
+    "back": "فالجان، بفضله، يجد طريق الخلاص."
+  },
+  {
+    "front": "Javert, lui, représente la justice humaine, sans pitié.",
+    "back": "جافير، من جهته، يمثل العدالة البشرية، بلا رحمة."
+  },
+  {
+    "front": "La confrontation entre Valjean et Javert est le cœur du roman.",
+    "back": "المواجهة بين فالجان وجافير هي جوهر الرواية."
+  },
+  {
+    "front": "Hugo montre que la loi peut être injuste.",
+    "back": "يظهر هوغو أن القانون يمكن أن يكون ظالماً."
+  },
+  {
+    "front": "Il montre aussi que le pardon transforme.",
+    "back": "يظهر أيضاً أن الغفران يغير."
+  },
+  {
+    "front": "Les Thénardier incarnent la cupidité et la méchanceté.",
+    "back": "تجسد تيناردييه الجشع والشر."
+  },
+  {
+    "front": "Ils sont le contraire de Valjean.",
+    "back": "هم عكس فالجان."
+  },
+  {
+    "front": "Gavroche et Éponine, leurs enfants, sont différents.",
+    "back": "جافروش وإيبونين، أطفالهما، مختلفان."
+  },
+  {
+    "front": "Éponine aime purement, Gavroche se sacrifie.",
+    "back": "إيبونين تحب بإخلاص، جافروش يضحي بنفسه."
+  },
+  {
+    "front": "Cosette est l'innocence sauvée de la misère.",
+    "back": "كوزيت هي البراءة المنقذة من البؤس."
+  },
+  {
+    "front": "Marius est l'espoir et la jeunesse.",
+    "back": "ماريوس هو الأمل والشباب."
+  },
+  {
+    "front": "Les barricades de 1832 symbolisent la lutte pour la liberté.",
+    "back": "متاريس 1832 ترمز للنضال من أجل الحرية."
+  },
+  {
+    "front": "Les insurgés meurent pour un idéal.",
+    "back": "يموت المتمردون من أجل المثل العليا."
+  },
+  {
+    "front": "Leur échec est aussi une victoire morale.",
+    "back": "فشلهم هو أيضاً نصر أخلاقي."
+  },
+  {
+    "front": "Victor Hugo écrit : « Tant qu'il y aura la misère, ce livre est utile. »",
+    "back": "يكتب فيكتور هوغو: \"طالما هناك بؤس، هذا الكتاب مفيد.\""
+  },
+  {
+    "front": "Le titre « Les Misérables » désigne les pauvres, les exclus.",
+    "back": "عنوان \"البؤساء\" يشير إلى الفقراء، المهمشين."
+  },
+  {
+    "front": "C'est un roman engagé, qui appelle à la justice.",
+    "back": "إنها رواية ملتزمة، تنادي بالعدالة."
+  },
+  {
+    "front": "Hugo dénonce les inégalités et le sort des enfants.",
+    "back": "يُندد هوغو بعدم المساواة ومصير الأطفال."
+  },
+  {
+    "front": "Il dénonce aussi le sort des femmes.",
+    "back": "كما يندد بمصير النساء."
+  },
+  {
+    "front": "Fantine est une victime de la société.",
+    "back": "فانتين ضحية المجتمع."
+  },
+  {
+    "front": "Cosette, enfant, est aussi victime.",
+    "back": "كوزيت، طفلة، هي أيضاً ضحية."
+  },
+  {
+    "front": "Le roman montre que l'enfance est sacrée.",
+    "back": "تُظهر الرواية أن الطفولة مقدسة."
+  },
+  {
+    "front": "Il montre aussi que chacun peut se racheter.",
+    "back": "يظهر أيضاً أن كل شخص يمكنه التكفير عن ذنبه."
+  },
+  {
+    "front": "Valjean est la preuve vivante de cette rédemption.",
+    "back": "فالجان هو الدليل الحي على هذا الخلاص."
+  },
+  {
+    "front": "Le roman se termine sur une note d'espoir.",
+    "back": "تنتهي الرواية بملاحظة أمل."
+  },
+  {
+    "front": "Valjean meurt en paix, ayant accompli sa mission.",
+    "back": "يموت فالجان بسلام، بعد أن أنجز مهمته."
+  },
+  {
+    "front": "Cosette et Marius vivront heureux, grâce à lui.",
+    "back": "كوزيت وماريوس سيعيشان سعيدين، بفضله."
+  },
+  {
+    "front": "Les Misérables est un chef-d'œuvre intemporel.",
+    "back": "البؤساء هي تحفة خالدة."
+  },
+  {
+    "front": "Il est lu dans le monde entier.",
+    "back": "تُقرأ في جميع أنحاء العالم."
+  },
+  {
+    "front": "Il a été adapté au cinéma, au théâtre, en comédie musicale.",
+    "back": "تم اقتباسها للسينما، والمسرح، والمسرحيات الموسيقية."
+  },
+  {
+    "front": "La comédie musicale a fait le tour du monde.",
+    "back": "جالت المسرحية الموسيقية حول العالم."
+  },
+  {
+    "front": "Ses chansons sont célèbres, comme « I Dreamed a Dream ».",
+    "back": "أغانيها مشهورة، مثل \"حلمت حلماً\"."
+  },
+  {
+    "front": "Les Misérables est une œuvre qui émeut et fait réfléchir.",
+    "back": "البؤساء هي عمل يحرك المشاعر ويحفز التفكير."
+  },
+  {
+    "front": "Elle nous rappelle l'importance de la compassion.",
+    "back": "تذكرنا بأهمية التعاطف."
+  },
+  {
+    "front": "Elle nous montre que l'amour peut tout transformer.",
+    "back": "تُظهر لنا أن الحب يمكن أن يغير كل شيء."
+  },
+  {
+    "front": "Jean Valjean est un héros ordinaire.",
+    "back": "جان فالجان هو بطل عادي."
+  },
+  {
+    "front": "Il est devenu grand par sa bonté.",
+    "back": "أصبح عظيماً من خلال صلاحه."
+  },
+  {
+    "front": "Et c'est ainsi que l'histoire des Misérables continue d'inspirer.",
+    "back": "وهكذا تستمر قصة البؤساء في الإلهام."
+  },
+  {
+    "front": "Elle est immortelle.",
+    "back": "إنها خالدة."
+  }
+]
