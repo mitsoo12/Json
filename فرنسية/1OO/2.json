@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "front": "Hier, nous sommes allés au cinéma pour regarder un bon film.",
+    "back": "أمس، ذهبنا إلى السينما لمشاهدة فيلم جيد."
+  },
+  {
+    "id": 2,
+    "front": "Si tu veux, nous pouvons manger ensemble dans ce petit restaurant.",
+    "back": "إذا أردت، يمكننا أن نأكل معاً في هذا المطعم الصغير."
+  },
+  {
+    "id": 3,
+    "front": "Elle a acheté une très jolie robe rouge pour la fête.",
+    "back": "اشتريت فستاناً أحمر جميلاً جداً للحفلة."
+  },
+  {
+    "id": 4,
+    "front": "Mon frère ne veut pas sortir ce soir parce qu'il pleut.",
+    "back": "أخي لا يريد الخروج هذا المساء لأنها تمطر."
+  },
+  {
+    "id": 5,
+    "front": "Vous devez toujours écouter attentivement les conseils de votre professeur.",
+    "back": "يجب عليكم دائماً الاستماع بإنصاط لنصائح معلمكم."
+  },
+  {
+    "id": 6,
+    "front": "Nous avons passé des vacances magnifiques au bord de la mer.",
+    "back": "قضينا عطلة رائعة على شاطئ البحر."
+  },
+  {
+    "id": 7,
+    "front": "Pourquoi n'as-tu pas répondu à mon message ce matin ?",
+    "back": "لماذا لم تجب على رسالتي هذا الصباح؟"
+  },
+  {
+    "id": 8,
+    "front": "Quand j'étais jeune, je jouais souvent au football le samedi.",
+    "back": "عندما كنت صغيراً، كنت ألعب كرة القدم كثيراً يوم السبت."
+  },
+  {
+    "id": 9,
+    "front": "Il faut réviser toutes tes leçons avant le grand examen.",
+    "back": "يجب أن تراجع كل دروسك قبل الامتحان الكبير."
+  },
+  {
+    "id": 10,
+    "front": "J'ai oublié mes clés de maison sur la grande table.",
+    "back": "نسيت مفاتيح منزلي على الطاولة الكبيرة."
+  },
+  {
+    "id": 11,
+    "front": "Mes parents ont voyagé en France pendant trois belles semaines.",
+    "back": "سافر والداي إلى فرنسا لمدة ثلاثة أسابيع جميلة."
+  },
+  {
+    "id": 12,
+    "front": "Elle préfère boire du thé chaud avec un peu d'eau.",
+    "back": "هي تفضل شرب الشاي الساخن مع القليل من الماء."
+  },
+  {
+    "id": 13,
+    "front": "Le train rapide arrivera à la gare dans dix minutes.",
+    "back": "سيصل القطار السريع إلى المحطة خلال عشر دقائق."
+  },
+  {
+    "id": 14,
+    "front": "Je vais téléphoner à mon ami pour confirmer notre rendez-vous.",
+    "back": "سأتصل بصديقي لتأكيد موعدنا."
+  },
+  {
+    "id": 15,
+    "front": "Nous cherchons une boulangerie ouverte pour acheter du pain frais.",
+    "back": "نبحث عن مخبزة مفتوحة لشراء خبز طازج."
+  },
+  {
+    "id": 16,
+    "front": "Cette nouvelle voiture consomme très peu d'essence en ville.",
+    "back": "هذه السيارة الجديدة تستهلك القليل جداً من الوقود في المدينة."
+  },
+  {
+    "id": 17,
+    "front": "Ils ont décidé de construire une belle piscine au jardin.",
+    "back": "قرروا بناء مسبح جميل في الحديقة."
+  },
+  {
+    "id": 18,
+    "front": "Tu dois apprendre ces verbes importants pour parler bien français.",
+    "back": "يجب عليك تعلم هذه الأفعال المهمة لتتحدث الفرنسية بطلاقة."
+  },
+  {
+    "id": 19,
+    "front": "Nous avons besoin de plus de temps pour finir ce travail.",
+    "back": "نحن بحاجة إلى المزيد من الوقت لإنهائه العمل."
+  },
+  {
+    "id": 20,
+    "front": "Elle m'a donné un très bon livre sur l'histoire.",
+    "back": "أعطتني كتاباً جيداً جداً عن التاريخ."
+  },
+  {
+    "id": 21,
+    "front": "Il fait trop chaud dehors, restons dans la maison aujourd'hui.",
+    "back": "الطقس حار جداً في الخارج، لنبق في المنزل اليوم."
+  },
+  {
+    "id": 22,
+    "front": "J'ai fini mes devoirs avant de sortir jouer avec toi.",
+    "back": "أنهيت واجباتي قبل الخروج للعب معك."
+  },
+  {
+    "id": 23,
+    "front": "Est-ce que tu peux m'aider à porter ce sac ?",
+    "back": "هل يمكنك مساعدتي في حمل هذه الحقيبة؟"
+  },
+  {
+    "id": 24,
+    "front": "Les étudiants ont bien répondu à toutes les questions faciles.",
+    "back": "أجاب الطلاب بشكل جيد على جميع الأسئلة السهلة."
+  },
+  {
+    "id": 25,
+    "front": "Nous préparons un grand voyage en Italie pour l'été prochain.",
+    "back": "نعد لرحلة كبيرة إلى إيطاليا للصيف القادم."
+  },
+  {
+    "id": 26,
+    "front": "Mon voisin a vendu sa vieille voiture la semaine dernière.",
+    "back": "باع جاري سيارته القديمة الأسبوع الماضي."
+  },
+  {
+    "id": 27,
+    "front": "Il demande toujours de l'aide quand le problème est difficile.",
+    "back": "هو يطلب دائماً المساعدة عندما تكون المشكلة صعبة."
+  },
+  {
+    "id": 28,
+    "front": "Elle aime cuisiner des plats délicieux pour ses grands invités.",
+    "back": "هي تحب طبخ أطباق لذيذة لضيوفها الكبار."
+  },
+  {
+    "id": 29,
+    "front": "Nous devons faire attention en traversant cette rue très fréquentée.",
+    "back": "يجب أن ننتظر وننتبه عند عبور هذا الشارع المزدحم."
+  },
+  {
+    "id": 30,
+    "front": "Je pense qu'il va pleuvoir ce soir, prends ton parapluie.",
+    "back": "أعتقد أنها ستُمطر هذا المساء، خذ مظلتك."
+  }
+]
